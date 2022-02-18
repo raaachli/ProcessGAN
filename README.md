@@ -1,2 +1,12 @@
 # ProcessGAN
- Synthetic process data generator using GAN-based Transformer
+ Synthetic process data generator using GAN-based Transformer.
+ 
+ An implementation of paper "Generating Privacy-Preserving Process Data with Deep Generative Models".
+ 
+ Baseline models and ProcessGAN models are all implemented.
+
+# Prerequisites
+ Python, Pytorch, Matplotlib
+
+# Training
+ In run.py, choose the models and run.

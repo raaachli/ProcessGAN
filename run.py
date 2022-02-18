@@ -53,7 +53,7 @@ def get_config(data, model):
         'emb_size': 4,  # embedding dimension
         'n_hid': 16,  # the dimension of the feedforward network model in nn.TransformerEncoder
         'batch_size': 128,
-        'epochs': 2,
+        'epochs': 2000,
         'seed': seed,
         'train_size': 676,
         'test_size': 85,
@@ -96,7 +96,7 @@ def get_config(data, model):
         'device': torch.device("cuda" if torch.cuda.is_available() else "cpu"),
         'batch_size': 32,
         'lr_gen': 0.1,
-        'epochs': 10,
+        'epochs': 1000,
         'seed': seed,
     }
 
@@ -179,10 +179,6 @@ if __name__ == '__main__':
     for data_id in data_id_list:
 
         ar_path = 'data/data_all/data_seq/' + datasets[data_id - 1] + '.txt'
-
-        res_path = 'data/data_train/' + datasets[data_id - 1] + '.txt'
-        test_path = 'data/data_test/' + datasets[data_id - 1] + '.txt'
-        val_path = 'data/data_val/' + datasets[data_id - 1] + '.txt'
 
         dateTimeObjlocal = datetime.now()
         currDateTime = (

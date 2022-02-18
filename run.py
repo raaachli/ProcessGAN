@@ -165,14 +165,14 @@ def run_gan(data, save_time, res_path, mode, config, gen_num):
 
 if __name__ == '__main__':
 
-    datasets = [ 'SEP', 'BPI_1', 'BPI_2', 'SS']
-    #              1  ,    2  ,      3
+    datasets = [ 'SEP']
+    #              1  
 
     models =   ['gru', 'lstm', 'trans_ar', 'trans_nar', 'GAN_ORIGINAL', 'MSE', 'KL']
     #             1  ,   2  ,     3  ,        4  ,          5  ,          6  ,    7
 
     data_id_list = [1]  # The dataset you want to test
-    model_id_list =[6]  # The model you want to test
+    model_id_list =[5]  # The model you want to test
     gen_num = 500  # Number of synthetic sequences you want to generate
     print(torch.cuda.is_available())
 

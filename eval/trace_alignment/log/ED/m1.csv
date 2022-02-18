@@ -1,0 +1,2875 @@
+id,act
+0,Cardiac Monitoring
+0,Arterial Blood Gas
+0,Application of Neck Support_
+0,CT Scan - Head
+0,Pulse Oximetry
+0,X-Ray - Chest
+0,X-Ray - Pelvis
+1,Cardiac Monitoring
+1,CT Scan - Facial Bone
+1,Cervical Spine Collar/Immobilization
+1,CT Scan - Cervical Spine
+1,Pulse Oximetry
+1,X-Ray - Cervical Spine
+1,X-Ray - Other
+1,X-Ray - Cervical Spine
+1,Blood Drawn
+2,Cardiac Monitoring
+2,CT Scan - Facial Bone
+2,CT Scan - Head
+2,Other Skeletal Stabilization
+2,Pulse Oximetry
+2,Volume Replacement
+2,X-Ray - Chest
+2,X-Ray - Cervical Spine
+3,Peripheral IV
+3,Pulse Oximetry
+3,Pulse Oximetry
+4,Cardiac Monitoring
+4,Peripheral IV
+4,Pulse Oximetry
+4,X-Ray - Chest
+5,Cardiac Monitoring
+5,CT Scan - Facial Bone
+5,Peripheral IV
+5,Oxygen
+5,Pulse Oximetry
+5,X-Ray - Cervical Spine
+5,X-Ray - Pelvis
+6,Cardiac Monitoring
+6,Peripheral IV
+6,Pulse Oximetry
+6,Injection or infusion of platelet inhibitor_
+6,X-Ray - Chest
+6,X-Ray - Other
+7,Cardiac Monitoring
+7,Oxygen
+7,Oxygen
+7,Pulse Oximetry
+8,Cervical Spine Collar/Immobilization
+8,CT Scan - Head
+8,Pulse Oximetry
+8,Pulse Oximetry
+8,Blood Drawn
+9,Cardiac Monitoring
+9,CT Scan - Head
+9,Peripheral IV
+9,CT Scan - Head
+9,Spinal Immobilization
+9,X-Ray - Other
+10,Cardiac Monitoring
+10,CT Scan - Facial Bone
+10,CT Scan - Head
+10,Peripheral IV
+10,Pulse Oximetry
+10,X-Ray - Cervical Spine
+10,X-Ray - Cervical Spine
+11,Cardiac Monitoring
+11,Peripheral IV
+11,CT Scan - Head
+11,Pulse Oximetry
+12,Application of Neck Support_
+12,CT Scan - Head
+12,Peripheral IV
+12,Pulse Oximetry
+12,X-Ray - Chest
+13,Cardiac Monitoring
+13,CT Scan - Abdomen
+13,Cervical Spine Collar/Immobilization
+13,CT Scan - Abdomen
+13,Peripheral IV
+13,Blood Drawn
+13,X-Ray - Other
+14,CT Scan - Facial Bone
+14,CT Scan - Head
+14,Other Skeletal Stabilization
+14,Peripheral IV
+14,Spinal Immobilization
+14,X-Ray - Other
+15,Cardiac Monitoring
+15,Peripheral IV
+15,Peripheral IV
+15,X-Ray - Cervical Spine
+15,X-Ray - Other
+15,X-Ray - Other
+15,X-Ray - Cervical Spine
+15,Blood Drawn
+16,Cardiac Monitoring
+16,Cervical Spine Collar/Immobilization
+16,CT Scan - Head
+16,Pulse Oximetry
+17,Cardiac Monitoring
+17,CT Scan - Head
+17,Oxygen
+17,Cervical Spine Collar/Immobilization
+17,Pulse Oximetry
+17,Peripheral IV
+17,X-Ray - Cervical Spine
+17,X-Ray - Pelvis
+18,Cardiac Monitoring
+18,Pulse Oximetry
+18,Pulse Oximetry
+19,Cardiac Monitoring
+19,CT Scan - Facial Bone
+19,CT Scan - Abdomen
+19,Pulse Oximetry
+19,X-Ray - Other
+19,Spinal Immobilization
+20,Cardiac Monitoring
+20,Pulse Oximetry
+21,Blood Drawn
+21,CT Scan - Head
+21,Oxygen
+21,Pulse Oximetry
+21,X-Ray - Other
+22,Cardiac Monitoring
+22,Cervical Spine Collar/Immobilization
+22,Peripheral IV
+22,Pulse Oximetry
+22,Pulse Oximetry
+22,X-Ray - Cervical Spine
+23,Cardiac Monitoring
+23,Peripheral IV
+23,Pulse Oximetry
+23,X-Ray - Chest
+24,Oxygen
+24,Other Skeletal Stabilization
+24,Pulse Oximetry
+24,X-Ray - Chest
+25,Blood Drawn
+25,Cervical Spine Collar/Immobilization
+25,X-Ray - Cervical Spine
+25,Spinal Immobilization
+25,Blood Drawn
+26,Cardiac Monitoring
+26,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+26,Pulse Oximetry
+26,X-Ray - Other
+26,X-Ray - Other
+26,X-Ray - Other
+27,Cardiac Monitoring
+27,Peripheral IV
+27,Peripheral IV
+27,Spinal Immobilization
+27,X-Ray - Cervical Spine
+27,Blood Drawn
+28,Cardiac Monitoring
+28,Pulse Oximetry
+28,X-Ray - Cervical Spine
+28,X-Ray - Other
+28,X-Ray - Chest
+28,Volume Replacement
+29,Cardiac Monitoring
+29,Peripheral IV
+29,Peripheral IV
+29,Pulse Oximetry
+29,X-Ray - Cervical Spine
+30,Cardiac Monitoring
+30,CT Scan - Cervical Spine
+30,CT Scan - Head
+30,Peripheral IV
+30,Pulse Oximetry
+30,X-Ray - Cervical Spine
+30,Spinal Immobilization
+30,X-Ray - Chest
+30,X-Ray - Cervical Spine
+31,Cardiac Monitoring
+31,CT Scan - Head
+31,Peripheral IV
+31,Pulse Oximetry
+32,Cardiac Monitoring
+32,CT Scan - Head
+32,Peripheral IV
+32,Peripheral IV
+32,Spinal Immobilization
+32,X-Ray - Chest
+32,X-Ray - Other
+33,Cardiac Monitoring
+33,Cervical Spine Collar/Immobilization
+33,Peripheral IV
+33,Pulse Oximetry
+33,X-Ray - Chest
+33,X-Ray - Cervical Spine
+33,X-Ray - Chest
+33,Blood Drawn
+33,X-Ray - Abdomen
+34,Cardiac Monitoring
+34,Injection or Infusion of Platelet Inhibitor
+34,CT Scan - Head
+34,Peripheral IV
+34,Spinal Immobilization
+35,Cardiac Monitoring
+35,CT Scan - Facial Bone
+35,Peripheral IV
+35,Pulse Oximetry
+35,X-Ray - Pelvis
+36,Cardiac Monitoring
+36,CT Scan - Head
+36,Peripheral IV
+36,X-Ray - Cervical Spine
+36,X-Ray - Other
+37,Cardiac Monitoring
+37,CT Scan - Head
+37,Peripheral IV
+37,Pulse Oximetry
+37,Endotracheal Airway
+38,Cardiac Monitoring
+38,Oxygen
+38,CT Scan - Head
+38,Cervical Spine Collar/Immobilization
+38,Pulse Oximetry
+38,X-Ray - Other
+39,Cardiac Monitoring
+39,Pulse Oximetry
+39,Pulse Oximetry
+39,X-Ray - Other
+39,Endotracheal Airway
+39,X-Ray - Other
+39,X-Ray - Cervical Spine
+40,Cardiac Monitoring
+40,Peripheral IV
+40,Peripheral IV
+40,Pulse Oximetry
+40,Spinal Immobilization
+40,X-Ray - Other
+40,X-Ray - Other
+40,X-Ray - Chest
+41,Blood Drawn
+41,X-Ray - Chest
+42,X-Ray - Cervical Spine
+42,X-Ray - Cervical Spine
+43,X-Ray - Thoracic
+43,CT Scan - Facial Bone
+43,CT Scan - Abdomen
+43,Peripheral IV
+43,Pulse Oximetry
+43,X-Ray - Other
+43,X-Ray - Cervical Spine
+44,CT Scan - Head
+44,CT Scan - Head
+44,Peripheral IV
+44,Pulse Oximetry
+44,Spinal Immobilization
+44,X-Ray - Cervical Spine
+44,Blood Drawn
+45,Cardiac Monitoring
+45,X-Ray - Cervical Spine
+45,Pulse Oximetry
+45,X-Ray - Pelvis
+45,Endotracheal Airway
+45,X-Ray - Other
+46,Cardiac Monitoring
+46,Peripheral IV
+46,Oxygen
+46,Pulse Oximetry
+46,Spinal Immobilization
+47,X-Ray - Pelvis
+47,X-Ray - Cervical Spine
+47,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+47,X-Ray - Cervical Spine
+48,Cardiac Monitoring
+48,Other Skeletal Stabilization
+48,CT Scan - Head
+48,Peripheral IV
+48,Pulse Oximetry
+48,Volume Replacement
+48,X-Ray - Chest
+49,Cardiac Monitoring
+49,Application of Neck Support_
+49,Peripheral IV
+49,CT Scan - Other
+49,X-Ray - Chest
+49,X-Ray - Other
+50,Cardiac Monitoring
+50,X-Ray - Other
+50,X-Ray - Cervical Spine
+50,X-Ray - Pelvis
+51,Cardiac Monitoring
+51,Other Skeletal Stabilization
+51,Peripheral IV
+51,Pulse Oximetry
+51,Blood Drawn
+51,X-Ray - Cervical Spine
+51,Blood Drawn
+52,Cardiac Monitoring
+52,Cervical Spine Collar/Immobilization
+52,Peripheral IV
+52,Peripheral IV
+52,Spinal Immobilization
+52,X-Ray - Chest
+53,Cardiac Monitoring
+53,CT Scan - Head
+53,Peripheral IV
+53,Peripheral IV
+53,Pulse Oximetry
+53,Endotracheal Airway
+53,X-Ray - Pelvis
+54,Cardiac Monitoring
+54,CT Scan - Head
+54,Peripheral IV
+54,Peripheral IV
+54,Pulse Oximetry
+54,Spinal Immobilization
+54,Endotracheal Airway
+54,X-Ray - Pelvis
+55,Cardiac Monitoring
+55,CT Scan - Head
+55,Cardiac Monitoring
+55,Peripheral IV
+55,Pulse Oximetry
+55,Volume Replacement
+55,X-Ray - Cervical Spine
+55,Volume Replacement
+56,Cardiac Monitoring
+56,Arterial Blood Gas
+56,CT Scan - Abdomen
+56,Peripheral IV
+56,Pulse Oximetry
+56,X-Ray - Cervical Spine
+57,Cardiac Monitoring
+57,Peripheral IV
+57,CT Scan - Head
+57,X-Ray - Other
+57,X-Ray - Cervical Spine
+58,Cardiac Monitoring
+58,Cardiac Monitoring
+58,Oxygen
+58,Spinal Immobilization
+58,X-Ray - Cervical Spine
+59,Cardiac Monitoring
+59,Spinal Immobilization
+59,X-Ray - Chest
+59,X-Ray - Pelvis
+59,X-Ray - Pelvis
+59,X-Ray - Other
+60,Application of Neck Support__
+60,Other Skeletal Stabilization
+60,CT Scan - Head
+60,Pulse Oximetry
+60,Spinal Immobilization
+60,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+60,X-Ray - Cervical Spine
+61,Cardiac Monitoring
+61,Pulse Oximetry
+61,X-Ray - Chest
+61,X-Ray - Other
+62,Cardiac Monitoring
+62,Cervical Spine Collar/Immobilization
+62,CT Scan - Facial Bone
+62,Pulse Oximetry
+62,Pulse Oximetry
+63,Application of Neck Support__
+63,Other Skeletal Stabilization
+63,Pulse Oximetry
+63,Endotracheal Airway
+63,X-Ray - Pelvis
+63,X-Ray - Chest
+63,X-Ray - Other
+64,Cardiac Monitoring
+64,Other Skeletal Stabilization
+64,Application of Neck Support_
+64,CT Scan - Head
+64,Pulse Oximetry
+64,Pulse Oximetry
+65,CPR
+65,Cervical Spine Collar/Immobilization
+65,Peripheral IV
+65,Peripheral IV
+65,Spinal Immobilization
+65,X-Ray - Cervical Spine
+65,X-Ray - Other
+66,Cardiac Monitoring
+66,Peripheral IV
+66,X-Ray - Cervical Spine
+67,Cardiac Monitoring
+67,CT Scan - Facial Bone
+67,CT Scan - Cervical Spine
+67,Pulse Oximetry
+67,X-Ray - Cervical Spine
+67,X-Ray - Cervical Spine
+67,X-Ray - Pelvis
+68,Cardiac Monitoring
+68,X-Ray - Head/Skull_
+68,CT Scan - Head
+68,CT Scan - Head
+68,Pulse Oximetry
+68,X-Ray - Cervical Spine
+69,Cardiac Monitoring
+69,Application of Neck Support__
+69,Pulse Oximetry
+69,Peripheral IV
+70,Cardiac Monitoring
+70,Peripheral IV
+70,Pulse Oximetry
+70,X-Ray - Chest
+71,Cardiac Monitoring
+71,Cervical Spine Collar/Immobilization
+71,Pulse Oximetry
+71,Pulse Oximetry
+71,X-Ray - Chest
+71,X-Ray - Other
+72,Cardiac Monitoring
+72,CT Scan - Facial Bone
+72,CT Scan - Head
+72,CT Scan - Head
+72,Spinal Immobilization
+72,Spinal Immobilization
+73,Cardiac Monitoring
+73,Peripheral IV
+73,Pulse Oximetry
+73,Pulse Oximetry
+73,X-Ray - Pelvis
+73,X-Ray - Other
+74,Cervical Spine Collar/Immobilization
+74,Pulse Oximetry
+74,Pulse Oximetry
+75,Cardiac Monitoring
+75,Oxygen
+75,Pulse Oximetry
+75,X-Ray - Other
+76,Cardiac Monitoring
+76,Pulse Oximetry
+76,Pulse Oximetry
+76,Spinal Immobilization
+76,X-Ray - Chest
+77,Cardiac Monitoring
+77,CT Scan - Head
+77,Peripheral IV
+77,X-Ray - Abdomen
+77,X-Ray - Other
+77,CT Scan - Pelvis
+78,Cardiac Monitoring
+78,Peripheral IV
+78,Pulse Oximetry
+79,Cardiac Monitoring
+79,Oxygen
+79,Peripheral IV
+79,Spinal Immobilization
+79,Spinal Immobilization
+79,X-Ray - Cervical Spine
+79,Volume Replacement
+80,CT Scan - Facial Bone
+80,Application of Neck Support__
+80,Cervical Spine Collar/Immobilization
+80,Pulse Oximetry
+80,Pulse Oximetry
+80,Cardiac Monitoring
+80,Spinal Immobilization
+81,Cardiac Monitoring
+81,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+81,Pulse Oximetry
+81,X-Ray - Cervical Spine
+81,X-Ray - Other
+81,X-Ray - Chest
+81,X-Ray - Cervical Spine
+82,Cardiac Monitoring
+82,Pulse Oximetry
+82,X-Ray - Cervical Spine
+82,X-Ray - Chest
+83,Cardiac Monitoring
+83,Cervical Spine Collar/Immobilization
+83,Peripheral IV
+83,Pulse Oximetry
+83,X-Ray - Other
+83,X-Ray - Cervical Spine
+84,Cardiac Monitoring
+84,CT Scan - Abdomen
+84,Peripheral IV
+84,Cervical Spine Collar/Immobilization
+84,Pulse Oximetry
+84,Peripheral IV
+84,X-Ray - Cervical Spine
+85,Cardiac Monitoring
+85,Peripheral IV
+85,Peripheral IV
+85,Sutures/Staples (tongue_)
+86,Blood Drawn
+86,Peripheral IV
+86,Pulse Oximetry
+86,Oxygen
+86,Pulse Oximetry
+86,X-Ray - Other
+87,Cardiac Monitoring
+87,Arterial Blood Gas
+87,CT Scan - Head
+87,CT Scan - Abdomen
+87,Peripheral IV
+87,Peripheral IV
+87,X-Ray - Cervical Spine
+87,X-Ray - Chest
+88,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+88,Blood Drawn
+89,Cardiac Monitoring
+89,CT Scan - Abdomen
+89,Peripheral IV
+89,X-Ray - Chest
+90,X-Ray - Cervical Spine
+90,X-Ray - Cervical Spine
+90,X-Ray - Cervical Spine
+90,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+90,Blood Drawn
+91,Cardiac Monitoring
+91,CT Scan - Facial Bone
+91,Cervical Spine Collar/Immobilization
+91,Pulse Oximetry
+91,X-Ray - Other
+91,Endotracheal Airway
+92,Cardiac Monitoring
+92,CT Scan - Cervical Spine
+92,Peripheral IV
+92,Pulse Oximetry
+92,X-Ray - Chest
+92,X-Ray - Other
+93,Cardiac Monitoring
+93,CT Scan - Head
+93,Other Skeletal Stabilization
+93,Pulse Oximetry
+93,X-Ray - Chest
+93,X-Ray - Cervical Spine
+94,Cardiac Monitoring
+94,Application of Neck Support_
+94,Peripheral IV
+94,Pulse Oximetry
+94,Pulse Oximetry
+94,X-Ray - Chest
+95,Cardiac Monitoring
+95,Peripheral IV
+95,Pulse Oximetry
+95,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+96,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+97,Cardiac Monitoring
+97,Peripheral IV
+97,X-Ray - Cervical Spine
+97,X-Ray - Other
+97,X-Ray - Other
+98,Cardiac Monitoring
+98,CT Scan - Cervical Spine
+98,Peripheral IV
+98,Peripheral IV
+98,X-Ray - Chest
+98,Blood Drawn
+98,X-Ray - Cervical Spine
+98,X-Ray - Pelvis
+99,Cardiac Monitoring
+99,CT Scan - Head
+99,X-Ray - Cervical Spine
+99,Pulse Oximetry
+99,X-Ray - Chest
+99,CT Scan - Pelvis
+99,Cervical Spine Collar/Immobilization
+100,Cardiac Monitoring
+100,Application of Neck Support_
+100,Peripheral IV
+100,CT Scan - Head
+100,Peripheral IV
+100,Pulse Oximetry
+100,Spinal Immobilization
+101,Cardiac Monitoring
+101,Cardiac Monitoring
+101,CT Scan - Abdomen
+101,Peripheral IV
+101,Pulse Oximetry
+101,Oxygen
+101,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+101,X-Ray - Chest
+101,X-Ray - Chest
+102,CPR
+102,Peripheral IV
+102,Pulse Oximetry
+102,X-Ray - Chest
+103,Cardiac Monitoring
+103,Peripheral IV
+103,X-Ray - Cervical Spine
+103,X-Ray - Other
+103,X-Ray - Other
+104,Blood Drawn
+104,Pulse Oximetry
+104,Peripheral IV
+104,X-Ray - Cervical Spine
+104,X-Ray - Pelvis
+105,Cardiac Monitoring
+105,Peripheral IV
+105,Peripheral IV
+105,X-Ray - Chest
+105,X-Ray - Pelvis
+105,X-Ray - Other
+106,Cardiac Monitoring
+106,Cervical Spine Collar/Immobilization
+106,CT Scan - Head
+106,Peripheral IV
+106,X-Ray - Other
+107,Cardiac Monitoring
+107,Pulse Oximetry
+107,Spinal Immobilization
+107,X-Ray - Other
+108,Cardiac Monitoring
+108,Cardiac Monitoring
+108,Peripheral IV
+108,CT Scan - Abdomen
+108,Spinal Immobilization
+108,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+108,X-Ray - Cervical Spine
+108,X-Ray - Pelvis
+108,X-Ray - Other
+109,Cervical Spine Collar/Immobilization
+109,Arterial Blood Gas
+109,Ultrasound
+109,Oxygen
+109,Pulse Oximetry
+109,Spinal Immobilization
+109,Blood Drawn
+109,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+110,CT Scan - Facial Bone
+110,Cervical Spine Collar/Immobilization
+110,CT Scan - Head
+110,Oxygen
+110,Peripheral IV
+110,Pulse Oximetry
+111,X-Ray - Cervical Spine
+111,X-Ray - Cervical Spine
+112,Cardiac Monitoring
+112,Pulse Oximetry
+112,Pulse Oximetry
+112,Pulse Oximetry
+113,X-Ray - Cervical Spine
+113,X-Ray - Other
+113,X-Ray - Other
+113,X-Ray - Cervical Spine
+114,Cardiac Monitoring
+114,CT Scan - Head
+114,CT Scan - Head
+114,Pulse Oximetry
+114,X-Ray - Chest
+115,Cardiac Monitoring
+115,CT Scan - Head
+115,Peripheral IV
+115,Spinal Immobilization
+115,X-Ray - Pelvis
+116,Cardiac Monitoring
+116,CT Scan - Abdomen
+116,Cervical Spine Collar/Immobilization
+116,Peripheral IV
+116,Spinal Immobilization
+117,Cardiac Monitoring
+117,CT Scan - Abdomen
+117,CT Scan - Head
+117,Pulse Oximetry
+117,Pulse Oximetry
+117,X-Ray - Other
+118,Blood Drawn
+118,CT Scan - Head
+118,CT Scan - Head
+118,Pulse Oximetry
+118,X-Ray - Chest
+118,End-Tidal CO2
+119,Cardiac Monitoring
+119,Peripheral IV
+119,Pulse Oximetry
+119,X-Ray - Cervical Spine
+119,X-Ray - Other
+120,Cardiac Monitoring
+120,Application of Neck Support_
+120,Peripheral IV
+120,Pulse Oximetry
+120,X-Ray - Cervical Spine
+120,X-Ray - Other
+120,X-Ray - Chest
+120,X-Ray - Cervical Spine
+121,Cardiac Monitoring
+121,Application of Neck Support__
+121,Oxygen
+121,Peripheral IV
+121,Pulse Oximetry
+121,X-Ray - Abdomen
+122,Cardiac Monitoring
+123,Cardiac Monitoring
+123,CT Scan - Head
+123,Other Skeletal Stabilization
+123,Pulse Oximetry
+123,Spinal Immobilization
+124,Cardiac Monitoring
+124,X-Ray - Cervical Spine
+124,X-Ray - Cervical Spine
+125,Cardiac Monitoring
+125,CT Scan - Head
+125,Peripheral IV
+125,Pulse Oximetry
+125,X-Ray - Cervical Spine
+125,X-Ray - Other
+125,X-Ray - Pelvis
+125,X-Ray - Cervical Spine
+126,Cardiac Monitoring
+126,Arterial Blood Gas
+126,CT Scan - Head
+126,Oxygen
+126,Pulse Oximetry
+126,Pulse Oximetry
+126,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+126,X-Ray - Other
+127,CT Scan - Cervical Spine
+127,CT Scan - Head
+127,Peripheral IV
+127,Pulse Oximetry
+127,X-Ray - Pelvis
+127,X-Ray - Cervical Spine
+127,Blood Drawn
+127,X-Ray - Other
+127,Cardiac Monitoring
+128,Cardiac Monitoring
+128,Peripheral IV
+128,Pulse Oximetry
+128,Spinal Immobilization
+129,Cardiac Monitoring
+129,CT Scan - Head
+129,Peripheral IV
+129,Pulse Oximetry
+129,Endotracheal Airway
+129,X-Ray - Cervical Spine
+130,Cardiac Monitoring
+130,X-Ray - Cervical Spine
+130,X-Ray - Other
+130,X-Ray - Cervical Spine
+130,X-Ray - Cervical Spine
+130,X-Ray - Other
+131,Cardiac Monitoring
+131,Oxygen
+131,Peripheral IV
+131,Pulse Oximetry
+131,X-Ray - Chest
+131,Spinal Immobilization
+131,X-Ray - Cervical Spine
+131,X-Ray - Chest
+131,Hare Traction Splint
+131,Pulse Oximetry
+132,Cardiac Monitoring
+132,Pulse Oximetry
+132,Pulse Oximetry
+133,X-Ray - Cervical Spine
+133,X-Ray - Other
+133,Spinal Immobilization
+134,Cardiac Monitoring
+134,Pulse Oximetry
+134,Pulse Oximetry
+134,Pulse Oximetry
+134,X-Ray - Cervical Spine
+134,X-Ray - Other
+134,X-Ray - Other
+134,Cardiac Monitoring
+135,Cardiac Monitoring
+135,CT Scan - Head
+135,CT Scan - Facial Bone
+135,Pulse Oximetry
+135,Pulse Oximetry
+135,X-Ray - Cervical Spine
+135,X-Ray - Other
+136,Cardiac Monitoring
+136,CT Scan - Head
+136,Oxygen
+136,Peripheral IV
+136,Pulse Oximetry
+136,X-Ray - Chest
+136,X-Ray - Pelvis
+136,X-Ray - Cervical Spine
+136,X-Ray - Other
+136,Blood Drawn
+136,X-Ray - Pelvis
+137,Empty
+138,Cardiac Monitoring
+138,CT Scan - Head
+138,Peripheral IV
+138,Pulse Oximetry
+138,X-Ray - Other
+139,Cardiac Monitoring
+139,Application of neck support_
+139,CT Scan - Head
+139,Peripheral IV
+139,Oxygen
+139,X-Ray - Chest
+140,Cardiac Monitoring
+140,CT Scan - Facial Bone
+140,Injection or infusion of platelet inhibitor_
+140,CT Scan - Head
+140,Pulse Oximetry
+140,X-Ray - Chest
+140,X-Ray - Other
+141,Cardiac Monitoring
+141,CT Scan - Facial Bone
+141,CT Scan - Head
+141,CT Scan - Head
+141,Peripheral IV
+141,Oxygen
+142,Cardiac Monitoring
+142,X-Ray - Other
+143,Cardiac Monitoring
+143,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+143,Oxygen
+143,Cervical Spine Collar/Immobilization
+143,X-Ray - Cervical Spine
+143,X-Ray - Cervical Spine
+144,Cardiac Monitoring
+144,Peripheral IV
+144,Pulse Oximetry
+144,X-Ray - Cervical Spine
+144,X-Ray - Chest
+145,X-Ray - Cervical Spine
+145,X-Ray - Other
+145,X-Ray - Other
+146,Cardiac Monitoring
+146,Peripheral IV
+146,Peripheral IV
+146,X-Ray - Chest
+146,X-Ray - Pelvis
+147,Cardiac Monitoring
+147,CT Scan - Facial Bone
+147,Peripheral IV
+147,X-Ray - Cervical Spine
+147,X-Ray - Chest
+147,X-Ray - Pelvis
+148,Cardiac Monitoring
+148,CT Scan - Head
+148,Peripheral IV
+148,Pulse Oximetry
+148,Spinal Immobilization
+148,X-Ray - Pelvis
+149,Closure of Skin and subcutaneous tissue of other sites_
+149,CT Scan - Head
+149,Pulse Oximetry
+150,Blood Drawn
+150,CT Scan - Head
+150,Oxygen
+150,Pulse Oximetry
+150,X-Ray - Chest
+150,Cardiac Monitoring
+151,Cardiac Monitoring
+151,Pulse Oximetry
+151,Pulse Oximetry
+151,X-Ray - Chest
+151,X-Ray - Cervical Spine
+152,Cardiac Monitoring
+152,CT Scan - Head
+152,Peripheral IV
+152,Pulse Oximetry
+152,X-Ray - Chest
+152,X-Ray - Chest
+153,Cardiac Monitoring
+153,CT Scan - Head
+153,Peripheral IV
+153,Pulse Oximetry
+153,Spinal Immobilization
+153,X-Ray - Pelvis
+154,Cardiac Monitoring
+154,CT Scan - Abdomen
+154,Cervical Spine Collar/Immobilization
+154,Peripheral IV
+154,Oxygen
+154,Pulse Oximetry
+154,X-Ray - Cervical Spine
+155,Cardiac Monitoring
+155,Peripheral IV
+155,Pulse Oximetry
+155,X-Ray - Cervical Spine
+155,Volume Replacement
+155,X-Ray - Cervical Spine
+156,Peripheral IV
+156,Pulse Oximetry
+156,X-Ray - Cervical Spine
+156,Spinal Immobilization
+156,Blood Drawn
+157,Cardiac Monitoring
+157,Application of neck support_
+157,Pulse Oximetry
+157,Pulse Oximetry
+157,X-Ray - Chest
+157,X-Ray - Pelvis
+158,Cardiac Monitoring
+158,Peripheral IV
+158,Pulse Oximetry
+158,Pulse Oximetry
+159,Cardiac Monitoring
+159,Oxygen
+159,Oxygen
+159,Pulse Oximetry
+159,X-Ray - Chest
+160,Cardiac Monitoring
+160,Cervical Spine Collar/Immobilization
+160,Oxygen
+160,X-Ray - Abdomen
+160,Spinal Immobilization
+161,Cardiac Monitoring
+161,Cardiac Monitoring
+161,Blood Drawn
+161,Pulse Oximetry
+161,Volume Replacement
+161,X-Ray - Other
+161,X-Ray - Other
+161,X-Ray - Other
+162,Cardiac Monitoring
+162,Cardiac Monitoring
+162,Cervical Spine Collar/Immobilization
+162,Pulse Oximetry
+162,Pulse Oximetry
+162,X-Ray - Cervical Spine
+162,X-Ray - Cervical Spine
+162,X-Ray - Chest
+163,X-Ray - Cervical Spine
+163,X-Ray - Cervical Spine
+163,X-Ray - Chest
+163,X-Ray - Cervical Spine
+164,Cardiac Monitoring
+164,CT Scan - Head
+164,Peripheral IV
+164,Pulse Oximetry
+164,X-Ray - Pelvis
+164,X-Ray - Chest
+165,Cardiac Monitoring
+165,Peripheral IV
+165,Endotracheal Airway
+165,X-Ray - Other
+165,X-Ray - Other
+165,Cardiac Monitoring
+165,X-Ray - Other
+166,Cardiac Monitoring
+166,Peripheral IV
+166,CT Scan - Cervical Spine
+166,Peripheral IV
+166,X-Ray - Other
+166,X-Ray - Chest
+166,Sutures/Staples
+167,Cardiac Monitoring
+167,CT Scan - Abdomen
+167,Peripheral IV
+167,Pulse Oximetry
+167,Volume Replacement
+168,Arterial Blood Gas
+168,Peripheral IV
+168,Pulse Oximetry
+168,Cervical Spine Collar/Immobilization
+169,X-Ray - Cervical Spine
+169,Pulse Oximetry
+169,X-Ray - Chest
+169,X-Ray - Cervical Spine
+170,Cardiac Monitoring
+170,CT Scan - Facial Bone
+170,Pulse Oximetry
+170,Pulse Oximetry
+170,CT Scan - Pelvis
+170,Blood Drawn
+171,Cardiac Monitoring
+171,CT Scan - Head
+171,Application of Neck Support_
+171,CT Scan - Head
+171,Blood Drawn
+171,X-Ray - Pelvis
+171,X-Ray - Other
+172,Cardiac Monitoring
+172,Peripheral IV
+172,Pulse Oximetry
+172,Pulse Oximetry
+172,X-Ray - Cervical Spine
+172,X-Ray - Pelvis
+173,Cardiac Monitoring
+173,Other Skeletal Stabilization
+173,Peripheral IV
+173,Pulse Oximetry
+173,X-Ray - Pelvis
+173,X-Ray - Other
+174,Cardiac Monitoring
+174,CT Scan - Head
+174,CT Scan - Head
+174,Peripheral IV
+174,Pulse Oximetry
+174,X-Ray - Other
+174,Pulse Oximetry
+175,Cardiac Monitoring
+175,CT Scan - Head
+175,CT Scan - Head
+175,Peripheral IV
+175,Pulse Oximetry
+175,X-Ray - Chest
+176,Arterial Blood Gas
+176,CT Scan - Abdomen
+176,CT Scan - Head
+176,Oxygen
+176,Pulse Oximetry
+176,Spinal Immobilization
+177,Cardiac Monitoring
+177,Cervical Spine Collar/Immobilization
+177,Peripheral IV
+177,X-Ray - Chest
+178,Cardiac Monitoring
+178,CT Scan - Head
+178,CT Scan - Head
+178,Peripheral IV
+178,Pulse Oximetry
+178,X-Ray - Chest
+179,Cardiac Monitoring
+179,CT Scan - Facial Bone
+179,Oxygen
+179,Spinal Immobilization
+180,Cardiac Monitoring
+180,CT Scan - Head
+180,Peripheral IV
+180,Pulse Oximetry
+180,X-Ray - Cervical Spine
+181,Cardiac Monitoring
+181,CT Scan - Facial Bone
+181,CT Scan - Head
+181,Oxygen
+181,Pulse Oximetry
+182,Cardiac Monitoring
+182,CT Scan - Head
+182,CT Scan - Head
+182,Pulse Oximetry
+182,Pulse Oximetry
+182,X-Ray - Abdomen
+183,Cardiac Monitoring
+183,X-Ray - Cervical Spine
+183,X-Ray - Cervical Spine
+183,X-Ray - Pelvis
+183,X-Ray - Pelvis
+183,X-Ray - Pelvis
+184,Cardiac Monitoring
+184,Cervical Spine Collar/Immobilization
+184,Peripheral IV
+184,Pulse Oximetry
+184,X-Ray - Chest
+184,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+185,Cardiac Monitoring
+185,Peripheral IV
+185,X-Ray - Other
+185,X-Ray - Other
+185,X-Ray - Other
+185,X-Ray - Pelvis
+186,Cardiac Monitoring
+186,CT Scan - Abdomen
+186,Cervical Spine Collar/Immobilization
+186,Pulse Oximetry
+186,Peripheral IV
+187,Cardiac Monitoring
+187,CT Scan - Facial Bone
+187,Pulse Oximetry
+187,Pulse Oximetry
+187,X-Ray - Other
+187,X-Ray - Cervical Spine
+187,X-Ray - Cervical Spine
+187,X-Ray - Cervical Spine
+187,X-Ray - Cervical Spine
+188,Cardiac Monitoring
+188,CT Scan - Head
+188,CT Scan - Facial Bone
+188,Peripheral IV
+188,Pulse Oximetry
+188,Cardiac Monitoring
+189,Peripheral IV
+189,CT Scan - Head
+189,Peripheral IV
+189,Peripheral IV
+189,Spinal Immobilization
+189,X-Ray - Chest
+189,Cardiac Monitoring
+190,Cardiac Monitoring
+190,CT Scan - Head
+190,CT Scan - Abdomen
+190,Blood Drawn
+190,Peripheral IV
+190,Pulse Oximetry
+190,X-Ray - Pelvis
+191,Cardiac Monitoring
+191,CT Scan - Abdomen
+191,CT Scan - Abdomen
+191,Pulse Oximetry
+191,X-Ray - Cervical Spine
+192,Cardiac Monitoring
+192,Application of Neck Support_
+192,Peripheral IV
+192,X-Ray - Cervical Spine
+192,X-Ray - Cervical Spine
+192,Blood Drawn
+193,Cervical Spine Collar/Immobilization
+193,CT Scan - Head
+193,CT Scan - Head
+193,Peripheral IV
+193,Pulse Oximetry
+193,X-Ray - Other
+194,Application of Neck Support_
+194,Pulse Oximetry
+194,Pulse Oximetry
+194,Pulse Oximetry
+194,X-Ray - Cervical Spine
+195,Cardiac Monitoring
+195,Application of neck support_
+195,CT Scan - Head
+195,Pulse Oximetry
+195,X-Ray - Other
+195,X-Ray - Other
+196,Cardiac Monitoring
+196,X-Ray - Other
+196,Pulse Oximetry
+196,X-Ray - Other
+196,X-Ray - Cervical Spine
+197,Cardiac Monitoring
+197,Peripheral IV
+197,Peripheral IV
+197,X-Ray - Pelvis
+198,Cardiac Monitoring
+198,Application of neck support_
+198,CT Scan - Head
+198,Peripheral IV
+198,X-Ray - Chest
+198,X-Ray - Cervical Spine
+198,CT Scan - Thoracic/ Lumbar/ Sacro-Lumbar
+199,Cardiac Monitoring
+199,Peripheral IV
+199,Peripheral IV
+199,Pulse Oximetry
+199,X-Ray - Chest
+199,X-Ray - Cervical Spine
+199,Cardiac Monitoring
+199,X-Ray - Pelvis
+200,Cardiac Monitoring
+200,CT Scan - Abdomen
+200,Peripheral IV
+200,Pulse Oximetry
+200,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+201,X-Ray - Other
+201,X-Ray - Cervical Spine
+202,Cardiac Monitoring
+202,Peripheral IV
+202,Peripheral IV
+202,X-Ray - Cervical Spine
+202,Volume Replacement
+202,X-Ray - Other
+202,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+203,Cardiac Monitoring
+203,CT Scan - Facial Bone
+203,CT Scan - Head
+203,Oxygen
+203,Spinal Immobilization
+203,X-Ray - Pelvis
+204,Cervical Spine Collar/Immobilization
+204,CT Scan - Head
+204,Peripheral IV
+204,Pulse Oximetry
+204,X-Ray - Pelvis
+205,Cardiac Monitoring
+205,CT Scan - Head
+205,Pulse Oximetry
+205,Pulse Oximetry
+205,Spinal Immobilization
+205,X-Ray - Other
+205,X-Ray - Pelvis
+205,Blood Drawn
+206,Blood Drawn
+206,Peripheral IV
+206,Pulse Oximetry
+207,X-Ray - Cervical Spine
+207,Pulse Oximetry
+207,X-Ray - Other
+207,X-Ray - Cervical Spine
+207,X-Ray - Pelvis
+207,X-Ray - Chest
+208,Cardiac Monitoring
+208,CT Scan - Head
+208,CT Scan - Head
+208,Pulse Oximetry
+208,Pulse Oximetry
+209,Peripheral IV
+209,Pulse Oximetry
+209,X-Ray - Other
+209,X-Ray - Other
+210,Cardiac Monitoring
+210,CT Scan - Facial Bone
+210,Oxygen
+210,Pulse Oximetry
+210,Pulse Oximetry
+211,Peripheral IV
+211,Pulse Oximetry
+211,Pulse Oximetry
+211,X-Ray - Chest
+211,X-Ray - Pelvis
+212,X-Ray - Pelvis
+212,X-Ray - Chest
+212,X-Ray - Other
+212,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+212,X-Ray - Other
+213,Cardiac Monitoring
+213,Cervical Spine Collar/Immobilization
+213,CT Scan - Abdomen
+213,Oxygen
+213,Peripheral IV
+213,X-Ray - Cervical Spine
+213,Spinal Immobilization
+213,X-Ray - Pelvis
+213,X-Ray - Chest
+214,X-Ray - Cervical Spine
+214,Pulse Oximetry
+214,Pulse Oximetry
+214,X-Ray - Abdomen
+214,X-Ray - Pelvis
+214,X-Ray - Other
+215,Application of Neck Support_
+215,Peripheral IV
+215,X-Ray - Cervical Spine
+215,Pulse Oximetry
+215,X-Ray - Cervical Spine
+216,Cardiac Monitoring
+216,Cervical Spine Collar/Immobilization
+216,Cervical Spine Collar/Immobilization
+216,CT Scan - Head
+216,Pulse Oximetry
+216,Cervical Spine Collar/Immobilization
+216,X-Ray - Other
+216,X-Ray - Other
+217,Cardiac Monitoring
+217,CT Scan - Facial Bone
+217,CT Scan - Head
+217,Pulse Oximetry
+217,X-Ray - Chest
+217,X-Ray - Pelvis
+218,Cardiac Monitoring
+218,Oxygen
+218,Pulse Oximetry
+218,Endotracheal Airway
+218,X-Ray - Cervical Spine
+218,X-Ray - Other
+219,Cardiac Monitoring
+219,Oxygen
+219,Peripheral IV
+219,Oxygen
+219,X-Ray - Other
+219,Blood Drawn
+220,Cardiac Monitoring
+220,CT Scan - Facial Bone
+220,Peripheral IV
+220,Pulse Oximetry
+220,X-Ray - Cervical Spine
+220,X-Ray - Cervical Spine
+220,X-Ray - Pelvis
+221,X-Ray - Chest
+221,X-Ray - Cervical Spine
+222,Cardiac Monitoring
+222,Cervical Spine Collar/Immobilization
+222,Oxygen
+222,Pulse Oximetry
+222,Spinal Immobilization
+222,X-Ray - Other
+222,X-Ray - Pelvis
+223,Cardiac Monitoring
+223,CT Scan - Head
+223,Pulse Oximetry
+223,Pulse Oximetry
+223,X-Ray - Other
+224,Cardiac Monitoring
+224,CT Scan - Abdomen
+224,Oxygen
+224,Spinal Immobilization
+224,X-Ray - Pelvis
+224,X-Ray - Pelvis
+224,X-Ray - Chest
+225,Cardiac Monitoring
+225,CT Scan - Head
+225,Peripheral IV
+225,Pulse Oximetry
+225,X-Ray - Chest
+225,Volume Replacement
+225,X-Ray - Chest
+226,Cardiac Monitoring
+226,CT Scan - Abdomen
+226,CT Scan - Head
+226,Pulse Oximetry
+226,X-Ray - Chest
+226,X-Ray - Pelvis
+227,X-Ray - Other
+227,X-Ray - Chest
+227,X-Ray - Cervical Spine
+227,Spinal Immobilization
+228,Cardiac Monitoring
+228,Oxygen
+228,Cervical Spine Collar/Immobilization
+228,Peripheral IV
+228,Spinal Immobilization
+228,X-Ray - Cervical Spine
+229,X-Ray - Chest
+229,Peripheral IV
+229,X-Ray - Other
+229,X-Ray - Cervical Spine
+229,X-Ray - Other
+229,X-Ray - Chest
+230,Cardiac Monitoring
+230,Linear Repair of laceration of eyelid or eyebrow_
+230,Arterial Blood Gas
+230,CT Scan - Head
+230,Cervical Spine Collar/Immobilization
+230,Peripheral IV
+230,X-Ray - Cervical Spine
+230,X-Ray - Other
+230,X-Ray - Cervical Spine
+230,X-Ray - Cervical Spine
+231,X-Ray - Other
+231,Peripheral IV
+231,Pulse Oximetry
+231,X-Ray - Cervical Spine
+231,Blood Drawn
+231,X-Ray - Cervical Spine
+231,X-Ray - Pelvis
+231,X-Ray - Other
+232,Cardiac Monitoring
+232,Other Skeletal Stabilization
+232,CT Scan - Facial Bone
+232,CT Scan - Head
+232,Pulse Oximetry
+232,Transfusion of packed cells_
+232,Blood Drawn
+233,Cardiac Monitoring
+233,Cervical Spine Collar/Immobilization
+233,Peripheral IV
+233,Pulse Oximetry
+233,Spinal Immobilization
+234,Cardiac Monitoring
+234,Spinal Immobilization
+234,X-Ray - Chest
+234,X-Ray - Other
+235,Cardiac Monitoring
+235,Application of Neck Support_
+235,CT Scan - Head
+235,Pulse Oximetry
+235,Spinal Immobilization
+235,Spinal Immobilization
+236,Cardiac Monitoring
+236,X-Ray - Chest
+236,Spinal Immobilization
+237,Cardiac Monitoring
+237,CT Scan - Facial Bone
+237,Peripheral IV
+237,CT Scan - Head
+237,Oxygen
+237,Pulse Oximetry
+237,Spinal Immobilization
+238,Cardiac Monitoring
+238,Other Skeletal Stabilization
+238,Pulse Oximetry
+238,X-Ray - Chest
+238,X-Ray - Other
+239,X-Ray - Other
+239,X-Ray - Cervical Spine
+240,Cardiac Monitoring
+240,Peripheral IV
+240,Peripheral IV
+240,Pulse Oximetry
+240,X-Ray - Chest
+240,Oxygen
+240,X-Ray - Other
+241,Cardiac Monitoring
+241,Peripheral IV
+241,Pulse Oximetry
+241,X-Ray - Cervical Spine
+242,Cardiac Monitoring
+242,Pulse Oximetry
+242,Peripheral IV
+242,Pulse Oximetry
+242,X-Ray - Cervical Spine
+242,X-Ray - Chest
+242,X-Ray - Other
+242,X-Ray - Other
+242,X-Ray - Cervical Spine
+242,X-Ray - Other
+243,Cardiac Monitoring
+243,Cervical Spine Collar/Immobilization
+243,Peripheral IV
+243,Pulse Oximetry
+243,Spinal Immobilization
+243,Blood Drawn
+243,Spinal Immobilization
+244,Cardiac Monitoring
+244,Peripheral IV
+244,Oxygen
+244,Pulse Oximetry
+244,X-Ray - Other
+245,Cardiac Monitoring
+245,Pulse Oximetry
+245,X-Ray - Cervical Spine
+246,Cardiac Monitoring
+246,Oxygen
+246,Pulse Oximetry
+246,Pulse Oximetry
+246,X-Ray - Other
+246,Blood Drawn
+246,X-Ray - Chest
+246,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+247,Cardiac Monitoring
+247,Peripheral IV
+247,Oxygen
+247,Peripheral IV
+247,Pulse Oximetry
+247,Spinal Immobilization
+247,X-Ray - Cervical Spine
+248,Cardiac Monitoring
+248,Cardiac Monitoring
+248,CT Scan - Abdomen
+248,Peripheral IV
+248,Pulse Oximetry
+248,X-Ray - Cervical Spine
+249,Cardiac Monitoring
+249,CT Scan - Head
+249,CT Scan - Head
+249,Pulse Oximetry
+249,X-Ray - Cervical Spine
+249,Volume Replacement
+250,Cardiac Monitoring
+250,Cervical Spine Collar/Immobilization
+250,X-Ray - Cervical Spine
+250,Pulse Oximetry
+251,CT Scan - Facial Bone
+251,Application of Neck Support_
+251,Application of Neck Support__
+251,Peripheral IV
+251,Pulse Oximetry
+251,CT Scan - Pelvis
+251,X-Ray - Cervical Spine
+252,Cardiac Monitoring
+252,CT Scan - Cervical Spine
+252,CT Scan - Head
+252,Peripheral IV
+252,Pulse Oximetry
+252,Blood Drawn
+252,X-Ray - Chest
+253,Cardiac Monitoring
+253,CT Scan - Head
+253,CT Scan - Head
+253,Oxygen
+253,Pulse Oximetry
+253,X-Ray - Cervical Spine
+253,X-Ray - Cervical Spine
+253,X-Ray - Cervical Spine
+254,Cardiac Monitoring
+254,CT Scan - Head
+254,Pulse Oximetry
+254,X-Ray - Chest
+254,X-Ray - Cervical Spine
+254,X-Ray - Chest
+254,X-Ray - Other
+255,Blood Drawn
+255,CT Scan - Head
+255,Oxygen
+255,Pulse Oximetry
+255,X-Ray - Other
+256,Cardiac Monitoring
+256,Peripheral IV
+256,Pulse Oximetry
+256,X-Ray - Other
+256,Sutures/Staples
+257,CT Scan - Abdomen
+257,CT Scan - Head
+257,CT Scan - Abdomen
+257,Other Skeletal Stabilization
+257,X-Ray - Cervical Spine
+258,CT Scan - Facial Bone
+258,Peripheral IV
+258,Pulse Oximetry
+258,X-Ray - Cervical Spine
+258,X-Ray - Abdomen
+259,Cervical Spine Collar/Immobilization
+259,Peripheral IV
+259,Pulse Oximetry
+259,X-Ray - Other
+260,Cardiac Monitoring
+260,Peripheral IV
+260,Pulse Oximetry
+260,Pulse Oximetry
+260,X-Ray - Pelvis
+260,X-Ray - Chest
+260,X-Ray - Chest
+261,Cardiac Monitoring
+261,CT Scan - Head
+261,Peripheral IV
+261,X-Ray - Chest
+262,Cardiac Monitoring
+262,CT Scan - Facial Bone
+262,Oxygen
+262,Pulse Oximetry
+262,Suctioning
+262,X-Ray - Other
+263,Cardiac Monitoring
+263,CT Scan - Abdomen
+263,Peripheral IV
+263,Pulse Oximetry
+263,X-Ray - Chest
+264,Assist Ventilation
+264,Peripheral IV
+264,Pulse Oximetry
+264,CT Scan - Other
+264,X-Ray - Cervical Spine
+264,X-Ray - Other
+265,Cardiac Monitoring
+265,CT Scan - Cervical Spine
+265,Peripheral IV
+265,Foley
+265,X-Ray - Chest
+266,Cardiac Monitoring
+266,Other Skeletal Stabilization
+266,Oxygen
+266,X-Ray - Chest
+266,X-Ray - Chest
+266,X-Ray - Other
+266,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+266,X-Ray - Other
+266,X-Ray - Chest
+267,Blood Drawn
+267,Peripheral IV
+267,Pulse Oximetry
+267,Spinal Immobilization
+267,X-Ray - Cervical Spine
+267,X-Ray - Pelvis
+268,Cardiac Monitoring
+268,CT Scan - Abdomen
+268,Oxygen
+268,Pulse Oximetry
+268,X-Ray - Chest
+269,Cardiac Monitoring
+269,Peripheral IV
+269,Pulse Oximetry
+269,Volume Replacement
+270,Cardiac Monitoring
+270,Peripheral IV
+270,Pulse Oximetry
+270,Pulse Oximetry
+271,Cardiac Monitoring
+271,Peripheral IV
+271,Pulse Oximetry
+271,Pulse Oximetry
+271,X-Ray - Cervical Spine
+271,Cervical Spine Collar/Immobilization
+272,Cardiac Monitoring
+272,CT Scan - Head
+272,Pulse Oximetry
+272,X-Ray - Chest
+273,Cardiac Monitoring
+273,Pulse Oximetry
+273,Endotracheal Airway
+273,X-Ray - Cervical Spine
+274,Cardiac Monitoring
+274,Pulse Oximetry
+274,CT Scan - Pelvis
+274,X-Ray - Other
+274,Cardiac Monitoring
+274,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+274,X-Ray - Pelvis
+274,X-Ray - Cervical Spine
+274,X-Ray - Pelvis
+274,Cardiac Monitoring
+275,Cardiac Monitoring
+275,Blood Drawn
+275,Pulse Oximetry
+275,Pulse Oximetry
+275,Spinal Immobilization
+275,Sutures/Staples
+275,Spinal Immobilization
+276,X-Ray - Cervical Spine
+276,X-Ray - Other
+277,Cardiac Monitoring
+277,Peripheral IV
+277,Pulse Oximetry
+278,Cardiac Monitoring
+278,CT Scan - Head
+278,Peripheral IV
+278,Pulse Oximetry
+278,X-Ray - Cervical Spine
+278,X-Ray - Pelvis
+279,Cervical Spine Collar/Immobilization
+279,Cervical Spine Collar/Immobilization
+279,CT Scan - Head
+279,Pulse Oximetry
+279,X-Ray - Cervical Spine
+279,Spinal Immobilization
+279,X-Ray - Chest
+279,Blood Drawn
+280,Cardiac Monitoring
+280,Pulse Oximetry
+280,Pulse Oximetry
+280,Pulse Oximetry
+280,X-Ray - Cervical Spine
+281,Cardiac Monitoring
+281,Peripheral IV
+281,Pulse Oximetry
+281,X-Ray - Facial Bone
+281,X-Ray - Pelvis
+281,Spinal Immobilization
+282,Cardiac Monitoring
+282,CT Scan - Facial Bone
+282,X-Ray - Head/Skull_
+282,Cervical Spine Collar/Immobilization
+282,Spinal Immobilization
+282,X-Ray - Cervical Spine
+283,Cardiac Monitoring
+283,CT Scan - Head
+283,Cervical Spine Collar/Immobilization
+283,Peripheral IV
+283,Pulse Oximetry
+283,X-Ray - Cervical Spine
+283,Spinal Immobilization
+284,X-Ray - Other
+284,X-Ray - Other
+284,Spinal Immobilization
+284,X-Ray - Chest
+284,X-Ray - Cervical Spine
+284,X-Ray - Cervical Spine
+284,X-Ray - Pelvis
+285,Cardiac Monitoring
+285,Peripheral IV
+285,Pulse Oximetry
+285,Pulse Oximetry
+285,X-Ray - Cervical Spine
+285,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+286,Application of Neck Support__
+286,CT Scan - Head
+286,CT Scan - Abdomen
+286,Pulse Oximetry
+286,X-Ray - Chest
+286,X-Ray - Cervical Spine
+287,Cardiac Monitoring
+287,CT Scan - Head
+287,Pulse Oximetry
+287,Spinal Immobilization
+287,X-Ray - Chest
+288,Cardiac Monitoring
+288,Peripheral IV
+288,Peripheral IV
+288,Pulse Oximetry
+289,Cardiac Monitoring
+289,CT Scan - Head
+289,CT Scan - Head
+289,Peripheral IV
+289,Spinal Immobilization
+289,X-Ray - Cervical Spine
+289,X-Ray - Other
+289,X-Ray - Pelvis
+289,X-Ray - Chest
+290,Cardiac Monitoring
+290,Peripheral IV
+290,Volume Replacement
+290,X-Ray - Cervical Spine
+290,X-Ray - Other
+290,X-Ray - Cervical Spine
+291,Cardiac Monitoring
+291,CT Scan - Head
+291,Oxygen
+291,Pulse Oximetry
+291,Pulse Oximetry
+292,Cardiac Monitoring
+292,Oxygen
+292,Peripheral IV
+292,X-Ray - Chest
+292,Blood Drawn
+293,Cervical Spine Collar/Immobilization
+293,Peripheral IV
+293,Pulse Oximetry
+293,X-Ray - Cervical Spine
+293,X-Ray - Pelvis
+293,X-Ray - Cervical Spine
+294,Cardiac Monitoring
+294,Cervical Spine Collar/Immobilization
+294,Cervical Spine Collar/Immobilization
+294,CT Scan - Head
+294,X-Ray - Cervical Spine
+294,X-Ray - Other
+294,X-Ray - Other
+295,Cardiac Monitoring
+295,Other Skeletal Stabilization
+295,CT Scan - Abdomen
+295,Pulse Oximetry
+295,X-Ray - Other
+296,Blood Drawn
+296,X-Ray - Cervical Spine
+296,X-Ray - Cervical Spine
+296,X-Ray - Pelvis
+296,X-Ray - Chest
+296,X-Ray - Pelvis
+296,X-Ray - Other
+296,X-Ray - Pelvis
+296,X-Ray - Other
+296,X-Ray - Pelvis
+296,X-Ray - Other
+296,Blood Drawn
+296,X-Ray - Cervical Spine
+297,Cardiac Monitoring
+297,Peripheral IV
+297,Peripheral IV
+297,Pulse Oximetry
+297,X-Ray - Chest
+297,X-Ray - Pelvis
+297,X-Ray - Other
+297,X-Ray - Chest
+297,X-Ray - Cervical Spine
+298,X-Ray - Cervical Spine
+298,X-Ray - Cervical Spine
+298,X-Ray - Pelvis
+298,X-Ray - Other
+298,X-Ray - Chest
+299,X-Ray - Other
+299,X-Ray - Cervical Spine
+299,Pulse Oximetry
+300,Cervical Spine Collar/Immobilization
+300,CT Scan - Abdomen
+300,Peripheral IV
+300,Pulse Oximetry
+300,Spinal Immobilization
+300,Blood Drawn
+301,Oxygen
+301,Spinal Immobilization
+301,Blood Drawn
+301,X-Ray - Cervical Spine
+301,X-Ray - Pelvis
+302,Cardiac Monitoring
+302,CT Scan - Head
+302,CT Scan - Abdomen
+302,Pulse Oximetry
+302,Spinal Immobilization
+302,X-Ray - Pelvis
+303,Blood Drawn
+303,Pulse Oximetry
+304,Cardiac Monitoring
+304,CT Scan - Head
+304,Pulse Oximetry
+304,Pulse Oximetry
+305,Cardiac Monitoring
+305,CT Scan - Head
+305,Pulse Oximetry
+305,Pulse Oximetry
+305,X-Ray - Cervical Spine
+306,Cardiac Monitoring
+306,CT Scan - Abdomen
+306,CT Scan - Head
+306,Peripheral IV
+307,Cardiac Monitoring
+307,CT Scan - Head
+307,Peripheral IV
+307,Pulse Oximetry
+307,Spinal Immobilization
+307,X-Ray - Cervical Spine
+308,Cardiac Monitoring
+308,CT Scan - Facial Bone
+308,CT Scan - Head
+308,CT Scan - Head
+308,Pulse Oximetry
+308,Blood Drawn
+309,CT Scan - Facial Bone
+309,CT Scan - Head
+309,Pulse Oximetry
+309,Pulse Oximetry
+309,X-Ray - Chest
+309,X-Ray - Chest
+309,End-Tidal CO2
+309,X-Ray - Pelvis
+310,Cardiac Monitoring
+310,Application of Neck Support_
+310,Pulse Oximetry
+310,Pulse Oximetry
+310,X-Ray - Pelvis
+311,Cardiac Monitoring
+311,CT Scan - Facial Bone
+311,Cervical Spine Collar/Immobilization
+311,Pulse Oximetry
+311,X-Ray - Other
+311,X-Ray - Chest
+311,X-Ray - Chest
+312,Cardiac Monitoring
+312,X-Ray - Head/Skull_
+312,Application of Neck Support__
+312,Cervical Spine Collar/Immobilization
+312,Peripheral IV
+312,Peripheral IV
+313,Cardiac Monitoring
+313,Pulse Oximetry
+313,Pulse Oximetry
+313,X-Ray - Other
+314,Application of Neck Support_
+314,CT Scan - Abdomen
+314,CT Scan - Head
+314,CT Scan - Head
+314,Peripheral IV
+314,Spinal Immobilization
+314,X-Ray - Other
+315,Cardiac Monitoring
+315,Peripheral IV
+315,X-Ray - Cervical Spine
+315,Spinal Immobilization
+315,X-Ray - Chest
+316,Cardiac Monitoring
+316,CT Scan - Head
+316,Oxygen
+316,Pulse Oximetry
+316,X-Ray - Other
+317,Cardiac Monitoring
+317,CT Scan - Head
+317,CT Scan - Head
+317,Pulse Oximetry
+317,Pulse Oximetry
+318,Cardiac Monitoring
+318,Oxygen
+318,X-Ray - Cervical Spine
+319,Cardiac Monitoring
+319,CT Scan - Head
+319,Peripheral IV
+319,X-Ray - Cervical Spine
+319,X-Ray - Cervical Spine
+320,Cardiac Monitoring
+320,CT Scan - Head
+320,Pulse Oximetry
+320,Spinal Immobilization
+320,X-Ray - Chest
+321,Cardiac Monitoring
+321,Application of neck support_
+321,CT Scan - Head
+321,Oxygen
+321,Cervical Spine Collar/Immobilization
+321,Spinal Immobilization
+321,X-Ray - Pelvis
+322,CT Scan - Cervical Spine
+322,Arterial Blood Gas
+322,Application of neck support_
+322,Oxygen
+322,Spinal Immobilization
+322,X-Ray - Pelvis
+323,Cardiac Monitoring
+323,CT Scan - Facial Bone
+323,Other Skeletal Stabilization
+323,Pulse Oximetry
+323,Pulse Oximetry
+323,Spinal Immobilization
+323,X-Ray - Cervical Spine
+324,Cardiac Monitoring
+324,Arterial Blood Gas
+324,CT Scan - Head
+324,CT Scan - Head
+324,Spinal Immobilization
+324,Spinal Immobilization
+325,Cardiac Monitoring
+325,CT Scan - Facial Bone
+325,CT Scan - Head
+325,CT Scan - Abdomen
+325,CT Scan - Head
+325,Pulse Oximetry
+325,X-Ray - Cervical Spine
+326,Cardiac Monitoring
+326,Cervical Spine Collar/Immobilization
+326,CT Scan - Head
+326,Pulse Oximetry
+326,Foley
+326,X-Ray - Chest
+326,X-Ray - Pelvis
+326,X-Ray - Cervical Spine
+327,Cardiac Monitoring
+327,CT Scan - Facial Bone
+327,CT Scan - Head
+327,Cervical Spine Collar/Immobilization
+327,Peripheral IV
+327,Pulse Oximetry
+327,Pulse Oximetry
+327,X-Ray - Cervical Spine
+327,X-Ray - Other
+327,X-Ray - Pelvis
+328,Cardiac Monitoring
+328,Pulse Oximetry
+328,X-Ray - Abdomen
+328,X-Ray - Cervical Spine
+328,Blood Drawn
+328,X-Ray - Other
+329,Cardiac Monitoring
+329,Oxygen
+329,Pulse Oximetry
+329,Peripheral IV
+330,Cardiac Monitoring
+330,CT Scan - Facial Bone
+330,Application of Neck Support_
+330,Peripheral IV
+330,Peripheral IV
+330,Peripheral IV
+330,X-Ray - Other
+331,Blood Drawn
+331,CT Scan - Facial Bone
+331,CT Scan - Facial Bone
+331,Pulse Oximetry
+331,X-Ray - Cervical Spine
+331,X-Ray - Pelvis
+332,Cardiac Monitoring
+332,CT Scan - Head
+332,Pulse Oximetry
+332,Spinal Immobilization
+333,Cardiac Monitoring
+333,Peripheral IV
+333,Pulse Oximetry
+333,Spinal Immobilization
+333,X-Ray - Other
+334,Cardiac Monitoring
+334,Peripheral IV
+334,X-Ray - Other
+334,X-Ray - Other
+334,Sutures/Staples (tongue_)
+334,X-Ray - Cervical Spine
+334,Blood Drawn
+334,X-Ray - Other
+335,Cardiac Monitoring
+335,CT Scan - Cervical Spine
+335,CT Scan - Facial Bone
+335,Pulse Oximetry
+335,Pulse Oximetry
+335,X-Ray - Chest
+335,Sutures/Staples
+335,X-Ray - Cervical Spine
+335,X-Ray - Other
+335,X-Ray - Other
+335,Blood Drawn
+336,Cardiac Monitoring
+336,Application of Neck Support_
+336,Cervical Spine Collar/Immobilization
+336,Pulse Oximetry
+336,Pulse Oximetry
+337,Application of Neck Support__
+337,Pulse Oximetry
+337,Pulse Oximetry
+337,Spinal Immobilization
+337,X-Ray - Chest
+338,Cardiac Monitoring
+338,CT Scan - Head
+338,Peripheral IV
+338,Pulse Oximetry
+339,Cardiac Monitoring
+339,Cervical Spine Collar/Immobilization
+339,Peripheral IV
+339,Pulse Oximetry
+339,X-Ray - Chest
+339,Blood Drawn
+340,Cardiac Monitoring
+340,CT Scan - Abdomen
+340,Peripheral IV
+340,Spinal Immobilization
+340,X-Ray - Chest
+340,X-Ray - Other
+341,Cardiac Monitoring
+341,Peripheral IV
+341,Pulse Oximetry
+341,Cardiac Monitoring
+341,X-Ray - Other
+342,Blood Drawn
+342,Pulse Oximetry
+342,X-Ray - Cervical Spine
+342,X-Ray - Chest
+342,X-Ray - Chest
+342,Blood Drawn
+342,X-Ray - Other
+342,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+342,Volume Replacement
+343,Cardiac Monitoring
+343,CT Scan - Head
+343,Peripheral IV
+343,X-Ray - Cervical Spine
+344,CT Scan - Cervical Spine
+344,Application of Neck Support_
+344,CT Scan - Head
+344,Pulse Oximetry
+344,Pulse Oximetry
+344,X-Ray - Chest
+344,Blood Drawn
+344,X-Ray - Chest
+344,X-Ray - Other
+344,X-Ray - Cervical Spine
+345,Empty
+346,Cardiac Monitoring
+346,Pulse Oximetry
+346,X-Ray - Cervical Spine
+346,Pulse Oximetry
+346,X-Ray - Chest
+346,X-Ray - Pelvis
+346,X-Ray - Other
+347,Cardiac Monitoring
+347,CT Scan - Head
+347,Pulse Oximetry
+347,X-Ray - Cervical Spine
+348,Cardiac Monitoring
+348,Pulse Oximetry
+348,Pulse Oximetry
+348,X-Ray - Cervical Spine
+348,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+348,X-Ray - Other
+348,X-Ray - Chest
+349,Cardiac Monitoring
+349,CT Scan - Chest
+349,Oxygen
+349,Pulse Oximetry
+349,X-Ray - Chest
+349,CT Scan - Chest
+350,Cervical Spine Collar/Immobilization
+350,Pulse Oximetry
+350,Pulse Oximetry
+350,X-Ray - Cervical Spine
+351,Cardiac Monitoring
+351,CT Scan - Head
+351,Cervical Spine Collar/Immobilization
+351,Cervical Spine Collar/Immobilization
+351,Pulse Oximetry
+351,Spinal Immobilization
+352,Cardiac Monitoring
+352,Peripheral IV
+352,Peripheral IV
+352,Pulse Oximetry
+352,Spinal Immobilization
+352,Spinal Immobilization
+352,X-Ray - Pelvis
+352,X-Ray - Cervical Spine
+353,Cardiac Monitoring
+353,CT Scan - Cervical Spine
+353,CT Scan - Head
+353,Peripheral IV
+353,Pulse Oximetry
+353,X-Ray - Cervical Spine
+353,X-Ray - Pelvis
+353,X-Ray - Other
+353,X-Ray - Chest
+354,Cardiac Monitoring
+354,Pulse Oximetry
+354,Pulse Oximetry
+354,Spinal Immobilization
+354,X-Ray - Other
+355,Blood Drawn
+355,Peripheral IV
+355,Oxygen
+355,Pulse Oximetry
+355,X-Ray - Chest
+355,X-Ray - Chest
+356,Cardiac Monitoring
+356,Peripheral IV
+356,Pulse Oximetry
+356,X-Ray - Other
+357,Peripheral IV
+357,Cardiac Monitoring
+357,Peripheral IV
+357,Oxygen
+358,Cardiac Monitoring
+358,Blood Drawn
+358,Peripheral IV
+358,Pulse Oximetry
+358,Volume Replacement
+358,Spinal Immobilization
+358,X-Ray - Cervical Spine
+359,Cardiac Monitoring
+359,CT Scan - Facial Bone
+359,Peripheral IV
+359,Pulse Oximetry
+359,Gastric Tube
+359,X-Ray - Pelvis
+359,X-Ray - Cervical Spine
+360,Cardiac Monitoring
+360,CT Scan - Head
+360,Pulse Oximetry
+360,Pulse Oximetry
+361,Cardiac Monitoring
+361,Pulse Oximetry
+361,X-Ray - Cervical Spine
+362,Cardiac Monitoring
+362,Pulse Oximetry
+362,Pulse Oximetry
+363,Cardiac Monitoring
+363,CT Scan - Thoracic/ Lumbar/ Sacro-Lumbar
+363,Cervical Spine Collar/Immobilization
+363,Oxygen
+363,Pulse Oximetry
+363,X-Ray - Cervical Spine
+364,Cardiac Monitoring
+364,CT Scan - Head
+364,Pulse Oximetry
+364,X-Ray - Chest
+364,X-Ray - Other
+364,X-Ray - Other
+364,X-Ray - Other
+365,Cervical Spine Collar/Immobilization
+365,Peripheral IV
+365,Pulse Oximetry
+365,X-Ray - Chest
+366,Cardiac Monitoring
+366,CT Scan - Abdomen
+366,CT Scan - Head
+366,Cervical Spine Collar/Immobilization
+366,Pulse Oximetry
+366,Pulse Oximetry
+367,Cardiac Monitoring
+367,CT Scan - Head
+367,CT Scan - Abdomen
+367,Pulse Oximetry
+367,Spinal Immobilization
+368,Cardiac Monitoring
+368,CT Scan - Facial Bone
+368,CT Scan - Head
+368,Pulse Oximetry
+368,Blood Drawn
+368,X-Ray - Chest
+368,X-Ray - Pelvis
+368,X-Ray - Cervical Spine
+369,Cardiac Monitoring
+369,Cardiac Monitoring
+369,CT Scan - Head
+369,Pulse Oximetry
+369,Spinal Immobilization
+369,Blood Drawn
+370,CT Scan - Facial Bone
+370,CT Scan - Facial Bone
+370,CT Scan - Head
+370,Pulse Oximetry
+370,X-Ray - Chest
+370,X-Ray - Other
+371,Cardiac Monitoring
+371,Oxygen
+371,Peripheral IV
+371,X-Ray - Chest
+371,Spinal Immobilization
+372,Cardiac Monitoring
+372,Peripheral IV
+372,Pulse Oximetry
+372,Pulse Oximetry
+372,X-Ray - Pelvis
+372,X-Ray - Chest
+372,Blood Drawn
+372,X-Ray - Cervical Spine
+372,X-Ray - Other
+373,Cardiac Monitoring
+373,Application of Neck Support__
+373,CT Scan - Facial Bone
+373,Oxygen
+373,X-Ray - Cervical Spine
+373,X-Ray - Other
+373,X-Ray - Chest
+373,Blood Drawn
+373,Spinal Immobilization
+374,Arterial Blood Gas
+374,CT Scan - Abdomen
+374,CT Scan - Head
+374,Peripheral IV
+374,X-Ray - Cervical Spine
+374,X-Ray - Chest
+375,Cardiac Monitoring
+375,CT Scan - Head
+375,Peripheral IV
+375,Pulse Oximetry
+375,X-Ray - Chest
+375,X-Ray - Other
+375,X-Ray - Other
+376,Cardiac Monitoring
+376,Pulse Oximetry
+376,Pulse Oximetry
+376,X-Ray - Chest
+376,CT Scan - Pelvis
+376,CT Scan - Pelvis
+377,Cardiac Monitoring
+377,CT Scan - Head
+377,CT Scan - Head
+377,Cervical Spine Collar/Immobilization
+377,Pulse Oximetry
+377,Pulse Oximetry
+378,Cardiac Monitoring
+378,CT Scan - Abdomen
+378,CT Scan - Abdomen
+378,CT Scan - Head
+378,Endotracheal Airway
+378,X-Ray - Cervical Spine
+379,Cardiac Monitoring
+379,Pulse Oximetry
+379,X-Ray - Other
+379,X-Ray - Chest
+380,Cardiac Monitoring
+380,Peripheral IV
+380,Oxygen
+380,Oxygen
+380,X-Ray - Chest
+380,X-Ray - Other
+381,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+381,Oxygen
+381,Pulse Oximetry
+381,Pulse Oximetry
+381,X-Ray - Cervical Spine
+381,X-Ray - Other
+382,Cardiac Monitoring
+382,CT Scan - Head
+382,Peripheral IV
+382,Pulse Oximetry
+382,X-Ray - Other
+382,Cervical Spine Collar/Immobilization
+382,X-Ray - Cervical Spine
+382,X-Ray - Other
+382,X-Ray - Abdomen
+383,Cardiac Monitoring
+383,X-Ray - Cervical Spine
+383,Peripheral IV
+383,X-Ray - Chest
+384,Blood Drawn
+384,CT Scan - Facial Bone
+384,Peripheral IV
+384,Pulse Oximetry
+384,Volume Replacement
+384,X-Ray - Other
+384,X-Ray - Other
+385,Cardiac Monitoring
+385,Peripheral IV
+385,Pulse Oximetry
+385,X-Ray - Other
+386,X-Ray - Cervical Spine
+386,Pulse Oximetry
+386,X-Ray - Abdomen
+386,X-Ray - Chest
+386,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+386,Blood Drawn
+386,Blood Drawn
+387,X-Ray - Other
+388,Cardiac Monitoring
+388,Cardiac Monitoring
+388,Peripheral IV
+388,CT Scan - Abdomen
+388,Peripheral IV
+388,X-Ray - Other
+388,X-Ray - Cervical Spine
+389,Cardiac Monitoring
+389,Cervical Spine Collar/Immobilization
+389,Pulse Oximetry
+389,Spinal Immobilization
+389,Spinal Immobilization
+390,Cardiac Monitoring
+390,Oxygen
+390,CT Scan - Head
+390,Pulse Oximetry
+390,Spinal Immobilization
+390,X-Ray - Other
+391,Oxygen
+391,Peripheral IV
+391,Pulse Oximetry
+391,Pulse Oximetry
+391,X-Ray - Other
+391,Cardiac Monitoring
+392,Cardiac Monitoring
+392,CT Scan - Abdomen
+392,CT Scan - Head
+392,Pulse Oximetry
+392,Endotracheal Airway
+392,X-Ray - Chest
+393,Cervical Spine Collar/Immobilization
+393,Pulse Oximetry
+393,X-Ray - Other
+393,X-Ray - Other
+393,X-Ray - Cervical Spine
+394,CT Scan - Chest
+394,CT Scan - Head
+394,Pulse Oximetry
+394,X-Ray - Other
+395,Cardiac Monitoring
+395,Cervical Spine Collar/Immobilization
+395,Oxygen
+395,Peripheral IV
+395,X-Ray - Cervical Spine
+395,Blood Drawn
+396,Cardiac Monitoring
+396,CT Scan - Head
+396,Peripheral IV
+396,Pulse Oximetry
+396,Cardiac Monitoring
+396,X-Ray - Cervical Spine
+397,Cardiac Monitoring
+397,CT Scan - Head
+397,Other Skeletal Stabilization
+397,X-Ray - Other
+397,Blood Drawn
+398,Arterial Blood Gas
+398,CT Scan - Abdomen
+398,CT Scan - Head
+398,Cervical Spine Collar/Immobilization
+398,Other Skeletal Stabilization
+398,Pulse Oximetry
+398,X-Ray - Cervical Spine
+398,X-Ray - Other
+399,Oxygen
+399,Peripheral IV
+399,Pulse Oximetry
+399,X-Ray - Cervical Spine
+399,Spinal Immobilization
+400,Cardiac Monitoring
+400,Peripheral IV
+400,Peripheral IV
+400,X-Ray - Other
+400,X-Ray - Cervical Spine
+400,X-Ray - Chest
+400,Spinal Immobilization
+401,Cardiac Monitoring
+401,Peripheral IV
+401,Peripheral IV
+401,X-Ray - Other
+401,X-Ray - Other
+402,CT Scan - Facial Bone
+402,CPR
+402,CT Scan - Facial Bone
+402,Peripheral IV
+402,Peripheral IV
+402,X-Ray - Chest
+402,X-Ray - Chest
+403,Cardiac Monitoring
+403,Application of neck support_
+403,CT Scan - Abdomen
+403,Peripheral IV
+403,Peripheral IV
+403,Pulse Oximetry
+403,X-Ray - Cervical Spine
+404,Cardiac Monitoring
+404,CT Scan - Head
+404,Peripheral IV
+404,Pulse Oximetry
+404,Spinal Immobilization
+405,Peripheral IV
+405,CT Scan - Head
+405,Cervical Spine Collar/Immobilization
+405,Peripheral IV
+405,Volume Replacement
+405,X-Ray - Chest
+406,Cervical Spine Collar/Immobilization
+406,CT Scan - Head
+406,Peripheral IV
+406,Spinal Immobilization
+406,Suctioning
+406,X-Ray - Other
+406,X-Ray - Pelvis
+407,Cardiac Monitoring
+407,Oxygen
+407,Peripheral IV
+407,Peripheral IV
+407,Spinal Immobilization
+408,Cardiac Monitoring
+408,Peripheral IV
+408,Oxygen
+408,X-Ray - Pelvis
+409,Peripheral IV
+409,Peripheral IV
+409,Pulse Oximetry
+409,X-Ray - Other
+409,X-Ray - Pelvis
+409,X-Ray - Other
+410,Cardiac Monitoring
+410,CT Scan - Head
+410,CT Scan - Head
+410,Pulse Oximetry
+410,X-Ray - Cervical Spine
+410,X-Ray - Chest
+410,X-Ray - Other
+410,X-Ray - Pelvis
+411,Cardiac Monitoring
+411,CT Scan - Head
+411,Pulse Oximetry
+411,Spinal Immobilization
+411,X-Ray - Chest
+411,X-Ray - Other
+412,Cardiac Monitoring
+412,CT Scan - Head
+412,CT Scan - Facial Bone
+412,CT Scan - Head
+412,Peripheral IV
+412,Peripheral IV
+413,Cardiac Monitoring
+413,CT Scan - Head
+413,CT Scan - Head
+413,Pulse Oximetry
+413,X-Ray - Cervical Spine
+413,Spinal Immobilization
+414,Cardiac Monitoring
+414,Cervical Spine Collar/Immobilization
+414,CT Scan - Abdomen
+414,Pulse Oximetry
+414,Pulse Oximetry
+415,Cervical Spine Collar/Immobilization
+415,Pulse Oximetry
+415,Pulse Oximetry
+415,X-Ray - Cervical Spine
+415,X-Ray - Other
+416,Cardiac Monitoring
+416,Peripheral IV
+416,Peripheral IV
+416,X-Ray - Cervical Spine
+416,X-Ray - Cervical Spine
+417,Cardiac Monitoring
+417,Oxygen
+417,X-Ray - Other
+417,Pulse Oximetry
+417,X-Ray - Cervical Spine
+417,Sutures/Staples
+417,X-Ray - Other
+418,Cervical Spine Collar/Immobilization
+418,CT Scan - Abdomen
+418,Cervical Spine Collar/Immobilization
+418,Pulse Oximetry
+418,X-Ray - Chest
+418,X-Ray - Other
+419,Cardiac Monitoring
+419,Application of Neck Support_
+419,CT Scan - Head
+419,Pulse Oximetry
+419,X-Ray - Chest
+419,X-Ray - Other
+420,Cardiac Monitoring
+420,X-Ray - Other
+420,Pulse Oximetry
+420,X-Ray - Cervical Spine
+421,Application of neck support_
+421,CT Scan - Head
+421,CT Scan - Head
+421,Pulse Oximetry
+421,X-Ray - Cervical Spine
+421,X-Ray - Chest
+422,Cardiac Monitoring
+422,Oxygen
+422,Pulse Oximetry
+422,X-Ray - Other
+423,CT Scan - Cervical Spine
+423,CT Scan - Head
+423,Peripheral IV
+423,Pulse Oximetry
+423,Spinal Immobilization
+423,Spinal Immobilization
+423,X-Ray - Pelvis
+424,Cardiac Monitoring
+424,Peripheral IV
+424,Peripheral IV
+424,Spinal Immobilization
+424,End-Tidal CO2
+425,X-Ray - Cervical Spine
+425,X-Ray - Other
+426,Cardiac Monitoring
+426,Other Skeletal Stabilization
+426,Peripheral IV
+426,Spinal Immobilization
+426,X-Ray - Other
+426,X-Ray - Chest
+427,CT Scan - Abdomen
+427,Application of Neck Support__
+427,Peripheral IV
+427,Pulse Oximetry
+427,X-Ray - Pelvis
+427,Spinal Immobilization
+427,X-Ray - Chest
+427,X-Ray - Chest
+427,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+427,Volume Replacement
+428,Cardiac Monitoring
+428,CT Scan - Facial Bone
+428,Gastric Tube
+428,Peripheral IV
+428,Pulse Oximetry
+428,X-Ray - Other
+429,Cardiac Monitoring
+429,Pulse Oximetry
+429,Pulse Oximetry
+430,Cardiac Monitoring
+430,Pulse Oximetry
+431,Cardiac Monitoring
+431,CT Scan - Head
+431,Pulse Oximetry
+431,Pulse Oximetry
+431,CT Scan - Pelvis
+431,X-Ray - Chest
+432,Cardiac Monitoring
+432,Cardiac Monitoring
+432,Peripheral IV
+432,Pulse Oximetry
+432,Pulse Oximetry
+433,Cardiac Monitoring
+433,CT Scan - Head
+433,Endotracheal Airway
+433,Pulse Oximetry
+433,X-Ray - Other
+433,X-Ray - Chest
+433,X-Ray - Other
+434,Cardiac Monitoring
+434,Cervical Spine Collar/Immobilization
+434,Pulse Oximetry
+435,Cardiac Monitoring
+435,X-Ray - Thoracic
+435,Cervical Spine Collar/Immobilization
+435,Pulse Oximetry
+435,X-Ray - Cervical Spine
+435,X-Ray - Abdomen
+436,Cervical Spine Collar/Immobilization
+436,Application of Neck Support__
+436,Peripheral IV
+436,Spinal Immobilization
+436,Blood Drawn
+436,X-Ray - Cervical Spine
+436,Volume Replacement
+436,X-Ray - Cervical Spine
+436,Blood Drawn
+437,Cardiac Monitoring
+437,CT Scan - Abdomen
+437,CT Scan - Head
+437,Peripheral IV
+437,Pulse Oximetry
+437,X-Ray - Pelvis
+437,X-Ray - Chest
+438,Cardiac Monitoring
+438,CT Scan - Head
+438,Spinal Immobilization
+438,X-Ray - Other
+438,X-Ray - Cervical Spine
+438,X-Ray - Other
+439,Cardiac Monitoring
+439,Peripheral IV
+439,Pulse Oximetry
+439,Spinal Immobilization
+440,Cervical Spine Collar/Immobilization
+440,Pulse Oximetry
+440,X-Ray - Chest
+440,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+440,X-Ray - Cervical Spine
+440,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+440,X-Ray - Cervical Spine
+441,Cardiac Monitoring
+441,Cervical Spine Collar/Immobilization
+441,Pulse Oximetry
+441,Pulse Oximetry
+442,Cardiac Monitoring
+442,CT Scan - Head
+442,Pulse Oximetry
+442,Pulse Oximetry
+442,X-Ray - Chest
+443,Blood Drawn
+443,Peripheral IV
+443,X-Ray - Cervical Spine
+443,X-Ray - Pelvis
+444,Cardiac Monitoring
+444,Peripheral IV
+444,Pulse Oximetry
+444,Spinal Immobilization
+445,Cardiac Monitoring
+445,Peripheral IV
+445,Oxygen
+445,Pulse Oximetry
+445,X-Ray - Chest
+445,X-Ray - Cervical Spine
+445,X-Ray - Cervical Spine
+445,X-Ray - Pelvis
+445,Blood Drawn
+446,X-Ray - Cervical Spine
+446,X-Ray - Other
+447,Cardiac Monitoring
+447,CT Scan - Head
+447,Pulse Oximetry
+447,Pulse Oximetry
+447,X-Ray - Other
+448,Cardiac Monitoring
+448,CT Scan - Head
+448,Pulse Oximetry
+448,End-Tidal CO2
+448,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+449,Cardiac Monitoring
+449,CT Scan - Abdomen
+449,CT Scan - Abdomen
+449,Pulse Oximetry
+449,Pulse Oximetry
+449,Spinal Immobilization
+449,X-Ray - Other
+450,Cardiac Monitoring
+450,Application of Neck Support__
+450,CT Scan - Cervical Spine
+450,CT Scan - Abdomen
+450,Oxygen
+450,Oxygen
+450,Blood Drawn
+451,Application of neck support_
+451,Oxygen
+451,Pulse Oximetry
+451,X-Ray - Other
+451,X-Ray - Pelvis
+451,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+451,X-Ray - Cervical Spine
+451,X-Ray - Pelvis
+452,Cardiac Monitoring
+452,CT Scan - Head
+452,CT Scan - Head
+452,CT Scan - Head
+452,Pulse Oximetry
+452,X-Ray - Chest
+452,X-Ray - Other
+453,Cardiac Monitoring
+453,Cervical Spine Collar/Immobilization
+453,CT Scan - Head
+453,CT Scan - Cervical Spine
+453,Pulse Oximetry
+453,X-Ray - Thoracic/ Lumbar/ Sacro-Lumbar
+453,X-Ray - Cervical Spine
+453,X-Ray - Pelvis
+454,Cardiac Monitoring
+454,Peripheral IV
+454,Peripheral IV
+454,Spinal Immobilization
+454,X-Ray - Cervical Spine
+454,X-Ray - Other
+454,X-Ray - Pelvis
+454,X-Ray - Cervical Spine
+455,Cardiac Monitoring
+455,Other Skeletal Stabilization
+455,Endotracheal Airway
+455,X-Ray - Cervical Spine
+455,X-Ray - Cervical Spine
+455,X-Ray - Chest
+455,X-Ray - Other
+456,Cardiac Monitoring
+456,CT Scan - Head
+456,CT Scan - Head
+456,Peripheral IV
+456,X-Ray - Other
+457,Cardiac Monitoring
+457,CT Scan - Head
+457,CT Scan - Head
+457,Pulse Oximetry
+457,Pulse Oximetry
+457,X-Ray - Pelvis
+457,X-Ray - Cervical Spine
+458,Cardiac Monitoring
+458,Cervical Spine Collar/Immobilization
+458,Cervical Spine Collar/Immobilization
+458,Peripheral IV
+458,X-Ray - Other
+458,X-Ray - Pelvis
+459,Cardiac Monitoring
+459,CT Scan - Head
+459,Pulse Oximetry
+459,Pulse Oximetry
+459,X-Ray - Cervical Spine
+459,X-Ray - Other
+460,Sutures/Staples
+460,CT Scan - Head
+460,Pulse Oximetry
+460,Pulse Oximetry
+460,X-Ray - Pelvis
+460,X-Ray - Other
+461,Cardiac Monitoring
+461,CT Scan - Head
+461,Pulse Oximetry
+461,X-Ray - Cervical Spine
+461,X-Ray - Pelvis
+461,X-Ray - Cervical Spine
+461,X-Ray - Chest
+462,Cardiac Monitoring
+462,CT Scan - Abdomen
+462,CT Scan - Abdomen
+462,Pulse Oximetry
+462,X-Ray - Pelvis
+462,X-Ray - Pelvis
+463,Cardiac Monitoring
+463,CT Scan - Head
+463,Peripheral IV
+463,Peripheral IV
+463,X-Ray - Other
+463,X-Ray - Other
+463,X-Ray - Chest
+463,Endotracheal Airway
+463,X-Ray - Cervical Spine
+463,X-Ray - Other
+463,X-Ray - Pelvis
+464,Cardiac Monitoring
+464,CT Scan - Head
+464,CT Scan - Facial Bone
+464,Pulse Oximetry
+464,X-Ray - Cervical Spine
+465,Cardiac Monitoring
+465,Peripheral IV
+465,CT Scan - Other
+465,CT Scan - Head
+465,X-Ray - Cervical Spine
+465,X-Ray - Other
+466,Cardiac Monitoring
+466,CT Scan - Abdomen
+466,Pulse Oximetry
+466,Pulse Oximetry
+466,X-Ray - Cervical Spine
+466,X-Ray - Chest
+467,Cardiac Monitoring
+467,CT Scan - Head
+467,CT Scan - Head
+467,Oxygen
+467,Pulse Oximetry
+468,Cardiac Monitoring
+468,Peripheral IV
+468,Peripheral IV
+468,Pulse Oximetry
+469,Cardiac Monitoring
+469,Peripheral IV
+469,Pulse Oximetry
+469,Pulse Oximetry
+469,X-Ray - Chest
+470,Cardiac Monitoring
+470,Peripheral IV
+470,Peripheral IV
+470,Pulse Oximetry
+470,X-Ray - Cervical Spine
+470,X-Ray - Chest
+470,X-Ray - Cervical Spine
+470,EKG
+470,X-Ray - Pelvis
+471,Cardiac Monitoring
+471,Pulse Oximetry
+471,Pulse Oximetry
+471,X-Ray - Cervical Spine
+472,Cardiac Monitoring
+472,CT Scan - Head
+472,CT Scan - Facial Bone
+472,Peripheral IV
+472,Pulse Oximetry
+472,X-Ray - Chest
+472,X-Ray - Pelvis
+472,X-Ray - Other
+473,Cardiac Monitoring
+473,Peripheral IV
+473,Pulse Oximetry
+473,X-Ray - Other
+473,X-Ray - Other
+473,Spinal Immobilization
+474,Cardiac Monitoring
+474,Cervical Spine Collar/Immobilization
+474,CT Scan - Head
+474,Cervical Spine Collar/Immobilization
+474,Pulse Oximetry
+474,X-Ray - Other
+474,X-Ray - Cervical Spine
+475,Cardiac Monitoring
+475,Cervical Spine Collar/Immobilization
+475,Peripheral IV
+475,Pulse Oximetry
+475,Pulse Oximetry
+476,Cardiac Monitoring
+476,Peripheral IV
+476,Pulse Oximetry
+476,X-Ray - Pelvis
+477,Cardiac Monitoring
+477,Peripheral IV
+477,Pulse Oximetry
+477,X-Ray - Chest
+478,Cardiac Monitoring
+478,CT Scan - Abdomen
+478,Oxygen
+478,CT Scan - Head
+478,X-Ray - Cervical Spine
+478,Endotracheal Airway
+479,Cardiac Monitoring
+479,CT Scan - Abdomen
+479,Peripheral IV
+479,Oxygen
+479,Pulse Oximetry
+479,Pulse Oximetry
+479,X-Ray - Pelvis
+480,Cardiac Monitoring
+480,CT Scan - Head
+480,Peripheral IV
+480,X-Ray - Chest
+480,X-Ray - Facial Bone
+480,X-Ray - Cervical Spine
+480,X-Ray - Other
+481,Cardiac Monitoring
+481,CT Scan - Cervical Spine
+481,Cervical Spine Collar/Immobilization
+481,Peripheral IV
+481,Pulse Oximetry
+481,X-Ray - Cervical Spine
+482,X-Ray - Cervical Spine
+482,Pulse Oximetry
+482,Pulse Oximetry
+482,X-Ray - Cervical Spine
+482,X-Ray - Chest
+483,Cardiac Monitoring
+483,Gastric Tube
+483,Peripheral IV
+483,Pulse Oximetry
+483,Pulse Oximetry
+483,X-Ray - Cervical Spine
+484,Cardiac Monitoring
+484,Peripheral IV
+484,Pulse Oximetry
+484,X-Ray - Cervical Spine
+484,X-Ray - Pelvis
+485,X-Ray - Cervical Spine
+485,X-Ray - Cervical Spine
+486,Cardiac Monitoring
+486,CT Scan - Head
+486,CT Scan - Head
+486,CT Scan - Head
+486,Pulse Oximetry
+486,X-Ray - Cervical Spine
+486,Blood Drawn
+487,Cardiac Monitoring
+487,CT Scan - Facial Bone
+487,CT Scan - Head
+487,CT Scan - Other
+487,Spinal Immobilization
+487,X-Ray - Cervical Spine
+487,X-Ray - Other
+487,Cardiac Monitoring
+488,Cardiac Monitoring
+488,CT Scan - Head
+488,Cervical Spine Collar/Immobilization
+488,Peripheral IV
+488,Pulse Oximetry
+488,X-Ray - Other
+488,X-Ray - Chest
+489,Cardiac Monitoring
+489,Pulse Oximetry
+489,Pulse Oximetry
+489,Spinal Immobilization
+489,X-Ray - Pelvis
+489,X-Ray - Pelvis
+489,X-Ray - Pelvis
+490,Cardiac Monitoring
+490,CT Scan - Abdomen
+490,Peripheral IV
+490,Spinal Immobilization
+490,X-Ray - Other
+491,Cardiac Monitoring
+491,X-Ray - Cervical Spine
+491,Pulse Oximetry
+491,X-Ray - Chest
+492,Cardiac Monitoring
+492,Peripheral IV
+492,X-Ray - Chest
+492,X-Ray - Cervical Spine
+492,Cardiac Monitoring
+493,Cardiac Monitoring
+493,Oxygen
+493,Pulse Oximetry
+493,X-Ray - Other
+493,X-Ray - Chest
+493,Cardiac Monitoring
+493,X-Ray - Cervical Spine
+494,Cardiac Monitoring
+494,Peripheral IV
+494,Pulse Oximetry
+494,X-Ray - Cervical Spine
+494,X-Ray - Other
+494,X-Ray - Chest
+495,Cardiac Monitoring
+495,Blood Drawn
+495,Pulse Oximetry
+495,X-Ray - Other
+495,X-Ray - Chest
+496,Cardiac Monitoring
+496,CT Scan - Abdomen
+496,CT Scan - Abdomen
+496,Oxygen
+496,Pulse Oximetry
+496,X-Ray - Other
+497,Cardiac Monitoring
+497,Peripheral IV
+497,Peripheral IV
+497,X-Ray - Other
+497,X-Ray - Chest
+498,Cardiac Monitoring
+498,Cardiac Monitoring
+498,Peripheral IV
+498,Peripheral IV
+498,Peripheral IV
+498,X-Ray - Chest
+499,Cardiac Monitoring
+499,Cervical Spine Collar/Immobilization
+499,Peripheral IV
+499,Pulse Oximetry
+499,X-Ray - Chest
+499,X-Ray - Chest
+499,X-Ray - Pelvis

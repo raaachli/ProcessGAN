@@ -1,0 +1,6368 @@
+id,act
+0,Patient Arrival
+0,Airway Verbalized
+0,Pre-Oxygenation Chest Auscultation
+0,BVM
+0,BVM
+0,Critical Window
+0,Laryngoscopy
+0,Critical Window
+0,RSI Sedative Meds
+0,RSI Paralytic Meds
+0,RSI Paralytic Meds
+1,Patient Arrival
+1,NRB
+1,Pre-Oxygenation Chest Auscultation
+1,Pre-Oxygenation Chest Auscultation
+1,Critical Window
+1,BVM
+1,RSI Paralytic Meds
+1,Critical Window
+1,RSI Sedative Meds
+1,Critical Window
+1,Laryngoscopy
+2,Patient Arrival
+2,NRB
+2,Pre-Oxygenation Chest Auscultation
+2,NRB
+2,BVM
+2,Critical Window
+2,Decision to Intubate
+2,Critical Window
+2,BVM
+2,Critical Window
+2,RSI Paralytic Meds
+2,Laryngoscopy
+2,Post-Oxygenation Chest Auscultation
+2,RSI Paralytic Meds
+3,Patient Arrival
+3,Airway Assessment
+3,Pre-Oxygenation Breathing Verbalized
+3,NRB
+3,BVM
+3,RSI Sedative Meds
+3,Intubation Safety Timeout
+3,Decision to Intubate
+3,RSI Sedative Meds
+3,BVM
+3,BVM
+3,Post-Oxygenation Breathing Verbalized
+3,Laryngoscopy
+3,RSI Paralytic Meds
+4,Patient Arrival
+4,NRB
+4,Pre-Oxygenation Breathing Verbalized
+4,Airway Verbalized
+4,Airway Verbalized
+4,Decision to Intubate
+4,BVM
+4,BVM
+4,BVM
+4,BVM
+4,RSI Sedative Meds
+4,RSI Paralytic Meds
+5,Patient Arrival
+5,NRB
+5,Pre-Oxygenation Chest Auscultation
+5,Pre-Oxygenation Chest Auscultation
+5,Decision to Intubate
+5,Critical Window
+5,RSI Sedative Meds
+5,Intubation Safety Timeout
+5,Critical Window
+5,BVM
+5,BVM
+5,Post-Oxygenation Breathing Verbalized
+5,Post-Oxygenation Chest Auscultation
+5,Laryngoscopy
+5,Laryngoscopy
+5,RSI Paralytic Meds
+5,Laryngoscopy
+5,Laryngoscopy
+6,Patient Arrival
+6,Airway Assessment
+6,Pre-Oxygenation Breathing Verbalized
+6,Pre-Oxygenation Chest Auscultation
+6,Airway Verbalized
+6,BVM
+6,BVM
+6,Intubation Safety Timeout
+6,RSI Sedative Meds
+6,RSI Paralytic Meds
+6,RSI Paralytic Meds
+6,BVM
+7,Patient Arrival
+7,NRB
+7,Pre-Oxygenation Breathing Verbalized
+7,Pre-Oxygenation Chest Auscultation
+7,BVM
+7,RSI Sedative Meds
+7,Critical Window
+7,RSI Paralytic Meds
+7,RSI Sedative Meds
+7,RSI Sedative Meds
+7,RSI Sedative Meds
+7,RSI Paralytic Meds
+7,Laryngoscopy
+7,Laryngoscopy
+8,Patient Arrival
+8,Airway Assessment
+8,Pre-Oxygenation Chest Auscultation
+8,Pre-Oxygenation Chest Auscultation
+8,Pre-Oxygenation Breathing Verbalized
+8,Critical Window
+8,BVM
+8,Laryngoscopy
+8,Decision to Intubate
+8,BVM
+8,RSI Paralytic Meds
+8,Laryngoscopy
+9,Patient Arrival
+9,NRB
+9,Pre-Oxygenation Chest Auscultation
+9,Pre-Oxygenation Chest Auscultation
+9,Decision to Intubate
+9,RSI Sedative Meds
+9,BVM
+9,Critical Window
+9,Intubation Safety Timeout
+9,BVM
+9,RSI Paralytic Meds
+9,RSI Paralytic Meds
+9,RSI Paralytic Meds
+10,Patient Arrival
+10,Airway Assessment
+10,Pre-Oxygenation Chest Auscultation
+10,BVM
+10,BVM
+10,Airway Verbalized
+10,Decision to Intubate
+10,Critical Window
+10,BVM
+10,RSI Paralytic Meds
+10,RSI Paralytic Meds
+10,RSI Paralytic Meds
+11,Patient Arrival
+11,Airway Assessment
+11,Pre-Oxygenation Chest Auscultation
+11,Pre-Oxygenation Breathing Verbalized
+11,Airway Verbalized
+11,Pre-Oxygenation Chest Auscultation
+11,BVM
+11,RSI Sedative Meds
+11,BVM
+11,RSI Sedative Meds
+11,RSI Sedative Meds
+12,Patient Arrival
+12,Pre-Oxygenation Chest Auscultation
+12,NRB
+12,Airway Assessment
+12,BVM
+12,BVM
+12,BVM
+12,BVM
+12,RSI Sedative Meds
+12,RSI Sedative Meds
+12,RSI Paralytic Meds
+12,RSI Paralytic Meds
+12,Intubation Safety Timeout
+12,Laryngoscopy
+13,Patient Arrival
+13,NRB
+13,NRB
+13,Pre-Oxygenation Breathing Verbalized
+13,Pre-Oxygenation Chest Auscultation
+13,Critical Window
+13,Intubation Safety Timeout
+13,Critical Window
+13,Critical Window
+13,BVM
+13,RSI Sedative Meds
+14,Patient Arrival
+14,NRB
+14,Pre-Oxygenation Chest Auscultation
+14,Decision to Intubate
+14,Pre-Oxygenation Chest Auscultation
+14,Airway Verbalized
+14,Laryngoscopy
+14,BVM
+14,RSI Sedative Meds
+14,Decision to Intubate
+14,RSI Sedative Meds
+14,Laryngoscopy
+14,RSI Sedative Meds
+14,Laryngoscopy
+14,RSI Paralytic Meds
+14,RSI Paralytic Meds
+14,Laryngoscopy
+14,Laryngoscopy
+15,Airway Assessment
+15,Airway Assessment
+15,Pre-Oxygenation Breathing Verbalized
+15,Pre-Oxygenation Chest Auscultation
+15,Pre-Oxygenation Breathing Verbalized
+15,BVM
+15,Post-Oxygenation Breathing Verbalized
+15,RSI Sedative Meds
+15,RSI Sedative Meds
+15,RSI Paralytic Meds
+15,RSI Sedative Meds
+15,Laryngoscopy
+15,Intubation Safety Timeout
+15,Laryngoscopy
+15,Intubation Safety Timeout
+16,Patient Arrival
+16,Pre-Oxygenation Breathing Verbalized
+16,BVM
+16,BVM
+16,BVM
+16,BVM
+16,BVM
+16,Decision to Intubate
+16,RSI Paralytic Meds
+16,RSI Sedative Meds
+16,Laryngoscopy
+16,Laryngoscopy
+16,RSI Paralytic Meds
+16,Laryngoscopy
+16,RSI Paralytic Meds
+17,Patient Arrival
+17,NRB
+17,Decision to Intubate
+17,Pre-Oxygenation Chest Auscultation
+17,Intubation Safety Timeout
+17,Airway Verbalized
+17,Critical Window
+17,BVM
+17,RSI Sedative Meds
+17,BVM
+17,Laryngoscopy
+17,Laryngoscopy
+17,Post-Oxygenation Chest Auscultation
+17,Laryngoscopy
+17,Laryngoscopy
+17,RSI Paralytic Meds
+18,Patient Arrival
+18,Decision to Intubate
+18,NRB
+18,Pre-Oxygenation Breathing Verbalized
+18,Decision to Intubate
+18,Critical Window
+18,Critical Window
+18,BVM
+18,RSI Sedative Meds
+18,Decision to Intubate
+18,Critical Window
+18,Intubation Safety Timeout
+18,Post-Oxygenation Breathing Verbalized
+18,RSI Paralytic Meds
+18,Post-Oxygenation Chest Auscultation
+18,RSI Paralytic Meds
+19,Patient Arrival
+19,Pre-Oxygenation Breathing Verbalized
+19,Airway Assessment
+19,Critical Window
+19,Airway Verbalized
+19,Critical Window
+19,BVM
+19,RSI Sedative Meds
+19,Decision to Intubate
+19,BVM
+19,BVM
+19,Post-Oxygenation Chest Auscultation
+19,Laryngoscopy
+19,Laryngoscopy
+20,Patient Arrival
+20,Pre-Oxygenation Chest Auscultation
+20,Airway Assessment
+20,Decision to Intubate
+20,Pre-Oxygenation Chest Auscultation
+20,Decision to Intubate
+20,Airway Verbalized
+20,RSI Sedative Meds
+20,BVM
+20,RSI Paralytic Meds
+20,RSI Sedative Meds
+20,Laryngoscopy
+21,Patient Arrival
+21,BVM
+21,Airway Verbalized
+21,BVM
+21,BVM
+21,Intubation Safety Timeout
+21,BVM
+21,Decision to Intubate
+21,RSI Sedative Meds
+21,BVM
+22,Patient Arrival
+22,Airway Assessment
+22,Pre-Oxygenation Chest Auscultation
+22,BVM
+22,Intubation Safety Timeout
+22,Airway Verbalized
+22,BVM
+22,RSI Sedative Meds
+22,RSI Sedative Meds
+22,BVM
+23,NRB
+23,NRB
+23,NRB
+23,Airway Assessment
+23,Decision to Intubate
+23,Airway Verbalized
+23,Decision to Intubate
+23,RSI Sedative Meds
+23,RSI Paralytic Meds
+23,Critical Window
+23,RSI Sedative Meds
+23,Laryngoscopy
+23,Laryngoscopy
+23,Laryngoscopy
+24,Patient Arrival
+24,NRB
+24,Airway Assessment
+24,Pre-Oxygenation Breathing Verbalized
+24,Decision to Intubate
+24,Decision to Intubate
+24,Airway Verbalized
+24,BVM
+24,RSI Sedative Meds
+24,RSI Sedative Meds
+24,RSI Paralytic Meds
+24,Laryngoscopy
+25,Patient Arrival
+25,Pre-Oxygenation Breathing Verbalized
+25,NRB
+25,Pre-Oxygenation Chest Auscultation
+25,Decision to Intubate
+25,Critical Window
+25,BVM
+25,BVM
+25,RSI Sedative Meds
+25,RSI Sedative Meds
+25,RSI Paralytic Meds
+25,Laryngoscopy
+25,Laryngoscopy
+25,Laryngoscopy
+25,Laryngoscopy
+25,RSI Paralytic Meds
+26,Patient Arrival
+26,NRB
+26,Airway Assessment
+26,Pre-Oxygenation Breathing Verbalized
+26,Airway Verbalized
+26,BVM
+26,Pre-Oxygenation Chest Auscultation
+26,RSI Sedative Meds
+26,RSI Sedative Meds
+26,BVM
+26,Laryngoscopy
+26,Post-Oxygenation Chest Auscultation
+26,Laryngoscopy
+27,Patient Arrival
+27,Airway Verbalized
+27,BVM
+27,Pre-Oxygenation Chest Auscultation
+27,Airway Verbalized
+27,Critical Window
+27,Critical Window
+27,RSI Sedative Meds
+27,RSI Sedative Meds
+27,RSI Sedative Meds
+28,Patient Arrival
+28,Patient Arrival
+28,BVM
+28,Pre-Oxygenation Breathing Verbalized
+28,Pre-Oxygenation Breathing Verbalized
+28,RSI Sedative Meds
+28,Laryngoscopy
+28,BVM
+28,RSI Sedative Meds
+28,Intubation Safety Timeout
+28,Laryngoscopy
+29,Patient Arrival
+29,Airway Assessment
+29,NRB
+29,Pre-Oxygenation Chest Auscultation
+29,Pre-Oxygenation Chest Auscultation
+29,Airway Verbalized
+29,BVM
+29,RSI Sedative Meds
+29,RSI Paralytic Meds
+29,RSI Sedative Meds
+30,Patient Arrival
+30,Airway Assessment
+30,Pre-Oxygenation Breathing Verbalized
+30,Pre-Oxygenation Chest Auscultation
+30,Critical Window
+30,Pre-Oxygenation Breathing Verbalized
+30,RSI Sedative Meds
+30,BVM
+30,RSI Sedative Meds
+30,RSI Sedative Meds
+30,RSI Paralytic Meds
+31,Patient Arrival
+31,Airway Assessment
+31,Decision to Intubate
+31,Decision to Intubate
+31,Pre-Oxygenation Chest Auscultation
+31,BVM
+31,Decision to Intubate
+31,Critical Window
+31,RSI Sedative Meds
+31,RSI Sedative Meds
+31,RSI Paralytic Meds
+32,Patient Arrival
+32,NRB
+32,Decision to Intubate
+32,Pre-Oxygenation Breathing Verbalized
+32,Critical Window
+32,Post-Oxygenation Breathing Verbalized
+32,Airway Assessment
+32,RSI Sedative Meds
+32,RSI Sedative Meds
+32,BVM
+32,Intubation Safety Timeout
+32,BVM
+32,RSI Paralytic Meds
+32,Laryngoscopy
+33,Patient Arrival
+33,NRB
+33,Airway Verbalized
+33,Pre-Oxygenation Chest Auscultation
+33,Pre-Oxygenation Chest Auscultation
+33,Pre-Oxygenation Chest Auscultation
+33,Intubation Safety Timeout
+33,Critical Window
+33,RSI Paralytic Meds
+33,RSI Sedative Meds
+33,RSI Paralytic Meds
+34,Patient Arrival
+34,Pre-Oxygenation Chest Auscultation
+34,BVM
+34,Airway Assessment
+34,Decision to Intubate
+34,Airway Verbalized
+34,Critical Window
+34,BVM
+34,Decision to Intubate
+34,RSI Sedative Meds
+34,Critical Window
+34,Laryngoscopy
+34,RSI Paralytic Meds
+35,Patient Arrival
+35,Airway Assessment
+35,Pre-Oxygenation Chest Auscultation
+35,NRB
+35,Decision to Intubate
+35,RSI Sedative Meds
+35,BVM
+35,RSI Sedative Meds
+35,BVM
+35,Intubation Safety Timeout
+35,RSI Paralytic Meds
+35,Laryngoscopy
+35,Laryngoscopy
+35,RSI Sedative Meds
+35,Laryngoscopy
+35,Laryngoscopy
+35,Laryngoscopy
+35,BVM
+36,Patient Arrival
+36,Airway Assessment
+36,Pre-Oxygenation Chest Auscultation
+36,Pre-Oxygenation Chest Auscultation
+36,BVM
+36,RSI Paralytic Meds
+36,Intubation Safety Timeout
+36,RSI Sedative Meds
+36,Pre-Oxygenation Chest Auscultation
+36,RSI Sedative Meds
+36,RSI Sedative Meds
+37,Patient Arrival
+37,NRB
+37,Pre-Oxygenation Chest Auscultation
+37,NRB
+37,Pre-Oxygenation Breathing Verbalized
+37,Critical Window
+37,Critical Window
+37,RSI Paralytic Meds
+37,BVM
+37,RSI Sedative Meds
+37,Laryngoscopy
+37,Post-Oxygenation Chest Auscultation
+37,Laryngoscopy
+38,Patient Arrival
+38,NRB
+38,NRB
+38,Pre-Oxygenation Chest Auscultation
+38,BVM
+38,Intubation Safety Timeout
+38,Critical Window
+38,RSI Paralytic Meds
+38,BVM
+38,BVM
+39,Patient Arrival
+39,NRB
+39,Pre-Oxygenation Chest Auscultation
+39,BVM
+39,Critical Window
+39,Critical Window
+39,Airway Verbalized
+39,RSI Sedative Meds
+39,RSI Sedative Meds
+39,RSI Sedative Meds
+39,RSI Paralytic Meds
+39,Laryngoscopy
+39,Laryngoscopy
+40,Patient Arrival
+40,Patient Arrival
+40,Pre-Oxygenation Breathing Verbalized
+40,Airway Verbalized
+40,BVM
+40,BVM
+40,RSI Sedative Meds
+40,RSI Sedative Meds
+40,Laryngoscopy
+40,RSI Sedative Meds
+41,Airway Assessment
+41,Airway Assessment
+41,Decision to Intubate
+41,Airway Assessment
+41,Pre-Oxygenation Chest Auscultation
+41,RSI Sedative Meds
+41,Critical Window
+41,BVM
+41,Decision to Intubate
+41,RSI Paralytic Meds
+41,RSI Sedative Meds
+42,Patient Arrival
+42,NRB
+42,Airway Assessment
+42,Pre-Oxygenation Chest Auscultation
+42,Pre-Oxygenation Breathing Verbalized
+42,Critical Window
+42,Decision to Intubate
+42,BVM
+42,RSI Sedative Meds
+42,RSI Paralytic Meds
+43,Patient Arrival
+43,NRB
+43,Pre-Oxygenation Breathing Verbalized
+43,Pre-Oxygenation Chest Auscultation
+43,Decision to Intubate
+43,Airway Verbalized
+43,Intubation Safety Timeout
+43,Decision to Intubate
+43,Critical Window
+43,RSI Paralytic Meds
+43,Laryngoscopy
+43,RSI Paralytic Meds
+43,Laryngoscopy
+43,Laryngoscopy
+43,Laryngoscopy
+44,Patient Arrival
+44,NRB
+44,Pre-Oxygenation Chest Auscultation
+44,Airway Verbalized
+44,Airway Verbalized
+44,Pre-Oxygenation Breathing Verbalized
+44,Decision to Intubate
+44,Critical Window
+44,BVM
+44,RSI Paralytic Meds
+44,RSI Paralytic Meds
+44,RSI Paralytic Meds
+44,Laryngoscopy
+45,Patient Arrival
+45,NRB
+45,Pre-Oxygenation Chest Auscultation
+45,Pre-Oxygenation Breathing Verbalized
+45,Pre-Oxygenation Chest Auscultation
+45,BVM
+45,RSI Sedative Meds
+45,Critical Window
+45,RSI Sedative Meds
+45,Critical Window
+45,Laryngoscopy
+45,Laryngoscopy
+46,Patient Arrival
+46,Airway Assessment
+46,NRB
+46,BVM
+46,Pre-Oxygenation Chest Auscultation
+46,Decision to Intubate
+46,Critical Window
+46,RSI Sedative Meds
+46,RSI Sedative Meds
+46,BVM
+46,RSI Sedative Meds
+46,RSI Paralytic Meds
+46,Intubation Safety Timeout
+46,Post-Oxygenation Chest Auscultation
+46,Laryngoscopy
+46,Laryngoscopy
+46,Post-Oxygenation Chest Auscultation
+47,Patient Arrival
+47,NRB
+47,Pre-Oxygenation Breathing Verbalized
+47,NRB
+47,Decision to Intubate
+47,Pre-Oxygenation Chest Auscultation
+47,BVM
+47,Post-Oxygenation Breathing Verbalized
+47,RSI Paralytic Meds
+47,RSI Paralytic Meds
+47,RSI Sedative Meds
+47,BVM
+47,RSI Paralytic Meds
+48,Patient Arrival
+48,Airway Assessment
+48,Pre-Oxygenation Chest Auscultation
+48,Airway Assessment
+48,Airway Verbalized
+48,Pre-Oxygenation Chest Auscultation
+48,RSI Sedative Meds
+48,RSI Sedative Meds
+48,Decision to Intubate
+48,BVM
+48,BVM
+48,Post-Oxygenation Breathing Verbalized
+48,Laryngoscopy
+49,Airway Assessment
+49,NRB
+49,NRB
+49,Airway Assessment
+49,BVM
+49,Intubation Safety Timeout
+49,Laryngoscopy
+49,RSI Paralytic Meds
+49,RSI Sedative Meds
+49,Critical Window
+49,Laryngoscopy
+49,Laryngoscopy
+49,Laryngoscopy
+49,Laryngoscopy
+49,Laryngoscopy
+49,Post-Oxygenation Breathing Verbalized
+49,Laryngoscopy
+49,Post-Oxygenation Breathing Verbalized
+49,Post-Oxygenation Breathing Verbalized
+49,Laryngoscopy
+50,Airway Assessment
+50,NRB
+50,Decision to Intubate
+50,Pre-Oxygenation Breathing Verbalized
+50,Decision to Intubate
+50,BVM
+50,Critical Window
+50,Decision to Intubate
+50,Intubation Safety Timeout
+50,BVM
+50,Laryngoscopy
+51,Patient Arrival
+51,NRB
+51,BVM
+51,Pre-Oxygenation Chest Auscultation
+51,RSI Sedative Meds
+51,BVM
+51,BVM
+51,BVM
+51,RSI Sedative Meds
+51,RSI Paralytic Meds
+52,Patient Arrival
+52,Airway Assessment
+52,Pre-Oxygenation Chest Auscultation
+52,Pre-Oxygenation Chest Auscultation
+52,NRB
+52,Decision to Intubate
+52,BVM
+52,Critical Window
+52,RSI Sedative Meds
+52,RSI Sedative Meds
+53,Patient Arrival
+53,Airway Assessment
+53,NRB
+53,Pre-Oxygenation Breathing Verbalized
+53,BVM
+53,Pre-Oxygenation Chest Auscultation
+53,Critical Window
+53,RSI Sedative Meds
+53,BVM
+53,RSI Sedative Meds
+53,Laryngoscopy
+53,Laryngoscopy
+53,Patient Arrival
+54,Patient Arrival
+54,Airway Assessment
+54,Pre-Oxygenation Breathing Verbalized
+54,NRB
+54,Decision to Intubate
+54,BVM
+54,BVM
+54,Intubation Safety Timeout
+54,BVM
+54,RSI Paralytic Meds
+54,Laryngoscopy
+55,Patient Arrival
+55,NRB
+55,Decision to Intubate
+55,Airway Verbalized
+55,Pre-Oxygenation Chest Auscultation
+55,BVM
+55,RSI Paralytic Meds
+55,RSI Sedative Meds
+55,Critical Window
+55,Critical Window
+55,RSI Sedative Meds
+55,Airway Verbalized
+56,Patient Arrival
+56,NRB
+56,BVM
+56,Pre-Oxygenation Breathing Verbalized
+56,Decision to Intubate
+56,BVM
+56,Decision to Intubate
+56,BVM
+56,BVM
+56,Decision to Intubate
+56,Laryngoscopy
+56,RSI Paralytic Meds
+56,RSI Paralytic Meds
+56,Laryngoscopy
+56,Laryngoscopy
+57,Patient Arrival
+57,Pre-Oxygenation Breathing Verbalized
+57,Pre-Oxygenation Chest Auscultation
+57,Airway Assessment
+57,Pre-Oxygenation Chest Auscultation
+57,Decision to Intubate
+57,BVM
+57,Airway Verbalized
+57,BVM
+57,RSI Paralytic Meds
+57,RSI Sedative Meds
+57,Laryngoscopy
+58,Patient Arrival
+58,Airway Assessment
+58,Pre-Oxygenation Chest Auscultation
+58,Decision to Intubate
+58,Airway Verbalized
+58,Airway Verbalized
+58,BVM
+58,Intubation Safety Timeout
+58,Decision to Intubate
+58,BVM
+58,Laryngoscopy
+58,Laryngoscopy
+59,Patient Arrival
+59,Airway Assessment
+59,NRB
+59,Pre-Oxygenation Breathing Verbalized
+59,Pre-Oxygenation Chest Auscultation
+59,Patient Arrival
+59,RSI Sedative Meds
+59,BVM
+59,BVM
+59,BVM
+59,Laryngoscopy
+59,RSI Paralytic Meds
+59,BVM
+59,Laryngoscopy
+60,Patient Arrival
+60,Airway Assessment
+60,Pre-Oxygenation Breathing Verbalized
+60,Pre-Oxygenation Chest Auscultation
+60,Airway Verbalized
+60,Critical Window
+60,BVM
+60,Intubation Safety Timeout
+60,RSI Sedative Meds
+60,RSI Sedative Meds
+60,RSI Paralytic Meds
+60,Laryngoscopy
+60,Laryngoscopy
+60,Laryngoscopy
+60,Laryngoscopy
+61,Patient Arrival
+61,Pre-Oxygenation Breathing Verbalized
+61,RSI Sedative Meds
+61,RSI Sedative Meds
+61,Decision to Intubate
+61,Intubation Safety Timeout
+61,Intubation Safety Timeout
+61,Critical Window
+61,Decision to Intubate
+61,Critical Window
+61,Airway Verbalized
+61,RSI Paralytic Meds
+61,Post-Oxygenation Breathing Verbalized
+61,RSI Paralytic Meds
+62,Patient Arrival
+62,Airway Assessment
+62,Airway Assessment
+62,Pre-Oxygenation Chest Auscultation
+62,BVM
+62,Critical Window
+62,RSI Sedative Meds
+62,BVM
+62,Decision to Intubate
+62,RSI Sedative Meds
+62,RSI Paralytic Meds
+62,Laryngoscopy
+62,Laryngoscopy
+62,Laryngoscopy
+62,Intubation Safety Timeout
+62,Laryngoscopy
+63,Patient Arrival
+63,Airway Verbalized
+63,Pre-Oxygenation Chest Auscultation
+63,Intubation Safety Timeout
+63,Pre-Oxygenation Breathing Verbalized
+63,Critical Window
+63,RSI Sedative Meds
+63,RSI Sedative Meds
+63,Critical Window
+63,Decision to Intubate
+63,RSI Paralytic Meds
+64,Patient Arrival
+64,Pre-Oxygenation Chest Auscultation
+64,Pre-Oxygenation Chest Auscultation
+64,Pre-Oxygenation Breathing Verbalized
+64,Decision to Intubate
+64,RSI Sedative Meds
+64,RSI Sedative Meds
+64,RSI Sedative Meds
+64,Critical Window
+64,Airway Verbalized
+64,Laryngoscopy
+64,Laryngoscopy
+64,Laryngoscopy
+64,RSI Paralytic Meds
+64,Laryngoscopy
+64,RSI Sedative Meds
+65,Airway Assessment
+65,Airway Assessment
+65,Pre-Oxygenation Chest Auscultation
+65,Airway Verbalized
+65,BVM
+65,Critical Window
+65,BVM
+65,Decision to Intubate
+65,Intubation Safety Timeout
+65,BVM
+65,RSI Paralytic Meds
+65,RSI Sedative Meds
+66,Patient Arrival
+66,NRB
+66,Pre-Oxygenation Breathing Verbalized
+66,NRB
+66,Critical Window
+66,BVM
+66,BVM
+66,BVM
+66,BVM
+66,RSI Paralytic Meds
+66,RSI Sedative Meds
+66,Laryngoscopy
+66,Laryngoscopy
+66,Laryngoscopy
+66,Post-Oxygenation Breathing Verbalized
+66,Post-Oxygenation Breathing Verbalized
+67,Patient Arrival
+67,Airway Assessment
+67,Pre-Oxygenation Chest Auscultation
+67,Pre-Oxygenation Breathing Verbalized
+67,BVM
+67,Critical Window
+67,BVM
+67,BVM
+67,Critical Window
+67,RSI Sedative Meds
+67,RSI Paralytic Meds
+68,Patient Arrival
+68,Airway Assessment
+68,Pre-Oxygenation Chest Auscultation
+68,Pre-Oxygenation Chest Auscultation
+68,Critical Window
+68,RSI Sedative Meds
+68,Critical Window
+68,RSI Sedative Meds
+68,Laryngoscopy
+68,BVM
+68,Laryngoscopy
+68,Laryngoscopy
+68,Laryngoscopy
+69,Patient Arrival
+69,Airway Assessment
+69,Pre-Oxygenation Breathing Verbalized
+69,Pre-Oxygenation Breathing Verbalized
+69,NRB
+69,BVM
+69,Post-Oxygenation Chest Auscultation
+69,BVM
+69,BVM
+69,BVM
+69,RSI Sedative Meds
+70,Patient Arrival
+70,Airway Assessment
+70,Airway Assessment
+70,NRB
+70,Airway Verbalized
+70,BVM
+70,Airway Verbalized
+70,Laryngoscopy
+70,BVM
+70,BVM
+70,RSI Sedative Meds
+70,Post-Oxygenation Chest Auscultation
+70,Laryngoscopy
+70,Post-Oxygenation Breathing Verbalized
+71,Patient Arrival
+71,NRB
+71,Pre-Oxygenation Breathing Verbalized
+71,Decision to Intubate
+71,Pre-Oxygenation Chest Auscultation
+71,Pre-Oxygenation Breathing Verbalized
+71,Critical Window
+71,Critical Window
+71,RSI Sedative Meds
+71,RSI Sedative Meds
+71,RSI Paralytic Meds
+71,Laryngoscopy
+71,Laryngoscopy
+71,Laryngoscopy
+71,Laryngoscopy
+71,Laryngoscopy
+72,Patient Arrival
+72,NRB
+72,Decision to Intubate
+72,Pre-Oxygenation Chest Auscultation
+72,Pre-Oxygenation Chest Auscultation
+72,BVM
+72,Critical Window
+72,RSI Sedative Meds
+72,Decision to Intubate
+72,BVM
+72,RSI Sedative Meds
+73,Patient Arrival
+73,NRB
+73,Pre-Oxygenation Chest Auscultation
+73,NRB
+73,BVM
+73,Critical Window
+73,BVM
+73,RSI Sedative Meds
+73,BVM
+73,RSI Sedative Meds
+73,RSI Sedative Meds
+73,Critical Window
+74,Patient Arrival
+74,Airway Assessment
+74,Airway Verbalized
+74,Pre-Oxygenation Breathing Verbalized
+74,Pre-Oxygenation Chest Auscultation
+74,BVM
+74,Critical Window
+74,BVM
+74,BVM
+74,RSI Sedative Meds
+74,RSI Sedative Meds
+75,Patient Arrival
+75,Pre-Oxygenation Chest Auscultation
+75,Pre-Oxygenation Breathing Verbalized
+75,Pre-Oxygenation Breathing Verbalized
+75,Pre-Oxygenation Breathing Verbalized
+75,Critical Window
+75,BVM
+75,Decision to Intubate
+75,RSI Sedative Meds
+75,Airway Assessment
+75,RSI Sedative Meds
+75,Laryngoscopy
+76,Patient Arrival
+76,Pre-Oxygenation Chest Auscultation
+76,Pre-Oxygenation Chest Auscultation
+76,Airway Verbalized
+76,Airway Verbalized
+76,BVM
+76,BVM
+76,Critical Window
+76,BVM
+76,RSI Sedative Meds
+76,RSI Paralytic Meds
+76,Laryngoscopy
+76,RSI Paralytic Meds
+77,Patient Arrival
+77,Pre-Oxygenation Chest Auscultation
+77,Decision to Intubate
+77,Pre-Oxygenation Breathing Verbalized
+77,Pre-Oxygenation Chest Auscultation
+77,BVM
+77,BVM
+77,BVM
+77,RSI Sedative Meds
+77,RSI Paralytic Meds
+77,Laryngoscopy
+77,Laryngoscopy
+77,Post-Oxygenation Breathing Verbalized
+77,BVM
+77,RSI Paralytic Meds
+77,Post-Oxygenation Chest Auscultation
+78,Patient Arrival
+78,NRB
+78,Decision to Intubate
+78,Decision to Intubate
+78,BVM
+78,BVM
+78,Decision to Intubate
+78,RSI Sedative Meds
+78,RSI Sedative Meds
+78,Pre-Oxygenation Breathing Verbalized
+78,Laryngoscopy
+78,Laryngoscopy
+79,Patient Arrival
+79,NRB
+79,Pre-Oxygenation Breathing Verbalized
+79,Pre-Oxygenation Breathing Verbalized
+79,Decision to Intubate
+79,BVM
+79,Critical Window
+79,BVM
+79,Intubation Safety Timeout
+79,Decision to Intubate
+79,RSI Paralytic Meds
+79,Laryngoscopy
+79,Laryngoscopy
+80,Patient Arrival
+80,NRB
+80,Pre-Oxygenation Chest Auscultation
+80,Pre-Oxygenation Chest Auscultation
+80,BVM
+80,Critical Window
+80,RSI Sedative Meds
+80,RSI Sedative Meds
+80,BVM
+80,RSI Sedative Meds
+80,Intubation Safety Timeout
+80,RSI Paralytic Meds
+80,RSI Sedative Meds
+80,RSI Paralytic Meds
+81,RSI Sedative Meds
+81,NRB
+81,Critical Window
+81,Airway Assessment
+81,BVM
+81,BVM
+81,BVM
+81,BVM
+81,BVM
+81,Intubation Safety Timeout
+81,RSI Sedative Meds
+81,RSI Paralytic Meds
+81,Laryngoscopy
+81,Laryngoscopy
+81,RSI Paralytic Meds
+81,RSI Paralytic Meds
+81,RSI Paralytic Meds
+81,RSI Paralytic Meds
+81,Post-Oxygenation Breathing Verbalized
+82,Patient Arrival
+82,NRB
+82,Pre-Oxygenation Breathing Verbalized
+82,Pre-Oxygenation Chest Auscultation
+82,Decision to Intubate
+82,Intubation Safety Timeout
+82,Decision to Intubate
+82,BVM
+82,Critical Window
+82,BVM
+82,RSI Paralytic Meds
+82,RSI Paralytic Meds
+82,Critical Window
+82,Laryngoscopy
+82,Laryngoscopy
+83,Patient Arrival
+83,NRB
+83,Pre-Oxygenation Chest Auscultation
+83,Pre-Oxygenation Chest Auscultation
+83,Decision to Intubate
+83,Decision to Intubate
+83,RSI Sedative Meds
+83,Intubation Safety Timeout
+83,RSI Sedative Meds
+83,Critical Window
+83,Post-Oxygenation Breathing Verbalized
+83,Laryngoscopy
+84,Patient Arrival
+84,BVM
+84,Airway Verbalized
+84,Pre-Oxygenation Breathing Verbalized
+84,Decision to Intubate
+84,Critical Window
+84,BVM
+84,RSI Sedative Meds
+84,BVM
+84,Critical Window
+85,Patient Arrival
+85,Airway Assessment
+85,Decision to Intubate
+85,Airway Assessment
+85,Airway Verbalized
+85,Airway Verbalized
+85,RSI Sedative Meds
+85,BVM
+85,BVM
+85,RSI Sedative Meds
+85,RSI Paralytic Meds
+85,Laryngoscopy
+86,Patient Arrival
+86,NRB
+86,Pre-Oxygenation Breathing Verbalized
+86,Pre-Oxygenation Breathing Verbalized
+86,BVM
+86,BVM
+86,RSI Sedative Meds
+86,RSI Sedative Meds
+86,RSI Sedative Meds
+86,RSI Paralytic Meds
+86,RSI Paralytic Meds
+87,Patient Arrival
+87,Pre-Oxygenation Breathing Verbalized
+87,Pre-Oxygenation Chest Auscultation
+87,Decision to Intubate
+87,RSI Sedative Meds
+87,BVM
+87,BVM
+87,RSI Paralytic Meds
+87,Critical Window
+87,BVM
+87,BVM
+87,Laryngoscopy
+87,Post-Oxygenation Chest Auscultation
+88,Patient Arrival
+88,Airway Assessment
+88,NRB
+88,Pre-Oxygenation Chest Auscultation
+88,Airway Verbalized
+88,RSI Sedative Meds
+88,BVM
+88,RSI Sedative Meds
+88,RSI Sedative Meds
+88,RSI Sedative Meds
+88,RSI Paralytic Meds
+88,RSI Paralytic Meds
+88,Intubation Safety Timeout
+89,Patient Arrival
+89,Pre-Oxygenation Breathing Verbalized
+89,Pre-Oxygenation Chest Auscultation
+89,Pre-Oxygenation Breathing Verbalized
+89,BVM
+89,BVM
+89,Intubation Safety Timeout
+89,Critical Window
+89,RSI Sedative Meds
+89,RSI Sedative Meds
+89,RSI Paralytic Meds
+90,Patient Arrival
+90,Airway Assessment
+90,Pre-Oxygenation Chest Auscultation
+90,Airway Verbalized
+90,Pre-Oxygenation Breathing Verbalized
+90,RSI Sedative Meds
+90,Critical Window
+90,RSI Sedative Meds
+90,RSI Sedative Meds
+90,RSI Sedative Meds
+90,RSI Sedative Meds
+91,Patient Arrival
+91,NRB
+91,Pre-Oxygenation Breathing Verbalized
+91,Pre-Oxygenation Chest Auscultation
+91,Critical Window
+91,Decision to Intubate
+91,BVM
+91,Decision to Intubate
+91,RSI Paralytic Meds
+91,RSI Paralytic Meds
+91,BVM
+91,RSI Sedative Meds
+92,Patient Arrival
+92,NRB
+92,Decision to Intubate
+92,BVM
+92,Pre-Oxygenation Breathing Verbalized
+92,Airway Verbalized
+92,BVM
+92,Critical Window
+92,BVM
+92,RSI Sedative Meds
+92,Laryngoscopy
+92,RSI Sedative Meds
+92,RSI Paralytic Meds
+92,Laryngoscopy
+92,RSI Paralytic Meds
+92,RSI Paralytic Meds
+93,Patient Arrival
+93,NRB
+93,Decision to Intubate
+93,Pre-Oxygenation Chest Auscultation
+93,Airway Verbalized
+93,BVM
+93,BVM
+93,BVM
+93,RSI Sedative Meds
+93,RSI Sedative Meds
+93,Laryngoscopy
+93,Laryngoscopy
+93,Laryngoscopy
+94,Patient Arrival
+94,NRB
+94,Pre-Oxygenation Breathing Verbalized
+94,Pre-Oxygenation Chest Auscultation
+94,Pre-Oxygenation Chest Auscultation
+94,BVM
+94,Decision to Intubate
+94,RSI Paralytic Meds
+94,Decision to Intubate
+94,RSI Paralytic Meds
+94,RSI Sedative Meds
+94,Intubation Safety Timeout
+94,Laryngoscopy
+94,Laryngoscopy
+94,Laryngoscopy
+94,Laryngoscopy
+94,Laryngoscopy
+95,NRB
+95,Patient Arrival
+95,Pre-Oxygenation Chest Auscultation
+95,Airway Assessment
+95,Airway Verbalized
+95,Airway Verbalized
+95,BVM
+95,RSI Sedative Meds
+95,Decision to Intubate
+95,RSI Sedative Meds
+95,RSI Paralytic Meds
+96,Patient Arrival
+96,Patient Arrival
+96,Critical Window
+96,Pre-Oxygenation Breathing Verbalized
+96,Pre-Oxygenation Chest Auscultation
+96,Intubation Safety Timeout
+96,BVM
+96,BVM
+96,Post-Oxygenation Breathing Verbalized
+96,RSI Paralytic Meds
+96,RSI Sedative Meds
+97,Patient Arrival
+97,Airway Assessment
+97,Decision to Intubate
+97,Pre-Oxygenation Breathing Verbalized
+97,BVM
+97,Critical Window
+97,BVM
+97,Critical Window
+97,RSI Paralytic Meds
+97,BVM
+97,Laryngoscopy
+97,RSI Paralytic Meds
+98,Patient Arrival
+98,NRB
+98,Pre-Oxygenation Breathing Verbalized
+98,Airway Verbalized
+98,Airway Verbalized
+98,NRB
+98,Critical Window
+98,Decision to Intubate
+98,RSI Sedative Meds
+98,Laryngoscopy
+98,Laryngoscopy
+98,BVM
+98,Laryngoscopy
+98,Laryngoscopy
+99,Patient Arrival
+99,Patient Arrival
+99,Decision to Intubate
+99,Airway Verbalized
+99,Airway Verbalized
+99,BVM
+99,Intubation Safety Timeout
+99,Laryngoscopy
+99,RSI Sedative Meds
+99,RSI Sedative Meds
+99,Post-Oxygenation Breathing Verbalized
+99,Laryngoscopy
+100,Patient Arrival
+100,Airway Assessment
+100,Pre-Oxygenation Chest Auscultation
+100,Airway Verbalized
+100,Decision to Intubate
+100,Intubation Safety Timeout
+100,RSI Sedative Meds
+100,RSI Paralytic Meds
+100,RSI Sedative Meds
+100,Critical Window
+100,Laryngoscopy
+100,Laryngoscopy
+101,Patient Arrival
+101,Pre-Oxygenation Chest Auscultation
+101,Pre-Oxygenation Chest Auscultation
+101,Decision to Intubate
+101,Critical Window
+101,BVM
+101,RSI Paralytic Meds
+101,RSI Sedative Meds
+101,RSI Sedative Meds
+101,RSI Paralytic Meds
+101,RSI Sedative Meds
+101,Post-Oxygenation Chest Auscultation
+102,Patient Arrival
+102,NRB
+102,Airway Verbalized
+102,Airway Verbalized
+102,Airway Verbalized
+102,BVM
+102,RSI Sedative Meds
+102,Decision to Intubate
+102,Critical Window
+102,BVM
+103,NRB
+103,Patient Arrival
+103,Pre-Oxygenation Chest Auscultation
+103,Pre-Oxygenation Chest Auscultation
+103,Decision to Intubate
+103,Decision to Intubate
+103,RSI Sedative Meds
+103,BVM
+103,Critical Window
+103,RSI Sedative Meds
+103,BVM
+103,Laryngoscopy
+103,Critical Window
+103,Post-Oxygenation Breathing Verbalized
+103,Post-Oxygenation Breathing Verbalized
+103,RSI Sedative Meds
+104,Patient Arrival
+104,NRB
+104,Airway Assessment
+104,NRB
+104,Pre-Oxygenation Breathing Verbalized
+104,Critical Window
+104,BVM
+104,Decision to Intubate
+104,RSI Sedative Meds
+104,BVM
+104,RSI Sedative Meds
+104,Post-Oxygenation Chest Auscultation
+104,Laryngoscopy
+104,Laryngoscopy
+105,Patient Arrival
+105,NRB
+105,Pre-Oxygenation Breathing Verbalized
+105,Pre-Oxygenation Breathing Verbalized
+105,Pre-Oxygenation Chest Auscultation
+105,RSI Sedative Meds
+105,Decision to Intubate
+105,BVM
+105,Decision to Intubate
+105,BVM
+105,RSI Sedative Meds
+105,Laryngoscopy
+106,Patient Arrival
+106,Airway Assessment
+106,Pre-Oxygenation Breathing Verbalized
+106,Pre-Oxygenation Breathing Verbalized
+106,Critical Window
+106,BVM
+106,RSI Sedative Meds
+106,RSI Sedative Meds
+106,RSI Paralytic Meds
+106,RSI Paralytic Meds
+106,Laryngoscopy
+106,RSI Paralytic Meds
+106,RSI Paralytic Meds
+107,Patient Arrival
+107,Decision to Intubate
+107,Pre-Oxygenation Breathing Verbalized
+107,Pre-Oxygenation Chest Auscultation
+107,Airway Verbalized
+107,BVM
+107,RSI Sedative Meds
+107,RSI Sedative Meds
+107,RSI Sedative Meds
+107,RSI Sedative Meds
+107,RSI Sedative Meds
+107,Laryngoscopy
+108,Patient Arrival
+108,Airway Assessment
+108,Pre-Oxygenation Chest Auscultation
+108,Airway Assessment
+108,Airway Verbalized
+108,Critical Window
+108,BVM
+108,BVM
+108,RSI Sedative Meds
+108,RSI Paralytic Meds
+109,Patient Arrival
+109,Decision to Intubate
+109,Pre-Oxygenation Breathing Verbalized
+109,NRB
+109,Airway Verbalized
+109,Pre-Oxygenation Breathing Verbalized
+109,BVM
+109,Critical Window
+109,BVM
+109,RSI Sedative Meds
+109,RSI Sedative Meds
+110,Patient Arrival
+110,NRB
+110,Critical Window
+110,Pre-Oxygenation Chest Auscultation
+110,Pre-Oxygenation Breathing Verbalized
+110,Critical Window
+110,Intubation Safety Timeout
+110,Laryngoscopy
+110,BVM
+110,Intubation Safety Timeout
+110,Critical Window
+111,Patient Arrival
+111,NRB
+111,Pre-Oxygenation Chest Auscultation
+111,Airway Verbalized
+111,Pre-Oxygenation Chest Auscultation
+111,Critical Window
+111,BVM
+111,RSI Paralytic Meds
+111,RSI Sedative Meds
+111,Critical Window
+111,RSI Sedative Meds
+111,RSI Paralytic Meds
+112,Patient Arrival
+112,Airway Verbalized
+112,BVM
+112,Pre-Oxygenation Chest Auscultation
+112,Decision to Intubate
+112,Airway Verbalized
+112,Intubation Safety Timeout
+112,BVM
+112,BVM
+112,RSI Sedative Meds
+112,RSI Sedative Meds
+112,RSI Sedative Meds
+113,Patient Arrival
+113,NRB
+113,NRB
+113,Pre-Oxygenation Chest Auscultation
+113,Pre-Oxygenation Chest Auscultation
+113,BVM
+113,RSI Paralytic Meds
+113,RSI Sedative Meds
+113,RSI Sedative Meds
+113,RSI Sedative Meds
+113,RSI Paralytic Meds
+113,Post-Oxygenation Chest Auscultation
+113,RSI Sedative Meds
+113,Laryngoscopy
+114,Patient Arrival
+114,NRB
+114,Pre-Oxygenation Breathing Verbalized
+114,Decision to Intubate
+114,Decision to Intubate
+114,Intubation Safety Timeout
+114,RSI Sedative Meds
+114,Critical Window
+114,Decision to Intubate
+114,RSI Sedative Meds
+114,Laryngoscopy
+115,Patient Arrival
+115,Airway Assessment
+115,Decision to Intubate
+115,Pre-Oxygenation Breathing Verbalized
+115,Decision to Intubate
+115,BVM
+115,Decision to Intubate
+115,RSI Sedative Meds
+115,RSI Sedative Meds
+115,BVM
+115,Laryngoscopy
+116,Patient Arrival
+116,Airway Assessment
+116,Airway Verbalized
+116,Pre-Oxygenation Breathing Verbalized
+116,Pre-Oxygenation Chest Auscultation
+116,RSI Sedative Meds
+116,Critical Window
+116,RSI Sedative Meds
+116,RSI Sedative Meds
+116,RSI Sedative Meds
+116,Laryngoscopy
+117,Airway Assessment
+117,Airway Assessment
+117,Pre-Oxygenation Breathing Verbalized
+117,Pre-Oxygenation Breathing Verbalized
+117,Decision to Intubate
+117,BVM
+117,BVM
+117,RSI Sedative Meds
+117,RSI Sedative Meds
+117,BVM
+117,RSI Paralytic Meds
+117,Laryngoscopy
+118,Patient Arrival
+118,NRB
+118,Airway Assessment
+118,Pre-Oxygenation Chest Auscultation
+118,Pre-Oxygenation Breathing Verbalized
+118,Intubation Safety Timeout
+118,Intubation Safety Timeout
+118,Intubation Safety Timeout
+118,RSI Sedative Meds
+118,Critical Window
+118,RSI Sedative Meds
+118,RSI Paralytic Meds
+118,RSI Paralytic Meds
+118,RSI Paralytic Meds
+119,Patient Arrival
+119,Airway Assessment
+119,Pre-Oxygenation Chest Auscultation
+119,Pre-Oxygenation Breathing Verbalized
+119,Decision to Intubate
+119,Critical Window
+119,BVM
+119,Decision to Intubate
+119,RSI Sedative Meds
+119,RSI Sedative Meds
+120,Patient Arrival
+120,NRB
+120,Pre-Oxygenation Breathing Verbalized
+120,Pre-Oxygenation Chest Auscultation
+120,Airway Verbalized
+120,Critical Window
+120,Decision to Intubate
+120,RSI Sedative Meds
+120,RSI Sedative Meds
+120,Critical Window
+120,RSI Paralytic Meds
+121,Patient Arrival
+121,NRB
+121,Pre-Oxygenation Breathing Verbalized
+121,Pre-Oxygenation Chest Auscultation
+121,Airway Assessment
+121,RSI Paralytic Meds
+121,Critical Window
+121,Intubation Safety Timeout
+121,BVM
+121,Critical Window
+121,BVM
+121,Airway Verbalized
+122,Patient Arrival
+122,NRB
+122,Pre-Oxygenation Chest Auscultation
+122,Airway Verbalized
+122,Airway Verbalized
+122,Airway Verbalized
+122,Critical Window
+122,Intubation Safety Timeout
+122,RSI Sedative Meds
+122,RSI Sedative Meds
+122,Patient Arrival
+122,Laryngoscopy
+122,Laryngoscopy
+122,Laryngoscopy
+123,Patient Arrival
+123,Airway Assessment
+123,Decision to Intubate
+123,Pre-Oxygenation Breathing Verbalized
+123,Intubation Safety Timeout
+123,Airway Verbalized
+123,Critical Window
+123,Decision to Intubate
+123,RSI Sedative Meds
+123,Critical Window
+123,Laryngoscopy
+123,Post-Oxygenation Chest Auscultation
+123,RSI Sedative Meds
+124,NRB
+124,NRB
+124,NRB
+124,Pre-Oxygenation Breathing Verbalized
+124,Pre-Oxygenation Chest Auscultation
+124,Pre-Oxygenation Breathing Verbalized
+124,Critical Window
+124,Decision to Intubate
+124,BVM
+124,RSI Paralytic Meds
+124,Post-Oxygenation Breathing Verbalized
+124,RSI Paralytic Meds
+125,Patient Arrival
+125,Airway Assessment
+125,Pre-Oxygenation Chest Auscultation
+125,Pre-Oxygenation Chest Auscultation
+125,BVM
+125,Airway Verbalized
+125,Airway Verbalized
+125,RSI Paralytic Meds
+125,RSI Paralytic Meds
+125,Critical Window
+125,Decision to Intubate
+125,Laryngoscopy
+125,RSI Sedative Meds
+125,Laryngoscopy
+125,Laryngoscopy
+125,Post-Oxygenation Breathing Verbalized
+126,Patient Arrival
+126,NRB
+126,Pre-Oxygenation Chest Auscultation
+126,Decision to Intubate
+126,Decision to Intubate
+126,Intubation Safety Timeout
+126,Pre-Oxygenation Chest Auscultation
+126,BVM
+126,Critical Window
+126,Decision to Intubate
+127,Patient Arrival
+127,Airway Assessment
+127,NRB
+127,BVM
+127,Pre-Oxygenation Breathing Verbalized
+127,RSI Sedative Meds
+127,Airway Verbalized
+127,RSI Sedative Meds
+127,BVM
+127,RSI Sedative Meds
+127,Laryngoscopy
+127,RSI Paralytic Meds
+127,Laryngoscopy
+127,Laryngoscopy
+128,Patient Arrival
+128,NRB
+128,Pre-Oxygenation Chest Auscultation
+128,Pre-Oxygenation Breathing Verbalized
+128,Intubation Safety Timeout
+128,RSI Sedative Meds
+128,Decision to Intubate
+128,Critical Window
+128,RSI Sedative Meds
+128,Intubation Safety Timeout
+128,Laryngoscopy
+128,RSI Sedative Meds
+128,Laryngoscopy
+128,Laryngoscopy
+129,Patient Arrival
+129,NRB
+129,Airway Assessment
+129,Airway Assessment
+129,Decision to Intubate
+129,RSI Sedative Meds
+129,RSI Sedative Meds
+129,BVM
+129,Critical Window
+129,Decision to Intubate
+129,RSI Paralytic Meds
+129,Laryngoscopy
+129,Laryngoscopy
+129,Laryngoscopy
+129,Laryngoscopy
+130,Patient Arrival
+130,Pre-Oxygenation Chest Auscultation
+130,Pre-Oxygenation Chest Auscultation
+130,Airway Assessment
+130,Pre-Oxygenation Breathing Verbalized
+130,Intubation Safety Timeout
+130,Airway Verbalized
+130,BVM
+130,Critical Window
+130,RSI Paralytic Meds
+130,Laryngoscopy
+130,Post-Oxygenation Breathing Verbalized
+130,Laryngoscopy
+131,Patient Arrival
+131,NRB
+131,Decision to Intubate
+131,Pre-Oxygenation Chest Auscultation
+131,Decision to Intubate
+131,Decision to Intubate
+131,Airway Verbalized
+131,RSI Sedative Meds
+131,RSI Paralytic Meds
+131,BVM
+131,RSI Sedative Meds
+132,Patient Arrival
+132,Airway Assessment
+132,Pre-Oxygenation Chest Auscultation
+132,Decision to Intubate
+132,Airway Verbalized
+132,Decision to Intubate
+132,Post-Oxygenation Chest Auscultation
+132,RSI Sedative Meds
+132,Critical Window
+132,RSI Sedative Meds
+132,RSI Sedative Meds
+132,Laryngoscopy
+133,Patient Arrival
+133,Airway Assessment
+133,Airway Verbalized
+133,Pre-Oxygenation Chest Auscultation
+133,BVM
+133,Intubation Safety Timeout
+133,Critical Window
+133,Critical Window
+133,RSI Sedative Meds
+133,RSI Paralytic Meds
+133,RSI Paralytic Meds
+134,Patient Arrival
+134,NRB
+134,NRB
+134,Decision to Intubate
+134,Pre-Oxygenation Chest Auscultation
+134,RSI Sedative Meds
+134,Critical Window
+134,Laryngoscopy
+134,RSI Sedative Meds
+134,Intubation Safety Timeout
+134,RSI Paralytic Meds
+134,Post-Oxygenation Chest Auscultation
+135,Patient Arrival
+135,NRB
+135,BVM
+135,BVM
+135,Decision to Intubate
+135,RSI Paralytic Meds
+135,BVM
+135,RSI Sedative Meds
+135,Intubation Safety Timeout
+135,BVM
+135,RSI Sedative Meds
+135,Laryngoscopy
+135,Laryngoscopy
+135,Laryngoscopy
+136,Patient Arrival
+136,Airway Assessment
+136,BVM
+136,Pre-Oxygenation Chest Auscultation
+136,RSI Sedative Meds
+136,Critical Window
+136,BVM
+136,Decision to Intubate
+136,RSI Sedative Meds
+136,RSI Sedative Meds
+136,Laryngoscopy
+136,RSI Paralytic Meds
+137,Patient Arrival
+137,NRB
+137,Pre-Oxygenation Chest Auscultation
+137,Decision to Intubate
+137,Airway Verbalized
+137,BVM
+137,RSI Paralytic Meds
+137,Critical Window
+137,RSI Sedative Meds
+137,Critical Window
+137,BVM
+137,Laryngoscopy
+137,Laryngoscopy
+137,RSI Paralytic Meds
+138,Patient Arrival
+138,Pre-Oxygenation Breathing Verbalized
+138,Pre-Oxygenation Chest Auscultation
+138,Pre-Oxygenation Chest Auscultation
+138,BVM
+138,Critical Window
+138,BVM
+138,RSI Sedative Meds
+138,RSI Sedative Meds
+138,Critical Window
+138,RSI Paralytic Meds
+138,Laryngoscopy
+138,RSI Paralytic Meds
+138,Laryngoscopy
+138,Laryngoscopy
+138,Laryngoscopy
+138,Laryngoscopy
+138,Post-Oxygenation Chest Auscultation
+138,Post-Oxygenation Breathing Verbalized
+139,Patient Arrival
+139,Pre-Oxygenation Chest Auscultation
+139,Airway Assessment
+139,NRB
+139,Intubation Safety Timeout
+139,Decision to Intubate
+139,Critical Window
+139,Laryngoscopy
+139,RSI Paralytic Meds
+139,BVM
+139,RSI Paralytic Meds
+139,RSI Paralytic Meds
+139,RSI Paralytic Meds
+139,Laryngoscopy
+140,Patient Arrival
+140,Airway Assessment
+140,NRB
+140,Pre-Oxygenation Breathing Verbalized
+140,Airway Assessment
+140,Airway Verbalized
+140,Critical Window
+140,BVM
+140,BVM
+140,BVM
+140,RSI Paralytic Meds
+140,Laryngoscopy
+140,Laryngoscopy
+140,Airway Verbalized
+141,Patient Arrival
+141,Patient Arrival
+141,Decision to Intubate
+141,Pre-Oxygenation Chest Auscultation
+141,BVM
+141,RSI Sedative Meds
+141,BVM
+141,Decision to Intubate
+141,BVM
+141,RSI Sedative Meds
+141,Intubation Safety Timeout
+141,Laryngoscopy
+141,Laryngoscopy
+141,Laryngoscopy
+142,Patient Arrival
+142,NRB
+142,Pre-Oxygenation Breathing Verbalized
+142,Pre-Oxygenation Breathing Verbalized
+142,Decision to Intubate
+142,RSI Sedative Meds
+142,Laryngoscopy
+142,Critical Window
+142,Critical Window
+142,BVM
+142,Laryngoscopy
+142,RSI Paralytic Meds
+142,Laryngoscopy
+143,Patient Arrival
+143,Patient Arrival
+143,Decision to Intubate
+143,BVM
+143,Critical Window
+143,Pre-Oxygenation Breathing Verbalized
+143,Decision to Intubate
+143,BVM
+143,Critical Window
+143,RSI Sedative Meds
+143,Laryngoscopy
+143,RSI Sedative Meds
+143,Intubation Safety Timeout
+143,RSI Paralytic Meds
+144,Patient Arrival
+144,Pre-Oxygenation Breathing Verbalized
+144,Pre-Oxygenation Chest Auscultation
+144,Airway Assessment
+144,Pre-Oxygenation Chest Auscultation
+144,BVM
+144,BVM
+144,Decision to Intubate
+144,RSI Sedative Meds
+144,Intubation Safety Timeout
+145,Airway Assessment
+145,NRB
+145,Pre-Oxygenation Chest Auscultation
+145,Airway Verbalized
+145,Critical Window
+145,BVM
+145,Intubation Safety Timeout
+145,Critical Window
+145,Decision to Intubate
+145,BVM
+145,Laryngoscopy
+145,Post-Oxygenation Chest Auscultation
+145,RSI Paralytic Meds
+146,Patient Arrival
+146,NRB
+146,Pre-Oxygenation Chest Auscultation
+146,Pre-Oxygenation Chest Auscultation
+146,Critical Window
+146,BVM
+146,Critical Window
+146,RSI Sedative Meds
+146,BVM
+146,Critical Window
+146,RSI Sedative Meds
+146,Laryngoscopy
+147,Patient Arrival
+147,NRB
+147,Critical Window
+147,Decision to Intubate
+147,RSI Sedative Meds
+147,Decision to Intubate
+147,Decision to Intubate
+147,Critical Window
+147,RSI Sedative Meds
+147,Critical Window
+147,RSI Sedative Meds
+147,RSI Paralytic Meds
+148,Patient Arrival
+148,NRB
+148,Decision to Intubate
+148,RSI Sedative Meds
+148,Pre-Oxygenation Chest Auscultation
+148,Critical Window
+148,Critical Window
+148,RSI Sedative Meds
+148,BVM
+148,Critical Window
+148,RSI Paralytic Meds
+149,Patient Arrival
+149,Decision to Intubate
+149,Pre-Oxygenation Chest Auscultation
+149,Pre-Oxygenation Breathing Verbalized
+149,Decision to Intubate
+149,Critical Window
+149,RSI Sedative Meds
+149,RSI Sedative Meds
+149,RSI Sedative Meds
+149,RSI Paralytic Meds
+149,RSI Sedative Meds
+149,RSI Sedative Meds
+149,Laryngoscopy
+149,Laryngoscopy
+149,Laryngoscopy
+149,RSI Paralytic Meds
+150,Patient Arrival
+150,Airway Assessment
+150,Pre-Oxygenation Breathing Verbalized
+150,Pre-Oxygenation Chest Auscultation
+150,Airway Verbalized
+150,Decision to Intubate
+150,Pre-Oxygenation Breathing Verbalized
+150,Critical Window
+150,Critical Window
+150,RSI Sedative Meds
+150,RSI Sedative Meds
+151,Patient Arrival
+151,NRB
+151,Airway Verbalized
+151,Decision to Intubate
+151,Decision to Intubate
+151,RSI Sedative Meds
+151,RSI Sedative Meds
+151,BVM
+151,RSI Sedative Meds
+151,RSI Sedative Meds
+151,RSI Paralytic Meds
+151,Laryngoscopy
+151,Post-Oxygenation Chest Auscultation
+152,Patient Arrival
+152,Pre-Oxygenation Chest Auscultation
+152,Pre-Oxygenation Chest Auscultation
+152,Decision to Intubate
+152,Decision to Intubate
+152,BVM
+152,RSI Sedative Meds
+152,Decision to Intubate
+152,BVM
+152,Critical Window
+152,Critical Window
+153,Patient Arrival
+153,NRB
+153,Pre-Oxygenation Chest Auscultation
+153,Airway Assessment
+153,Decision to Intubate
+153,Decision to Intubate
+153,Critical Window
+153,Critical Window
+153,RSI Sedative Meds
+153,Laryngoscopy
+153,Laryngoscopy
+154,Patient Arrival
+154,NRB
+154,Pre-Oxygenation Breathing Verbalized
+154,Pre-Oxygenation Breathing Verbalized
+154,Intubation Safety Timeout
+154,Critical Window
+154,Critical Window
+154,Pre-Oxygenation Chest Auscultation
+154,RSI Sedative Meds
+154,BVM
+154,RSI Paralytic Meds
+154,Laryngoscopy
+154,Post-Oxygenation Breathing Verbalized
+154,Laryngoscopy
+155,Patient Arrival
+155,NRB
+155,Pre-Oxygenation Chest Auscultation
+155,Pre-Oxygenation Breathing Verbalized
+155,Decision to Intubate
+155,BVM
+155,Decision to Intubate
+155,Intubation Safety Timeout
+155,RSI Sedative Meds
+155,Laryngoscopy
+155,BVM
+156,Patient Arrival
+156,Airway Assessment
+156,Airway Verbalized
+156,Pre-Oxygenation Chest Auscultation
+156,Decision to Intubate
+156,Critical Window
+156,Critical Window
+156,BVM
+156,BVM
+156,RSI Sedative Meds
+157,Patient Arrival
+157,Patient Arrival
+157,Pre-Oxygenation Chest Auscultation
+157,Pre-Oxygenation Chest Auscultation
+157,Airway Verbalized
+157,Critical Window
+157,Decision to Intubate
+157,Critical Window
+157,RSI Sedative Meds
+157,RSI Sedative Meds
+157,Laryngoscopy
+158,Patient Arrival
+158,Pre-Oxygenation Breathing Verbalized
+158,Airway Assessment
+158,Pre-Oxygenation Chest Auscultation
+158,BVM
+158,BVM
+158,Critical Window
+158,Airway Verbalized
+158,RSI Sedative Meds
+158,Airway Assessment
+158,RSI Paralytic Meds
+158,Laryngoscopy
+158,BVM
+158,Laryngoscopy
+159,Patient Arrival
+159,Airway Assessment
+159,Pre-Oxygenation Chest Auscultation
+159,Decision to Intubate
+159,Critical Window
+159,Decision to Intubate
+159,RSI Sedative Meds
+159,Critical Window
+159,RSI Sedative Meds
+159,Critical Window
+159,RSI Sedative Meds
+159,RSI Paralytic Meds
+159,Post-Oxygenation Breathing Verbalized
+159,Laryngoscopy
+159,Critical Window
+159,RSI Paralytic Meds
+159,RSI Paralytic Meds
+159,RSI Paralytic Meds
+159,Post-Oxygenation Breathing Verbalized
+159,Laryngoscopy
+160,Patient Arrival
+160,Airway Assessment
+160,Pre-Oxygenation Breathing Verbalized
+160,NRB
+160,Pre-Oxygenation Chest Auscultation
+160,Airway Verbalized
+160,BVM
+160,BVM
+160,Critical Window
+160,BVM
+160,RSI Sedative Meds
+161,Patient Arrival
+161,NRB
+161,Pre-Oxygenation Breathing Verbalized
+161,Decision to Intubate
+161,Decision to Intubate
+161,BVM
+161,BVM
+161,RSI Sedative Meds
+161,BVM
+161,RSI Sedative Meds
+161,RSI Paralytic Meds
+161,Laryngoscopy
+161,Laryngoscopy
+162,Patient Arrival
+162,Airway Assessment
+162,Decision to Intubate
+162,Airway Assessment
+162,RSI Sedative Meds
+162,Critical Window
+162,RSI Sedative Meds
+162,RSI Sedative Meds
+162,RSI Sedative Meds
+162,RSI Sedative Meds
+162,RSI Sedative Meds
+162,Laryngoscopy
+163,Patient Arrival
+163,NRB
+163,Decision to Intubate
+163,Decision to Intubate
+163,Decision to Intubate
+163,Critical Window
+163,BVM
+163,BVM
+163,RSI Sedative Meds
+163,Critical Window
+163,Laryngoscopy
+163,Post-Oxygenation Chest Auscultation
+163,Laryngoscopy
+164,Patient Arrival
+164,NRB
+164,Decision to Intubate
+164,Pre-Oxygenation Breathing Verbalized
+164,Decision to Intubate
+164,Airway Verbalized
+164,RSI Sedative Meds
+164,BVM
+164,RSI Sedative Meds
+164,RSI Sedative Meds
+164,RSI Sedative Meds
+164,Laryngoscopy
+165,Patient Arrival
+165,Pre-Oxygenation Breathing Verbalized
+165,Pre-Oxygenation Chest Auscultation
+165,Airway Verbalized
+165,BVM
+165,RSI Sedative Meds
+165,BVM
+165,BVM
+165,BVM
+165,RSI Sedative Meds
+166,Patient Arrival
+166,Pre-Oxygenation Breathing Verbalized
+166,Decision to Intubate
+166,Pre-Oxygenation Chest Auscultation
+166,Decision to Intubate
+166,RSI Sedative Meds
+166,Decision to Intubate
+166,BVM
+166,Decision to Intubate
+166,RSI Sedative Meds
+166,RSI Paralytic Meds
+166,RSI Paralytic Meds
+167,Patient Arrival
+167,NRB
+167,NRB
+167,Decision to Intubate
+167,RSI Sedative Meds
+167,Intubation Safety Timeout
+167,Decision to Intubate
+167,Decision to Intubate
+167,BVM
+167,RSI Paralytic Meds
+167,Intubation Safety Timeout
+167,RSI Paralytic Meds
+167,Post-Oxygenation Breathing Verbalized
+167,Laryngoscopy
+168,Patient Arrival
+168,NRB
+168,Pre-Oxygenation Chest Auscultation
+168,Pre-Oxygenation Breathing Verbalized
+168,Pre-Oxygenation Chest Auscultation
+168,BVM
+168,BVM
+168,BVM
+168,RSI Paralytic Meds
+168,RSI Paralytic Meds
+168,Laryngoscopy
+168,Post-Oxygenation Chest Auscultation
+168,Laryngoscopy
+169,Patient Arrival
+169,Patient Arrival
+169,Decision to Intubate
+169,Pre-Oxygenation Chest Auscultation
+169,BVM
+169,Decision to Intubate
+169,RSI Sedative Meds
+169,RSI Sedative Meds
+169,RSI Sedative Meds
+169,RSI Paralytic Meds
+169,RSI Sedative Meds
+170,Patient Arrival
+170,Patient Arrival
+170,Decision to Intubate
+170,Critical Window
+170,Decision to Intubate
+170,Intubation Safety Timeout
+170,Pre-Oxygenation Chest Auscultation
+170,Critical Window
+170,Critical Window
+170,BVM
+170,RSI Sedative Meds
+171,Patient Arrival
+171,NRB
+171,Decision to Intubate
+171,NRB
+171,BVM
+171,NRB
+171,RSI Sedative Meds
+171,RSI Sedative Meds
+171,Critical Window
+171,RSI Sedative Meds
+171,Post-Oxygenation Breathing Verbalized
+171,RSI Paralytic Meds
+171,Decision to Intubate
+171,Laryngoscopy
+172,Patient Arrival
+172,Pre-Oxygenation Chest Auscultation
+172,Pre-Oxygenation Breathing Verbalized
+172,Airway Verbalized
+172,Critical Window
+172,Decision to Intubate
+172,BVM
+172,Critical Window
+172,Decision to Intubate
+172,BVM
+172,RSI Paralytic Meds
+172,Post-Oxygenation Breathing Verbalized
+172,Post-Oxygenation Chest Auscultation
+172,Laryngoscopy
+172,Laryngoscopy
+172,RSI Paralytic Meds
+173,Patient Arrival
+173,NRB
+173,Pre-Oxygenation Breathing Verbalized
+173,NRB
+173,Decision to Intubate
+173,RSI Sedative Meds
+173,BVM
+173,BVM
+173,RSI Paralytic Meds
+173,RSI Paralytic Meds
+173,RSI Paralytic Meds
+173,Laryngoscopy
+173,Laryngoscopy
+173,RSI Paralytic Meds
+174,Patient Arrival
+174,NRB
+174,Pre-Oxygenation Chest Auscultation
+174,Critical Window
+174,BVM
+174,Critical Window
+174,Critical Window
+174,Critical Window
+174,BVM
+174,RSI Paralytic Meds
+174,RSI Paralytic Meds
+175,Patient Arrival
+175,NRB
+175,NRB
+175,Decision to Intubate
+175,Pre-Oxygenation Chest Auscultation
+175,Post-Oxygenation Chest Auscultation
+175,Decision to Intubate
+175,RSI Sedative Meds
+175,RSI Paralytic Meds
+175,Critical Window
+175,Laryngoscopy
+176,Patient Arrival
+176,NRB
+176,Airway Assessment
+176,Pre-Oxygenation Chest Auscultation
+176,BVM
+176,RSI Sedative Meds
+176,Intubation Safety Timeout
+176,Intubation Safety Timeout
+176,RSI Sedative Meds
+176,RSI Sedative Meds
+176,RSI Paralytic Meds
+176,Laryngoscopy
+177,Airway Assessment
+177,NRB
+177,Pre-Oxygenation Chest Auscultation
+177,Pre-Oxygenation Breathing Verbalized
+177,Decision to Intubate
+177,BVM
+177,Decision to Intubate
+177,Critical Window
+177,BVM
+177,Decision to Intubate
+177,RSI Paralytic Meds
+177,BVM
+177,RSI Paralytic Meds
+177,Laryngoscopy
+178,Patient Arrival
+178,Airway Assessment
+178,BVM
+178,Pre-Oxygenation Chest Auscultation
+178,BVM
+178,RSI Sedative Meds
+178,BVM
+178,BVM
+178,RSI Paralytic Meds
+178,RSI Sedative Meds
+178,Laryngoscopy
+178,Laryngoscopy
+179,Post-Oxygenation Breathing Verbalized
+179,NRB
+179,Pre-Oxygenation Chest Auscultation
+179,Airway Assessment
+179,Critical Window
+179,BVM
+179,Decision to Intubate
+179,Post-Oxygenation Chest Auscultation
+179,RSI Paralytic Meds
+179,RSI Sedative Meds
+179,Laryngoscopy
+179,Laryngoscopy
+179,Laryngoscopy
+180,Patient Arrival
+180,NRB
+180,Decision to Intubate
+180,NRB
+180,Critical Window
+180,Airway Verbalized
+180,Critical Window
+180,RSI Sedative Meds
+180,BVM
+180,BVM
+180,RSI Sedative Meds
+180,Laryngoscopy
+180,Post-Oxygenation Breathing Verbalized
+180,Post-Oxygenation Breathing Verbalized
+181,Patient Arrival
+181,NRB
+181,Pre-Oxygenation Chest Auscultation
+181,Airway Assessment
+181,Decision to Intubate
+181,RSI Sedative Meds
+181,Decision to Intubate
+181,RSI Sedative Meds
+181,RSI Sedative Meds
+181,Critical Window
+181,Laryngoscopy
+181,Laryngoscopy
+182,Patient Arrival
+182,BVM
+182,Airway Assessment
+182,Airway Assessment
+182,Airway Verbalized
+182,Airway Verbalized
+182,RSI Sedative Meds
+182,RSI Sedative Meds
+182,Critical Window
+182,BVM
+182,Laryngoscopy
+183,Patient Arrival
+183,NRB
+183,Pre-Oxygenation Breathing Verbalized
+183,Pre-Oxygenation Breathing Verbalized
+183,NRB
+183,RSI Sedative Meds
+183,RSI Sedative Meds
+183,Critical Window
+183,Post-Oxygenation Breathing Verbalized
+183,Critical Window
+183,Laryngoscopy
+183,RSI Paralytic Meds
+184,Patient Arrival
+184,NRB
+184,Pre-Oxygenation Breathing Verbalized
+184,NRB
+184,Decision to Intubate
+184,Decision to Intubate
+184,Critical Window
+184,Critical Window
+184,RSI Sedative Meds
+184,RSI Sedative Meds
+184,Laryngoscopy
+184,Post-Oxygenation Breathing Verbalized
+184,RSI Paralytic Meds
+185,Patient Arrival
+185,NRB
+185,Pre-Oxygenation Breathing Verbalized
+185,Airway Assessment
+185,BVM
+185,Intubation Safety Timeout
+185,Critical Window
+185,Critical Window
+185,Critical Window
+185,RSI Paralytic Meds
+185,RSI Sedative Meds
+185,Laryngoscopy
+186,Patient Arrival
+186,NRB
+186,Airway Assessment
+186,Airway Assessment
+186,NRB
+186,Decision to Intubate
+186,Critical Window
+186,BVM
+186,BVM
+186,Decision to Intubate
+186,RSI Sedative Meds
+186,RSI Sedative Meds
+187,Patient Arrival
+187,NRB
+187,Decision to Intubate
+187,Pre-Oxygenation Breathing Verbalized
+187,Critical Window
+187,Decision to Intubate
+187,Critical Window
+187,BVM
+187,BVM
+187,RSI Paralytic Meds
+187,RSI Sedative Meds
+188,Patient Arrival
+188,NRB
+188,Pre-Oxygenation Chest Auscultation
+188,Pre-Oxygenation Breathing Verbalized
+188,Pre-Oxygenation Chest Auscultation
+188,Intubation Safety Timeout
+188,Laryngoscopy
+188,RSI Sedative Meds
+188,RSI Sedative Meds
+188,BVM
+188,RSI Paralytic Meds
+188,Laryngoscopy
+188,Laryngoscopy
+188,Laryngoscopy
+188,Laryngoscopy
+188,Critical Window
+188,Patient Arrival
+188,Laryngoscopy
+188,Laryngoscopy
+188,Laryngoscopy
+188,Laryngoscopy
+189,Patient Arrival
+189,NRB
+189,Decision to Intubate
+189,Pre-Oxygenation Breathing Verbalized
+189,Pre-Oxygenation Chest Auscultation
+189,Intubation Safety Timeout
+189,BVM
+189,Critical Window
+189,BVM
+189,Intubation Safety Timeout
+189,RSI Sedative Meds
+189,Laryngoscopy
+189,Laryngoscopy
+190,Patient Arrival
+190,Airway Verbalized
+190,Pre-Oxygenation Breathing Verbalized
+190,Critical Window
+190,Airway Verbalized
+190,BVM
+190,Airway Verbalized
+190,RSI Sedative Meds
+190,RSI Sedative Meds
+190,RSI Sedative Meds
+190,RSI Paralytic Meds
+190,Post-Oxygenation Chest Auscultation
+190,Laryngoscopy
+190,Laryngoscopy
+190,RSI Paralytic Meds
+190,Post-Oxygenation Chest Auscultation
+191,Patient Arrival
+191,NRB
+191,NRB
+191,Airway Verbalized
+191,BVM
+191,RSI Sedative Meds
+191,Critical Window
+191,BVM
+191,BVM
+191,RSI Sedative Meds
+191,RSI Sedative Meds
+192,Patient Arrival
+192,NRB
+192,Pre-Oxygenation Breathing Verbalized
+192,Pre-Oxygenation Chest Auscultation
+192,Decision to Intubate
+192,RSI Paralytic Meds
+192,Airway Verbalized
+192,BVM
+192,BVM
+192,RSI Sedative Meds
+193,Patient Arrival
+193,NRB
+193,Pre-Oxygenation Breathing Verbalized
+193,Pre-Oxygenation Chest Auscultation
+193,RSI Sedative Meds
+193,RSI Sedative Meds
+193,Intubation Safety Timeout
+193,RSI Sedative Meds
+193,RSI Sedative Meds
+193,RSI Sedative Meds
+193,Intubation Safety Timeout
+193,RSI Paralytic Meds
+194,Patient Arrival
+194,NRB
+194,NRB
+194,Airway Verbalized
+194,BVM
+194,BVM
+194,BVM
+194,Critical Window
+194,BVM
+194,RSI Sedative Meds
+194,Laryngoscopy
+195,Patient Arrival
+195,Airway Assessment
+195,Airway Verbalized
+195,Pre-Oxygenation Breathing Verbalized
+195,Critical Window
+195,Critical Window
+195,Critical Window
+195,BVM
+195,Decision to Intubate
+195,BVM
+195,RSI Paralytic Meds
+196,Patient Arrival
+196,Pre-Oxygenation Breathing Verbalized
+196,Pre-Oxygenation Chest Auscultation
+196,Pre-Oxygenation Breathing Verbalized
+196,BVM
+196,Airway Verbalized
+196,BVM
+196,Critical Window
+196,Laryngoscopy
+196,RSI Sedative Meds
+196,RSI Paralytic Meds
+197,Patient Arrival
+197,Airway Verbalized
+197,Airway Assessment
+197,NRB
+197,Airway Verbalized
+197,BVM
+197,Critical Window
+197,RSI Paralytic Meds
+197,Critical Window
+197,BVM
+197,RSI Sedative Meds
+198,Patient Arrival
+198,Patient Arrival
+198,Pre-Oxygenation Chest Auscultation
+198,NRB
+198,Critical Window
+198,RSI Sedative Meds
+198,Airway Verbalized
+198,Intubation Safety Timeout
+198,BVM
+198,BVM
+198,Post-Oxygenation Breathing Verbalized
+198,Laryngoscopy
+198,Laryngoscopy
+198,Critical Window
+198,RSI Paralytic Meds
+198,RSI Paralytic Meds
+199,Patient Arrival
+199,NRB
+199,Pre-Oxygenation Chest Auscultation
+199,Pre-Oxygenation Chest Auscultation
+199,RSI Sedative Meds
+199,BVM
+199,Post-Oxygenation Chest Auscultation
+199,RSI Sedative Meds
+199,Critical Window
+199,BVM
+199,RSI Paralytic Meds
+199,RSI Paralytic Meds
+200,NRB
+200,NRB
+200,NRB
+200,Decision to Intubate
+200,Pre-Oxygenation Breathing Verbalized
+200,BVM
+200,BVM
+200,Intubation Safety Timeout
+200,RSI Sedative Meds
+200,RSI Paralytic Meds
+200,RSI Paralytic Meds
+201,Patient Arrival
+201,NRB
+201,BVM
+201,Pre-Oxygenation Breathing Verbalized
+201,Critical Window
+201,Pre-Oxygenation Breathing Verbalized
+201,Critical Window
+201,Critical Window
+201,Decision to Intubate
+201,BVM
+201,RSI Sedative Meds
+201,Post-Oxygenation Chest Auscultation
+201,Laryngoscopy
+202,Patient Arrival
+202,Airway Assessment
+202,NRB
+202,Decision to Intubate
+202,BVM
+202,BVM
+202,Critical Window
+202,RSI Sedative Meds
+202,BVM
+202,Intubation Safety Timeout
+203,Patient Arrival
+203,NRB
+203,Pre-Oxygenation Chest Auscultation
+203,Pre-Oxygenation Breathing Verbalized
+203,Decision to Intubate
+203,RSI Sedative Meds
+203,Critical Window
+203,BVM
+203,RSI Sedative Meds
+203,Critical Window
+203,RSI Sedative Meds
+203,Laryngoscopy
+203,Laryngoscopy
+203,Laryngoscopy
+204,Patient Arrival
+204,NRB
+204,Decision to Intubate
+204,Airway Verbalized
+204,Pre-Oxygenation Chest Auscultation
+204,BVM
+204,BVM
+204,BVM
+204,RSI Sedative Meds
+204,RSI Sedative Meds
+204,Post-Oxygenation Breathing Verbalized
+204,Laryngoscopy
+205,Patient Arrival
+205,NRB
+205,Pre-Oxygenation Chest Auscultation
+205,Pre-Oxygenation Chest Auscultation
+205,Airway Verbalized
+205,BVM
+205,Critical Window
+205,BVM
+205,RSI Paralytic Meds
+205,Intubation Safety Timeout
+205,RSI Paralytic Meds
+205,Laryngoscopy
+205,Laryngoscopy
+206,Patient Arrival
+206,Airway Assessment
+206,Pre-Oxygenation Chest Auscultation
+206,Decision to Intubate
+206,Critical Window
+206,Critical Window
+206,Pre-Oxygenation Chest Auscultation
+206,Laryngoscopy
+206,BVM
+206,RSI Sedative Meds
+206,Laryngoscopy
+206,Laryngoscopy
+206,RSI Paralytic Meds
+206,RSI Paralytic Meds
+206,Laryngoscopy
+206,RSI Paralytic Meds
+206,Laryngoscopy
+207,NRB
+207,Airway Assessment
+207,Pre-Oxygenation Chest Auscultation
+207,Decision to Intubate
+207,Decision to Intubate
+207,Intubation Safety Timeout
+207,RSI Sedative Meds
+207,BVM
+207,RSI Paralytic Meds
+207,RSI Sedative Meds
+207,RSI Sedative Meds
+207,Post-Oxygenation Chest Auscultation
+208,Patient Arrival
+208,Pre-Oxygenation Chest Auscultation
+208,Airway Assessment
+208,BVM
+208,Critical Window
+208,Critical Window
+208,RSI Sedative Meds
+208,RSI Sedative Meds
+208,RSI Sedative Meds
+208,RSI Paralytic Meds
+209,Patient Arrival
+209,NRB
+209,NRB
+209,Pre-Oxygenation Chest Auscultation
+209,BVM
+209,BVM
+209,BVM
+209,Laryngoscopy
+209,BVM
+209,BVM
+209,RSI Paralytic Meds
+209,Post-Oxygenation Breathing Verbalized
+209,Laryngoscopy
+209,Laryngoscopy
+209,RSI Paralytic Meds
+210,Patient Arrival
+210,Airway Assessment
+210,NRB
+210,NRB
+210,Critical Window
+210,RSI Sedative Meds
+210,Intubation Safety Timeout
+210,BVM
+210,BVM
+210,RSI Sedative Meds
+210,RSI Sedative Meds
+210,Laryngoscopy
+210,Laryngoscopy
+211,Patient Arrival
+211,Patient Arrival
+211,Pre-Oxygenation Breathing Verbalized
+211,Pre-Oxygenation Breathing Verbalized
+211,Pre-Oxygenation Chest Auscultation
+211,BVM
+211,RSI Sedative Meds
+211,BVM
+211,RSI Paralytic Meds
+211,RSI Sedative Meds
+211,RSI Paralytic Meds
+211,Post-Oxygenation Chest Auscultation
+211,RSI Paralytic Meds
+211,RSI Paralytic Meds
+211,Laryngoscopy
+212,Patient Arrival
+212,NRB
+212,Pre-Oxygenation Chest Auscultation
+212,Pre-Oxygenation Chest Auscultation
+212,Decision to Intubate
+212,Critical Window
+212,Critical Window
+212,Decision to Intubate
+212,BVM
+212,BVM
+212,RSI Paralytic Meds
+213,Airway Verbalized
+213,NRB
+213,NRB
+213,Airway Assessment
+213,Pre-Oxygenation Breathing Verbalized
+213,Critical Window
+213,Intubation Safety Timeout
+213,BVM
+213,Intubation Safety Timeout
+213,BVM
+213,RSI Sedative Meds
+213,Laryngoscopy
+213,RSI Sedative Meds
+214,Patient Arrival
+214,Pre-Oxygenation Chest Auscultation
+214,Pre-Oxygenation Chest Auscultation
+214,Airway Assessment
+214,BVM
+214,RSI Sedative Meds
+214,BVM
+214,RSI Sedative Meds
+214,RSI Sedative Meds
+214,Decision to Intubate
+214,RSI Paralytic Meds
+215,Patient Arrival
+215,Airway Assessment
+215,Pre-Oxygenation Breathing Verbalized
+215,Pre-Oxygenation Breathing Verbalized
+215,Decision to Intubate
+215,Airway Verbalized
+215,Critical Window
+215,RSI Sedative Meds
+215,RSI Sedative Meds
+215,Critical Window
+215,Laryngoscopy
+215,Laryngoscopy
+215,Laryngoscopy
+215,Laryngoscopy
+216,Patient Arrival
+216,NRB
+216,Pre-Oxygenation Chest Auscultation
+216,Pre-Oxygenation Breathing Verbalized
+216,Airway Verbalized
+216,Intubation Safety Timeout
+216,BVM
+216,Laryngoscopy
+216,BVM
+216,Critical Window
+216,Laryngoscopy
+216,RSI Paralytic Meds
+216,RSI Paralytic Meds
+217,Patient Arrival
+217,NRB
+217,Decision to Intubate
+217,Decision to Intubate
+217,Airway Verbalized
+217,BVM
+217,Intubation Safety Timeout
+217,Decision to Intubate
+217,RSI Sedative Meds
+217,RSI Paralytic Meds
+217,Laryngoscopy
+218,Patient Arrival
+218,NRB
+218,Pre-Oxygenation Chest Auscultation
+218,Pre-Oxygenation Chest Auscultation
+218,Pre-Oxygenation Chest Auscultation
+218,Critical Window
+218,Critical Window
+218,BVM
+218,BVM
+218,RSI Sedative Meds
+218,Laryngoscopy
+218,Laryngoscopy
+218,Laryngoscopy
+218,Laryngoscopy
+218,Laryngoscopy
+218,RSI Paralytic Meds
+219,Patient Arrival
+219,NRB
+219,Pre-Oxygenation Breathing Verbalized
+219,BVM
+219,Decision to Intubate
+219,Airway Verbalized
+219,Decision to Intubate
+219,Decision to Intubate
+219,RSI Sedative Meds
+219,RSI Paralytic Meds
+219,RSI Paralytic Meds
+219,Laryngoscopy
+220,Patient Arrival
+220,Pre-Oxygenation Breathing Verbalized
+220,BVM
+220,BVM
+220,Critical Window
+220,Critical Window
+220,Critical Window
+220,BVM
+220,BVM
+220,Laryngoscopy
+220,Laryngoscopy
+220,Post-Oxygenation Chest Auscultation
+220,RSI Paralytic Meds
+220,Post-Oxygenation Breathing Verbalized
+220,Laryngoscopy
+220,RSI Sedative Meds
+221,Patient Arrival
+221,NRB
+221,Airway Verbalized
+221,Pre-Oxygenation Chest Auscultation
+221,Critical Window
+221,BVM
+221,RSI Sedative Meds
+221,BVM
+221,RSI Sedative Meds
+221,RSI Paralytic Meds
+221,Laryngoscopy
+222,Patient Arrival
+222,Airway Assessment
+222,BVM
+222,Pre-Oxygenation Breathing Verbalized
+222,Airway Verbalized
+222,Airway Verbalized
+222,BVM
+222,Decision to Intubate
+222,BVM
+222,RSI Sedative Meds
+222,RSI Paralytic Meds
+223,Patient Arrival
+223,Airway Assessment
+223,Airway Assessment
+223,Pre-Oxygenation Chest Auscultation
+223,Airway Verbalized
+223,Pre-Oxygenation Chest Auscultation
+223,RSI Paralytic Meds
+223,BVM
+223,BVM
+223,NRB
+223,RSI Paralytic Meds
+224,Patient Arrival
+224,NRB
+224,Pre-Oxygenation Chest Auscultation
+224,Pre-Oxygenation Breathing Verbalized
+224,BVM
+224,Critical Window
+224,BVM
+224,Critical Window
+224,RSI Sedative Meds
+224,BVM
+224,Laryngoscopy
+225,Patient Arrival
+225,NRB
+225,Critical Window
+225,Pre-Oxygenation Breathing Verbalized
+225,BVM
+225,Decision to Intubate
+225,Intubation Safety Timeout
+225,RSI Sedative Meds
+225,RSI Paralytic Meds
+225,RSI Sedative Meds
+225,RSI Paralytic Meds
+225,RSI Paralytic Meds
+226,Patient Arrival
+226,Airway Assessment
+226,Pre-Oxygenation Breathing Verbalized
+226,NRB
+226,BVM
+226,BVM
+226,Decision to Intubate
+226,Intubation Safety Timeout
+226,RSI Paralytic Meds
+226,Intubation Safety Timeout
+226,BVM
+226,RSI Paralytic Meds
+226,Laryngoscopy
+226,Laryngoscopy
+226,RSI Paralytic Meds
+226,Laryngoscopy
+227,Patient Arrival
+227,Pre-Oxygenation Chest Auscultation
+227,Pre-Oxygenation Breathing Verbalized
+227,Pre-Oxygenation Chest Auscultation
+227,Airway Verbalized
+227,RSI Sedative Meds
+227,BVM
+227,Critical Window
+227,Decision to Intubate
+227,RSI Sedative Meds
+227,Laryngoscopy
+227,Laryngoscopy
+227,RSI Paralytic Meds
+228,Patient Arrival
+228,NRB
+228,Airway Assessment
+228,Airway Assessment
+228,BVM
+228,Pre-Oxygenation Chest Auscultation
+228,Pre-Oxygenation Chest Auscultation
+228,Pre-Oxygenation Breathing Verbalized
+228,Intubation Safety Timeout
+228,RSI Sedative Meds
+228,RSI Paralytic Meds
+228,RSI Paralytic Meds
+228,Post-Oxygenation Breathing Verbalized
+228,Laryngoscopy
+229,Patient Arrival
+229,NRB
+229,Pre-Oxygenation Chest Auscultation
+229,Pre-Oxygenation Chest Auscultation
+229,Airway Verbalized
+229,BVM
+229,Intubation Safety Timeout
+229,Airway Verbalized
+229,BVM
+229,RSI Sedative Meds
+229,RSI Paralytic Meds
+230,Patient Arrival
+230,NRB
+230,Pre-Oxygenation Chest Auscultation
+230,Pre-Oxygenation Breathing Verbalized
+230,Airway Verbalized
+230,Critical Window
+230,Pre-Oxygenation Breathing Verbalized
+230,BVM
+230,Critical Window
+230,RSI Paralytic Meds
+231,Patient Arrival
+231,NRB
+231,Airway Assessment
+231,Pre-Oxygenation Breathing Verbalized
+231,Decision to Intubate
+231,BVM
+231,BVM
+231,Pre-Oxygenation Breathing Verbalized
+231,RSI Sedative Meds
+231,BVM
+231,BVM
+232,Patient Arrival
+232,Airway Assessment
+232,Airway Assessment
+232,Airway Assessment
+232,Decision to Intubate
+232,BVM
+232,Critical Window
+232,BVM
+232,BVM
+232,RSI Sedative Meds
+232,RSI Paralytic Meds
+233,Patient Arrival
+233,Airway Assessment
+233,NRB
+233,Pre-Oxygenation Chest Auscultation
+233,BVM
+233,BVM
+233,Decision to Intubate
+233,Critical Window
+233,RSI Sedative Meds
+233,Decision to Intubate
+233,RSI Paralytic Meds
+233,Laryngoscopy
+233,Laryngoscopy
+234,Patient Arrival
+234,NRB
+234,Pre-Oxygenation Chest Auscultation
+234,Decision to Intubate
+234,Airway Verbalized
+234,BVM
+234,Critical Window
+234,Critical Window
+234,RSI Paralytic Meds
+234,RSI Paralytic Meds
+234,RSI Paralytic Meds
+234,Laryngoscopy
+234,Laryngoscopy
+235,NRB
+235,Airway Assessment
+235,NRB
+235,NRB
+235,Airway Verbalized
+235,Critical Window
+235,Airway Verbalized
+235,BVM
+235,Critical Window
+235,RSI Sedative Meds
+235,Laryngoscopy
+235,Post-Oxygenation Chest Auscultation
+236,Patient Arrival
+236,Patient Arrival
+236,Airway Assessment
+236,Decision to Intubate
+236,Decision to Intubate
+236,Airway Verbalized
+236,Decision to Intubate
+236,RSI Sedative Meds
+236,RSI Sedative Meds
+236,RSI Paralytic Meds
+237,Patient Arrival
+237,NRB
+237,Pre-Oxygenation Breathing Verbalized
+237,Pre-Oxygenation Chest Auscultation
+237,Airway Verbalized
+237,RSI Sedative Meds
+237,BVM
+237,Critical Window
+237,Critical Window
+237,BVM
+238,Patient Arrival
+238,Airway Assessment
+238,Pre-Oxygenation Chest Auscultation
+238,Pre-Oxygenation Breathing Verbalized
+238,Airway Verbalized
+238,BVM
+238,Post-Oxygenation Chest Auscultation
+238,RSI Sedative Meds
+238,BVM
+238,RSI Sedative Meds
+238,RSI Paralytic Meds
+238,Laryngoscopy
+238,Laryngoscopy
+238,Laryngoscopy
+238,Laryngoscopy
+238,Post-Oxygenation Chest Auscultation
+238,Post-Oxygenation Breathing Verbalized
+238,Laryngoscopy
+238,Laryngoscopy
+238,Laryngoscopy
+239,Patient Arrival
+239,Patient Arrival
+239,Pre-Oxygenation Chest Auscultation
+239,Pre-Oxygenation Chest Auscultation
+239,Critical Window
+239,Critical Window
+239,Airway Verbalized
+239,BVM
+239,BVM
+239,RSI Sedative Meds
+239,RSI Paralytic Meds
+239,Laryngoscopy
+240,Patient Arrival
+240,NRB
+240,Critical Window
+240,BVM
+240,Pre-Oxygenation Breathing Verbalized
+240,Airway Verbalized
+240,BVM
+240,RSI Sedative Meds
+240,RSI Sedative Meds
+240,RSI Sedative Meds
+240,Laryngoscopy
+240,Laryngoscopy
+241,Pre-Oxygenation Chest Auscultation
+241,Airway Assessment
+241,Pre-Oxygenation Chest Auscultation
+241,Pre-Oxygenation Chest Auscultation
+241,Airway Assessment
+241,Pre-Oxygenation Breathing Verbalized
+241,BVM
+241,Post-Oxygenation Breathing Verbalized
+241,RSI Sedative Meds
+241,RSI Sedative Meds
+241,Laryngoscopy
+242,Patient Arrival
+242,NRB
+242,NRB
+242,Critical Window
+242,BVM
+242,Critical Window
+242,BVM
+242,RSI Sedative Meds
+242,RSI Sedative Meds
+242,RSI Sedative Meds
+242,RSI Sedative Meds
+242,Laryngoscopy
+243,Patient Arrival
+243,Pre-Oxygenation Breathing Verbalized
+243,Pre-Oxygenation Chest Auscultation
+243,Pre-Oxygenation Chest Auscultation
+243,Pre-Oxygenation Chest Auscultation
+243,Pre-Oxygenation Chest Auscultation
+243,RSI Sedative Meds
+243,Critical Window
+243,Critical Window
+243,Laryngoscopy
+243,Laryngoscopy
+243,RSI Paralytic Meds
+243,Laryngoscopy
+243,Laryngoscopy
+243,Laryngoscopy
+243,Laryngoscopy
+243,Laryngoscopy
+244,Patient Arrival
+244,NRB
+244,Pre-Oxygenation Breathing Verbalized
+244,Pre-Oxygenation Chest Auscultation
+244,Decision to Intubate
+244,RSI Sedative Meds
+244,Critical Window
+244,Critical Window
+244,BVM
+244,RSI Sedative Meds
+244,RSI Sedative Meds
+245,Patient Arrival
+245,NRB
+245,Pre-Oxygenation Breathing Verbalized
+245,Airway Assessment
+245,Decision to Intubate
+245,BVM
+245,Decision to Intubate
+245,Intubation Safety Timeout
+245,RSI Sedative Meds
+245,RSI Sedative Meds
+245,RSI Paralytic Meds
+245,Laryngoscopy
+245,Laryngoscopy
+245,Laryngoscopy
+245,Laryngoscopy
+245,RSI Paralytic Meds
+246,Patient Arrival
+246,Pre-Oxygenation Breathing Verbalized
+246,Pre-Oxygenation Chest Auscultation
+246,Airway Verbalized
+246,Decision to Intubate
+246,RSI Sedative Meds
+246,BVM
+246,Critical Window
+246,BVM
+246,RSI Sedative Meds
+246,RSI Paralytic Meds
+246,RSI Sedative Meds
+246,Laryngoscopy
+246,Post-Oxygenation Chest Auscultation
+246,Laryngoscopy
+247,Patient Arrival
+247,NRB
+247,Patient Arrival
+247,Pre-Oxygenation Breathing Verbalized
+247,Decision to Intubate
+247,Intubation Safety Timeout
+247,Airway Verbalized
+247,BVM
+247,Pre-Oxygenation Breathing Verbalized
+247,BVM
+247,RSI Paralytic Meds
+247,Laryngoscopy
+247,Post-Oxygenation Chest Auscultation
+247,Laryngoscopy
+247,RSI Sedative Meds
+248,Patient Arrival
+248,Pre-Oxygenation Chest Auscultation
+248,Pre-Oxygenation Breathing Verbalized
+248,Decision to Intubate
+248,Intubation Safety Timeout
+248,Critical Window
+248,BVM
+248,Critical Window
+248,BVM
+248,RSI Sedative Meds
+248,Pre-Oxygenation Breathing Verbalized
+248,Laryngoscopy
+248,Laryngoscopy
+249,Patient Arrival
+249,NRB
+249,Critical Window
+249,Pre-Oxygenation Chest Auscultation
+249,BVM
+249,Pre-Oxygenation Breathing Verbalized
+249,RSI Sedative Meds
+249,RSI Sedative Meds
+249,RSI Sedative Meds
+249,BVM
+249,RSI Paralytic Meds
+249,Intubation Safety Timeout
+249,RSI Paralytic Meds
+249,Laryngoscopy
+249,RSI Paralytic Meds
+250,Patient Arrival
+250,Patient Arrival
+250,Decision to Intubate
+250,Airway Verbalized
+250,Airway Verbalized
+250,BVM
+250,Intubation Safety Timeout
+250,RSI Sedative Meds
+250,BVM
+250,RSI Sedative Meds
+250,RSI Sedative Meds
+250,Intubation Safety Timeout
+250,Laryngoscopy
+251,Patient Arrival
+251,Airway Assessment
+251,Airway Verbalized
+251,Pre-Oxygenation Chest Auscultation
+251,Decision to Intubate
+251,RSI Sedative Meds
+251,Intubation Safety Timeout
+251,NRB
+251,RSI Sedative Meds
+251,BVM
+251,Laryngoscopy
+251,Laryngoscopy
+251,Laryngoscopy
+252,Patient Arrival
+252,NRB
+252,Pre-Oxygenation Chest Auscultation
+252,Decision to Intubate
+252,Airway Verbalized
+252,BVM
+252,Airway Verbalized
+252,Critical Window
+252,BVM
+252,RSI Paralytic Meds
+252,RSI Paralytic Meds
+252,Intubation Safety Timeout
+252,Laryngoscopy
+253,Patient Arrival
+253,NRB
+253,Pre-Oxygenation Chest Auscultation
+253,Pre-Oxygenation Breathing Verbalized
+253,Decision to Intubate
+253,NRB
+253,BVM
+253,Critical Window
+253,BVM
+253,RSI Sedative Meds
+253,RSI Paralytic Meds
+253,Laryngoscopy
+253,Laryngoscopy
+254,Patient Arrival
+254,Pre-Oxygenation Chest Auscultation
+254,NRB
+254,Pre-Oxygenation Chest Auscultation
+254,Decision to Intubate
+254,Critical Window
+254,Decision to Intubate
+254,Critical Window
+254,RSI Paralytic Meds
+254,RSI Sedative Meds
+254,RSI Sedative Meds
+254,Critical Window
+255,NRB
+255,Airway Assessment
+255,Pre-Oxygenation Breathing Verbalized
+255,NRB
+255,Decision to Intubate
+255,Critical Window
+255,BVM
+255,RSI Sedative Meds
+255,Critical Window
+255,RSI Paralytic Meds
+255,Laryngoscopy
+255,Laryngoscopy
+256,Patient Arrival
+256,NRB
+256,NRB
+256,Pre-Oxygenation Chest Auscultation
+256,Decision to Intubate
+256,Airway Verbalized
+256,Airway Verbalized
+256,Decision to Intubate
+256,RSI Paralytic Meds
+256,BVM
+256,Laryngoscopy
+256,Laryngoscopy
+256,Post-Oxygenation Breathing Verbalized
+257,Patient Arrival
+257,Pre-Oxygenation Chest Auscultation
+257,Decision to Intubate
+257,Pre-Oxygenation Chest Auscultation
+257,Decision to Intubate
+257,Critical Window
+257,Critical Window
+257,Critical Window
+257,RSI Paralytic Meds
+257,Decision to Intubate
+257,Laryngoscopy
+258,Patient Arrival
+258,NRB
+258,BVM
+258,Pre-Oxygenation Chest Auscultation
+258,Critical Window
+258,Airway Verbalized
+258,RSI Sedative Meds
+258,RSI Sedative Meds
+258,BVM
+258,BVM
+258,RSI Sedative Meds
+258,RSI Paralytic Meds
+258,Post-Oxygenation Chest Auscultation
+258,Laryngoscopy
+258,Patient Arrival
+258,RSI Paralytic Meds
+258,Post-Oxygenation Breathing Verbalized
+259,Patient Arrival
+259,NRB
+259,Pre-Oxygenation Chest Auscultation
+259,Airway Assessment
+259,Airway Verbalized
+259,Intubation Safety Timeout
+259,Laryngoscopy
+259,Decision to Intubate
+259,RSI Paralytic Meds
+259,RSI Sedative Meds
+259,BVM
+260,Patient Arrival
+260,Airway Assessment
+260,Pre-Oxygenation Breathing Verbalized
+260,NRB
+260,Intubation Safety Timeout
+260,Critical Window
+260,Critical Window
+260,BVM
+260,BVM
+260,RSI Sedative Meds
+260,RSI Paralytic Meds
+261,Patient Arrival
+261,Airway Assessment
+261,NRB
+261,Airway Assessment
+261,Decision to Intubate
+261,RSI Sedative Meds
+261,RSI Sedative Meds
+261,Airway Verbalized
+261,BVM
+261,RSI Sedative Meds
+261,Laryngoscopy
+261,Laryngoscopy
+261,Intubation Safety Timeout
+262,Patient Arrival
+262,NRB
+262,Pre-Oxygenation Chest Auscultation
+262,Decision to Intubate
+262,Pre-Oxygenation Chest Auscultation
+262,RSI Sedative Meds
+262,Airway Verbalized
+262,BVM
+262,RSI Sedative Meds
+262,Critical Window
+263,Patient Arrival
+263,Airway Assessment
+263,NRB
+263,Pre-Oxygenation Chest Auscultation
+263,BVM
+263,RSI Sedative Meds
+263,Critical Window
+263,Critical Window
+263,RSI Sedative Meds
+263,RSI Sedative Meds
+263,RSI Paralytic Meds
+263,Laryngoscopy
+263,Laryngoscopy
+264,Patient Arrival
+264,Airway Assessment
+264,Pre-Oxygenation Breathing Verbalized
+264,Decision to Intubate
+264,Decision to Intubate
+264,Decision to Intubate
+264,Intubation Safety Timeout
+264,Critical Window
+264,RSI Sedative Meds
+264,RSI Paralytic Meds
+264,BVM
+265,Patient Arrival
+265,NRB
+265,Pre-Oxygenation Chest Auscultation
+265,Critical Window
+265,NRB
+265,BVM
+265,Pre-Oxygenation Breathing Verbalized
+265,RSI Sedative Meds
+265,Critical Window
+265,BVM
+265,RSI Paralytic Meds
+265,Laryngoscopy
+266,Patient Arrival
+266,NRB
+266,Decision to Intubate
+266,Critical Window
+266,Pre-Oxygenation Breathing Verbalized
+266,BVM
+266,RSI Sedative Meds
+266,BVM
+266,BVM
+266,RSI Paralytic Meds
+266,BVM
+266,BVM
+266,Laryngoscopy
+266,Laryngoscopy
+266,Post-Oxygenation Breathing Verbalized
+266,RSI Paralytic Meds
+266,Laryngoscopy
+267,Patient Arrival
+267,NRB
+267,Pre-Oxygenation Chest Auscultation
+267,NRB
+267,Decision to Intubate
+267,BVM
+267,RSI Paralytic Meds
+267,RSI Sedative Meds
+267,BVM
+267,RSI Sedative Meds
+267,Critical Window
+267,Laryngoscopy
+267,Post-Oxygenation Chest Auscultation
+267,RSI Sedative Meds
+267,RSI Paralytic Meds
+267,RSI Paralytic Meds
+268,Patient Arrival
+268,Patient Arrival
+268,Decision to Intubate
+268,Pre-Oxygenation Chest Auscultation
+268,Decision to Intubate
+268,Critical Window
+268,BVM
+268,RSI Sedative Meds
+268,RSI Sedative Meds
+268,RSI Sedative Meds
+268,Laryngoscopy
+268,Laryngoscopy
+268,Laryngoscopy
+268,RSI Sedative Meds
+269,Patient Arrival
+269,NRB
+269,Decision to Intubate
+269,Decision to Intubate
+269,Pre-Oxygenation Chest Auscultation
+269,Airway Verbalized
+269,RSI Sedative Meds
+269,Critical Window
+269,BVM
+269,BVM
+269,Intubation Safety Timeout
+270,Patient Arrival
+270,Airway Assessment
+270,Pre-Oxygenation Chest Auscultation
+270,NRB
+270,Pre-Oxygenation Breathing Verbalized
+270,Intubation Safety Timeout
+270,Critical Window
+270,Intubation Safety Timeout
+270,RSI Sedative Meds
+270,RSI Sedative Meds
+270,BVM
+271,Patient Arrival
+271,Pre-Oxygenation Chest Auscultation
+271,Pre-Oxygenation Chest Auscultation
+271,Pre-Oxygenation Breathing Verbalized
+271,Airway Verbalized
+271,Critical Window
+271,Intubation Safety Timeout
+271,RSI Sedative Meds
+271,Critical Window
+271,RSI Sedative Meds
+271,Laryngoscopy
+271,Laryngoscopy
+271,Laryngoscopy
+271,Laryngoscopy
+271,Post-Oxygenation Chest Auscultation
+272,Patient Arrival
+272,NRB
+272,NRB
+272,Decision to Intubate
+272,Airway Verbalized
+272,Critical Window
+272,Intubation Safety Timeout
+272,RSI Sedative Meds
+272,RSI Paralytic Meds
+272,RSI Paralytic Meds
+272,RSI Paralytic Meds
+272,RSI Paralytic Meds
+272,Intubation Safety Timeout
+273,Patient Arrival
+273,Pre-Oxygenation Breathing Verbalized
+273,Pre-Oxygenation Breathing Verbalized
+273,Pre-Oxygenation Breathing Verbalized
+273,BVM
+273,RSI Sedative Meds
+273,Intubation Safety Timeout
+273,Decision to Intubate
+273,RSI Sedative Meds
+273,RSI Sedative Meds
+273,Laryngoscopy
+273,RSI Sedative Meds
+273,Laryngoscopy
+274,Airway Assessment
+274,Airway Verbalized
+274,Pre-Oxygenation Breathing Verbalized
+274,Pre-Oxygenation Breathing Verbalized
+274,Airway Verbalized
+274,BVM
+274,BVM
+274,Critical Window
+274,BVM
+274,Airway Verbalized
+274,BVM
+275,Patient Arrival
+275,Airway Assessment
+275,Airway Assessment
+275,Pre-Oxygenation Chest Auscultation
+275,Critical Window
+275,RSI Sedative Meds
+275,Critical Window
+275,Decision to Intubate
+275,RSI Sedative Meds
+275,Intubation Safety Timeout
+275,RSI Paralytic Meds
+275,RSI Sedative Meds
+275,Laryngoscopy
+275,RSI Paralytic Meds
+275,Laryngoscopy
+275,Post-Oxygenation Breathing Verbalized
+275,Laryngoscopy
+276,Airway Verbalized
+276,NRB
+276,Pre-Oxygenation Breathing Verbalized
+276,Airway Verbalized
+276,Pre-Oxygenation Breathing Verbalized
+276,NRB
+276,BVM
+276,Decision to Intubate
+276,RSI Sedative Meds
+276,BVM
+276,RSI Sedative Meds
+276,RSI Paralytic Meds
+277,Patient Arrival
+277,NRB
+277,Pre-Oxygenation Breathing Verbalized
+277,Pre-Oxygenation Chest Auscultation
+277,BVM
+277,RSI Sedative Meds
+277,Post-Oxygenation Chest Auscultation
+277,BVM
+277,BVM
+277,BVM
+277,RSI Sedative Meds
+277,Laryngoscopy
+277,RSI Sedative Meds
+278,Patient Arrival
+278,NRB
+278,Airway Assessment
+278,Pre-Oxygenation Chest Auscultation
+278,Decision to Intubate
+278,Critical Window
+278,Airway Verbalized
+278,Laryngoscopy
+278,RSI Sedative Meds
+278,Critical Window
+278,RSI Paralytic Meds
+278,Post-Oxygenation Chest Auscultation
+278,Laryngoscopy
+279,Patient Arrival
+279,NRB
+279,Pre-Oxygenation Chest Auscultation
+279,Pre-Oxygenation Breathing Verbalized
+279,Decision to Intubate
+279,BVM
+279,RSI Paralytic Meds
+279,BVM
+279,RSI Sedative Meds
+279,RSI Paralytic Meds
+279,RSI Paralytic Meds
+279,Laryngoscopy
+280,Patient Arrival
+280,Airway Assessment
+280,Pre-Oxygenation Breathing Verbalized
+280,BVM
+280,Airway Verbalized
+280,BVM
+280,Critical Window
+280,Critical Window
+280,Critical Window
+280,RSI Paralytic Meds
+280,RSI Paralytic Meds
+280,RSI Paralytic Meds
+280,Laryngoscopy
+281,Airway Assessment
+281,Pre-Oxygenation Chest Auscultation
+281,Pre-Oxygenation Chest Auscultation
+281,Pre-Oxygenation Breathing Verbalized
+281,Airway Verbalized
+281,Critical Window
+281,Airway Verbalized
+281,RSI Sedative Meds
+281,BVM
+281,RSI Paralytic Meds
+281,RSI Paralytic Meds
+282,Patient Arrival
+282,Airway Assessment
+282,Pre-Oxygenation Chest Auscultation
+282,Decision to Intubate
+282,BVM
+282,Decision to Intubate
+282,RSI Sedative Meds
+282,BVM
+282,RSI Sedative Meds
+282,Laryngoscopy
+282,Laryngoscopy
+282,Laryngoscopy
+283,Patient Arrival
+283,NRB
+283,Decision to Intubate
+283,Pre-Oxygenation Chest Auscultation
+283,Decision to Intubate
+283,RSI Sedative Meds
+283,BVM
+283,BVM
+283,RSI Sedative Meds
+283,RSI Paralytic Meds
+283,BVM
+283,Laryngoscopy
+283,Post-Oxygenation Chest Auscultation
+284,Patient Arrival
+284,NRB
+284,Pre-Oxygenation Chest Auscultation
+284,Pre-Oxygenation Breathing Verbalized
+284,NRB
+284,RSI Paralytic Meds
+284,Decision to Intubate
+284,RSI Sedative Meds
+284,BVM
+284,RSI Sedative Meds
+284,RSI Paralytic Meds
+284,Laryngoscopy
+284,RSI Paralytic Meds
+284,RSI Paralytic Meds
+284,Post-Oxygenation Breathing Verbalized
+284,Laryngoscopy
+285,Airway Assessment
+285,Airway Assessment
+285,Pre-Oxygenation Chest Auscultation
+285,Pre-Oxygenation Chest Auscultation
+285,Airway Verbalized
+285,Airway Verbalized
+285,BVM
+285,RSI Sedative Meds
+285,RSI Sedative Meds
+285,RSI Sedative Meds
+285,Post-Oxygenation Chest Auscultation
+285,Post-Oxygenation Chest Auscultation
+285,RSI Sedative Meds
+286,Patient Arrival
+286,Patient Arrival
+286,Pre-Oxygenation Breathing Verbalized
+286,Pre-Oxygenation Breathing Verbalized
+286,Airway Assessment
+286,RSI Sedative Meds
+286,Critical Window
+286,RSI Sedative Meds
+286,BVM
+286,BVM
+286,RSI Sedative Meds
+287,Patient Arrival
+287,NRB
+287,Airway Verbalized
+287,Pre-Oxygenation Breathing Verbalized
+287,Pre-Oxygenation Breathing Verbalized
+287,BVM
+287,Intubation Safety Timeout
+287,RSI Sedative Meds
+287,RSI Sedative Meds
+287,BVM
+287,RSI Sedative Meds
+287,Laryngoscopy
+287,Laryngoscopy
+287,Laryngoscopy
+287,Laryngoscopy
+288,Patient Arrival
+288,NRB
+288,Decision to Intubate
+288,Pre-Oxygenation Breathing Verbalized
+288,Pre-Oxygenation Breathing Verbalized
+288,BVM
+288,Decision to Intubate
+288,BVM
+288,RSI Sedative Meds
+288,RSI Paralytic Meds
+288,RSI Paralytic Meds
+288,RSI Sedative Meds
+288,Laryngoscopy
+288,Post-Oxygenation Breathing Verbalized
+288,Intubation Safety Timeout
+289,Patient Arrival
+289,NRB
+289,NRB
+289,Pre-Oxygenation Chest Auscultation
+289,Critical Window
+289,RSI Paralytic Meds
+289,Airway Verbalized
+289,RSI Sedative Meds
+289,Critical Window
+289,RSI Sedative Meds
+289,RSI Paralytic Meds
+289,RSI Sedative Meds
+289,Laryngoscopy
+290,NRB
+290,NRB
+290,Pre-Oxygenation Breathing Verbalized
+290,Pre-Oxygenation Chest Auscultation
+290,Decision to Intubate
+290,Decision to Intubate
+290,BVM
+290,Decision to Intubate
+290,RSI Sedative Meds
+290,BVM
+290,Laryngoscopy
+290,RSI Paralytic Meds
+290,Laryngoscopy
+290,Laryngoscopy
+291,Patient Arrival
+291,Pre-Oxygenation Chest Auscultation
+291,Pre-Oxygenation Chest Auscultation
+291,NRB
+291,Decision to Intubate
+291,Critical Window
+291,Critical Window
+291,RSI Sedative Meds
+291,Pre-Oxygenation Breathing Verbalized
+291,RSI Sedative Meds
+292,Patient Arrival
+292,Airway Assessment
+292,Pre-Oxygenation Chest Auscultation
+292,Pre-Oxygenation Chest Auscultation
+292,Critical Window
+292,RSI Sedative Meds
+292,Intubation Safety Timeout
+292,BVM
+292,Critical Window
+292,RSI Sedative Meds
+292,RSI Paralytic Meds
+292,RSI Paralytic Meds
+292,Laryngoscopy
+292,Laryngoscopy
+293,Patient Arrival
+293,Airway Assessment
+293,Pre-Oxygenation Breathing Verbalized
+293,Pre-Oxygenation Chest Auscultation
+293,Decision to Intubate
+293,Airway Verbalized
+293,Post-Oxygenation Chest Auscultation
+293,Critical Window
+293,RSI Sedative Meds
+293,BVM
+293,BVM
+293,Post-Oxygenation Chest Auscultation
+293,Laryngoscopy
+294,Airway Assessment
+294,Airway Assessment
+294,NRB
+294,Decision to Intubate
+294,Critical Window
+294,BVM
+294,RSI Sedative Meds
+294,RSI Sedative Meds
+294,BVM
+294,RSI Sedative Meds
+294,Laryngoscopy
+294,Post-Oxygenation Breathing Verbalized
+295,Patient Arrival
+295,Pre-Oxygenation Chest Auscultation
+295,Pre-Oxygenation Chest Auscultation
+295,Airway Verbalized
+295,Pre-Oxygenation Breathing Verbalized
+295,BVM
+295,BVM
+295,BVM
+295,BVM
+295,RSI Paralytic Meds
+295,RSI Paralytic Meds
+295,Intubation Safety Timeout
+296,Patient Arrival
+296,NRB
+296,Decision to Intubate
+296,Pre-Oxygenation Breathing Verbalized
+296,Pre-Oxygenation Chest Auscultation
+296,BVM
+296,BVM
+296,Critical Window
+296,RSI Paralytic Meds
+296,RSI Sedative Meds
+296,RSI Paralytic Meds
+297,Patient Arrival
+297,Patient Arrival
+297,Airway Assessment
+297,Pre-Oxygenation Breathing Verbalized
+297,Pre-Oxygenation Chest Auscultation
+297,BVM
+297,RSI Sedative Meds
+297,BVM
+297,RSI Sedative Meds
+297,RSI Sedative Meds
+297,BVM
+297,Laryngoscopy
+297,RSI Sedative Meds
+298,Patient Arrival
+298,Patient Arrival
+298,NRB
+298,Pre-Oxygenation Chest Auscultation
+298,BVM
+298,RSI Paralytic Meds
+298,Critical Window
+298,RSI Sedative Meds
+298,RSI Sedative Meds
+298,BVM
+298,Laryngoscopy
+299,Patient Arrival
+299,Airway Assessment
+299,Decision to Intubate
+299,Pre-Oxygenation Breathing Verbalized
+299,Pre-Oxygenation Chest Auscultation
+299,Airway Verbalized
+299,Critical Window
+299,BVM
+299,BVM
+299,BVM
+299,Laryngoscopy
+299,Laryngoscopy
+300,Patient Arrival
+300,NRB
+300,Pre-Oxygenation Breathing Verbalized
+300,Pre-Oxygenation Chest Auscultation
+300,BVM
+300,BVM
+300,RSI Sedative Meds
+300,Critical Window
+300,RSI Sedative Meds
+300,BVM
+300,RSI Sedative Meds
+300,Laryngoscopy
+300,Laryngoscopy
+300,RSI Paralytic Meds
+300,Laryngoscopy
+301,Patient Arrival
+301,NRB
+301,Decision to Intubate
+301,Airway Assessment
+301,BVM
+301,Pre-Oxygenation Breathing Verbalized
+301,RSI Sedative Meds
+301,RSI Sedative Meds
+301,RSI Sedative Meds
+301,RSI Sedative Meds
+301,RSI Paralytic Meds
+301,RSI Paralytic Meds
+301,Critical Window
+302,Patient Arrival
+302,NRB
+302,Pre-Oxygenation Breathing Verbalized
+302,Intubation Safety Timeout
+302,RSI Sedative Meds
+302,BVM
+302,Critical Window
+302,RSI Sedative Meds
+302,Pre-Oxygenation Chest Auscultation
+302,RSI Sedative Meds
+303,Patient Arrival
+303,Pre-Oxygenation Breathing Verbalized
+303,Pre-Oxygenation Chest Auscultation
+303,Airway Assessment
+303,Airway Verbalized
+303,Pre-Oxygenation Breathing Verbalized
+303,RSI Sedative Meds
+303,Intubation Safety Timeout
+303,BVM
+303,Critical Window
+303,RSI Paralytic Meds
+304,Patient Arrival
+304,NRB
+304,NRB
+304,Pre-Oxygenation Chest Auscultation
+304,Airway Verbalized
+304,Intubation Safety Timeout
+304,Intubation Safety Timeout
+304,RSI Sedative Meds
+304,RSI Sedative Meds
+304,RSI Paralytic Meds
+305,Patient Arrival
+305,NRB
+305,NRB
+305,Airway Verbalized
+305,Pre-Oxygenation Chest Auscultation
+305,BVM
+305,BVM
+305,Critical Window
+305,BVM
+305,RSI Sedative Meds
+305,RSI Paralytic Meds
+305,Post-Oxygenation Chest Auscultation
+305,Laryngoscopy
+306,Patient Arrival
+306,Airway Assessment
+306,Airway Verbalized
+306,Pre-Oxygenation Chest Auscultation
+306,Airway Verbalized
+306,Decision to Intubate
+306,Intubation Safety Timeout
+306,Decision to Intubate
+306,Decision to Intubate
+306,Pre-Oxygenation Breathing Verbalized
+306,RSI Sedative Meds
+306,RSI Paralytic Meds
+306,RSI Paralytic Meds
+307,Patient Arrival
+307,NRB
+307,Pre-Oxygenation Breathing Verbalized
+307,Airway Verbalized
+307,BVM
+307,Pre-Oxygenation Breathing Verbalized
+307,Airway Verbalized
+307,Decision to Intubate
+307,RSI Sedative Meds
+307,BVM
+307,RSI Sedative Meds
+307,Critical Window
+307,Post-Oxygenation Breathing Verbalized
+307,Laryngoscopy
+307,RSI Paralytic Meds
+308,Airway Assessment
+308,NRB
+308,Pre-Oxygenation Chest Auscultation
+308,Pre-Oxygenation Breathing Verbalized
+308,RSI Paralytic Meds
+308,BVM
+308,BVM
+308,BVM
+308,RSI Sedative Meds
+308,BVM
+308,Laryngoscopy
+308,RSI Sedative Meds
+308,Post-Oxygenation Breathing Verbalized
+309,NRB
+309,Airway Assessment
+309,Decision to Intubate
+309,NRB
+309,Airway Verbalized
+309,Intubation Safety Timeout
+309,Critical Window
+309,Critical Window
+309,RSI Sedative Meds
+309,Critical Window
+309,RSI Paralytic Meds
+309,Laryngoscopy
+310,Patient Arrival
+310,NRB
+310,NRB
+310,NRB
+310,Pre-Oxygenation Breathing Verbalized
+310,BVM
+310,BVM
+310,RSI Sedative Meds
+310,Post-Oxygenation Chest Auscultation
+310,Intubation Safety Timeout
+310,Laryngoscopy
+310,Laryngoscopy
+310,Post-Oxygenation Breathing Verbalized
+310,Post-Oxygenation Chest Auscultation
+310,Laryngoscopy
+311,Patient Arrival
+311,NRB
+311,Pre-Oxygenation Breathing Verbalized
+311,Decision to Intubate
+311,NRB
+311,Airway Verbalized
+311,Critical Window
+311,BVM
+311,Critical Window
+311,Intubation Safety Timeout
+311,Post-Oxygenation Breathing Verbalized
+311,Laryngoscopy
+311,RSI Paralytic Meds
+311,Post-Oxygenation Chest Auscultation
+312,Patient Arrival
+312,Airway Assessment
+312,Airway Assessment
+312,NRB
+312,BVM
+312,Critical Window
+312,Critical Window
+312,RSI Sedative Meds
+312,RSI Paralytic Meds
+312,RSI Sedative Meds
+312,Intubation Safety Timeout
+312,RSI Paralytic Meds
+312,Intubation Safety Timeout
+312,Laryngoscopy
+313,Patient Arrival
+313,Airway Assessment
+313,Pre-Oxygenation Chest Auscultation
+313,Pre-Oxygenation Chest Auscultation
+313,Critical Window
+313,BVM
+313,Critical Window
+313,Critical Window
+313,BVM
+313,RSI Sedative Meds
+313,BVM
+313,Laryngoscopy
+313,Laryngoscopy
+314,Patient Arrival
+314,NRB
+314,Pre-Oxygenation Chest Auscultation
+314,Pre-Oxygenation Chest Auscultation
+314,Pre-Oxygenation Chest Auscultation
+314,RSI Sedative Meds
+314,Critical Window
+314,Critical Window
+314,Intubation Safety Timeout
+314,RSI Paralytic Meds
+314,RSI Sedative Meds
+314,RSI Sedative Meds
+314,Laryngoscopy
+314,Pre-Oxygenation Breathing Verbalized
+315,Patient Arrival
+315,NRB
+315,Pre-Oxygenation Breathing Verbalized
+315,Airway Verbalized
+315,Decision to Intubate
+315,RSI Sedative Meds
+315,Airway Verbalized
+315,Critical Window
+315,RSI Sedative Meds
+315,Decision to Intubate
+315,Post-Oxygenation Breathing Verbalized
+315,Post-Oxygenation Chest Auscultation
+315,Laryngoscopy
+315,Intubation Safety Timeout
+315,BVM
+315,Laryngoscopy
+315,Laryngoscopy
+316,Patient Arrival
+316,NRB
+316,Pre-Oxygenation Chest Auscultation
+316,Decision to Intubate
+316,RSI Sedative Meds
+316,BVM
+316,Post-Oxygenation Chest Auscultation
+316,Critical Window
+316,RSI Paralytic Meds
+316,RSI Sedative Meds
+317,Patient Arrival
+317,Airway Assessment
+317,Pre-Oxygenation Chest Auscultation
+317,Pre-Oxygenation Chest Auscultation
+317,NRB
+317,BVM
+317,RSI Sedative Meds
+317,RSI Sedative Meds
+317,Critical Window
+317,RSI Paralytic Meds
+317,RSI Paralytic Meds
+317,Laryngoscopy
+318,Patient Arrival
+318,Airway Assessment
+318,Decision to Intubate
+318,Critical Window
+318,Airway Verbalized
+318,Decision to Intubate
+318,BVM
+318,Critical Window
+318,BVM
+318,Decision to Intubate
+318,RSI Paralytic Meds
+318,RSI Paralytic Meds
+318,Post-Oxygenation Chest Auscultation
+318,Laryngoscopy
+319,Patient Arrival
+319,NRB
+319,Decision to Intubate
+319,Pre-Oxygenation Chest Auscultation
+319,RSI Sedative Meds
+319,Critical Window
+319,BVM
+319,BVM
+319,BVM
+319,BVM
+320,Patient Arrival
+320,Airway Assessment
+320,Pre-Oxygenation Chest Auscultation
+320,Pre-Oxygenation Chest Auscultation
+320,Airway Verbalized
+320,Airway Verbalized
+320,Critical Window
+320,Decision to Intubate
+320,BVM
+320,RSI Sedative Meds
+320,Laryngoscopy
+320,Post-Oxygenation Chest Auscultation
+320,Laryngoscopy
+321,Patient Arrival
+321,Pre-Oxygenation Chest Auscultation
+321,Pre-Oxygenation Breathing Verbalized
+321,NRB
+321,RSI Sedative Meds
+321,Intubation Safety Timeout
+321,Critical Window
+321,RSI Sedative Meds
+321,BVM
+321,RSI Sedative Meds
+321,RSI Paralytic Meds
+321,Laryngoscopy
+321,Critical Window
+322,Patient Arrival
+322,NRB
+322,Airway Verbalized
+322,Decision to Intubate
+322,Pre-Oxygenation Chest Auscultation
+322,Airway Verbalized
+322,BVM
+322,Critical Window
+322,BVM
+322,Laryngoscopy
+322,RSI Sedative Meds
+323,Patient Arrival
+323,Airway Assessment
+323,NRB
+323,Decision to Intubate
+323,Airway Verbalized
+323,BVM
+323,Critical Window
+323,RSI Sedative Meds
+323,Critical Window
+323,BVM
+323,RSI Sedative Meds
+323,Laryngoscopy
+324,Patient Arrival
+324,NRB
+324,Pre-Oxygenation Breathing Verbalized
+324,Critical Window
+324,Pre-Oxygenation Breathing Verbalized
+324,Critical Window
+324,BVM
+324,BVM
+324,BVM
+324,RSI Sedative Meds
+324,BVM
+325,Patient Arrival
+325,NRB
+325,Pre-Oxygenation Chest Auscultation
+325,Pre-Oxygenation Breathing Verbalized
+325,Pre-Oxygenation Breathing Verbalized
+325,BVM
+325,Critical Window
+325,Intubation Safety Timeout
+325,BVM
+325,BVM
+325,Laryngoscopy
+325,Post-Oxygenation Chest Auscultation
+325,Laryngoscopy
+325,Decision to Intubate
+325,RSI Sedative Meds
+325,Patient Arrival
+325,Laryngoscopy
+325,Laryngoscopy
+326,Patient Arrival
+326,NRB
+326,BVM
+326,Airway Verbalized
+326,Decision to Intubate
+326,RSI Sedative Meds
+326,Pre-Oxygenation Chest Auscultation
+326,RSI Sedative Meds
+326,BVM
+326,BVM
+326,Laryngoscopy
+326,RSI Paralytic Meds
+327,Patient Arrival
+327,NRB
+327,NRB
+327,Decision to Intubate
+327,Decision to Intubate
+327,Airway Assessment
+327,RSI Paralytic Meds
+327,BVM
+327,RSI Sedative Meds
+327,BVM
+327,BVM
+327,RSI Paralytic Meds
+327,RSI Paralytic Meds
+328,Post-Oxygenation Chest Auscultation
+328,NRB
+328,Airway Assessment
+328,Pre-Oxygenation Chest Auscultation
+328,Pre-Oxygenation Breathing Verbalized
+328,RSI Sedative Meds
+328,Pre-Oxygenation Breathing Verbalized
+328,Critical Window
+328,BVM
+328,RSI Sedative Meds
+329,Patient Arrival
+329,NRB
+329,NRB
+329,Critical Window
+329,Airway Verbalized
+329,BVM
+329,Decision to Intubate
+329,Critical Window
+329,RSI Sedative Meds
+329,BVM
+329,Laryngoscopy
+329,Laryngoscopy
+329,Intubation Safety Timeout
+329,Laryngoscopy
+329,Laryngoscopy
+330,Patient Arrival
+330,Intubation Safety Timeout
+330,Pre-Oxygenation Breathing Verbalized
+330,NRB
+330,Pre-Oxygenation Breathing Verbalized
+330,Decision to Intubate
+330,Intubation Safety Timeout
+330,Critical Window
+330,RSI Sedative Meds
+330,RSI Sedative Meds
+330,Laryngoscopy
+330,Laryngoscopy
+330,Post-Oxygenation Chest Auscultation
+330,Laryngoscopy
+331,Patient Arrival
+331,NRB
+331,BVM
+331,Pre-Oxygenation Chest Auscultation
+331,Pre-Oxygenation Chest Auscultation
+331,Decision to Intubate
+331,Decision to Intubate
+331,RSI Paralytic Meds
+331,Decision to Intubate
+331,BVM
+331,RSI Paralytic Meds
+331,Laryngoscopy
+331,Laryngoscopy
+331,Post-Oxygenation Breathing Verbalized
+332,Patient Arrival
+332,NRB
+332,Decision to Intubate
+332,NRB
+332,Decision to Intubate
+332,RSI Sedative Meds
+332,Decision to Intubate
+332,Pre-Oxygenation Chest Auscultation
+332,RSI Sedative Meds
+332,Critical Window
+332,RSI Paralytic Meds
+333,Patient Arrival
+333,NRB
+333,Pre-Oxygenation Breathing Verbalized
+333,Decision to Intubate
+333,Airway Verbalized
+333,BVM
+333,RSI Sedative Meds
+333,RSI Sedative Meds
+333,BVM
+333,RSI Sedative Meds
+333,RSI Paralytic Meds
+333,Laryngoscopy
+333,Laryngoscopy
+334,NRB
+334,NRB
+334,Airway Verbalized
+334,Decision to Intubate
+334,RSI Sedative Meds
+334,BVM
+334,Pre-Oxygenation Chest Auscultation
+334,RSI Paralytic Meds
+334,BVM
+334,Intubation Safety Timeout
+334,RSI Sedative Meds
+335,Patient Arrival
+335,Airway Assessment
+335,Pre-Oxygenation Chest Auscultation
+335,Decision to Intubate
+335,Pre-Oxygenation Breathing Verbalized
+335,Critical Window
+335,Post-Oxygenation Breathing Verbalized
+335,RSI Sedative Meds
+335,RSI Sedative Meds
+335,RSI Paralytic Meds
+336,Patient Arrival
+336,NRB
+336,Pre-Oxygenation Chest Auscultation
+336,Pre-Oxygenation Chest Auscultation
+336,Pre-Oxygenation Breathing Verbalized
+336,BVM
+336,Critical Window
+336,RSI Sedative Meds
+336,RSI Sedative Meds
+336,RSI Paralytic Meds
+336,Critical Window
+337,NRB
+337,NRB
+337,Pre-Oxygenation Chest Auscultation
+337,Critical Window
+337,Pre-Oxygenation Chest Auscultation
+337,Critical Window
+337,Decision to Intubate
+337,Airway Verbalized
+337,RSI Sedative Meds
+337,RSI Sedative Meds
+337,RSI Paralytic Meds
+337,Laryngoscopy
+338,Patient Arrival
+338,Airway Assessment
+338,Pre-Oxygenation Chest Auscultation
+338,Pre-Oxygenation Chest Auscultation
+338,BVM
+338,Decision to Intubate
+338,Critical Window
+338,BVM
+338,RSI Sedative Meds
+338,RSI Paralytic Meds
+338,Laryngoscopy
+338,Laryngoscopy
+338,Laryngoscopy
+339,Patient Arrival
+339,NRB
+339,Pre-Oxygenation Breathing Verbalized
+339,Pre-Oxygenation Breathing Verbalized
+339,Pre-Oxygenation Chest Auscultation
+339,BVM
+339,BVM
+339,Laryngoscopy
+339,BVM
+339,Intubation Safety Timeout
+339,RSI Paralytic Meds
+339,Airway Verbalized
+339,Laryngoscopy
+339,Laryngoscopy
+339,Laryngoscopy
+340,Airway Assessment
+340,NRB
+340,NRB
+340,Decision to Intubate
+340,Pre-Oxygenation Breathing Verbalized
+340,BVM
+340,Airway Verbalized
+340,RSI Sedative Meds
+340,BVM
+340,RSI Paralytic Meds
+340,RSI Sedative Meds
+341,Patient Arrival
+341,Pre-Oxygenation Breathing Verbalized
+341,NRB
+341,Pre-Oxygenation Breathing Verbalized
+341,Critical Window
+341,Critical Window
+341,Decision to Intubate
+341,BVM
+341,Critical Window
+341,Laryngoscopy
+341,RSI Paralytic Meds
+342,Patient Arrival
+342,Airway Assessment
+342,NRB
+342,Pre-Oxygenation Breathing Verbalized
+342,Pre-Oxygenation Chest Auscultation
+342,Airway Verbalized
+342,Critical Window
+342,BVM
+342,RSI Paralytic Meds
+342,RSI Sedative Meds
+342,RSI Paralytic Meds
+342,Laryngoscopy
+342,Laryngoscopy
+342,RSI Paralytic Meds
+343,Patient Arrival
+343,NRB
+343,NRB
+343,Pre-Oxygenation Chest Auscultation
+343,Pre-Oxygenation Breathing Verbalized
+343,Intubation Safety Timeout
+343,Intubation Safety Timeout
+343,BVM
+343,Laryngoscopy
+343,RSI Sedative Meds
+343,BVM
+344,Airway Assessment
+344,NRB
+344,Decision to Intubate
+344,Pre-Oxygenation Chest Auscultation
+344,Decision to Intubate
+344,Critical Window
+344,RSI Sedative Meds
+344,RSI Sedative Meds
+344,BVM
+344,Critical Window
+344,RSI Paralytic Meds
+344,Post-Oxygenation Chest Auscultation
+344,Post-Oxygenation Breathing Verbalized
+345,Patient Arrival
+345,NRB
+345,Pre-Oxygenation Chest Auscultation
+345,Decision to Intubate
+345,BVM
+345,Pre-Oxygenation Chest Auscultation
+345,Critical Window
+345,RSI Sedative Meds
+345,RSI Sedative Meds
+345,RSI Paralytic Meds
+345,Laryngoscopy
+346,Patient Arrival
+346,Airway Assessment
+346,Pre-Oxygenation Breathing Verbalized
+346,Airway Assessment
+346,Decision to Intubate
+346,Critical Window
+346,BVM
+346,BVM
+346,RSI Sedative Meds
+346,RSI Sedative Meds
+346,RSI Paralytic Meds
+346,Laryngoscopy
+347,Patient Arrival
+347,NRB
+347,Pre-Oxygenation Chest Auscultation
+347,NRB
+347,BVM
+347,NRB
+347,RSI Sedative Meds
+347,Critical Window
+347,Intubation Safety Timeout
+347,RSI Sedative Meds
+347,RSI Sedative Meds
+347,Laryngoscopy
+347,Laryngoscopy
+347,RSI Paralytic Meds
+347,RSI Paralytic Meds
+347,Laryngoscopy
+348,Patient Arrival
+348,NRB
+348,Pre-Oxygenation Breathing Verbalized
+348,NRB
+348,Pre-Oxygenation Breathing Verbalized
+348,BVM
+348,Critical Window
+348,RSI Sedative Meds
+348,RSI Sedative Meds
+348,Critical Window
+348,Laryngoscopy
+349,Patient Arrival
+349,NRB
+349,Pre-Oxygenation Chest Auscultation
+349,Airway Verbalized
+349,BVM
+349,Airway Verbalized
+349,BVM
+349,Critical Window
+349,Decision to Intubate
+349,BVM
+349,RSI Paralytic Meds
+349,Patient Arrival
+350,Patient Arrival
+350,BVM
+350,Critical Window
+350,Airway Assessment
+350,Pre-Oxygenation Chest Auscultation
+350,Critical Window
+350,Critical Window
+350,RSI Sedative Meds
+350,Critical Window
+350,BVM
+351,Patient Arrival
+351,Airway Assessment
+351,Decision to Intubate
+351,Pre-Oxygenation Breathing Verbalized
+351,Decision to Intubate
+351,BVM
+351,Decision to Intubate
+351,Airway Verbalized
+351,Critical Window
+351,BVM
+351,Pre-Oxygenation Chest Auscultation
+351,Laryngoscopy
+352,Patient Arrival
+352,NRB
+352,Pre-Oxygenation Breathing Verbalized
+352,Pre-Oxygenation Breathing Verbalized
+352,Decision to Intubate
+352,Critical Window
+352,Post-Oxygenation Chest Auscultation
+352,Critical Window
+352,RSI Sedative Meds
+352,RSI Paralytic Meds
+352,Patient Arrival
+352,RSI Paralytic Meds
+352,Laryngoscopy
+352,RSI Sedative Meds
+353,Patient Arrival
+353,Airway Assessment
+353,Airway Assessment
+353,Decision to Intubate
+353,Pre-Oxygenation Chest Auscultation
+353,BVM
+353,Critical Window
+353,RSI Sedative Meds
+353,Decision to Intubate
+353,Critical Window
+353,RSI Paralytic Meds
+353,Laryngoscopy
+353,Laryngoscopy
+353,RSI Paralytic Meds
+353,Post-Oxygenation Chest Auscultation
+353,Post-Oxygenation Breathing Verbalized
+353,Laryngoscopy
+353,Laryngoscopy
+353,Laryngoscopy
+353,Laryngoscopy
+354,Patient Arrival
+354,NRB
+354,Pre-Oxygenation Breathing Verbalized
+354,Critical Window
+354,Decision to Intubate
+354,Decision to Intubate
+354,Critical Window
+354,BVM
+354,BVM
+354,RSI Sedative Meds
+354,RSI Sedative Meds
+354,Laryngoscopy
+355,Airway Assessment
+355,NRB
+355,Decision to Intubate
+355,Pre-Oxygenation Chest Auscultation
+355,Pre-Oxygenation Breathing Verbalized
+355,BVM
+355,RSI Sedative Meds
+355,RSI Sedative Meds
+355,RSI Sedative Meds
+355,RSI Sedative Meds
+355,Laryngoscopy
+356,Patient Arrival
+356,Airway Assessment
+356,Pre-Oxygenation Chest Auscultation
+356,Airway Assessment
+356,Pre-Oxygenation Breathing Verbalized
+356,Intubation Safety Timeout
+356,Intubation Safety Timeout
+356,RSI Sedative Meds
+356,Critical Window
+356,RSI Sedative Meds
+356,RSI Sedative Meds
+356,Laryngoscopy
+356,Post-Oxygenation Breathing Verbalized
+357,Patient Arrival
+357,NRB
+357,Pre-Oxygenation Breathing Verbalized
+357,Pre-Oxygenation Breathing Verbalized
+357,BVM
+357,Critical Window
+357,RSI Sedative Meds
+357,RSI Sedative Meds
+357,RSI Sedative Meds
+357,RSI Sedative Meds
+357,Laryngoscopy
+357,RSI Paralytic Meds
+358,Patient Arrival
+358,NRB
+358,Airway Assessment
+358,Critical Window
+358,Decision to Intubate
+358,Critical Window
+358,BVM
+358,RSI Sedative Meds
+358,BVM
+358,RSI Paralytic Meds
+358,RSI Paralytic Meds
+358,Post-Oxygenation Chest Auscultation
+358,Post-Oxygenation Breathing Verbalized
+358,Laryngoscopy
+359,Patient Arrival
+359,NRB
+359,Pre-Oxygenation Chest Auscultation
+359,Airway Assessment
+359,Decision to Intubate
+359,Airway Verbalized
+359,Decision to Intubate
+359,Critical Window
+359,RSI Paralytic Meds
+359,BVM
+359,BVM
+359,Post-Oxygenation Chest Auscultation
+359,Laryngoscopy
+360,Patient Arrival
+360,NRB
+360,Pre-Oxygenation Breathing Verbalized
+360,Pre-Oxygenation Breathing Verbalized
+360,Decision to Intubate
+360,Critical Window
+360,Airway Verbalized
+360,BVM
+360,Critical Window
+360,RSI Paralytic Meds
+360,RSI Sedative Meds
+360,Laryngoscopy
+360,RSI Paralytic Meds
+360,Laryngoscopy
+361,Patient Arrival
+361,NRB
+361,Pre-Oxygenation Breathing Verbalized
+361,Critical Window
+361,Pre-Oxygenation Breathing Verbalized
+361,Intubation Safety Timeout
+361,RSI Sedative Meds
+361,Laryngoscopy
+361,BVM
+361,RSI Sedative Meds
+361,Critical Window
+361,RSI Paralytic Meds
+361,RSI Paralytic Meds
+362,Patient Arrival
+362,NRB
+362,Pre-Oxygenation Chest Auscultation
+362,Pre-Oxygenation Chest Auscultation
+362,Decision to Intubate
+362,Decision to Intubate
+362,Airway Verbalized
+362,RSI Sedative Meds
+362,BVM
+362,RSI Sedative Meds
+362,Laryngoscopy
+362,Laryngoscopy
+362,Post-Oxygenation Chest Auscultation
+362,Post-Oxygenation Breathing Verbalized
+362,Laryngoscopy
+363,NRB
+363,NRB
+363,Pre-Oxygenation Breathing Verbalized
+363,Pre-Oxygenation Chest Auscultation
+363,RSI Sedative Meds
+363,BVM
+363,Decision to Intubate
+363,BVM
+363,RSI Sedative Meds
+363,BVM
+363,RSI Sedative Meds
+363,RSI Paralytic Meds
+364,Patient Arrival
+364,Airway Assessment
+364,NRB
+364,NRB
+364,Airway Verbalized
+364,Airway Verbalized
+364,Pre-Oxygenation Chest Auscultation
+364,RSI Sedative Meds
+364,BVM
+364,RSI Sedative Meds
+365,Patient Arrival
+365,NRB
+365,Pre-Oxygenation Chest Auscultation
+365,Airway Verbalized
+365,BVM
+365,RSI Sedative Meds
+365,Critical Window
+365,RSI Sedative Meds
+365,RSI Paralytic Meds
+365,RSI Paralytic Meds
+365,RSI Paralytic Meds
+366,Patient Arrival
+366,NRB
+366,Pre-Oxygenation Breathing Verbalized
+366,Decision to Intubate
+366,Pre-Oxygenation Chest Auscultation
+366,Post-Oxygenation Breathing Verbalized
+366,RSI Paralytic Meds
+366,BVM
+366,Critical Window
+366,Airway Verbalized
+366,RSI Sedative Meds
+367,Patient Arrival
+367,Pre-Oxygenation Chest Auscultation
+367,Pre-Oxygenation Breathing Verbalized
+367,BVM
+367,Decision to Intubate
+367,BVM
+367,RSI Sedative Meds
+367,Critical Window
+367,BVM
+367,Laryngoscopy
+367,RSI Paralytic Meds
+368,Patient Arrival
+368,Patient Arrival
+368,Decision to Intubate
+368,Pre-Oxygenation Breathing Verbalized
+368,Pre-Oxygenation Breathing Verbalized
+368,BVM
+368,Critical Window
+368,Airway Verbalized
+368,BVM
+368,BVM
+368,RSI Paralytic Meds
+369,Patient Arrival
+369,Airway Assessment
+369,BVM
+369,Pre-Oxygenation Breathing Verbalized
+369,Pre-Oxygenation Chest Auscultation
+369,Critical Window
+369,Intubation Safety Timeout
+369,RSI Sedative Meds
+369,RSI Paralytic Meds
+369,RSI Sedative Meds
+369,Laryngoscopy
+369,Laryngoscopy
+369,Laryngoscopy
+370,Patient Arrival
+370,NRB
+370,BVM
+370,Airway Verbalized
+370,BVM
+370,Airway Verbalized
+370,RSI Sedative Meds
+370,BVM
+370,BVM
+370,BVM
+371,Patient Arrival
+371,NRB
+371,NRB
+371,Airway Assessment
+371,Pre-Oxygenation Breathing Verbalized
+371,Critical Window
+371,Pre-Oxygenation Breathing Verbalized
+371,Intubation Safety Timeout
+371,RSI Sedative Meds
+371,Pre-Oxygenation Breathing Verbalized
+372,Patient Arrival
+372,Airway Verbalized
+372,Pre-Oxygenation Chest Auscultation
+372,Pre-Oxygenation Breathing Verbalized
+372,Critical Window
+372,BVM
+372,Critical Window
+372,BVM
+372,RSI Paralytic Meds
+372,RSI Paralytic Meds
+372,RSI Paralytic Meds
+372,Laryngoscopy
+372,Post-Oxygenation Chest Auscultation
+372,RSI Paralytic Meds
+372,RSI Sedative Meds
+373,Patient Arrival
+373,Airway Assessment
+373,Airway Assessment
+373,Pre-Oxygenation Chest Auscultation
+373,Pre-Oxygenation Chest Auscultation
+373,RSI Sedative Meds
+373,Critical Window
+373,Laryngoscopy
+373,Critical Window
+373,Decision to Intubate
+373,Laryngoscopy
+374,Patient Arrival
+374,Airway Assessment
+374,Pre-Oxygenation Breathing Verbalized
+374,Pre-Oxygenation Breathing Verbalized
+374,Patient Arrival
+374,BVM
+374,Intubation Safety Timeout
+374,Decision to Intubate
+374,RSI Sedative Meds
+374,RSI Paralytic Meds
+374,RSI Paralytic Meds
+374,Post-Oxygenation Chest Auscultation
+374,Laryngoscopy
+374,Post-Oxygenation Chest Auscultation
+374,Post-Oxygenation Breathing Verbalized
+374,Laryngoscopy
+374,Post-Oxygenation Breathing Verbalized
+375,Patient Arrival
+375,NRB
+375,Pre-Oxygenation Chest Auscultation
+375,Intubation Safety Timeout
+375,BVM
+375,RSI Sedative Meds
+375,Post-Oxygenation Chest Auscultation
+375,BVM
+375,RSI Paralytic Meds
+375,Critical Window
+375,RSI Paralytic Meds
+375,Laryngoscopy
+375,Laryngoscopy
+376,Patient Arrival
+376,NRB
+376,Pre-Oxygenation Breathing Verbalized
+376,Pre-Oxygenation Chest Auscultation
+376,Pre-Oxygenation Breathing Verbalized
+376,BVM
+376,BVM
+376,Critical Window
+376,BVM
+376,Intubation Safety Timeout
+376,BVM
+376,Post-Oxygenation Chest Auscultation
+376,Laryngoscopy
+377,Patient Arrival
+377,Airway Assessment
+377,Pre-Oxygenation Chest Auscultation
+377,Pre-Oxygenation Breathing Verbalized
+377,Pre-Oxygenation Chest Auscultation
+377,BVM
+377,RSI Sedative Meds
+377,Critical Window
+377,Decision to Intubate
+377,BVM
+377,RSI Paralytic Meds
+377,RSI Paralytic Meds
+377,Laryngoscopy
+377,Post-Oxygenation Chest Auscultation
+378,Patient Arrival
+378,Airway Assessment
+378,Pre-Oxygenation Breathing Verbalized
+378,Airway Assessment
+378,Pre-Oxygenation Chest Auscultation
+378,Intubation Safety Timeout
+378,Airway Verbalized
+378,BVM
+378,BVM
+378,BVM
+378,RSI Paralytic Meds
+379,Patient Arrival
+379,NRB
+379,Airway Assessment
+379,Airway Verbalized
+379,Pre-Oxygenation Chest Auscultation
+379,Intubation Safety Timeout
+379,Intubation Safety Timeout
+379,RSI Sedative Meds
+379,Decision to Intubate
+379,BVM
+379,RSI Paralytic Meds
+380,Patient Arrival
+380,NRB
+380,Pre-Oxygenation Chest Auscultation
+380,Airway Verbalized
+380,Pre-Oxygenation Chest Auscultation
+380,Airway Verbalized
+380,Intubation Safety Timeout
+380,Intubation Safety Timeout
+380,RSI Sedative Meds
+380,RSI Sedative Meds
+380,RSI Paralytic Meds
+380,RSI Sedative Meds
+380,Patient Arrival
+380,Laryngoscopy
+380,Laryngoscopy
+381,NRB
+381,NRB
+381,Pre-Oxygenation Chest Auscultation
+381,Pre-Oxygenation Chest Auscultation
+381,Critical Window
+381,Decision to Intubate
+381,Intubation Safety Timeout
+381,BVM
+381,RSI Sedative Meds
+381,Laryngoscopy
+381,RSI Paralytic Meds
+381,Laryngoscopy
+381,BVM
+381,RSI Sedative Meds
+381,RSI Paralytic Meds
+381,Post-Oxygenation Breathing Verbalized
+381,Post-Oxygenation Breathing Verbalized
+381,Post-Oxygenation Chest Auscultation
+382,Patient Arrival
+382,Airway Assessment
+382,Pre-Oxygenation Breathing Verbalized
+382,Pre-Oxygenation Chest Auscultation
+382,Pre-Oxygenation Breathing Verbalized
+382,BVM
+382,BVM
+382,BVM
+382,Critical Window
+382,Intubation Safety Timeout
+382,Laryngoscopy
+383,Patient Arrival
+383,Patient Arrival
+383,Decision to Intubate
+383,Pre-Oxygenation Breathing Verbalized
+383,Pre-Oxygenation Breathing Verbalized
+383,BVM
+383,RSI Sedative Meds
+383,Critical Window
+383,RSI Sedative Meds
+383,BVM
+383,Laryngoscopy
+383,Laryngoscopy
+383,Laryngoscopy
+383,Laryngoscopy
+384,Patient Arrival
+384,NRB
+384,Decision to Intubate
+384,Pre-Oxygenation Breathing Verbalized
+384,BVM
+384,BVM
+384,Airway Verbalized
+384,RSI Sedative Meds
+384,Critical Window
+384,RSI Paralytic Meds
+384,Laryngoscopy
+385,Patient Arrival
+385,Pre-Oxygenation Breathing Verbalized
+385,NRB
+385,BVM
+385,BVM
+385,Airway Verbalized
+385,Critical Window
+385,RSI Sedative Meds
+385,BVM
+386,Patient Arrival
+386,NRB
+386,Airway Assessment
+386,Critical Window
+386,Critical Window
+386,RSI Sedative Meds
+386,RSI Sedative Meds
+386,BVM
+386,BVM
+386,Critical Window
+386,Laryngoscopy
+386,RSI Paralytic Meds
+386,Laryngoscopy
+386,Laryngoscopy
+386,Laryngoscopy
+386,RSI Paralytic Meds
+387,Patient Arrival
+387,Airway Assessment
+387,NRB
+387,Decision to Intubate
+387,NRB
+387,Intubation Safety Timeout
+387,RSI Sedative Meds
+387,Intubation Safety Timeout
+387,RSI Sedative Meds
+387,RSI Sedative Meds
+388,Patient Arrival
+388,NRB
+388,Pre-Oxygenation Chest Auscultation
+388,Decision to Intubate
+388,BVM
+388,Intubation Safety Timeout
+388,BVM
+388,Critical Window
+388,RSI Paralytic Meds
+388,RSI Paralytic Meds
+388,Laryngoscopy
+388,RSI Paralytic Meds
+389,Patient Arrival
+389,NRB
+389,Pre-Oxygenation Breathing Verbalized
+389,Airway Assessment
+389,Pre-Oxygenation Breathing Verbalized
+389,Intubation Safety Timeout
+389,Decision to Intubate
+389,Critical Window
+389,BVM
+389,RSI Sedative Meds
+389,Post-Oxygenation Breathing Verbalized
+389,Laryngoscopy
+389,Laryngoscopy
+389,Laryngoscopy
+389,Laryngoscopy
+390,Patient Arrival
+390,Patient Arrival
+390,Pre-Oxygenation Breathing Verbalized
+390,Airway Assessment
+390,Pre-Oxygenation Breathing Verbalized
+390,Intubation Safety Timeout
+390,BVM
+390,BVM
+390,RSI Paralytic Meds
+390,RSI Paralytic Meds
+390,RSI Sedative Meds
+390,RSI Sedative Meds
+390,RSI Paralytic Meds
+391,Patient Arrival
+391,Airway Assessment
+391,Pre-Oxygenation Chest Auscultation
+391,Pre-Oxygenation Breathing Verbalized
+391,BVM
+391,Airway Verbalized
+391,BVM
+391,RSI Sedative Meds
+391,RSI Sedative Meds
+391,RSI Sedative Meds
+392,Patient Arrival
+392,NRB
+392,Airway Assessment
+392,Pre-Oxygenation Chest Auscultation
+392,Pre-Oxygenation Breathing Verbalized
+392,Airway Verbalized
+392,Airway Verbalized
+392,Critical Window
+392,BVM
+392,BVM
+392,Pre-Oxygenation Breathing Verbalized
+392,RSI Paralytic Meds
+392,RSI Sedative Meds
+392,RSI Sedative Meds
+392,Laryngoscopy
+392,Laryngoscopy
+393,Patient Arrival
+393,NRB
+393,NRB
+393,Pre-Oxygenation Breathing Verbalized
+393,Decision to Intubate
+393,Critical Window
+393,BVM
+393,RSI Sedative Meds
+393,BVM
+393,RSI Sedative Meds
+393,Critical Window
+393,RSI Paralytic Meds
+393,Post-Oxygenation Chest Auscultation
+394,Patient Arrival
+394,NRB
+394,Pre-Oxygenation Chest Auscultation
+394,Pre-Oxygenation Chest Auscultation
+394,Pre-Oxygenation Breathing Verbalized
+394,Critical Window
+394,RSI Sedative Meds
+394,RSI Sedative Meds
+394,BVM
+394,RSI Sedative Meds
+394,BVM
+394,Laryngoscopy
+394,Laryngoscopy
+394,Laryngoscopy
+395,Patient Arrival
+395,NRB
+395,NRB
+395,Pre-Oxygenation Chest Auscultation
+395,NRB
+395,BVM
+395,Airway Verbalized
+395,BVM
+395,Critical Window
+395,RSI Sedative Meds
+396,Patient Arrival
+396,Airway Assessment
+396,Pre-Oxygenation Chest Auscultation
+396,Airway Assessment
+396,Decision to Intubate
+396,RSI Paralytic Meds
+396,RSI Sedative Meds
+396,BVM
+396,Pre-Oxygenation Breathing Verbalized
+396,Critical Window
+396,Laryngoscopy
+396,Intubation Safety Timeout
+396,Post-Oxygenation Chest Auscultation
+396,Laryngoscopy
+397,Patient Arrival
+397,NRB
+397,Critical Window
+397,Pre-Oxygenation Breathing Verbalized
+397,Decision to Intubate
+397,Critical Window
+397,RSI Sedative Meds
+397,BVM
+397,Decision to Intubate
+397,BVM
+397,RSI Paralytic Meds
+397,Critical Window
+398,Patient Arrival
+398,Airway Assessment
+398,BVM
+398,Decision to Intubate
+398,Pre-Oxygenation Chest Auscultation
+398,Post-Oxygenation Chest Auscultation
+398,RSI Sedative Meds
+398,RSI Sedative Meds
+398,RSI Paralytic Meds
+398,Post-Oxygenation Breathing Verbalized
+398,Laryngoscopy
+398,BVM
+398,Laryngoscopy
+399,Patient Arrival
+399,Decision to Intubate
+399,Airway Assessment
+399,Pre-Oxygenation Chest Auscultation
+399,Airway Verbalized
+399,BVM
+399,RSI Paralytic Meds
+399,Critical Window
+399,Critical Window
+399,RSI Paralytic Meds
+399,Intubation Safety Timeout
+399,RSI Sedative Meds
+400,Patient Arrival
+400,NRB
+400,NRB
+400,NRB
+400,Critical Window
+400,Intubation Safety Timeout
+400,Intubation Safety Timeout
+400,Intubation Safety Timeout
+400,RSI Sedative Meds
+400,RSI Paralytic Meds
+400,Laryngoscopy
+401,Patient Arrival
+401,Pre-Oxygenation Chest Auscultation
+401,NRB
+401,Decision to Intubate
+401,Airway Verbalized
+401,BVM
+401,RSI Sedative Meds
+401,BVM
+401,BVM
+401,Decision to Intubate
+401,RSI Paralytic Meds
+401,RSI Paralytic Meds
+401,RSI Paralytic Meds
+401,RSI Paralytic Meds
+401,RSI Paralytic Meds
+402,Patient Arrival
+402,NRB
+402,Pre-Oxygenation Chest Auscultation
+402,Decision to Intubate
+402,Critical Window
+402,Pre-Oxygenation Breathing Verbalized
+402,Pre-Oxygenation Breathing Verbalized
+402,RSI Sedative Meds
+402,Critical Window
+402,BVM
+402,RSI Sedative Meds
+402,RSI Sedative Meds
+403,Patient Arrival
+403,NRB
+403,NRB
+403,Pre-Oxygenation Chest Auscultation
+403,Decision to Intubate
+403,Decision to Intubate
+403,Critical Window
+403,RSI Sedative Meds
+403,RSI Sedative Meds
+403,Critical Window
+403,RSI Paralytic Meds
+403,Post-Oxygenation Chest Auscultation
+403,RSI Sedative Meds
+403,Laryngoscopy
+404,Patient Arrival
+404,NRB
+404,Airway Assessment
+404,Decision to Intubate
+404,Decision to Intubate
+404,Airway Verbalized
+404,BVM
+404,BVM
+404,BVM
+404,RSI Sedative Meds
+404,Laryngoscopy
+404,NRB
+404,Laryngoscopy
+405,Patient Arrival
+405,NRB
+405,Pre-Oxygenation Chest Auscultation
+405,NRB
+405,BVM
+405,Critical Window
+405,Decision to Intubate
+405,Critical Window
+405,RSI Paralytic Meds
+405,RSI Paralytic Meds
+405,Laryngoscopy
+405,Laryngoscopy
+405,Laryngoscopy
+405,Patient Arrival
+405,Laryngoscopy
+406,Patient Arrival
+406,Patient Arrival
+406,Airway Assessment
+406,Decision to Intubate
+406,Post-Oxygenation Breathing Verbalized
+406,Decision to Intubate
+406,Decision to Intubate
+406,Intubation Safety Timeout
+406,RSI Sedative Meds
+406,BVM
+406,Critical Window
+406,RSI Paralytic Meds
+407,Patient Arrival
+407,Airway Assessment
+407,Pre-Oxygenation Chest Auscultation
+407,Pre-Oxygenation Chest Auscultation
+407,BVM
+407,Pre-Oxygenation Chest Auscultation
+407,RSI Sedative Meds
+407,RSI Sedative Meds
+407,RSI Sedative Meds
+407,Critical Window
+407,BVM
+407,RSI Paralytic Meds
+407,Post-Oxygenation Breathing Verbalized
+408,Patient Arrival
+408,NRB
+408,Decision to Intubate
+408,Decision to Intubate
+408,Decision to Intubate
+408,BVM
+408,BVM
+408,Intubation Safety Timeout
+408,RSI Sedative Meds
+408,RSI Sedative Meds
+408,RSI Paralytic Meds
+408,Critical Window
+408,Laryngoscopy
+409,Patient Arrival
+409,Pre-Oxygenation Breathing Verbalized
+409,Pre-Oxygenation Chest Auscultation
+409,Pre-Oxygenation Breathing Verbalized
+409,Airway Verbalized
+409,Decision to Intubate
+409,Critical Window
+409,BVM
+409,Decision to Intubate
+409,BVM
+409,BVM
+410,Patient Arrival
+410,NRB
+410,Pre-Oxygenation Chest Auscultation
+410,Pre-Oxygenation Breathing Verbalized
+410,Decision to Intubate
+410,BVM
+410,RSI Sedative Meds
+410,RSI Sedative Meds
+410,Critical Window
+410,Intubation Safety Timeout
+410,Laryngoscopy
+410,RSI Sedative Meds
+410,Laryngoscopy
+410,Laryngoscopy
+410,Post-Oxygenation Breathing Verbalized
+410,BVM
+411,Patient Arrival
+411,NRB
+411,Pre-Oxygenation Chest Auscultation
+411,Pre-Oxygenation Chest Auscultation
+411,BVM
+411,Post-Oxygenation Breathing Verbalized
+411,RSI Sedative Meds
+411,BVM
+411,Decision to Intubate
+411,Critical Window
+411,RSI Paralytic Meds
+412,Patient Arrival
+412,NRB
+412,Pre-Oxygenation Breathing Verbalized
+412,Pre-Oxygenation Chest Auscultation
+412,BVM
+412,RSI Paralytic Meds
+412,Critical Window
+412,BVM
+412,BVM
+412,RSI Sedative Meds
+412,RSI Paralytic Meds
+413,Patient Arrival
+413,NRB
+413,Airway Assessment
+413,Pre-Oxygenation Chest Auscultation
+413,BVM
+413,Intubation Safety Timeout
+413,BVM
+413,RSI Sedative Meds
+413,RSI Sedative Meds
+413,RSI Sedative Meds
+413,RSI Paralytic Meds
+414,Patient Arrival
+414,NRB
+414,NRB
+414,Airway Verbalized
+414,Pre-Oxygenation Chest Auscultation
+414,Pre-Oxygenation Chest Auscultation
+414,Intubation Safety Timeout
+414,RSI Sedative Meds
+414,RSI Sedative Meds
+414,RSI Paralytic Meds
+414,BVM
+415,Patient Arrival
+415,NRB
+415,Pre-Oxygenation Breathing Verbalized
+415,NRB
+415,Decision to Intubate
+415,BVM
+415,RSI Sedative Meds
+415,BVM
+415,Critical Window
+415,RSI Sedative Meds
+415,Laryngoscopy
+416,Patient Arrival
+416,Airway Assessment
+416,Pre-Oxygenation Chest Auscultation
+416,RSI Sedative Meds
+416,BVM
+416,Intubation Safety Timeout
+416,BVM
+416,Critical Window
+416,RSI Sedative Meds
+416,BVM
+417,Patient Arrival
+417,NRB
+417,Pre-Oxygenation Chest Auscultation
+417,Airway Verbalized
+417,Critical Window
+417,Critical Window
+417,Intubation Safety Timeout
+417,Decision to Intubate
+417,RSI Sedative Meds
+417,RSI Sedative Meds
+417,RSI Paralytic Meds
+418,Patient Arrival
+418,NRB
+418,BVM
+418,Pre-Oxygenation Chest Auscultation
+418,Critical Window
+418,Critical Window
+418,Post-Oxygenation Chest Auscultation
+418,RSI Sedative Meds
+418,RSI Sedative Meds
+418,RSI Sedative Meds
+419,Patient Arrival
+419,Patient Arrival
+419,Critical Window
+419,Critical Window
+419,Decision to Intubate
+419,Decision to Intubate
+419,Intubation Safety Timeout
+419,RSI Sedative Meds
+419,BVM
+419,Decision to Intubate
+419,RSI Paralytic Meds
+419,RSI Sedative Meds
+419,RSI Paralytic Meds
+420,Patient Arrival
+420,NRB
+420,Pre-Oxygenation Breathing Verbalized
+420,BVM
+420,Decision to Intubate
+420,Decision to Intubate
+420,Decision to Intubate
+420,BVM
+420,Critical Window
+420,RSI Sedative Meds
+420,BVM
+420,RSI Paralytic Meds
+421,Patient Arrival
+421,NRB
+421,NRB
+421,Critical Window
+421,Airway Verbalized
+421,Airway Assessment
+421,BVM
+421,BVM
+421,RSI Sedative Meds
+421,RSI Paralytic Meds
+422,Patient Arrival
+422,Pre-Oxygenation Chest Auscultation
+422,Pre-Oxygenation Breathing Verbalized
+422,Pre-Oxygenation Chest Auscultation
+422,RSI Sedative Meds
+422,RSI Sedative Meds
+422,RSI Sedative Meds
+422,BVM
+422,BVM
+422,RSI Paralytic Meds
+422,RSI Paralytic Meds
+422,RSI Paralytic Meds
+422,Laryngoscopy
+423,Patient Arrival
+423,Airway Assessment
+423,NRB
+423,Pre-Oxygenation Chest Auscultation
+423,Critical Window
+423,Intubation Safety Timeout
+423,Airway Verbalized
+423,RSI Sedative Meds
+423,Critical Window
+423,BVM
+424,Patient Arrival
+424,NRB
+424,Airway Verbalized
+424,NRB
+424,Decision to Intubate
+424,Critical Window
+424,Critical Window
+424,BVM
+424,RSI Sedative Meds
+424,Decision to Intubate
+425,Patient Arrival
+425,Airway Assessment
+425,Pre-Oxygenation Breathing Verbalized
+425,Pre-Oxygenation Chest Auscultation
+425,Pre-Oxygenation Chest Auscultation
+425,Critical Window
+425,BVM
+425,RSI Sedative Meds
+425,Decision to Intubate
+425,Intubation Safety Timeout
+425,RSI Paralytic Meds
+425,RSI Paralytic Meds
+425,Laryngoscopy
+426,Patient Arrival
+426,NRB
+426,Decision to Intubate
+426,Decision to Intubate
+426,Airway Verbalized
+426,BVM
+426,RSI Sedative Meds
+426,RSI Sedative Meds
+426,RSI Sedative Meds
+426,Critical Window
+426,Laryngoscopy
+426,RSI Paralytic Meds
+427,Patient Arrival
+427,Airway Assessment
+427,Pre-Oxygenation Chest Auscultation
+427,Pre-Oxygenation Chest Auscultation
+427,Airway Verbalized
+427,Laryngoscopy
+427,RSI Sedative Meds
+427,Intubation Safety Timeout
+427,BVM
+427,BVM
+427,Laryngoscopy
+427,Laryngoscopy
+428,Patient Arrival
+428,NRB
+428,Pre-Oxygenation Chest Auscultation
+428,NRB
+428,Airway Verbalized
+428,BVM
+428,BVM
+428,Critical Window
+428,BVM
+428,BVM
+428,Laryngoscopy
+428,Laryngoscopy
+428,Laryngoscopy
+429,Patient Arrival
+429,Airway Assessment
+429,Decision to Intubate
+429,Decision to Intubate
+429,NRB
+429,Intubation Safety Timeout
+429,BVM
+429,BVM
+429,RSI Sedative Meds
+429,RSI Paralytic Meds
+429,RSI Paralytic Meds
+429,Laryngoscopy
+429,Critical Window
+429,Laryngoscopy
+429,Laryngoscopy
+429,RSI Sedative Meds
+430,Patient Arrival
+430,Decision to Intubate
+430,NRB
+430,Airway Verbalized
+430,Critical Window
+430,BVM
+430,BVM
+430,BVM
+430,RSI Sedative Meds
+430,Intubation Safety Timeout
+430,RSI Paralytic Meds
+431,Patient Arrival
+431,NRB
+431,Pre-Oxygenation Breathing Verbalized
+431,Pre-Oxygenation Breathing Verbalized
+431,Pre-Oxygenation Chest Auscultation
+431,Critical Window
+431,RSI Sedative Meds
+431,Airway Verbalized
+431,BVM
+431,RSI Paralytic Meds
+431,Critical Window
+431,Laryngoscopy
+431,Intubation Safety Timeout
+431,RSI Paralytic Meds
+432,Patient Arrival
+432,Airway Assessment
+432,Pre-Oxygenation Chest Auscultation
+432,Airway Assessment
+432,BVM
+432,BVM
+432,Post-Oxygenation Chest Auscultation
+432,BVM
+432,Intubation Safety Timeout
+432,Critical Window
+432,BVM
+432,RSI Paralytic Meds
+433,Patient Arrival
+433,Airway Assessment
+433,Pre-Oxygenation Breathing Verbalized
+433,Decision to Intubate
+433,Pre-Oxygenation Chest Auscultation
+433,Intubation Safety Timeout
+433,Airway Assessment
+433,Critical Window
+433,Critical Window
+433,BVM
+433,RSI Paralytic Meds
+433,Laryngoscopy
+433,Laryngoscopy
+433,Laryngoscopy
+433,Laryngoscopy
+433,Post-Oxygenation Chest Auscultation
+433,Laryngoscopy
+433,Laryngoscopy
+433,Laryngoscopy
+433,Post-Oxygenation Chest Auscultation
+433,Laryngoscopy
+434,Patient Arrival
+434,Airway Assessment
+434,Pre-Oxygenation Chest Auscultation
+434,Pre-Oxygenation Chest Auscultation
+434,Airway Verbalized
+434,Decision to Intubate
+434,Critical Window
+434,Airway Verbalized
+434,Critical Window
+434,RSI Sedative Meds
+434,RSI Paralytic Meds
+434,Laryngoscopy
+434,Laryngoscopy
+435,Airway Assessment
+435,NRB
+435,Pre-Oxygenation Chest Auscultation
+435,Pre-Oxygenation Chest Auscultation
+435,Airway Verbalized
+435,RSI Sedative Meds
+435,Intubation Safety Timeout
+435,BVM
+435,RSI Sedative Meds
+435,RSI Sedative Meds
+435,RSI Paralytic Meds
+435,Laryngoscopy
+435,RSI Paralytic Meds
+436,Patient Arrival
+436,NRB
+436,Pre-Oxygenation Chest Auscultation
+436,NRB
+436,Decision to Intubate
+436,RSI Sedative Meds
+436,Critical Window
+436,BVM
+436,Critical Window
+436,Laryngoscopy
+436,BVM
+436,Laryngoscopy
+437,Patient Arrival
+437,NRB
+437,Airway Verbalized
+437,Airway Assessment
+437,Intubation Safety Timeout
+437,BVM
+437,RSI Sedative Meds
+437,RSI Paralytic Meds
+437,RSI Sedative Meds
+437,Laryngoscopy
+437,RSI Sedative Meds
+437,Intubation Safety Timeout
+437,RSI Paralytic Meds
+437,Laryngoscopy
+437,RSI Paralytic Meds
+437,Laryngoscopy
+437,Laryngoscopy
+438,Patient Arrival
+438,NRB
+438,Pre-Oxygenation Breathing Verbalized
+438,Pre-Oxygenation Breathing Verbalized
+438,RSI Sedative Meds
+438,Pre-Oxygenation Chest Auscultation
+438,Airway Assessment
+438,RSI Sedative Meds
+438,Pre-Oxygenation Chest Auscultation
+438,RSI Sedative Meds
+438,Laryngoscopy
+439,Patient Arrival
+439,Patient Arrival
+439,Pre-Oxygenation Chest Auscultation
+439,Pre-Oxygenation Chest Auscultation
+439,Decision to Intubate
+439,Decision to Intubate
+439,Critical Window
+439,RSI Sedative Meds
+439,Critical Window
+439,Critical Window
+439,BVM
+440,Patient Arrival
+440,Patient Arrival
+440,NRB
+440,Airway Assessment
+440,BVM
+440,BVM
+440,Critical Window
+440,BVM
+440,BVM
+440,Critical Window
+441,Patient Arrival
+441,Airway Assessment
+441,Decision to Intubate
+441,Pre-Oxygenation Chest Auscultation
+441,RSI Paralytic Meds
+441,Pre-Oxygenation Chest Auscultation
+441,BVM
+441,BVM
+441,BVM
+441,RSI Sedative Meds
+441,Laryngoscopy
+442,Patient Arrival
+442,NRB
+442,BVM
+442,Pre-Oxygenation Chest Auscultation
+442,Airway Verbalized
+442,BVM
+442,Decision to Intubate
+442,Critical Window
+442,RSI Sedative Meds
+442,BVM
+442,BVM
+442,RSI Paralytic Meds
+443,Patient Arrival
+443,Airway Assessment
+443,Decision to Intubate
+443,NRB
+443,Critical Window
+443,Critical Window
+443,Airway Verbalized
+443,Critical Window
+443,BVM
+443,BVM
+443,Laryngoscopy
+443,Laryngoscopy
+443,Laryngoscopy
+443,Laryngoscopy
+444,Patient Arrival
+444,NRB
+444,Pre-Oxygenation Breathing Verbalized
+444,Pre-Oxygenation Breathing Verbalized
+444,Pre-Oxygenation Breathing Verbalized
+444,RSI Sedative Meds
+444,RSI Sedative Meds
+444,Pre-Oxygenation Breathing Verbalized
+444,Pre-Oxygenation Breathing Verbalized
+444,BVM
+444,Laryngoscopy
+444,Laryngoscopy
+444,RSI Paralytic Meds
+444,Laryngoscopy
+445,Patient Arrival
+445,Airway Assessment
+445,Decision to Intubate
+445,Decision to Intubate
+445,Pre-Oxygenation Breathing Verbalized
+445,Airway Verbalized
+445,Critical Window
+445,Critical Window
+445,RSI Sedative Meds
+445,RSI Sedative Meds
+445,RSI Paralytic Meds
+445,Laryngoscopy
+446,Patient Arrival
+446,Airway Assessment
+446,Airway Assessment
+446,Pre-Oxygenation Chest Auscultation
+446,Airway Verbalized
+446,Intubation Safety Timeout
+446,Pre-Oxygenation Breathing Verbalized
+446,BVM
+446,RSI Sedative Meds
+446,Intubation Safety Timeout
+446,Laryngoscopy
+446,Laryngoscopy
+447,Patient Arrival
+447,NRB
+447,Pre-Oxygenation Breathing Verbalized
+447,Pre-Oxygenation Chest Auscultation
+447,Airway Verbalized
+447,Pre-Oxygenation Breathing Verbalized
+447,Pre-Oxygenation Breathing Verbalized
+447,BVM
+447,BVM
+447,Critical Window
+447,RSI Paralytic Meds
+448,Patient Arrival
+448,Patient Arrival
+448,Pre-Oxygenation Chest Auscultation
+448,Pre-Oxygenation Breathing Verbalized
+448,Airway Verbalized
+448,Airway Verbalized
+448,BVM
+448,BVM
+448,Critical Window
+448,Laryngoscopy
+448,Laryngoscopy
+448,Laryngoscopy
+448,Post-Oxygenation Chest Auscultation
+448,Laryngoscopy
+448,RSI Paralytic Meds
+448,Laryngoscopy
+448,Post-Oxygenation Chest Auscultation
+449,Patient Arrival
+449,Decision to Intubate
+449,Pre-Oxygenation Breathing Verbalized
+449,Pre-Oxygenation Breathing Verbalized
+449,Pre-Oxygenation Breathing Verbalized
+449,BVM
+449,Critical Window
+449,BVM
+449,RSI Sedative Meds
+449,RSI Paralytic Meds
+449,RSI Sedative Meds
+449,RSI Paralytic Meds
+450,Patient Arrival
+450,NRB
+450,Pre-Oxygenation Chest Auscultation
+450,Decision to Intubate
+450,Critical Window
+450,Pre-Oxygenation Breathing Verbalized
+450,Intubation Safety Timeout
+450,BVM
+450,RSI Sedative Meds
+450,Decision to Intubate
+450,BVM
+450,Post-Oxygenation Breathing Verbalized
+451,Patient Arrival
+451,Airway Assessment
+451,Pre-Oxygenation Breathing Verbalized
+451,Pre-Oxygenation Chest Auscultation
+451,Intubation Safety Timeout
+451,RSI Sedative Meds
+451,RSI Sedative Meds
+451,BVM
+451,Critical Window
+451,RSI Paralytic Meds
+451,BVM
+451,RSI Sedative Meds
+452,Patient Arrival
+452,Airway Assessment
+452,Pre-Oxygenation Chest Auscultation
+452,Pre-Oxygenation Chest Auscultation
+452,BVM
+452,Airway Verbalized
+452,Critical Window
+452,BVM
+452,Critical Window
+452,RSI Paralytic Meds
+452,Critical Window
+452,RSI Paralytic Meds
+453,Patient Arrival
+453,Patient Arrival
+453,NRB
+453,Pre-Oxygenation Breathing Verbalized
+453,Pre-Oxygenation Breathing Verbalized
+453,RSI Sedative Meds
+453,BVM
+453,Laryngoscopy
+453,RSI Sedative Meds
+453,RSI Sedative Meds
+453,Laryngoscopy
+453,Laryngoscopy
+453,Post-Oxygenation Chest Auscultation
+453,Laryngoscopy
+453,Post-Oxygenation Breathing Verbalized
+453,Intubation Safety Timeout
+453,RSI Sedative Meds
+454,Patient Arrival
+454,NRB
+454,Pre-Oxygenation Chest Auscultation
+454,Decision to Intubate
+454,Decision to Intubate
+454,BVM
+454,RSI Sedative Meds
+454,Decision to Intubate
+454,RSI Sedative Meds
+454,RSI Sedative Meds
+454,Laryngoscopy
+454,Laryngoscopy
+455,Patient Arrival
+455,Airway Assessment
+455,NRB
+455,Pre-Oxygenation Chest Auscultation
+455,Decision to Intubate
+455,Airway Verbalized
+455,Critical Window
+455,Intubation Safety Timeout
+455,BVM
+455,Pre-Oxygenation Breathing Verbalized
+455,RSI Paralytic Meds
+455,BVM
+455,Intubation Safety Timeout
+455,Laryngoscopy
+455,Laryngoscopy
+455,Laryngoscopy
+456,Patient Arrival
+456,Pre-Oxygenation Breathing Verbalized
+456,Pre-Oxygenation Chest Auscultation
+456,BVM
+456,Decision to Intubate
+456,RSI Sedative Meds
+456,Critical Window
+456,Critical Window
+456,RSI Sedative Meds
+456,BVM
+457,Patient Arrival
+457,NRB
+457,Pre-Oxygenation Breathing Verbalized
+457,Airway Assessment
+457,Airway Verbalized
+457,BVM
+457,Critical Window
+457,Intubation Safety Timeout
+457,RSI Sedative Meds
+457,BVM
+457,RSI Paralytic Meds
+458,Patient Arrival
+458,NRB
+458,Pre-Oxygenation Chest Auscultation
+458,Pre-Oxygenation Chest Auscultation
+458,Pre-Oxygenation Chest Auscultation
+458,Critical Window
+458,Critical Window
+458,BVM
+458,RSI Sedative Meds
+458,Critical Window
+458,RSI Paralytic Meds
+458,Post-Oxygenation Breathing Verbalized
+458,RSI Sedative Meds
+458,Laryngoscopy
+458,Laryngoscopy
+458,RSI Paralytic Meds
+459,Patient Arrival
+459,NRB
+459,Pre-Oxygenation Breathing Verbalized
+459,Pre-Oxygenation Chest Auscultation
+459,Airway Verbalized
+459,RSI Paralytic Meds
+459,RSI Sedative Meds
+459,RSI Sedative Meds
+459,BVM
+459,RSI Sedative Meds
+459,RSI Sedative Meds
+459,RSI Sedative Meds
+460,Patient Arrival
+460,Airway Assessment
+460,Airway Verbalized
+460,Decision to Intubate
+460,Pre-Oxygenation Chest Auscultation
+460,Airway Verbalized
+460,BVM
+460,Critical Window
+460,RSI Paralytic Meds
+460,RSI Sedative Meds
+460,Critical Window
+460,Laryngoscopy
+461,Patient Arrival
+461,NRB
+461,Pre-Oxygenation Chest Auscultation
+461,Pre-Oxygenation Chest Auscultation
+461,Airway Verbalized
+461,Airway Verbalized
+461,RSI Sedative Meds
+461,RSI Sedative Meds
+461,RSI Sedative Meds
+461,BVM
+461,Laryngoscopy
+461,Intubation Safety Timeout
+461,Laryngoscopy
+461,RSI Paralytic Meds
+461,RSI Paralytic Meds
+462,Patient Arrival
+462,NRB
+462,Pre-Oxygenation Chest Auscultation
+462,Pre-Oxygenation Chest Auscultation
+462,Critical Window
+462,Critical Window
+462,BVM
+462,RSI Paralytic Meds
+462,Decision to Intubate
+462,RSI Paralytic Meds
+462,RSI Paralytic Meds
+463,Patient Arrival
+463,Airway Assessment
+463,Airway Verbalized
+463,Airway Verbalized
+463,Pre-Oxygenation Chest Auscultation
+463,Pre-Oxygenation Chest Auscultation
+463,BVM
+463,Decision to Intubate
+463,BVM
+463,RSI Sedative Meds
+463,Laryngoscopy
+463,Laryngoscopy
+463,RSI Paralytic Meds
+464,Patient Arrival
+464,Pre-Oxygenation Chest Auscultation
+464,Pre-Oxygenation Chest Auscultation
+464,BVM
+464,RSI Sedative Meds
+464,Intubation Safety Timeout
+464,RSI Paralytic Meds
+464,RSI Sedative Meds
+464,Critical Window
+464,BVM
+464,RSI Sedative Meds
+464,Laryngoscopy
+464,Laryngoscopy
+464,RSI Paralytic Meds
+465,Patient Arrival
+465,NRB
+465,NRB
+465,Critical Window
+465,Decision to Intubate
+465,Decision to Intubate
+465,Critical Window
+465,RSI Paralytic Meds
+465,BVM
+465,RSI Sedative Meds
+465,Post-Oxygenation Breathing Verbalized
+465,RSI Sedative Meds
+465,Post-Oxygenation Chest Auscultation
+466,Patient Arrival
+466,NRB
+466,NRB
+466,BVM
+466,BVM
+466,RSI Sedative Meds
+466,BVM
+466,Critical Window
+466,RSI Sedative Meds
+466,RSI Sedative Meds
+466,Laryngoscopy
+466,Laryngoscopy
+466,RSI Paralytic Meds
+466,Laryngoscopy
+467,Patient Arrival
+467,Pre-Oxygenation Breathing Verbalized
+467,Decision to Intubate
+467,Decision to Intubate
+467,Airway Verbalized
+467,RSI Sedative Meds
+467,Critical Window
+467,RSI Sedative Meds
+467,Critical Window
+467,BVM
+468,Patient Arrival
+468,NRB
+468,Decision to Intubate
+468,Pre-Oxygenation Breathing Verbalized
+468,BVM
+468,RSI Sedative Meds
+468,BVM
+468,BVM
+468,Critical Window
+468,RSI Sedative Meds
+468,Laryngoscopy
+468,Laryngoscopy
+469,NRB
+469,Airway Assessment
+469,Pre-Oxygenation Breathing Verbalized
+469,Decision to Intubate
+469,Decision to Intubate
+469,Critical Window
+469,Critical Window
+469,RSI Sedative Meds
+469,Decision to Intubate
+469,RSI Sedative Meds
+469,Post-Oxygenation Chest Auscultation
+469,Laryngoscopy
+469,Laryngoscopy
+470,Patient Arrival
+470,NRB
+470,Pre-Oxygenation Chest Auscultation
+470,Decision to Intubate
+470,Intubation Safety Timeout
+470,Decision to Intubate
+470,Critical Window
+470,Critical Window
+470,Critical Window
+470,RSI Sedative Meds
+470,RSI Sedative Meds
+471,Patient Arrival
+471,Pre-Oxygenation Chest Auscultation
+471,Pre-Oxygenation Breathing Verbalized
+471,Pre-Oxygenation Breathing Verbalized
+471,NRB
+471,Post-Oxygenation Chest Auscultation
+471,BVM
+471,Critical Window
+471,RSI Sedative Meds
+471,RSI Paralytic Meds
+472,Patient Arrival
+472,Patient Arrival
+472,Critical Window
+472,Pre-Oxygenation Chest Auscultation
+472,Airway Verbalized
+472,Critical Window
+472,Critical Window
+472,RSI Paralytic Meds
+472,Decision to Intubate
+472,RSI Sedative Meds
+472,RSI Paralytic Meds
+472,Post-Oxygenation Chest Auscultation
+472,Laryngoscopy
+472,RSI Paralytic Meds
+472,Laryngoscopy
+472,Laryngoscopy
+473,Patient Arrival
+473,Airway Assessment
+473,Airway Verbalized
+473,Pre-Oxygenation Chest Auscultation
+473,Pre-Oxygenation Breathing Verbalized
+473,Intubation Safety Timeout
+473,Intubation Safety Timeout
+473,RSI Sedative Meds
+473,Decision to Intubate
+473,BVM
+473,RSI Paralytic Meds
+473,Laryngoscopy
+473,RSI Sedative Meds
+474,Patient Arrival
+474,Airway Assessment
+474,Pre-Oxygenation Breathing Verbalized
+474,Pre-Oxygenation Breathing Verbalized
+474,Pre-Oxygenation Chest Auscultation
+474,RSI Sedative Meds
+474,Post-Oxygenation Breathing Verbalized
+474,BVM
+474,Decision to Intubate
+474,RSI Paralytic Meds
+474,BVM
+475,Patient Arrival
+475,Pre-Oxygenation Breathing Verbalized
+475,Pre-Oxygenation Chest Auscultation
+475,Pre-Oxygenation Chest Auscultation
+475,Airway Verbalized
+475,BVM
+475,BVM
+475,BVM
+475,Critical Window
+475,Intubation Safety Timeout
+475,RSI Sedative Meds
+475,Laryngoscopy
+476,Patient Arrival
+476,NRB
+476,Pre-Oxygenation Breathing Verbalized
+476,Pre-Oxygenation Chest Auscultation
+476,BVM
+476,BVM
+476,BVM
+476,BVM
+476,Laryngoscopy
+476,BVM
+476,RSI Sedative Meds
+476,Laryngoscopy
+476,Post-Oxygenation Breathing Verbalized
+477,Patient Arrival
+477,NRB
+477,NRB
+477,Critical Window
+477,BVM
+477,BVM
+477,BVM
+477,RSI Sedative Meds
+477,Airway Verbalized
+477,RSI Sedative Meds
+477,RSI Paralytic Meds
+477,Laryngoscopy
+477,RSI Paralytic Meds
+477,Laryngoscopy
+478,Patient Arrival
+478,Patient Arrival
+478,Pre-Oxygenation Breathing Verbalized
+478,Pre-Oxygenation Chest Auscultation
+478,Airway Verbalized
+478,Decision to Intubate
+478,Critical Window
+478,Critical Window
+478,Critical Window
+478,RSI Sedative Meds
+478,RSI Paralytic Meds
+478,BVM
+478,RSI Paralytic Meds
+479,Patient Arrival
+479,NRB
+479,Pre-Oxygenation Breathing Verbalized
+479,Airway Assessment
+479,Decision to Intubate
+479,Critical Window
+479,BVM
+479,RSI Sedative Meds
+479,Critical Window
+479,BVM
+479,Laryngoscopy
+479,Laryngoscopy
+479,Laryngoscopy
+480,Patient Arrival
+480,Airway Assessment
+480,Critical Window
+480,Decision to Intubate
+480,Pre-Oxygenation Breathing Verbalized
+480,RSI Sedative Meds
+480,Critical Window
+480,RSI Sedative Meds
+480,RSI Sedative Meds
+480,RSI Sedative Meds
+481,NRB
+481,NRB
+481,Airway Assessment
+481,Pre-Oxygenation Chest Auscultation
+481,BVM
+481,Intubation Safety Timeout
+481,RSI Sedative Meds
+481,RSI Sedative Meds
+481,BVM
+481,Critical Window
+481,Laryngoscopy
+482,Patient Arrival
+482,NRB
+482,Decision to Intubate
+482,Pre-Oxygenation Breathing Verbalized
+482,Critical Window
+482,BVM
+482,BVM
+482,RSI Sedative Meds
+482,RSI Sedative Meds
+482,Critical Window
+482,RSI Paralytic Meds
+482,RSI Paralytic Meds
+483,Patient Arrival
+483,NRB
+483,NRB
+483,Pre-Oxygenation Breathing Verbalized
+483,BVM
+483,Intubation Safety Timeout
+483,BVM
+483,BVM
+483,RSI Sedative Meds
+483,RSI Sedative Meds
+483,RSI Sedative Meds
+483,Laryngoscopy
+483,RSI Paralytic Meds
+483,Post-Oxygenation Breathing Verbalized
+484,Patient Arrival
+484,NRB
+484,Airway Verbalized
+484,Pre-Oxygenation Breathing Verbalized
+484,BVM
+484,RSI Sedative Meds
+484,Critical Window
+484,RSI Sedative Meds
+484,Critical Window
+484,BVM
+484,RSI Paralytic Meds
+484,Laryngoscopy
+484,Post-Oxygenation Chest Auscultation
+484,Laryngoscopy
+484,Laryngoscopy
+485,Patient Arrival
+485,NRB
+485,NRB
+485,NRB
+485,RSI Sedative Meds
+485,Decision to Intubate
+485,RSI Sedative Meds
+485,Critical Window
+485,Critical Window
+485,RSI Sedative Meds
+485,BVM
+485,RSI Paralytic Meds
+485,Laryngoscopy
+486,Patient Arrival
+486,NRB
+486,Pre-Oxygenation Chest Auscultation
+486,Airway Assessment
+486,Decision to Intubate
+486,Airway Verbalized
+486,Post-Oxygenation Chest Auscultation
+486,Decision to Intubate
+486,RSI Sedative Meds
+486,RSI Sedative Meds
+486,Laryngoscopy
+487,Patient Arrival
+487,NRB
+487,Pre-Oxygenation Breathing Verbalized
+487,Pre-Oxygenation Breathing Verbalized
+487,Decision to Intubate
+487,Airway Verbalized
+487,Critical Window
+487,RSI Sedative Meds
+487,RSI Paralytic Meds
+487,Decision to Intubate
+487,RSI Sedative Meds
+487,Laryngoscopy
+488,Patient Arrival
+488,NRB
+488,BVM
+488,Pre-Oxygenation Breathing Verbalized
+488,RSI Sedative Meds
+488,RSI Sedative Meds
+488,Airway Verbalized
+488,BVM
+488,RSI Sedative Meds
+488,Critical Window
+488,RSI Paralytic Meds
+488,Laryngoscopy
+488,RSI Paralytic Meds
+489,Patient Arrival
+489,NRB
+489,NRB
+489,Pre-Oxygenation Breathing Verbalized
+489,Airway Verbalized
+489,Intubation Safety Timeout
+489,Intubation Safety Timeout
+489,RSI Sedative Meds
+489,BVM
+489,RSI Sedative Meds
+489,Laryngoscopy
+489,Post-Oxygenation Breathing Verbalized
+489,RSI Paralytic Meds
+489,RSI Paralytic Meds
+489,Critical Window
+489,Laryngoscopy
+489,Laryngoscopy
+490,NRB
+490,Airway Assessment
+490,NRB
+490,Airway Verbalized
+490,Pre-Oxygenation Chest Auscultation
+490,Pre-Oxygenation Chest Auscultation
+490,Critical Window
+490,RSI Sedative Meds
+490,RSI Sedative Meds
+490,BVM
+490,RSI Sedative Meds
+490,RSI Paralytic Meds
+490,Laryngoscopy
+491,Post-Oxygenation Breathing Verbalized
+491,Airway Assessment
+491,Pre-Oxygenation Chest Auscultation
+491,Pre-Oxygenation Chest Auscultation
+491,Decision to Intubate
+491,Decision to Intubate
+491,RSI Sedative Meds
+491,RSI Sedative Meds
+491,Critical Window
+491,RSI Sedative Meds
+492,Patient Arrival
+492,NRB
+492,RSI Sedative Meds
+492,NRB
+492,Airway Verbalized
+492,Intubation Safety Timeout
+492,BVM
+492,Intubation Safety Timeout
+492,RSI Sedative Meds
+492,BVM
+492,Laryngoscopy
+492,RSI Paralytic Meds
+492,Laryngoscopy
+493,Patient Arrival
+493,Airway Assessment
+493,Pre-Oxygenation Chest Auscultation
+493,Decision to Intubate
+493,Airway Assessment
+493,Decision to Intubate
+493,RSI Sedative Meds
+493,Critical Window
+493,Critical Window
+493,RSI Sedative Meds
+493,Laryngoscopy
+493,Intubation Safety Timeout
+493,Laryngoscopy
+493,Laryngoscopy
+493,RSI Sedative Meds
+494,Patient Arrival
+494,NRB
+494,Decision to Intubate
+494,Airway Verbalized
+494,Decision to Intubate
+494,Intubation Safety Timeout
+494,Pre-Oxygenation Chest Auscultation
+494,Laryngoscopy
+494,BVM
+494,RSI Paralytic Meds
+494,BVM
+494,Laryngoscopy
+494,Laryngoscopy
+494,RSI Paralytic Meds
+494,Laryngoscopy
+495,Patient Arrival
+495,NRB
+495,NRB
+495,Pre-Oxygenation Breathing Verbalized
+495,Pre-Oxygenation Breathing Verbalized
+495,Critical Window
+495,RSI Sedative Meds
+495,RSI Sedative Meds
+495,Critical Window
+495,RSI Sedative Meds
+495,RSI Paralytic Meds
+495,Laryngoscopy
+495,Laryngoscopy
+495,Laryngoscopy
+495,Laryngoscopy
+495,Laryngoscopy
+496,Patient Arrival
+496,Airway Assessment
+496,NRB
+496,Pre-Oxygenation Breathing Verbalized
+496,Airway Verbalized
+496,RSI Sedative Meds
+496,RSI Sedative Meds
+496,Decision to Intubate
+496,BVM
+496,BVM
+496,Laryngoscopy
+496,Laryngoscopy
+496,Post-Oxygenation Chest Auscultation
+497,Patient Arrival
+497,Patient Arrival
+497,NRB
+497,Pre-Oxygenation Breathing Verbalized
+497,Pre-Oxygenation Chest Auscultation
+497,BVM
+497,Decision to Intubate
+497,Critical Window
+497,Critical Window
+497,RSI Paralytic Meds
+497,RSI Paralytic Meds
+498,Patient Arrival
+498,Pre-Oxygenation Chest Auscultation
+498,Pre-Oxygenation Chest Auscultation
+498,Pre-Oxygenation Chest Auscultation
+498,Pre-Oxygenation Breathing Verbalized
+498,NRB
+498,BVM
+498,Decision to Intubate
+498,Critical Window
+498,BVM
+498,Laryngoscopy
+498,Critical Window
+499,Patient Arrival
+499,NRB
+499,Pre-Oxygenation Chest Auscultation
+499,NRB
+499,BVM
+499,RSI Sedative Meds
+499,Intubation Safety Timeout
+499,Critical Window
+499,RSI Sedative Meds
+499,BVM
+499,RSI Sedative Meds
+499,RSI Paralytic Meds

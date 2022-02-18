@@ -1,0 +1,17 @@
+START_TOKEN,1
+ER Registration,2
+Leucocytes,3
+CRP,4
+LacticAcid,5
+ER Triage,6
+ER Sepsis Triage,7
+IV Liquid,8
+IV Antibiotics,9
+Admission NC,10
+Release A,11
+Return ER,12
+Admission IC,13
+Release B,14
+Release C,15
+Release D,16
+Release E,17

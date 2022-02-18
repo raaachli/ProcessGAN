@@ -1,0 +1,9407 @@
+id,act
+0,START_TOKEN
+0,ER Registration
+0,ER Triage
+0,ER Sepsis Triage
+0,LacticAcid
+0,Leucocytes
+0,Leucocytes
+0,IV Liquid
+0,IV Antibiotics
+0,Admission NC
+0,LacticAcid
+0,Leucocytes
+0,Leucocytes
+0,CRP
+0,Leucocytes
+0,CRP
+0,Leucocytes
+0,CRP
+0,CRP
+0,CRP
+0,CRP
+0,CRP
+0,Return ER
+1,START_TOKEN
+1,ER Registration
+1,ER Triage
+1,ER Sepsis Triage
+1,CRP
+1,CRP
+1,LacticAcid
+1,IV Liquid
+1,IV Antibiotics
+1,Admission NC
+1,LacticAcid
+1,CRP
+1,Leucocytes
+1,LacticAcid
+1,LacticAcid
+1,Leucocytes
+1,CRP
+1,CRP
+2,START_TOKEN
+2,ER Registration
+2,ER Triage
+2,ER Sepsis Triage
+2,CRP
+2,CRP
+2,CRP
+2,IV Antibiotics
+2,IV Liquid
+2,Admission NC
+2,CRP
+2,CRP
+2,CRP
+2,Admission IC
+2,Return ER
+2,CRP
+2,Leucocytes
+2,Leucocytes
+2,CRP
+2,CRP
+2,CRP
+2,Leucocytes
+2,LacticAcid
+2,Leucocytes
+2,LacticAcid
+2,Release A
+2,CRP
+3,START_TOKEN
+3,ER Registration
+3,ER Triage
+3,ER Sepsis Triage
+3,CRP
+3,CRP
+3,LacticAcid
+3,IV Liquid
+3,IV Liquid
+3,CRP
+4,START_TOKEN
+4,ER Registration
+4,ER Triage
+4,ER Sepsis Triage
+4,CRP
+4,Leucocytes
+4,Leucocytes
+4,IV Antibiotics
+4,IV Antibiotics
+4,Admission NC
+4,CRP
+4,Leucocytes
+4,CRP
+4,Leucocytes
+4,Release A
+4,LacticAcid
+4,CRP
+4,CRP
+4,CRP
+4,CRP
+4,Leucocytes
+4,CRP
+4,Return ER
+4,CRP
+4,CRP
+4,Leucocytes
+4,CRP
+4,CRP
+4,CRP
+4,Leucocytes
+4,Leucocytes
+4,CRP
+4,Leucocytes
+4,CRP
+5,START_TOKEN
+5,ER Registration
+5,ER Triage
+5,ER Sepsis Triage
+5,Leucocytes
+5,Leucocytes
+5,Leucocytes
+5,IV Antibiotics
+5,IV Antibiotics
+5,Admission NC
+5,Leucocytes
+5,CRP
+5,Release A
+5,Leucocytes
+6,START_TOKEN
+6,ER Registration
+6,ER Triage
+6,ER Sepsis Triage
+6,CRP
+6,LacticAcid
+6,Leucocytes
+6,IV Antibiotics
+6,IV Liquid
+6,Admission NC
+6,Leucocytes
+6,CRP
+6,Leucocytes
+6,Leucocytes
+6,CRP
+6,Leucocytes
+6,Admission IC
+6,Leucocytes
+6,Leucocytes
+6,CRP
+6,CRP
+6,Release A
+6,CRP
+6,CRP
+7,START_TOKEN
+7,ER Registration
+7,ER Triage
+7,ER Sepsis Triage
+7,Leucocytes
+7,Leucocytes
+7,LacticAcid
+7,IV Antibiotics
+7,IV Antibiotics
+7,Admission NC
+7,Leucocytes
+7,Release A
+7,Leucocytes
+8,START_TOKEN
+8,ER Registration
+8,ER Triage
+8,ER Sepsis Triage
+8,Leucocytes
+8,LacticAcid
+8,ER Sepsis Triage
+8,IV Antibiotics
+8,Leucocytes
+8,Admission NC
+8,CRP
+8,CRP
+8,Leucocytes
+8,Leucocytes
+8,Release A
+8,CRP
+8,Leucocytes
+8,Leucocytes
+8,Leucocytes
+8,Admission IC
+8,CRP
+9,START_TOKEN
+9,ER Registration
+9,ER Triage
+9,ER Sepsis Triage
+9,LacticAcid
+9,LacticAcid
+9,LacticAcid
+9,IV Liquid
+9,IV Antibiotics
+9,Admission NC
+10,START_TOKEN
+10,ER Registration
+10,ER Triage
+10,ER Sepsis Triage
+10,Leucocytes
+10,Leucocytes
+10,LacticAcid
+10,IV Liquid
+10,IV Antibiotics
+10,Admission NC
+10,Leucocytes
+10,Leucocytes
+10,CRP
+10,CRP
+10,CRP
+10,CRP
+10,LacticAcid
+10,Leucocytes
+10,CRP
+10,CRP
+10,Admission IC
+10,LacticAcid
+10,CRP
+10,Release A
+10,Leucocytes
+10,CRP
+10,CRP
+10,CRP
+10,CRP
+10,Release A
+10,CRP
+10,CRP
+10,CRP
+10,CRP
+10,Release A
+10,Release A
+10,CRP
+10,CRP
+10,CRP
+10,Leucocytes
+11,START_TOKEN
+11,ER Registration
+11,ER Triage
+11,ER Sepsis Triage
+11,LacticAcid
+11,Leucocytes
+11,LacticAcid
+11,IV Liquid
+11,IV Antibiotics
+11,Admission NC
+11,Leucocytes
+11,CRP
+11,LacticAcid
+11,Leucocytes
+11,LacticAcid
+11,Release A
+11,LacticAcid
+11,CRP
+11,CRP
+11,CRP
+11,CRP
+11,CRP
+11,Admission IC
+11,LacticAcid
+11,CRP
+11,CRP
+12,START_TOKEN
+12,ER Registration
+12,ER Triage
+12,ER Sepsis Triage
+12,Leucocytes
+12,CRP
+12,LacticAcid
+12,Admission NC
+12,IV Liquid
+12,Admission NC
+12,Leucocytes
+12,CRP
+12,Admission IC
+12,Release A
+12,Leucocytes
+12,Release A
+12,Release A
+12,CRP
+12,Leucocytes
+12,LacticAcid
+12,CRP
+12,CRP
+12,Leucocytes
+12,Return ER
+12,Admission IC
+12,Leucocytes
+12,LacticAcid
+12,Admission IC
+13,START_TOKEN
+13,ER Registration
+13,ER Triage
+13,ER Sepsis Triage
+13,CRP
+13,Leucocytes
+13,Leucocytes
+13,IV Liquid
+13,IV Liquid
+13,Admission NC
+13,Leucocytes
+13,Leucocytes
+13,Leucocytes
+13,Leucocytes
+13,Leucocytes
+13,Admission IC
+13,Release A
+13,Leucocytes
+13,CRP
+13,Leucocytes
+13,CRP
+14,START_TOKEN
+14,ER Registration
+14,ER Triage
+14,ER Sepsis Triage
+14,Leucocytes
+14,Leucocytes
+14,LacticAcid
+14,IV Liquid
+14,IV Liquid
+14,Admission NC
+14,CRP
+14,CRP
+14,CRP
+14,CRP
+14,Leucocytes
+14,CRP
+15,START_TOKEN
+15,ER Registration
+15,ER Triage
+15,ER Sepsis Triage
+15,Leucocytes
+15,CRP
+15,LacticAcid
+15,IV Liquid
+15,LacticAcid
+15,Admission NC
+15,Leucocytes
+15,Leucocytes
+15,CRP
+15,CRP
+16,START_TOKEN
+16,ER Registration
+16,ER Triage
+16,ER Sepsis Triage
+16,CRP
+16,CRP
+16,LacticAcid
+16,IV Liquid
+16,IV Antibiotics
+16,Admission NC
+16,CRP
+16,CRP
+16,Leucocytes
+17,START_TOKEN
+17,ER Registration
+17,ER Triage
+17,ER Sepsis Triage
+17,CRP
+17,LacticAcid
+17,ER Sepsis Triage
+17,IV Liquid
+17,IV Antibiotics
+17,Admission NC
+17,CRP
+17,Leucocytes
+17,Leucocytes
+17,Leucocytes
+17,CRP
+17,LacticAcid
+17,Leucocytes
+17,CRP
+17,LacticAcid
+17,CRP
+17,Admission IC
+17,CRP
+17,CRP
+18,START_TOKEN
+18,ER Registration
+18,ER Triage
+18,ER Sepsis Triage
+18,LacticAcid
+18,CRP
+18,CRP
+18,IV Antibiotics
+18,IV Antibiotics
+18,Admission NC
+18,LacticAcid
+18,ER Registration
+18,Leucocytes
+18,CRP
+18,CRP
+18,Leucocytes
+18,Leucocytes
+18,LacticAcid
+18,CRP
+18,Release A
+18,Leucocytes
+19,START_TOKEN
+19,ER Registration
+19,ER Triage
+19,ER Sepsis Triage
+19,CRP
+19,CRP
+19,LacticAcid
+19,IV Liquid
+19,IV Antibiotics
+19,Admission NC
+19,CRP
+19,Leucocytes
+19,LacticAcid
+19,Leucocytes
+20,START_TOKEN
+20,ER Registration
+20,ER Triage
+20,ER Sepsis Triage
+20,Leucocytes
+20,Leucocytes
+20,LacticAcid
+20,IV Liquid
+20,IV Antibiotics
+20,Admission NC
+20,CRP
+20,CRP
+20,CRP
+20,Leucocytes
+20,Admission IC
+20,Leucocytes
+20,Leucocytes
+20,LacticAcid
+21,START_TOKEN
+21,ER Registration
+21,ER Triage
+21,ER Sepsis Triage
+21,CRP
+21,CRP
+21,Admission NC
+21,IV Antibiotics
+21,IV Antibiotics
+21,Admission NC
+21,LacticAcid
+21,Leucocytes
+21,LacticAcid
+21,CRP
+21,Release A
+22,START_TOKEN
+22,ER Registration
+22,ER Triage
+22,ER Sepsis Triage
+22,CRP
+22,LacticAcid
+22,LacticAcid
+22,IV Antibiotics
+22,IV Antibiotics
+22,Admission NC
+22,CRP
+22,Leucocytes
+22,Leucocytes
+22,Leucocytes
+22,CRP
+22,Release A
+22,Leucocytes
+22,Leucocytes
+22,Release A
+22,Leucocytes
+22,CRP
+22,CRP
+22,Admission IC
+22,Leucocytes
+22,LacticAcid
+22,Release A
+22,Release A
+22,Leucocytes
+22,CRP
+22,Leucocytes
+22,Admission IC
+22,CRP
+23,START_TOKEN
+23,ER Registration
+23,ER Triage
+23,START_TOKEN
+23,Leucocytes
+23,LacticAcid
+23,LacticAcid
+23,IV Liquid
+23,IV Antibiotics
+23,Admission NC
+23,CRP
+23,Admission IC
+23,Leucocytes
+23,CRP
+23,CRP
+23,Leucocytes
+23,LacticAcid
+23,LacticAcid
+23,Leucocytes
+23,CRP
+23,Release A
+23,Leucocytes
+23,CRP
+23,CRP
+23,Leucocytes
+24,START_TOKEN
+24,ER Registration
+24,ER Triage
+24,ER Sepsis Triage
+24,LacticAcid
+24,Leucocytes
+24,Leucocytes
+24,IV Liquid
+24,IV Antibiotics
+24,Admission NC
+24,Leucocytes
+25,START_TOKEN
+25,ER Registration
+25,ER Triage
+25,ER Sepsis Triage
+25,Leucocytes
+25,CRP
+25,Admission NC
+25,IV Liquid
+25,Leucocytes
+25,Admission NC
+25,Leucocytes
+25,CRP
+25,LacticAcid
+25,LacticAcid
+26,START_TOKEN
+26,ER Registration
+26,ER Triage
+26,ER Sepsis Triage
+26,CRP
+26,Leucocytes
+26,LacticAcid
+26,Leucocytes
+26,IV Liquid
+26,Admission NC
+27,START_TOKEN
+27,ER Registration
+27,ER Triage
+27,ER Sepsis Triage
+27,Leucocytes
+27,LacticAcid
+27,Leucocytes
+27,IV Liquid
+27,IV Antibiotics
+27,Admission NC
+27,Release A
+27,CRP
+27,CRP
+27,Leucocytes
+27,Admission NC
+27,IV Antibiotics
+27,CRP
+27,CRP
+27,Leucocytes
+27,Release A
+27,Admission IC
+27,CRP
+27,CRP
+27,Admission IC
+27,Leucocytes
+27,Release A
+27,Release D
+27,CRP
+27,CRP
+27,CRP
+27,Leucocytes
+27,Leucocytes
+28,START_TOKEN
+28,ER Registration
+28,ER Triage
+28,ER Sepsis Triage
+28,LacticAcid
+28,LacticAcid
+28,LacticAcid
+28,IV Liquid
+28,IV Antibiotics
+28,Admission NC
+28,Leucocytes
+28,Leucocytes
+28,Admission NC
+28,Leucocytes
+29,START_TOKEN
+29,ER Registration
+29,ER Triage
+29,ER Sepsis Triage
+29,Leucocytes
+29,Leucocytes
+29,LacticAcid
+29,IV Liquid
+29,Leucocytes
+29,Admission NC
+29,Release A
+29,CRP
+29,LacticAcid
+29,CRP
+29,Leucocytes
+30,START_TOKEN
+30,ER Registration
+30,ER Triage
+30,ER Sepsis Triage
+30,Leucocytes
+30,CRP
+30,LacticAcid
+30,IV Liquid
+30,IV Antibiotics
+30,Admission NC
+30,Leucocytes
+30,Admission IC
+30,CRP
+30,CRP
+30,Leucocytes
+30,CRP
+30,CRP
+30,CRP
+30,CRP
+30,Leucocytes
+30,CRP
+31,START_TOKEN
+31,ER Registration
+31,ER Triage
+31,ER Sepsis Triage
+31,CRP
+31,Admission IC
+31,Admission IC
+31,IV Liquid
+31,IV Antibiotics
+31,Admission NC
+31,CRP
+31,Leucocytes
+31,Leucocytes
+32,START_TOKEN
+32,ER Registration
+32,ER Triage
+32,ER Sepsis Triage
+32,Leucocytes
+32,CRP
+32,LacticAcid
+32,IV Liquid
+32,Leucocytes
+32,Admission NC
+32,Leucocytes
+32,Leucocytes
+32,LacticAcid
+32,CRP
+32,Return ER
+32,CRP
+32,Release A
+32,Release A
+32,CRP
+32,CRP
+33,START_TOKEN
+33,ER Registration
+33,ER Triage
+33,IV Liquid
+33,LacticAcid
+33,LacticAcid
+33,LacticAcid
+33,IV Liquid
+33,IV Antibiotics
+33,Admission NC
+33,CRP
+33,Leucocytes
+33,Leucocytes
+33,CRP
+33,Return ER
+33,CRP
+33,CRP
+33,CRP
+33,CRP
+33,Release A
+33,Leucocytes
+33,Leucocytes
+33,Leucocytes
+33,CRP
+33,CRP
+33,CRP
+33,LacticAcid
+33,Leucocytes
+34,START_TOKEN
+34,ER Registration
+34,ER Triage
+34,ER Sepsis Triage
+34,Leucocytes
+34,LacticAcid
+34,LacticAcid
+34,IV Liquid
+34,IV Antibiotics
+34,Admission NC
+34,Release A
+34,CRP
+34,LacticAcid
+34,CRP
+34,Leucocytes
+34,Leucocytes
+34,Return ER
+34,CRP
+35,START_TOKEN
+35,ER Registration
+35,ER Triage
+35,ER Sepsis Triage
+35,Leucocytes
+35,LacticAcid
+35,LacticAcid
+35,IV Antibiotics
+35,IV Antibiotics
+35,Admission NC
+35,Leucocytes
+35,Admission IC
+35,Leucocytes
+35,CRP
+36,START_TOKEN
+36,ER Registration
+36,ER Triage
+36,ER Sepsis Triage
+36,CRP
+36,LacticAcid
+36,LacticAcid
+36,IV Liquid
+36,IV Antibiotics
+36,Admission NC
+36,CRP
+36,LacticAcid
+36,CRP
+36,Leucocytes
+37,START_TOKEN
+37,ER Registration
+37,ER Triage
+37,ER Sepsis Triage
+37,CRP
+37,Leucocytes
+37,LacticAcid
+37,IV Antibiotics
+37,IV Antibiotics
+37,Admission NC
+37,Release A
+37,CRP
+37,CRP
+37,CRP
+37,Release A
+37,Leucocytes
+37,Admission IC
+37,Leucocytes
+37,CRP
+37,Leucocytes
+37,Return ER
+37,CRP
+37,CRP
+37,CRP
+37,CRP
+37,Leucocytes
+37,Release A
+37,Release A
+38,START_TOKEN
+38,ER Registration
+38,ER Triage
+38,ER Sepsis Triage
+38,Leucocytes
+38,CRP
+38,LacticAcid
+38,IV Liquid
+38,Admission NC
+38,Admission NC
+38,Leucocytes
+38,CRP
+38,Leucocytes
+38,Admission NC
+38,CRP
+38,Release A
+38,CRP
+38,LacticAcid
+38,Leucocytes
+38,CRP
+38,Leucocytes
+38,Leucocytes
+38,Admission IC
+38,CRP
+38,CRP
+38,CRP
+38,Admission IC
+38,CRP
+38,Leucocytes
+38,CRP
+38,CRP
+38,Leucocytes
+38,CRP
+38,ER Registration
+38,CRP
+38,CRP
+38,CRP
+39,START_TOKEN
+39,ER Registration
+39,ER Triage
+39,ER Sepsis Triage
+39,CRP
+39,Leucocytes
+39,LacticAcid
+39,IV Antibiotics
+39,Leucocytes
+39,Admission NC
+39,Release A
+39,CRP
+40,START_TOKEN
+40,ER Registration
+40,ER Triage
+40,ER Sepsis Triage
+40,LacticAcid
+40,Leucocytes
+40,LacticAcid
+40,IV Liquid
+40,IV Antibiotics
+40,Admission NC
+40,Leucocytes
+40,Leucocytes
+40,Leucocytes
+40,Leucocytes
+40,CRP
+41,START_TOKEN
+41,ER Registration
+41,ER Triage
+41,ER Sepsis Triage
+41,LacticAcid
+41,Leucocytes
+41,LacticAcid
+41,IV Liquid
+41,IV Antibiotics
+41,Admission NC
+41,CRP
+41,Leucocytes
+41,Leucocytes
+41,Leucocytes
+42,START_TOKEN
+42,ER Registration
+42,ER Triage
+42,ER Sepsis Triage
+42,Leucocytes
+42,Leucocytes
+42,Leucocytes
+42,IV Antibiotics
+42,IV Antibiotics
+42,Admission NC
+42,LacticAcid
+42,CRP
+42,Leucocytes
+42,Leucocytes
+42,CRP
+42,Leucocytes
+42,Leucocytes
+42,Leucocytes
+42,CRP
+42,CRP
+42,Admission IC
+43,START_TOKEN
+43,ER Registration
+43,ER Triage
+43,ER Sepsis Triage
+43,Leucocytes
+43,Leucocytes
+43,Leucocytes
+43,IV Liquid
+43,IV Antibiotics
+43,Admission NC
+43,Admission NC
+43,ER Registration
+43,CRP
+43,Leucocytes
+43,CRP
+43,CRP
+43,CRP
+43,CRP
+43,Leucocytes
+43,Admission NC
+43,Return ER
+43,CRP
+43,Leucocytes
+43,Leucocytes
+43,CRP
+43,Admission IC
+43,CRP
+43,Leucocytes
+43,CRP
+43,LacticAcid
+43,CRP
+43,Leucocytes
+43,Release A
+44,START_TOKEN
+44,ER Registration
+44,ER Triage
+44,ER Sepsis Triage
+44,LacticAcid
+44,Leucocytes
+44,CRP
+44,LacticAcid
+44,IV Antibiotics
+44,Admission NC
+44,CRP
+44,Leucocytes
+44,Leucocytes
+44,CRP
+44,Leucocytes
+44,Leucocytes
+44,CRP
+44,CRP
+44,Leucocytes
+44,Release A
+44,Leucocytes
+44,CRP
+45,START_TOKEN
+45,ER Registration
+45,ER Triage
+45,ER Sepsis Triage
+45,LacticAcid
+45,Leucocytes
+45,CRP
+45,IV Liquid
+45,IV Antibiotics
+45,Admission NC
+45,Leucocytes
+45,CRP
+45,LacticAcid
+45,Leucocytes
+45,CRP
+45,Release A
+46,START_TOKEN
+46,ER Registration
+46,ER Triage
+46,ER Sepsis Triage
+46,Leucocytes
+46,Leucocytes
+46,LacticAcid
+46,IV Liquid
+46,IV Antibiotics
+46,Admission NC
+46,Leucocytes
+46,CRP
+46,Leucocytes
+46,CRP
+46,Admission IC
+46,Release A
+46,CRP
+46,Admission IC
+46,CRP
+46,Admission IC
+46,Release A
+47,START_TOKEN
+47,ER Registration
+47,ER Triage
+47,ER Sepsis Triage
+47,LacticAcid
+47,CRP
+47,LacticAcid
+47,IV Liquid
+47,Leucocytes
+47,Admission NC
+47,CRP
+47,Leucocytes
+47,Leucocytes
+47,Leucocytes
+47,Leucocytes
+48,START_TOKEN
+48,ER Registration
+48,ER Triage
+48,ER Sepsis Triage
+48,CRP
+48,CRP
+48,Admission NC
+48,IV Liquid
+48,Admission NC
+48,Admission NC
+48,LacticAcid
+49,START_TOKEN
+49,ER Registration
+49,ER Triage
+49,ER Sepsis Triage
+49,CRP
+49,Leucocytes
+49,LacticAcid
+49,IV Antibiotics
+49,IV Antibiotics
+49,Admission NC
+49,Return ER
+49,CRP
+49,Leucocytes
+49,Leucocytes
+49,Leucocytes
+49,CRP
+49,Admission IC
+49,Release A
+50,START_TOKEN
+50,ER Registration
+50,ER Triage
+50,ER Sepsis Triage
+50,CRP
+50,Leucocytes
+50,LacticAcid
+50,IV Liquid
+50,IV Antibiotics
+50,Admission NC
+50,Leucocytes
+50,CRP
+50,CRP
+50,Leucocytes
+50,Leucocytes
+51,START_TOKEN
+51,ER Registration
+51,ER Triage
+51,ER Sepsis Triage
+51,CRP
+51,Leucocytes
+51,LacticAcid
+51,IV Liquid
+51,IV Antibiotics
+51,Admission NC
+51,CRP
+51,Leucocytes
+51,Leucocytes
+51,Leucocytes
+51,CRP
+51,Release A
+51,Leucocytes
+51,CRP
+51,Admission IC
+51,CRP
+51,CRP
+51,CRP
+51,Leucocytes
+51,CRP
+51,Leucocytes
+51,CRP
+51,Leucocytes
+51,CRP
+51,Leucocytes
+51,CRP
+51,Admission IC
+52,START_TOKEN
+52,ER Registration
+52,ER Triage
+52,ER Sepsis Triage
+52,Leucocytes
+52,Leucocytes
+52,LacticAcid
+52,IV Antibiotics
+52,IV Antibiotics
+52,Admission NC
+52,CRP
+52,Leucocytes
+52,CRP
+52,CRP
+52,Leucocytes
+52,Release A
+52,CRP
+52,Leucocytes
+52,Release A
+53,START_TOKEN
+53,ER Registration
+53,ER Triage
+53,ER Sepsis Triage
+53,LacticAcid
+53,Leucocytes
+53,ER Sepsis Triage
+53,IV Liquid
+53,IV Antibiotics
+53,Admission NC
+53,Leucocytes
+54,START_TOKEN
+54,ER Registration
+54,ER Triage
+54,ER Sepsis Triage
+54,LacticAcid
+54,Leucocytes
+54,Leucocytes
+54,IV Liquid
+54,IV Antibiotics
+54,Admission NC
+54,Leucocytes
+54,LacticAcid
+54,Leucocytes
+54,Leucocytes
+54,Admission IC
+54,Admission IC
+54,Leucocytes
+54,CRP
+54,Leucocytes
+54,Leucocytes
+54,Release A
+54,CRP
+55,START_TOKEN
+55,ER Registration
+55,ER Triage
+55,ER Sepsis Triage
+55,LacticAcid
+55,LacticAcid
+55,LacticAcid
+55,IV Antibiotics
+55,IV Antibiotics
+55,Admission NC
+55,Release A
+55,Leucocytes
+55,Admission IC
+55,CRP
+56,START_TOKEN
+56,ER Registration
+56,ER Triage
+56,ER Sepsis Triage
+56,Leucocytes
+56,CRP
+56,LacticAcid
+56,IV Liquid
+56,IV Antibiotics
+56,Admission NC
+56,CRP
+56,CRP
+56,Leucocytes
+56,Leucocytes
+56,CRP
+57,START_TOKEN
+57,ER Registration
+57,ER Triage
+57,ER Sepsis Triage
+57,CRP
+57,Leucocytes
+57,LacticAcid
+57,Leucocytes
+57,IV Antibiotics
+57,Admission NC
+57,Leucocytes
+57,Leucocytes
+57,Leucocytes
+57,Leucocytes
+57,Release A
+57,Leucocytes
+58,START_TOKEN
+58,ER Registration
+58,ER Triage
+58,ER Sepsis Triage
+58,Leucocytes
+58,LacticAcid
+58,LacticAcid
+58,IV Liquid
+58,IV Antibiotics
+58,Admission NC
+58,CRP
+58,CRP
+58,Leucocytes
+58,Leucocytes
+58,Admission IC
+58,LacticAcid
+58,CRP
+58,Release A
+58,Admission IC
+58,CRP
+58,Leucocytes
+58,Leucocytes
+58,Admission IC
+58,CRP
+58,CRP
+59,START_TOKEN
+59,ER Registration
+59,ER Triage
+59,ER Sepsis Triage
+59,LacticAcid
+59,CRP
+59,LacticAcid
+59,IV Liquid
+59,IV Antibiotics
+59,Admission NC
+59,Leucocytes
+59,Leucocytes
+59,CRP
+59,Release A
+59,CRP
+59,Admission IC
+59,Release A
+59,CRP
+60,START_TOKEN
+60,ER Registration
+60,ER Triage
+60,ER Sepsis Triage
+60,LacticAcid
+60,LacticAcid
+60,ER Sepsis Triage
+60,IV Antibiotics
+60,IV Antibiotics
+60,Admission NC
+60,Leucocytes
+60,CRP
+60,LacticAcid
+60,Leucocytes
+60,Leucocytes
+60,Leucocytes
+60,Leucocytes
+61,START_TOKEN
+61,ER Registration
+61,ER Triage
+61,ER Sepsis Triage
+61,Leucocytes
+61,Leucocytes
+61,LacticAcid
+61,IV Liquid
+61,IV Antibiotics
+61,Admission NC
+61,Leucocytes
+61,Leucocytes
+61,CRP
+62,START_TOKEN
+62,ER Registration
+62,ER Triage
+62,ER Sepsis Triage
+62,CRP
+62,CRP
+62,LacticAcid
+62,IV Liquid
+62,IV Liquid
+62,Admission NC
+62,Leucocytes
+62,Leucocytes
+62,LacticAcid
+62,Leucocytes
+62,Leucocytes
+62,Leucocytes
+63,START_TOKEN
+63,ER Registration
+63,ER Triage
+63,ER Sepsis Triage
+63,LacticAcid
+63,Leucocytes
+63,Leucocytes
+63,IV Liquid
+63,IV Antibiotics
+63,Admission NC
+63,Leucocytes
+63,LacticAcid
+64,START_TOKEN
+64,ER Registration
+64,ER Triage
+64,ER Sepsis Triage
+64,LacticAcid
+64,Leucocytes
+64,LacticAcid
+64,IV Liquid
+64,IV Antibiotics
+64,Admission NC
+65,START_TOKEN
+65,ER Registration
+65,ER Triage
+65,ER Sepsis Triage
+65,CRP
+65,CRP
+65,LacticAcid
+65,IV Liquid
+65,Leucocytes
+65,Admission NC
+65,CRP
+66,START_TOKEN
+66,ER Registration
+66,ER Triage
+66,ER Sepsis Triage
+66,CRP
+66,CRP
+66,LacticAcid
+66,IV Antibiotics
+66,IV Antibiotics
+66,Admission NC
+66,Leucocytes
+66,CRP
+66,Release A
+66,CRP
+66,CRP
+66,CRP
+66,CRP
+66,CRP
+67,START_TOKEN
+67,ER Registration
+67,ER Triage
+67,ER Sepsis Triage
+67,Leucocytes
+67,Leucocytes
+67,LacticAcid
+67,IV Liquid
+67,Leucocytes
+67,Admission NC
+67,Leucocytes
+67,CRP
+67,LacticAcid
+68,START_TOKEN
+68,ER Registration
+68,ER Triage
+68,ER Sepsis Triage
+68,Leucocytes
+68,CRP
+68,LacticAcid
+68,Admission NC
+68,Leucocytes
+68,Admission NC
+68,Leucocytes
+69,START_TOKEN
+69,ER Registration
+69,ER Triage
+69,ER Sepsis Triage
+69,CRP
+69,Leucocytes
+69,LacticAcid
+69,IV Antibiotics
+69,IV Antibiotics
+69,Admission NC
+69,Leucocytes
+69,CRP
+69,Leucocytes
+70,START_TOKEN
+70,ER Registration
+70,ER Triage
+70,ER Sepsis Triage
+70,Leucocytes
+70,CRP
+70,LacticAcid
+70,IV Liquid
+70,IV Antibiotics
+70,Admission NC
+70,CRP
+70,CRP
+70,CRP
+70,CRP
+70,CRP
+70,CRP
+70,CRP
+70,LacticAcid
+70,LacticAcid
+70,CRP
+71,START_TOKEN
+71,ER Registration
+71,ER Triage
+71,ER Sepsis Triage
+71,Leucocytes
+71,Leucocytes
+71,Leucocytes
+71,IV Liquid
+71,IV Antibiotics
+71,Admission NC
+71,Leucocytes
+71,CRP
+71,CRP
+71,Leucocytes
+71,Admission IC
+71,Release A
+71,Admission IC
+71,Release A
+71,CRP
+71,Leucocytes
+71,Leucocytes
+71,CRP
+71,CRP
+71,Admission IC
+71,Leucocytes
+71,Release A
+72,START_TOKEN
+72,ER Registration
+72,ER Triage
+72,ER Sepsis Triage
+72,CRP
+72,Leucocytes
+72,Leucocytes
+72,IV Liquid
+72,IV Antibiotics
+72,Admission NC
+72,Leucocytes
+72,Admission IC
+72,LacticAcid
+72,CRP
+72,Leucocytes
+72,CRP
+73,START_TOKEN
+73,ER Registration
+73,ER Triage
+73,ER Sepsis Triage
+73,LacticAcid
+73,CRP
+73,LacticAcid
+73,IV Liquid
+73,IV Antibiotics
+73,Admission NC
+74,START_TOKEN
+74,ER Registration
+74,ER Triage
+74,ER Sepsis Triage
+74,CRP
+74,LacticAcid
+74,LacticAcid
+74,IV Liquid
+74,IV Antibiotics
+74,Admission NC
+74,Leucocytes
+74,LacticAcid
+75,START_TOKEN
+75,ER Registration
+75,ER Triage
+75,ER Sepsis Triage
+75,CRP
+75,Leucocytes
+75,LacticAcid
+75,IV Liquid
+75,IV Antibiotics
+75,Admission NC
+75,CRP
+75,CRP
+75,ER Triage
+75,Leucocytes
+76,START_TOKEN
+76,ER Registration
+76,ER Triage
+76,ER Sepsis Triage
+76,Leucocytes
+76,CRP
+76,LacticAcid
+76,IV Liquid
+76,IV Antibiotics
+76,Admission NC
+76,CRP
+76,CRP
+76,Leucocytes
+76,Admission IC
+77,START_TOKEN
+77,ER Registration
+77,ER Triage
+77,ER Sepsis Triage
+77,CRP
+77,CRP
+77,ER Sepsis Triage
+77,IV Liquid
+77,IV Antibiotics
+77,Admission NC
+77,Leucocytes
+77,Leucocytes
+77,CRP
+77,CRP
+77,CRP
+77,LacticAcid
+77,Leucocytes
+77,CRP
+77,Leucocytes
+77,CRP
+77,CRP
+77,Leucocytes
+77,CRP
+77,Leucocytes
+77,Leucocytes
+77,CRP
+77,CRP
+77,Leucocytes
+78,START_TOKEN
+78,ER Registration
+78,ER Triage
+78,ER Sepsis Triage
+78,CRP
+78,Leucocytes
+78,LacticAcid
+78,IV Antibiotics
+78,IV Liquid
+78,Admission NC
+78,CRP
+78,Leucocytes
+78,CRP
+78,Leucocytes
+79,START_TOKEN
+79,ER Registration
+79,ER Triage
+79,ER Sepsis Triage
+79,LacticAcid
+79,Leucocytes
+79,LacticAcid
+79,IV Antibiotics
+79,IV Liquid
+79,Admission NC
+79,CRP
+79,Leucocytes
+79,CRP
+79,Leucocytes
+80,START_TOKEN
+80,ER Registration
+80,ER Triage
+80,ER Sepsis Triage
+80,Leucocytes
+80,Leucocytes
+80,Leucocytes
+80,IV Antibiotics
+80,IV Antibiotics
+80,Admission NC
+80,LacticAcid
+80,CRP
+80,Leucocytes
+80,Leucocytes
+80,Leucocytes
+80,LacticAcid
+81,START_TOKEN
+81,ER Registration
+81,ER Triage
+81,ER Sepsis Triage
+81,CRP
+81,CRP
+81,LacticAcid
+81,IV Liquid
+81,Leucocytes
+81,Admission NC
+81,CRP
+81,CRP
+81,LacticAcid
+81,Leucocytes
+81,Leucocytes
+81,CRP
+82,START_TOKEN
+82,ER Registration
+82,ER Triage
+82,ER Sepsis Triage
+82,Leucocytes
+82,LacticAcid
+82,Leucocytes
+82,IV Liquid
+82,IV Liquid
+82,Admission NC
+82,LacticAcid
+82,LacticAcid
+82,Leucocytes
+82,CRP
+82,Leucocytes
+83,START_TOKEN
+83,ER Registration
+83,ER Triage
+83,ER Sepsis Triage
+83,LacticAcid
+83,CRP
+83,LacticAcid
+83,LacticAcid
+83,IV Antibiotics
+83,Admission NC
+83,CRP
+83,LacticAcid
+83,Leucocytes
+83,CRP
+83,Leucocytes
+83,CRP
+83,Leucocytes
+83,Release A
+83,LacticAcid
+83,CRP
+83,Leucocytes
+83,CRP
+84,START_TOKEN
+84,ER Registration
+84,ER Triage
+84,ER Sepsis Triage
+84,CRP
+84,CRP
+84,Leucocytes
+84,IV Antibiotics
+84,IV Liquid
+84,Admission NC
+84,Leucocytes
+84,CRP
+84,CRP
+84,Leucocytes
+84,CRP
+84,CRP
+84,Release A
+84,CRP
+84,Leucocytes
+84,Leucocytes
+84,Release A
+84,CRP
+85,START_TOKEN
+85,ER Registration
+85,ER Triage
+85,ER Sepsis Triage
+85,LacticAcid
+85,Leucocytes
+85,LacticAcid
+85,Leucocytes
+85,IV Antibiotics
+85,Admission NC
+85,CRP
+85,CRP
+85,CRP
+85,Release A
+85,CRP
+85,CRP
+85,Leucocytes
+85,Leucocytes
+85,Leucocytes
+85,CRP
+85,Return ER
+85,Admission IC
+85,Admission NC
+85,Leucocytes
+85,CRP
+85,LacticAcid
+85,Release A
+86,START_TOKEN
+86,ER Registration
+86,ER Triage
+86,ER Sepsis Triage
+86,Leucocytes
+86,Leucocytes
+86,Leucocytes
+86,LacticAcid
+86,IV Antibiotics
+86,Admission NC
+86,LacticAcid
+86,Leucocytes
+86,CRP
+86,CRP
+86,LacticAcid
+86,CRP
+86,Leucocytes
+86,CRP
+86,CRP
+86,Release A
+86,Leucocytes
+86,Release A
+86,CRP
+87,START_TOKEN
+87,ER Registration
+87,IV Liquid
+87,ER Sepsis Triage
+87,CRP
+87,LacticAcid
+87,LacticAcid
+87,IV Liquid
+87,IV Antibiotics
+87,Admission NC
+87,LacticAcid
+87,CRP
+87,Leucocytes
+87,Leucocytes
+87,Leucocytes
+87,Leucocytes
+87,Leucocytes
+87,CRP
+87,CRP
+87,ER Triage
+88,START_TOKEN
+88,ER Registration
+88,ER Triage
+88,ER Sepsis Triage
+88,LacticAcid
+88,CRP
+88,LacticAcid
+88,IV Liquid
+88,IV Antibiotics
+88,Admission NC
+88,CRP
+88,CRP
+88,CRP
+89,START_TOKEN
+89,ER Registration
+89,ER Triage
+89,ER Sepsis Triage
+89,Leucocytes
+89,Leucocytes
+89,LacticAcid
+89,IV Liquid
+89,IV Liquid
+89,Admission NC
+89,CRP
+89,Leucocytes
+89,CRP
+89,Leucocytes
+89,CRP
+89,Leucocytes
+89,LacticAcid
+89,CRP
+89,CRP
+89,Release A
+89,CRP
+90,START_TOKEN
+90,ER Registration
+90,ER Triage
+90,ER Sepsis Triage
+90,Leucocytes
+90,Leucocytes
+90,LacticAcid
+90,IV Liquid
+90,IV Liquid
+90,Admission NC
+90,CRP
+91,START_TOKEN
+91,ER Registration
+91,ER Triage
+91,ER Sepsis Triage
+91,Leucocytes
+91,CRP
+91,LacticAcid
+91,IV Liquid
+91,IV Antibiotics
+91,Admission NC
+91,CRP
+91,CRP
+91,Leucocytes
+91,CRP
+91,CRP
+91,Leucocytes
+91,Release A
+91,CRP
+91,CRP
+91,CRP
+92,START_TOKEN
+92,ER Registration
+92,ER Triage
+92,ER Sepsis Triage
+92,LacticAcid
+92,Leucocytes
+92,ER Sepsis Triage
+92,IV Liquid
+92,IV Antibiotics
+92,Admission NC
+92,CRP
+93,START_TOKEN
+93,ER Registration
+93,ER Triage
+93,ER Sepsis Triage
+93,Leucocytes
+93,LacticAcid
+93,Leucocytes
+93,IV Liquid
+93,IV Antibiotics
+93,Admission NC
+93,Leucocytes
+93,CRP
+93,Leucocytes
+93,CRP
+94,START_TOKEN
+94,ER Registration
+94,ER Triage
+94,ER Sepsis Triage
+94,CRP
+94,LacticAcid
+94,LacticAcid
+94,IV Antibiotics
+94,IV Antibiotics
+94,Admission NC
+94,CRP
+94,Admission IC
+94,LacticAcid
+94,Leucocytes
+94,Leucocytes
+94,LacticAcid
+94,CRP
+94,LacticAcid
+95,START_TOKEN
+95,ER Registration
+95,ER Triage
+95,ER Sepsis Triage
+95,Leucocytes
+95,CRP
+95,LacticAcid
+95,IV Antibiotics
+95,IV Antibiotics
+95,Admission NC
+95,Admission IC
+95,CRP
+96,START_TOKEN
+96,ER Registration
+96,ER Triage
+96,ER Sepsis Triage
+96,Leucocytes
+96,LacticAcid
+96,LacticAcid
+96,IV Antibiotics
+96,Leucocytes
+96,Admission NC
+96,Admission NC
+96,Admission IC
+97,START_TOKEN
+97,ER Registration
+97,ER Triage
+97,ER Sepsis Triage
+97,Leucocytes
+97,Leucocytes
+97,LacticAcid
+97,IV Liquid
+97,IV Antibiotics
+97,Admission NC
+97,Leucocytes
+97,CRP
+97,Leucocytes
+97,Leucocytes
+97,LacticAcid
+97,CRP
+97,Release A
+97,CRP
+97,Leucocytes
+97,LacticAcid
+97,CRP
+98,START_TOKEN
+98,ER Registration
+98,ER Triage
+98,ER Sepsis Triage
+98,LacticAcid
+98,Leucocytes
+98,Leucocytes
+98,IV Liquid
+98,IV Antibiotics
+98,Admission NC
+98,Leucocytes
+98,Admission IC
+98,Leucocytes
+98,Leucocytes
+98,Release A
+98,Leucocytes
+98,CRP
+98,Leucocytes
+98,CRP
+98,CRP
+98,CRP
+98,Admission NC
+98,CRP
+98,Release A
+98,Leucocytes
+98,CRP
+98,CRP
+98,CRP
+98,Leucocytes
+99,START_TOKEN
+99,ER Registration
+99,ER Triage
+99,ER Sepsis Triage
+99,Leucocytes
+99,Leucocytes
+99,Leucocytes
+99,IV Liquid
+99,IV Antibiotics
+99,Admission NC
+99,CRP
+99,Leucocytes
+99,CRP
+100,START_TOKEN
+100,ER Registration
+100,ER Triage
+100,IV Liquid
+100,CRP
+100,LacticAcid
+100,Leucocytes
+100,IV Liquid
+100,IV Antibiotics
+100,Admission NC
+100,Leucocytes
+101,START_TOKEN
+101,ER Registration
+101,ER Triage
+101,ER Sepsis Triage
+101,CRP
+101,Leucocytes
+101,LacticAcid
+101,IV Liquid
+101,IV Liquid
+101,Admission NC
+101,CRP
+102,ER Registration
+102,ER Registration
+102,ER Triage
+102,ER Sepsis Triage
+102,Leucocytes
+102,CRP
+102,Leucocytes
+102,IV Antibiotics
+102,IV Antibiotics
+102,Admission NC
+102,Release A
+102,LacticAcid
+102,CRP
+102,CRP
+102,Release A
+102,Admission NC
+102,Leucocytes
+102,CRP
+103,Release E
+103,ER Registration
+103,ER Triage
+103,ER Sepsis Triage
+103,Leucocytes
+103,Leucocytes
+103,LacticAcid
+103,IV Liquid
+103,Leucocytes
+103,Admission NC
+103,CRP
+103,CRP
+103,Leucocytes
+104,START_TOKEN
+104,ER Registration
+104,ER Triage
+104,ER Sepsis Triage
+104,CRP
+104,LacticAcid
+104,LacticAcid
+104,IV Antibiotics
+104,IV Liquid
+104,Admission NC
+104,CRP
+104,CRP
+104,CRP
+104,Leucocytes
+105,START_TOKEN
+105,ER Registration
+105,ER Triage
+105,ER Sepsis Triage
+105,Leucocytes
+105,LacticAcid
+105,LacticAcid
+105,IV Liquid
+105,IV Antibiotics
+105,Admission NC
+105,Leucocytes
+105,Admission IC
+105,Release A
+105,Leucocytes
+105,CRP
+105,CRP
+106,START_TOKEN
+106,ER Registration
+106,ER Triage
+106,ER Sepsis Triage
+106,Leucocytes
+106,CRP
+106,LacticAcid
+106,IV Liquid
+106,IV Antibiotics
+106,Admission NC
+106,LacticAcid
+106,CRP
+106,CRP
+106,LacticAcid
+106,CRP
+106,CRP
+106,Leucocytes
+106,CRP
+106,CRP
+106,Leucocytes
+107,START_TOKEN
+107,ER Registration
+107,ER Triage
+107,ER Sepsis Triage
+107,CRP
+107,LacticAcid
+107,LacticAcid
+107,IV Liquid
+107,IV Antibiotics
+107,Admission NC
+107,ER Triage
+107,CRP
+107,Leucocytes
+107,CRP
+107,LacticAcid
+107,Leucocytes
+107,CRP
+107,CRP
+107,CRP
+107,Leucocytes
+107,CRP
+107,CRP
+107,CRP
+107,CRP
+107,Leucocytes
+107,Leucocytes
+107,Leucocytes
+107,Leucocytes
+107,CRP
+107,Leucocytes
+107,CRP
+107,CRP
+108,START_TOKEN
+108,ER Registration
+108,ER Triage
+108,ER Sepsis Triage
+108,LacticAcid
+108,CRP
+108,LacticAcid
+108,IV Antibiotics
+108,IV Antibiotics
+108,Admission NC
+109,START_TOKEN
+109,ER Registration
+109,ER Triage
+109,ER Sepsis Triage
+109,LacticAcid
+109,LacticAcid
+109,Leucocytes
+109,IV Liquid
+109,IV Liquid
+109,Admission NC
+109,CRP
+109,CRP
+109,CRP
+109,Admission IC
+110,START_TOKEN
+110,ER Registration
+110,ER Triage
+110,ER Sepsis Triage
+110,CRP
+110,LacticAcid
+110,LacticAcid
+110,IV Liquid
+110,IV Liquid
+110,Admission NC
+110,LacticAcid
+110,Leucocytes
+110,LacticAcid
+110,Admission IC
+110,Admission IC
+110,CRP
+110,LacticAcid
+110,LacticAcid
+110,Leucocytes
+110,Leucocytes
+110,CRP
+110,CRP
+110,Leucocytes
+110,LacticAcid
+110,Leucocytes
+110,Admission IC
+110,Release A
+110,Leucocytes
+110,CRP
+110,CRP
+110,Release A
+110,CRP
+111,START_TOKEN
+111,ER Registration
+111,ER Triage
+111,ER Sepsis Triage
+111,Leucocytes
+111,Leucocytes
+111,LacticAcid
+111,IV Antibiotics
+111,IV Antibiotics
+111,Admission NC
+111,Leucocytes
+111,Leucocytes
+111,CRP
+111,CRP
+111,Leucocytes
+111,Admission IC
+111,Admission IC
+111,CRP
+111,Leucocytes
+111,LacticAcid
+112,START_TOKEN
+112,ER Registration
+112,ER Triage
+112,ER Sepsis Triage
+112,LacticAcid
+112,Leucocytes
+112,Leucocytes
+112,IV Liquid
+112,IV Liquid
+112,Admission NC
+112,Leucocytes
+112,Release A
+112,Leucocytes
+112,Leucocytes
+112,Leucocytes
+112,Admission IC
+112,Leucocytes
+112,Leucocytes
+112,CRP
+112,Leucocytes
+112,CRP
+113,START_TOKEN
+113,ER Registration
+113,ER Triage
+113,ER Sepsis Triage
+113,LacticAcid
+113,LacticAcid
+113,LacticAcid
+113,IV Liquid
+113,Leucocytes
+113,Admission NC
+113,Leucocytes
+113,Release A
+114,START_TOKEN
+114,ER Registration
+114,ER Triage
+114,ER Sepsis Triage
+114,Leucocytes
+114,CRP
+114,LacticAcid
+114,IV Liquid
+114,IV Antibiotics
+114,Admission NC
+114,CRP
+114,Leucocytes
+114,CRP
+114,CRP
+115,START_TOKEN
+115,ER Registration
+115,ER Triage
+115,ER Sepsis Triage
+115,Leucocytes
+115,Leucocytes
+115,LacticAcid
+115,IV Antibiotics
+115,IV Antibiotics
+115,Admission NC
+115,CRP
+115,Leucocytes
+115,Leucocytes
+115,Release A
+115,Leucocytes
+115,CRP
+115,CRP
+115,CRP
+115,Leucocytes
+115,Return ER
+115,Admission IC
+115,CRP
+115,Admission IC
+115,CRP
+115,CRP
+115,Leucocytes
+115,CRP
+115,Leucocytes
+115,Release A
+115,Leucocytes
+115,Leucocytes
+115,CRP
+115,Leucocytes
+115,Release A
+116,START_TOKEN
+116,ER Registration
+116,ER Triage
+116,ER Sepsis Triage
+116,Leucocytes
+116,LacticAcid
+116,LacticAcid
+116,IV Antibiotics
+116,Admission NC
+116,Admission NC
+116,CRP
+116,CRP
+116,Leucocytes
+116,CRP
+116,Leucocytes
+116,CRP
+116,Admission IC
+116,CRP
+116,Release A
+116,Leucocytes
+116,Release A
+116,CRP
+116,CRP
+116,Admission IC
+116,CRP
+116,CRP
+116,Release A
+117,START_TOKEN
+117,ER Registration
+117,ER Triage
+117,ER Sepsis Triage
+117,LacticAcid
+117,Leucocytes
+117,ER Sepsis Triage
+117,IV Liquid
+117,IV Antibiotics
+117,Admission NC
+117,CRP
+117,CRP
+117,CRP
+117,CRP
+118,START_TOKEN
+118,ER Registration
+118,ER Triage
+118,ER Sepsis Triage
+118,Leucocytes
+118,Leucocytes
+118,Leucocytes
+118,IV Antibiotics
+118,IV Antibiotics
+118,Admission NC
+118,Admission IC
+118,Leucocytes
+118,LacticAcid
+119,START_TOKEN
+119,ER Registration
+119,ER Triage
+119,ER Sepsis Triage
+119,Leucocytes
+119,Leucocytes
+119,LacticAcid
+119,IV Antibiotics
+119,IV Antibiotics
+119,Admission NC
+119,CRP
+119,Leucocytes
+119,LacticAcid
+119,Admission IC
+119,Leucocytes
+120,START_TOKEN
+120,ER Registration
+120,ER Triage
+120,ER Sepsis Triage
+120,CRP
+120,LacticAcid
+120,LacticAcid
+120,IV Liquid
+120,IV Antibiotics
+120,Admission NC
+120,CRP
+120,Leucocytes
+120,Admission IC
+120,Release A
+120,CRP
+120,Leucocytes
+121,START_TOKEN
+121,ER Registration
+121,ER Triage
+121,ER Sepsis Triage
+121,Leucocytes
+121,LacticAcid
+121,LacticAcid
+121,IV Antibiotics
+121,IV Liquid
+121,LacticAcid
+121,CRP
+121,CRP
+121,Release A
+121,Leucocytes
+122,START_TOKEN
+122,ER Registration
+122,ER Triage
+122,ER Sepsis Triage
+122,CRP
+122,LacticAcid
+122,LacticAcid
+122,IV Liquid
+122,IV Antibiotics
+122,Admission NC
+122,CRP
+123,START_TOKEN
+123,ER Registration
+123,ER Triage
+123,ER Sepsis Triage
+123,CRP
+123,CRP
+123,Leucocytes
+123,IV Liquid
+123,IV Antibiotics
+123,Admission NC
+123,Admission NC
+123,CRP
+123,CRP
+123,Leucocytes
+124,START_TOKEN
+124,ER Registration
+124,ER Triage
+124,ER Sepsis Triage
+124,CRP
+124,LacticAcid
+124,LacticAcid
+124,IV Antibiotics
+124,Leucocytes
+124,Admission NC
+124,Leucocytes
+124,Release A
+124,Leucocytes
+124,Admission NC
+124,Release A
+125,START_TOKEN
+125,ER Registration
+125,ER Triage
+125,ER Sepsis Triage
+125,CRP
+125,Leucocytes
+125,LacticAcid
+125,IV Antibiotics
+125,IV Antibiotics
+125,Admission NC
+125,Leucocytes
+125,CRP
+125,CRP
+125,LacticAcid
+125,CRP
+125,Admission NC
+125,CRP
+125,Leucocytes
+125,CRP
+126,START_TOKEN
+126,ER Registration
+126,ER Triage
+126,ER Sepsis Triage
+126,CRP
+126,LacticAcid
+126,Leucocytes
+126,IV Liquid
+126,IV Antibiotics
+126,Admission NC
+126,CRP
+126,CRP
+126,Release A
+126,Release A
+126,Leucocytes
+126,CRP
+126,CRP
+126,Leucocytes
+126,Leucocytes
+126,CRP
+127,START_TOKEN
+127,ER Registration
+127,ER Triage
+127,ER Sepsis Triage
+127,CRP
+127,LacticAcid
+127,LacticAcid
+127,IV Liquid
+127,IV Liquid
+127,Admission NC
+127,Leucocytes
+127,CRP
+127,Leucocytes
+127,Leucocytes
+127,CRP
+128,START_TOKEN
+128,ER Registration
+128,ER Triage
+128,ER Sepsis Triage
+128,LacticAcid
+128,LacticAcid
+128,LacticAcid
+128,IV Liquid
+128,IV Antibiotics
+128,Admission NC
+128,Admission IC
+128,CRP
+128,CRP
+128,Leucocytes
+128,Leucocytes
+128,Leucocytes
+128,Leucocytes
+128,CRP
+128,Leucocytes
+128,Leucocytes
+129,START_TOKEN
+129,ER Registration
+129,ER Triage
+129,ER Sepsis Triage
+129,CRP
+129,Leucocytes
+129,LacticAcid
+129,IV Liquid
+129,IV Liquid
+129,Admission NC
+129,CRP
+129,CRP
+129,Leucocytes
+129,CRP
+129,Leucocytes
+129,CRP
+129,Release A
+129,Leucocytes
+129,Leucocytes
+129,CRP
+129,Leucocytes
+130,START_TOKEN
+130,ER Registration
+130,ER Triage
+130,ER Sepsis Triage
+130,LacticAcid
+130,ER Sepsis Triage
+130,ER Sepsis Triage
+130,IV Antibiotics
+130,IV Antibiotics
+130,Admission NC
+130,LacticAcid
+130,Leucocytes
+130,CRP
+130,Leucocytes
+130,LacticAcid
+130,CRP
+130,Leucocytes
+130,Leucocytes
+131,START_TOKEN
+131,ER Registration
+131,ER Triage
+131,ER Sepsis Triage
+131,Leucocytes
+131,Leucocytes
+131,LacticAcid
+131,IV Liquid
+131,Admission NC
+131,Admission NC
+131,CRP
+131,Leucocytes
+131,Leucocytes
+131,Leucocytes
+131,Leucocytes
+132,START_TOKEN
+132,ER Registration
+132,ER Triage
+132,ER Sepsis Triage
+132,LacticAcid
+132,Leucocytes
+132,Admission NC
+132,IV Antibiotics
+132,IV Antibiotics
+132,Admission NC
+132,Leucocytes
+132,Leucocytes
+132,Leucocytes
+132,CRP
+132,Admission IC
+132,Admission IC
+132,CRP
+132,CRP
+133,START_TOKEN
+133,ER Registration
+133,ER Triage
+133,ER Sepsis Triage
+133,LacticAcid
+133,LacticAcid
+133,LacticAcid
+133,IV Antibiotics
+133,IV Antibiotics
+133,Admission NC
+133,LacticAcid
+133,Admission IC
+133,Leucocytes
+133,CRP
+133,Leucocytes
+133,Leucocytes
+133,CRP
+133,Leucocytes
+133,Leucocytes
+133,CRP
+133,Release A
+133,Release A
+133,Leucocytes
+133,CRP
+133,LacticAcid
+133,CRP
+133,Leucocytes
+133,Admission IC
+133,CRP
+133,ER Registration
+133,Leucocytes
+133,Leucocytes
+133,START_TOKEN
+134,START_TOKEN
+134,ER Registration
+134,ER Triage
+134,ER Sepsis Triage
+134,LacticAcid
+134,LacticAcid
+134,LacticAcid
+134,LacticAcid
+134,IV Liquid
+134,Admission NC
+134,CRP
+134,Admission IC
+134,CRP
+134,Leucocytes
+134,Release A
+134,CRP
+134,Release A
+135,START_TOKEN
+135,ER Registration
+135,ER Triage
+135,ER Sepsis Triage
+135,Leucocytes
+135,Leucocytes
+135,LacticAcid
+135,IV Antibiotics
+135,IV Liquid
+135,Admission NC
+135,CRP
+135,Leucocytes
+135,CRP
+135,Leucocytes
+135,CRP
+135,CRP
+135,CRP
+136,LacticAcid
+136,ER Registration
+136,ER Triage
+136,ER Sepsis Triage
+136,LacticAcid
+136,Leucocytes
+136,LacticAcid
+136,Leucocytes
+136,IV Liquid
+136,Admission NC
+136,CRP
+136,CRP
+136,Leucocytes
+136,Leucocytes
+137,START_TOKEN
+137,ER Registration
+137,ER Triage
+137,ER Sepsis Triage
+137,Leucocytes
+137,CRP
+137,IV Liquid
+137,IV Liquid
+137,IV Antibiotics
+137,Admission NC
+137,Leucocytes
+137,Leucocytes
+137,LacticAcid
+137,Leucocytes
+137,CRP
+137,CRP
+137,CRP
+137,Leucocytes
+138,START_TOKEN
+138,ER Registration
+138,ER Triage
+138,ER Sepsis Triage
+138,LacticAcid
+138,CRP
+138,LacticAcid
+138,IV Liquid
+138,IV Liquid
+138,Admission NC
+138,Leucocytes
+138,CRP
+138,CRP
+138,Leucocytes
+138,Leucocytes
+139,START_TOKEN
+139,ER Registration
+139,ER Triage
+139,ER Sepsis Triage
+139,LacticAcid
+139,CRP
+139,LacticAcid
+139,IV Antibiotics
+139,IV Antibiotics
+139,Admission NC
+139,Leucocytes
+139,Leucocytes
+139,CRP
+140,START_TOKEN
+140,ER Registration
+140,ER Triage
+140,ER Sepsis Triage
+140,Leucocytes
+140,Leucocytes
+140,LacticAcid
+140,IV Antibiotics
+140,Admission NC
+140,Admission NC
+140,CRP
+140,CRP
+140,Leucocytes
+140,Leucocytes
+140,Admission NC
+140,CRP
+140,Admission IC
+140,CRP
+140,Leucocytes
+140,CRP
+140,Return ER
+140,Release A
+140,CRP
+140,Release A
+140,CRP
+140,CRP
+140,Leucocytes
+140,CRP
+140,Leucocytes
+140,ER Triage
+140,CRP
+140,IV Antibiotics
+140,Leucocytes
+140,Release A
+140,Admission IC
+140,CRP
+140,CRP
+140,Leucocytes
+140,CRP
+140,CRP
+140,ER Registration
+140,Return ER
+140,CRP
+140,CRP
+140,ER Registration
+140,ER Registration
+140,ER Registration
+140,ER Registration
+140,ER Registration
+140,ER Registration
+140,ER Registration
+140,ER Registration
+140,ER Registration
+140,ER Registration
+140,CRP
+140,START_TOKEN
+140,START_TOKEN
+140,START_TOKEN
+140,ER Registration
+140,ER Registration
+140,CRP
+140,CRP
+140,CRP
+140,START_TOKEN
+140,ER Registration
+140,IV Antibiotics
+140,Admission NC
+140,Leucocytes
+140,CRP
+140,LacticAcid
+141,START_TOKEN
+141,ER Registration
+141,ER Triage
+141,ER Sepsis Triage
+141,CRP
+141,Leucocytes
+141,LacticAcid
+141,IV Antibiotics
+141,IV Antibiotics
+141,Admission NC
+141,CRP
+141,CRP
+141,CRP
+141,CRP
+141,Leucocytes
+141,CRP
+141,Release A
+141,Leucocytes
+141,Leucocytes
+141,Leucocytes
+141,Leucocytes
+141,CRP
+141,CRP
+141,CRP
+141,Leucocytes
+141,CRP
+142,START_TOKEN
+142,ER Registration
+142,CRP
+142,ER Sepsis Triage
+142,CRP
+142,LacticAcid
+142,LacticAcid
+142,IV Liquid
+142,IV Antibiotics
+142,Admission NC
+142,CRP
+142,CRP
+142,CRP
+142,Leucocytes
+142,Leucocytes
+142,Admission IC
+142,CRP
+142,CRP
+142,Release A
+143,START_TOKEN
+143,ER Registration
+143,ER Triage
+143,ER Sepsis Triage
+143,Leucocytes
+143,CRP
+143,LacticAcid
+143,IV Liquid
+143,Admission NC
+143,Admission NC
+143,Leucocytes
+144,START_TOKEN
+144,ER Registration
+144,ER Triage
+144,ER Sepsis Triage
+144,LacticAcid
+144,LacticAcid
+144,LacticAcid
+144,IV Antibiotics
+144,IV Liquid
+144,Admission NC
+144,CRP
+144,CRP
+144,Leucocytes
+144,Leucocytes
+144,Leucocytes
+144,Release A
+144,LacticAcid
+144,Leucocytes
+144,Leucocytes
+144,Leucocytes
+145,START_TOKEN
+145,ER Registration
+145,ER Triage
+145,ER Sepsis Triage
+145,Leucocytes
+145,Leucocytes
+145,Leucocytes
+145,IV Antibiotics
+145,IV Antibiotics
+145,Admission NC
+145,Leucocytes
+145,CRP
+145,CRP
+146,START_TOKEN
+146,ER Registration
+146,ER Triage
+146,ER Sepsis Triage
+146,CRP
+146,Leucocytes
+146,ER Sepsis Triage
+146,IV Liquid
+146,IV Antibiotics
+146,Admission NC
+146,Admission IC
+146,CRP
+146,Leucocytes
+147,START_TOKEN
+147,ER Registration
+147,ER Triage
+147,ER Sepsis Triage
+147,CRP
+147,Leucocytes
+147,LacticAcid
+147,LacticAcid
+147,IV Antibiotics
+147,Admission NC
+147,Leucocytes
+147,Leucocytes
+147,Leucocytes
+148,START_TOKEN
+148,ER Registration
+148,ER Triage
+148,ER Sepsis Triage
+148,LacticAcid
+148,CRP
+148,LacticAcid
+148,IV Antibiotics
+148,IV Antibiotics
+148,Admission NC
+148,Leucocytes
+149,START_TOKEN
+149,ER Registration
+149,ER Triage
+149,ER Sepsis Triage
+149,CRP
+149,CRP
+149,ER Sepsis Triage
+149,IV Liquid
+149,IV Antibiotics
+149,Admission NC
+150,START_TOKEN
+150,ER Registration
+150,ER Triage
+150,ER Sepsis Triage
+150,Leucocytes
+150,CRP
+150,Leucocytes
+150,IV Liquid
+150,IV Liquid
+150,Admission NC
+150,CRP
+151,START_TOKEN
+151,ER Registration
+151,ER Triage
+151,ER Sepsis Triage
+151,Leucocytes
+151,LacticAcid
+151,LacticAcid
+151,IV Liquid
+151,IV Antibiotics
+151,Admission NC
+151,CRP
+151,CRP
+151,Leucocytes
+151,CRP
+151,Leucocytes
+151,Release A
+151,CRP
+151,Leucocytes
+152,START_TOKEN
+152,ER Registration
+152,ER Triage
+152,ER Sepsis Triage
+152,LacticAcid
+152,Leucocytes
+152,Leucocytes
+152,IV Liquid
+152,IV Antibiotics
+152,Admission NC
+152,CRP
+152,CRP
+152,Leucocytes
+152,CRP
+152,CRP
+152,CRP
+152,Leucocytes
+152,CRP
+152,Release A
+152,Leucocytes
+152,CRP
+152,Release A
+152,Admission NC
+152,CRP
+153,START_TOKEN
+153,ER Registration
+153,ER Triage
+153,ER Sepsis Triage
+153,Leucocytes
+153,LacticAcid
+153,Admission NC
+153,IV Liquid
+153,IV Liquid
+153,Admission NC
+153,CRP
+153,Leucocytes
+153,CRP
+153,Leucocytes
+153,Leucocytes
+153,CRP
+153,Leucocytes
+153,Release A
+153,Leucocytes
+153,Leucocytes
+153,Leucocytes
+153,Admission IC
+153,Return ER
+153,CRP
+153,CRP
+153,Leucocytes
+154,START_TOKEN
+154,ER Registration
+154,ER Triage
+154,ER Sepsis Triage
+154,CRP
+154,CRP
+154,Leucocytes
+154,IV Liquid
+154,IV Antibiotics
+154,Admission NC
+154,CRP
+154,Release A
+154,Leucocytes
+154,Leucocytes
+154,CRP
+155,START_TOKEN
+155,ER Registration
+155,ER Triage
+155,IV Liquid
+155,LacticAcid
+155,Leucocytes
+155,Leucocytes
+155,IV Liquid
+155,IV Antibiotics
+155,Admission NC
+155,Release A
+155,Admission NC
+155,Admission NC
+155,CRP
+155,Leucocytes
+155,Admission NC
+155,CRP
+155,CRP
+155,Admission IC
+155,Admission NC
+155,CRP
+155,Release A
+155,CRP
+155,Leucocytes
+155,Leucocytes
+155,CRP
+155,Leucocytes
+155,Leucocytes
+155,CRP
+155,CRP
+155,Leucocytes
+155,Leucocytes
+155,CRP
+155,CRP
+155,Admission IC
+155,Leucocytes
+155,LacticAcid
+155,CRP
+155,Leucocytes
+155,ER Registration
+155,Leucocytes
+156,START_TOKEN
+156,ER Registration
+156,ER Triage
+156,ER Sepsis Triage
+156,CRP
+156,Leucocytes
+156,LacticAcid
+156,IV Liquid
+156,IV Antibiotics
+156,Admission NC
+156,CRP
+156,CRP
+156,LacticAcid
+156,Leucocytes
+156,Release A
+156,Leucocytes
+156,Leucocytes
+156,Leucocytes
+156,Leucocytes
+156,Leucocytes
+156,CRP
+156,Leucocytes
+157,START_TOKEN
+157,ER Registration
+157,ER Triage
+157,ER Sepsis Triage
+157,LacticAcid
+157,LacticAcid
+157,LacticAcid
+157,IV Liquid
+157,IV Liquid
+157,Admission NC
+157,Release A
+157,Leucocytes
+157,Leucocytes
+157,LacticAcid
+158,START_TOKEN
+158,ER Registration
+158,ER Triage
+158,ER Sepsis Triage
+158,Leucocytes
+158,Leucocytes
+158,Leucocytes
+158,IV Antibiotics
+158,IV Antibiotics
+158,Admission NC
+158,Leucocytes
+158,Leucocytes
+158,Leucocytes
+158,CRP
+158,Leucocytes
+159,START_TOKEN
+159,ER Registration
+159,ER Triage
+159,ER Sepsis Triage
+159,Leucocytes
+159,Leucocytes
+159,ER Sepsis Triage
+159,IV Liquid
+159,IV Liquid
+159,Admission NC
+159,Leucocytes
+159,Leucocytes
+159,Leucocytes
+159,CRP
+160,START_TOKEN
+160,ER Registration
+160,ER Triage
+160,ER Sepsis Triage
+160,CRP
+160,LacticAcid
+160,LacticAcid
+160,IV Antibiotics
+160,IV Liquid
+160,Admission NC
+160,CRP
+160,CRP
+160,CRP
+160,Leucocytes
+160,Leucocytes
+160,LacticAcid
+160,Admission IC
+160,Leucocytes
+160,Release A
+160,Release A
+160,CRP
+160,Release A
+160,Leucocytes
+160,Leucocytes
+160,Leucocytes
+160,CRP
+160,CRP
+160,Admission IC
+161,START_TOKEN
+161,ER Registration
+161,ER Triage
+161,ER Sepsis Triage
+161,CRP
+161,Leucocytes
+161,Leucocytes
+161,IV Liquid
+161,Leucocytes
+161,Leucocytes
+161,Leucocytes
+161,CRP
+161,Leucocytes
+161,CRP
+161,Release A
+161,Admission IC
+161,CRP
+161,Return ER
+161,CRP
+161,Leucocytes
+161,CRP
+162,START_TOKEN
+162,ER Registration
+162,ER Triage
+162,ER Sepsis Triage
+162,Leucocytes
+162,LacticAcid
+162,LacticAcid
+162,IV Liquid
+162,IV Liquid
+162,Admission NC
+162,CRP
+162,Release A
+162,Leucocytes
+162,CRP
+162,Leucocytes
+162,CRP
+163,START_TOKEN
+163,ER Registration
+163,ER Triage
+163,ER Sepsis Triage
+163,CRP
+163,Leucocytes
+163,LacticAcid
+163,IV Liquid
+163,IV Antibiotics
+163,Admission NC
+163,Leucocytes
+163,CRP
+163,CRP
+163,LacticAcid
+163,Leucocytes
+163,Release A
+163,CRP
+164,START_TOKEN
+164,ER Registration
+164,ER Triage
+164,ER Sepsis Triage
+164,Leucocytes
+164,CRP
+164,LacticAcid
+164,IV Liquid
+164,IV Antibiotics
+164,Admission NC
+164,CRP
+165,START_TOKEN
+165,ER Registration
+165,ER Triage
+165,ER Sepsis Triage
+165,CRP
+165,CRP
+165,LacticAcid
+165,IV Liquid
+165,IV Liquid
+165,Admission NC
+165,CRP
+166,START_TOKEN
+166,ER Registration
+166,ER Triage
+166,ER Sepsis Triage
+166,Leucocytes
+166,Leucocytes
+166,ER Sepsis Triage
+166,IV Liquid
+166,IV Antibiotics
+166,Admission NC
+166,LacticAcid
+167,START_TOKEN
+167,ER Registration
+167,ER Triage
+167,ER Sepsis Triage
+167,CRP
+167,Leucocytes
+167,Leucocytes
+167,IV Liquid
+167,IV Liquid
+167,Admission NC
+167,Leucocytes
+167,CRP
+167,Admission IC
+167,CRP
+168,START_TOKEN
+168,ER Registration
+168,ER Triage
+168,ER Sepsis Triage
+168,CRP
+168,LacticAcid
+168,Leucocytes
+168,IV Liquid
+168,IV Liquid
+168,Admission NC
+168,Admission NC
+168,CRP
+168,Admission IC
+168,ER Registration
+168,Leucocytes
+168,Leucocytes
+168,Leucocytes
+168,CRP
+168,CRP
+168,CRP
+168,CRP
+168,CRP
+168,Release A
+168,LacticAcid
+168,Release A
+168,CRP
+168,CRP
+169,START_TOKEN
+169,ER Registration
+169,ER Triage
+169,ER Sepsis Triage
+169,Leucocytes
+169,CRP
+169,Admission IC
+169,IV Liquid
+169,IV Antibiotics
+169,Leucocytes
+169,Leucocytes
+169,Leucocytes
+169,Leucocytes
+169,LacticAcid
+169,LacticAcid
+169,Leucocytes
+169,CRP
+169,ER Registration
+169,Admission IC
+169,CRP
+169,Release A
+170,START_TOKEN
+170,ER Registration
+170,ER Triage
+170,ER Sepsis Triage
+170,CRP
+170,Leucocytes
+170,LacticAcid
+170,IV Liquid
+170,Admission NC
+170,Admission NC
+170,Leucocytes
+170,Leucocytes
+170,CRP
+171,START_TOKEN
+171,ER Registration
+171,ER Triage
+171,ER Sepsis Triage
+171,Leucocytes
+171,CRP
+171,LacticAcid
+171,IV Liquid
+171,IV Liquid
+171,Admission NC
+171,CRP
+171,Leucocytes
+171,CRP
+172,START_TOKEN
+172,ER Registration
+172,ER Triage
+172,ER Sepsis Triage
+172,CRP
+172,Leucocytes
+172,Leucocytes
+172,IV Liquid
+172,IV Antibiotics
+172,Admission NC
+172,CRP
+172,Admission IC
+172,Leucocytes
+172,Release A
+172,Leucocytes
+173,START_TOKEN
+173,ER Registration
+173,ER Triage
+173,ER Sepsis Triage
+173,Leucocytes
+173,Leucocytes
+173,LacticAcid
+173,IV Liquid
+173,IV Antibiotics
+173,Admission NC
+173,Leucocytes
+173,CRP
+173,Leucocytes
+173,CRP
+173,Leucocytes
+173,Leucocytes
+173,CRP
+173,CRP
+173,CRP
+173,CRP
+173,Admission IC
+173,Release A
+173,Release A
+173,CRP
+173,CRP
+173,LacticAcid
+173,CRP
+173,CRP
+173,CRP
+173,Leucocytes
+173,CRP
+173,Leucocytes
+173,Release A
+173,Leucocytes
+173,Admission IC
+173,Leucocytes
+174,START_TOKEN
+174,ER Registration
+174,ER Triage
+174,ER Sepsis Triage
+174,LacticAcid
+174,CRP
+174,LacticAcid
+174,IV Liquid
+174,Leucocytes
+174,Admission NC
+174,LacticAcid
+174,CRP
+174,Leucocytes
+174,LacticAcid
+174,Leucocytes
+174,Leucocytes
+174,CRP
+175,START_TOKEN
+175,ER Registration
+175,ER Triage
+175,ER Sepsis Triage
+175,LacticAcid
+175,Leucocytes
+175,LacticAcid
+175,IV Liquid
+175,IV Liquid
+175,Admission NC
+175,CRP
+175,LacticAcid
+175,Release A
+175,CRP
+175,Admission NC
+175,Release A
+175,Leucocytes
+175,CRP
+175,Admission IC
+175,Release A
+175,Admission IC
+175,Leucocytes
+175,Leucocytes
+176,START_TOKEN
+176,ER Registration
+176,ER Triage
+176,ER Sepsis Triage
+176,Leucocytes
+176,CRP
+176,LacticAcid
+176,IV Liquid
+176,IV Liquid
+176,Admission NC
+176,Leucocytes
+176,Leucocytes
+176,Leucocytes
+176,Leucocytes
+176,CRP
+176,Leucocytes
+176,CRP
+176,Release A
+176,CRP
+176,Return ER
+176,CRP
+176,Release A
+176,Admission NC
+176,CRP
+176,CRP
+176,CRP
+176,Leucocytes
+176,CRP
+176,Leucocytes
+176,Admission IC
+176,CRP
+176,Leucocytes
+176,Release A
+176,LacticAcid
+177,START_TOKEN
+177,ER Registration
+177,ER Triage
+177,ER Sepsis Triage
+177,LacticAcid
+177,CRP
+177,ER Sepsis Triage
+177,IV Liquid
+177,IV Antibiotics
+177,Admission NC
+177,Leucocytes
+177,Leucocytes
+177,Release A
+177,Leucocytes
+177,Leucocytes
+178,START_TOKEN
+178,ER Registration
+178,ER Triage
+178,ER Sepsis Triage
+178,LacticAcid
+178,CRP
+178,LacticAcid
+178,IV Liquid
+178,IV Liquid
+178,Admission NC
+178,Release A
+178,Leucocytes
+178,Leucocytes
+178,Leucocytes
+178,Admission IC
+178,Leucocytes
+178,CRP
+178,Leucocytes
+179,START_TOKEN
+179,ER Registration
+179,ER Triage
+179,ER Sepsis Triage
+179,Leucocytes
+179,CRP
+179,LacticAcid
+179,Leucocytes
+179,IV Antibiotics
+179,Admission NC
+179,Leucocytes
+179,Leucocytes
+179,CRP
+179,CRP
+179,CRP
+179,CRP
+179,Leucocytes
+179,CRP
+179,CRP
+179,Leucocytes
+179,CRP
+179,Leucocytes
+179,Leucocytes
+179,Leucocytes
+179,CRP
+179,Leucocytes
+179,Admission IC
+179,CRP
+179,Leucocytes
+179,Leucocytes
+179,CRP
+180,START_TOKEN
+180,ER Registration
+180,ER Triage
+180,ER Sepsis Triage
+180,Leucocytes
+180,Leucocytes
+180,Leucocytes
+180,IV Liquid
+180,IV Antibiotics
+180,Admission NC
+180,Release A
+180,CRP
+180,Leucocytes
+180,CRP
+180,Leucocytes
+180,Release A
+180,LacticAcid
+180,Leucocytes
+180,Admission IC
+181,ER Registration
+181,ER Registration
+181,ER Triage
+181,ER Sepsis Triage
+181,Leucocytes
+181,LacticAcid
+181,Leucocytes
+181,Admission NC
+181,Leucocytes
+181,Admission NC
+181,CRP
+181,Leucocytes
+181,Leucocytes
+181,Leucocytes
+181,Leucocytes
+181,Admission IC
+181,Leucocytes
+181,Release A
+181,CRP
+181,CRP
+181,CRP
+182,START_TOKEN
+182,ER Registration
+182,ER Triage
+182,ER Sepsis Triage
+182,CRP
+182,Leucocytes
+182,Leucocytes
+182,Admission NC
+182,IV Antibiotics
+182,Admission NC
+182,CRP
+182,Leucocytes
+182,CRP
+182,Leucocytes
+182,Release A
+182,Leucocytes
+182,Leucocytes
+182,CRP
+182,CRP
+182,CRP
+183,START_TOKEN
+183,ER Registration
+183,ER Triage
+183,ER Sepsis Triage
+183,CRP
+183,Leucocytes
+183,Leucocytes
+183,IV Liquid
+183,IV Liquid
+183,Admission NC
+184,START_TOKEN
+184,ER Registration
+184,ER Triage
+184,ER Sepsis Triage
+184,LacticAcid
+184,Leucocytes
+184,Leucocytes
+184,IV Liquid
+184,IV Antibiotics
+184,Admission NC
+184,Leucocytes
+184,Leucocytes
+184,Admission IC
+185,START_TOKEN
+185,ER Registration
+185,ER Triage
+185,ER Sepsis Triage
+185,CRP
+185,Leucocytes
+185,Leucocytes
+185,IV Antibiotics
+185,IV Liquid
+185,Admission NC
+185,LacticAcid
+185,CRP
+185,Leucocytes
+185,CRP
+186,START_TOKEN
+186,ER Registration
+186,ER Triage
+186,ER Sepsis Triage
+186,Leucocytes
+186,LacticAcid
+186,Admission NC
+186,IV Liquid
+186,IV Antibiotics
+186,Admission NC
+186,LacticAcid
+186,CRP
+186,CRP
+186,CRP
+186,Leucocytes
+186,Admission NC
+186,CRP
+186,Leucocytes
+186,Leucocytes
+187,START_TOKEN
+187,ER Registration
+187,ER Triage
+187,ER Sepsis Triage
+187,CRP
+187,Leucocytes
+187,LacticAcid
+187,Leucocytes
+187,ER Triage
+187,Admission NC
+187,Leucocytes
+187,CRP
+187,Leucocytes
+187,Leucocytes
+187,CRP
+188,START_TOKEN
+188,ER Registration
+188,ER Triage
+188,ER Sepsis Triage
+188,CRP
+188,Leucocytes
+188,LacticAcid
+188,IV Liquid
+188,IV Antibiotics
+188,Admission NC
+188,CRP
+188,LacticAcid
+189,START_TOKEN
+189,ER Registration
+189,ER Triage
+189,ER Sepsis Triage
+189,CRP
+189,LacticAcid
+189,LacticAcid
+189,IV Antibiotics
+189,IV Antibiotics
+189,Admission NC
+189,CRP
+189,CRP
+189,CRP
+189,Leucocytes
+190,START_TOKEN
+190,ER Registration
+190,ER Triage
+190,ER Sepsis Triage
+190,CRP
+190,CRP
+190,LacticAcid
+190,IV Antibiotics
+190,IV Antibiotics
+190,Admission NC
+190,Admission IC
+190,CRP
+190,Release A
+190,LacticAcid
+190,CRP
+190,Admission IC
+190,Leucocytes
+190,Leucocytes
+191,START_TOKEN
+191,ER Registration
+191,ER Triage
+191,ER Sepsis Triage
+191,CRP
+191,Leucocytes
+191,LacticAcid
+191,IV Liquid
+191,IV Antibiotics
+191,Admission NC
+191,Leucocytes
+191,Leucocytes
+191,CRP
+191,Leucocytes
+191,Leucocytes
+191,Admission IC
+191,Leucocytes
+191,Release A
+191,Leucocytes
+192,START_TOKEN
+192,ER Registration
+192,ER Triage
+192,ER Sepsis Triage
+192,Leucocytes
+192,Leucocytes
+192,LacticAcid
+192,IV Liquid
+192,IV Antibiotics
+192,Admission NC
+192,Leucocytes
+192,CRP
+192,Leucocytes
+192,Leucocytes
+192,CRP
+192,Leucocytes
+192,CRP
+193,START_TOKEN
+193,ER Registration
+193,ER Triage
+193,ER Sepsis Triage
+193,LacticAcid
+193,LacticAcid
+193,LacticAcid
+193,IV Liquid
+193,IV Liquid
+193,Admission NC
+194,START_TOKEN
+194,ER Registration
+194,ER Triage
+194,ER Sepsis Triage
+194,LacticAcid
+194,CRP
+194,LacticAcid
+194,Leucocytes
+194,IV Antibiotics
+194,Admission NC
+194,Release A
+194,CRP
+194,Leucocytes
+194,Leucocytes
+194,Release A
+194,Admission NC
+194,Admission IC
+194,CRP
+194,CRP
+194,CRP
+194,CRP
+194,CRP
+194,CRP
+194,LacticAcid
+194,CRP
+194,CRP
+195,START_TOKEN
+195,ER Registration
+195,ER Triage
+195,ER Sepsis Triage
+195,Leucocytes
+195,LacticAcid
+195,ER Sepsis Triage
+195,IV Antibiotics
+195,Leucocytes
+195,Admission NC
+195,CRP
+195,Leucocytes
+195,CRP
+195,Leucocytes
+195,Leucocytes
+195,CRP
+195,CRP
+195,Leucocytes
+195,CRP
+195,Leucocytes
+195,Leucocytes
+196,START_TOKEN
+196,ER Registration
+196,ER Triage
+196,ER Sepsis Triage
+196,Leucocytes
+196,LacticAcid
+196,Leucocytes
+196,IV Liquid
+196,IV Antibiotics
+196,Admission NC
+196,Leucocytes
+196,CRP
+196,CRP
+196,LacticAcid
+196,Leucocytes
+196,Leucocytes
+196,CRP
+196,Leucocytes
+196,CRP
+196,CRP
+196,Leucocytes
+197,START_TOKEN
+197,ER Registration
+197,ER Triage
+197,ER Sepsis Triage
+197,LacticAcid
+197,Leucocytes
+197,LacticAcid
+197,IV Liquid
+197,IV Antibiotics
+197,Admission NC
+198,START_TOKEN
+198,ER Registration
+198,ER Triage
+198,ER Sepsis Triage
+198,CRP
+198,Leucocytes
+198,Leucocytes
+198,IV Antibiotics
+198,IV Antibiotics
+198,Admission NC
+198,CRP
+198,Leucocytes
+198,CRP
+198,Admission NC
+198,Leucocytes
+198,Leucocytes
+198,Leucocytes
+198,CRP
+198,Leucocytes
+198,Leucocytes
+198,CRP
+198,CRP
+199,START_TOKEN
+199,ER Registration
+199,ER Triage
+199,ER Sepsis Triage
+199,CRP
+199,Leucocytes
+199,LacticAcid
+199,IV Liquid
+199,IV Antibiotics
+199,Admission NC
+199,Leucocytes
+199,CRP
+199,Leucocytes
+199,Leucocytes
+199,CRP
+199,Admission IC
+199,Leucocytes
+199,CRP
+199,Leucocytes
+199,Leucocytes
+199,ER Registration
+199,Release A
+199,CRP
+199,Leucocytes
+199,Leucocytes
+199,CRP
+199,CRP
+199,Release A
+199,Release A
+199,Leucocytes
+199,CRP
+199,CRP
+199,Leucocytes
+200,START_TOKEN
+200,ER Registration
+200,ER Triage
+200,ER Sepsis Triage
+200,Leucocytes
+200,CRP
+200,LacticAcid
+200,IV Antibiotics
+200,IV Antibiotics
+200,Admission NC
+200,CRP
+200,CRP
+200,LacticAcid
+200,CRP
+200,Leucocytes
+200,Admission NC
+200,CRP
+200,Admission IC
+200,Leucocytes
+200,Leucocytes
+200,Leucocytes
+200,CRP
+201,START_TOKEN
+201,ER Registration
+201,ER Triage
+201,ER Sepsis Triage
+201,LacticAcid
+201,Leucocytes
+201,ER Sepsis Triage
+201,IV Antibiotics
+201,IV Antibiotics
+201,Admission NC
+201,CRP
+201,LacticAcid
+201,Admission NC
+201,Leucocytes
+202,START_TOKEN
+202,ER Registration
+202,ER Triage
+202,ER Sepsis Triage
+202,CRP
+202,LacticAcid
+202,ER Sepsis Triage
+202,IV Liquid
+202,IV Antibiotics
+202,Admission NC
+202,Leucocytes
+202,CRP
+202,LacticAcid
+202,Leucocytes
+202,Leucocytes
+202,Release A
+202,Release A
+202,Leucocytes
+202,Leucocytes
+202,LacticAcid
+203,START_TOKEN
+203,ER Registration
+203,ER Triage
+203,ER Sepsis Triage
+203,CRP
+203,LacticAcid
+203,LacticAcid
+203,IV Liquid
+203,IV Antibiotics
+203,Admission NC
+203,Admission NC
+203,Leucocytes
+203,Admission NC
+203,CRP
+203,CRP
+203,Release A
+204,START_TOKEN
+204,ER Registration
+204,ER Triage
+204,ER Sepsis Triage
+204,CRP
+204,Leucocytes
+204,LacticAcid
+204,LacticAcid
+204,IV Antibiotics
+204,Admission IC
+205,START_TOKEN
+205,ER Registration
+205,ER Triage
+205,ER Sepsis Triage
+205,Leucocytes
+205,Leucocytes
+205,Leucocytes
+205,IV Liquid
+205,Admission NC
+205,Admission NC
+205,Release A
+205,Leucocytes
+205,CRP
+205,Leucocytes
+206,START_TOKEN
+206,ER Registration
+206,ER Triage
+206,ER Sepsis Triage
+206,LacticAcid
+206,Leucocytes
+206,LacticAcid
+206,IV Liquid
+206,IV Antibiotics
+206,Admission NC
+206,Leucocytes
+206,CRP
+206,CRP
+206,Release A
+206,Leucocytes
+206,Leucocytes
+206,IV Antibiotics
+206,Admission IC
+206,Release A
+206,CRP
+206,LacticAcid
+207,START_TOKEN
+207,ER Registration
+207,ER Triage
+207,ER Sepsis Triage
+207,Leucocytes
+207,Leucocytes
+207,LacticAcid
+207,IV Liquid
+207,IV Antibiotics
+207,Admission NC
+207,Leucocytes
+207,Leucocytes
+207,Leucocytes
+207,LacticAcid
+207,Leucocytes
+207,Leucocytes
+207,CRP
+207,ER Registration
+207,Leucocytes
+207,Leucocytes
+207,Leucocytes
+207,Release A
+207,CRP
+207,CRP
+208,START_TOKEN
+208,ER Registration
+208,IV Liquid
+208,ER Sepsis Triage
+208,CRP
+208,CRP
+208,LacticAcid
+208,IV Antibiotics
+208,IV Liquid
+208,Admission NC
+208,Leucocytes
+208,Leucocytes
+208,Leucocytes
+208,Leucocytes
+209,START_TOKEN
+209,ER Registration
+209,ER Triage
+209,ER Sepsis Triage
+209,Leucocytes
+209,Leucocytes
+209,LacticAcid
+209,IV Antibiotics
+209,IV Antibiotics
+209,Admission NC
+210,START_TOKEN
+210,ER Registration
+210,ER Triage
+210,LacticAcid
+210,LacticAcid
+210,Leucocytes
+210,LacticAcid
+210,IV Antibiotics
+210,IV Liquid
+210,Admission NC
+210,Leucocytes
+210,Release A
+210,Leucocytes
+210,Release A
+210,Release A
+210,Admission IC
+210,Leucocytes
+210,Leucocytes
+210,CRP
+210,CRP
+210,CRP
+210,Leucocytes
+210,CRP
+211,START_TOKEN
+211,ER Registration
+211,ER Triage
+211,ER Sepsis Triage
+211,Leucocytes
+211,LacticAcid
+211,Leucocytes
+211,IV Liquid
+211,Leucocytes
+211,Admission NC
+211,CRP
+211,CRP
+211,CRP
+211,LacticAcid
+211,LacticAcid
+211,Leucocytes
+211,Admission IC
+211,Leucocytes
+211,CRP
+211,ER Registration
+211,CRP
+211,Leucocytes
+211,Leucocytes
+211,Leucocytes
+211,CRP
+211,CRP
+211,Release A
+211,Release A
+211,CRP
+211,Leucocytes
+211,CRP
+211,CRP
+211,Leucocytes
+211,ER Registration
+211,CRP
+211,CRP
+211,Leucocytes
+211,CRP
+212,START_TOKEN
+212,ER Registration
+212,ER Triage
+212,ER Sepsis Triage
+212,LacticAcid
+212,START_TOKEN
+212,LacticAcid
+212,IV Liquid
+212,IV Antibiotics
+212,Admission NC
+212,Leucocytes
+212,CRP
+212,Leucocytes
+212,Leucocytes
+213,START_TOKEN
+213,ER Registration
+213,ER Triage
+213,ER Sepsis Triage
+213,LacticAcid
+213,CRP
+213,Leucocytes
+213,IV Liquid
+213,IV Antibiotics
+213,Admission NC
+213,Leucocytes
+213,CRP
+213,Leucocytes
+214,START_TOKEN
+214,ER Registration
+214,ER Triage
+214,ER Sepsis Triage
+214,LacticAcid
+214,CRP
+214,Leucocytes
+214,IV Liquid
+214,IV Antibiotics
+214,Admission NC
+214,Admission IC
+214,Leucocytes
+214,Leucocytes
+214,CRP
+215,START_TOKEN
+215,ER Registration
+215,ER Triage
+215,ER Sepsis Triage
+215,Leucocytes
+215,Leucocytes
+215,LacticAcid
+215,IV Antibiotics
+215,IV Antibiotics
+215,Admission NC
+215,Release A
+215,Leucocytes
+215,Leucocytes
+215,Leucocytes
+215,Release A
+215,CRP
+215,LacticAcid
+215,Release A
+215,CRP
+215,CRP
+215,CRP
+215,CRP
+215,CRP
+215,Admission IC
+215,Leucocytes
+215,CRP
+215,Leucocytes
+215,Leucocytes
+215,CRP
+215,Leucocytes
+215,CRP
+216,START_TOKEN
+216,ER Registration
+216,ER Triage
+216,ER Sepsis Triage
+216,LacticAcid
+216,Leucocytes
+216,Leucocytes
+216,LacticAcid
+216,Leucocytes
+216,Admission NC
+217,START_TOKEN
+217,ER Registration
+217,ER Triage
+217,ER Sepsis Triage
+217,CRP
+217,Leucocytes
+217,LacticAcid
+217,IV Liquid
+217,IV Antibiotics
+217,Admission NC
+217,CRP
+217,CRP
+217,Leucocytes
+217,LacticAcid
+217,CRP
+217,Admission IC
+217,CRP
+217,LacticAcid
+217,Leucocytes
+217,Leucocytes
+217,CRP
+218,START_TOKEN
+218,ER Registration
+218,ER Triage
+218,ER Sepsis Triage
+218,LacticAcid
+218,Leucocytes
+218,CRP
+218,Leucocytes
+218,IV Antibiotics
+218,Admission NC
+218,CRP
+218,Leucocytes
+218,CRP
+218,LacticAcid
+218,CRP
+218,LacticAcid
+218,CRP
+218,CRP
+218,LacticAcid
+218,CRP
+218,CRP
+218,CRP
+218,CRP
+218,Admission IC
+218,CRP
+218,LacticAcid
+218,Release A
+218,CRP
+218,Return ER
+219,START_TOKEN
+219,ER Registration
+219,ER Triage
+219,ER Sepsis Triage
+219,CRP
+219,CRP
+219,Leucocytes
+219,IV Liquid
+219,Leucocytes
+219,Admission NC
+219,Leucocytes
+219,Leucocytes
+219,Leucocytes
+219,LacticAcid
+219,Leucocytes
+219,Leucocytes
+219,CRP
+219,Release A
+220,START_TOKEN
+220,ER Registration
+220,ER Triage
+220,ER Sepsis Triage
+220,LacticAcid
+220,CRP
+220,LacticAcid
+220,IV Liquid
+220,IV Antibiotics
+220,Admission NC
+220,Leucocytes
+220,CRP
+220,Leucocytes
+220,CRP
+220,Leucocytes
+220,CRP
+220,CRP
+220,CRP
+220,Leucocytes
+221,START_TOKEN
+221,ER Registration
+221,ER Triage
+221,ER Sepsis Triage
+221,CRP
+221,CRP
+221,Leucocytes
+221,IV Liquid
+221,IV Liquid
+221,Admission NC
+221,CRP
+221,Leucocytes
+221,LacticAcid
+221,LacticAcid
+221,CRP
+221,LacticAcid
+221,CRP
+221,CRP
+221,CRP
+221,Leucocytes
+221,CRP
+221,Release A
+221,CRP
+221,Leucocytes
+221,CRP
+221,CRP
+221,Admission IC
+221,Leucocytes
+221,CRP
+221,Leucocytes
+221,Leucocytes
+221,CRP
+221,CRP
+222,START_TOKEN
+222,ER Registration
+222,ER Triage
+222,ER Sepsis Triage
+222,LacticAcid
+222,LacticAcid
+222,LacticAcid
+222,IV Liquid
+222,Leucocytes
+222,Admission NC
+222,LacticAcid
+222,CRP
+222,CRP
+222,CRP
+222,CRP
+223,START_TOKEN
+223,ER Registration
+223,ER Triage
+223,ER Sepsis Triage
+223,CRP
+223,Leucocytes
+223,LacticAcid
+223,IV Antibiotics
+223,IV Antibiotics
+223,Admission NC
+223,Release A
+223,CRP
+224,START_TOKEN
+224,ER Registration
+224,ER Triage
+224,ER Sepsis Triage
+224,Leucocytes
+224,LacticAcid
+224,LacticAcid
+224,IV Liquid
+224,IV Antibiotics
+224,Admission NC
+224,Leucocytes
+224,CRP
+224,Leucocytes
+224,CRP
+224,Leucocytes
+224,CRP
+224,CRP
+224,CRP
+224,Leucocytes
+224,Release A
+224,Leucocytes
+224,CRP
+224,LacticAcid
+224,CRP
+224,ER Triage
+224,CRP
+224,CRP
+225,START_TOKEN
+225,ER Registration
+225,ER Triage
+225,ER Sepsis Triage
+225,LacticAcid
+225,CRP
+225,CRP
+225,IV Liquid
+225,IV Antibiotics
+225,Admission NC
+225,Leucocytes
+225,CRP
+225,Leucocytes
+225,LacticAcid
+225,CRP
+225,CRP
+226,START_TOKEN
+226,ER Registration
+226,ER Triage
+226,ER Sepsis Triage
+226,Leucocytes
+226,LacticAcid
+226,LacticAcid
+226,IV Antibiotics
+226,IV Liquid
+226,Admission NC
+226,Leucocytes
+226,Leucocytes
+226,Admission IC
+226,Admission IC
+226,Admission IC
+226,Admission IC
+226,CRP
+226,CRP
+226,CRP
+226,Leucocytes
+226,Leucocytes
+226,Leucocytes
+226,Admission IC
+226,CRP
+226,CRP
+226,Leucocytes
+227,START_TOKEN
+227,ER Registration
+227,ER Triage
+227,ER Sepsis Triage
+227,Leucocytes
+227,Leucocytes
+227,LacticAcid
+227,IV Antibiotics
+227,Leucocytes
+227,Admission NC
+227,Leucocytes
+227,CRP
+227,CRP
+227,Leucocytes
+227,Return ER
+227,CRP
+227,CRP
+227,CRP
+227,CRP
+228,START_TOKEN
+228,ER Registration
+228,ER Triage
+228,ER Sepsis Triage
+228,Leucocytes
+228,LacticAcid
+228,ER Sepsis Triage
+228,IV Liquid
+228,Leucocytes
+228,Admission NC
+228,CRP
+228,Leucocytes
+228,CRP
+228,Leucocytes
+229,START_TOKEN
+229,ER Registration
+229,ER Triage
+229,ER Sepsis Triage
+229,LacticAcid
+229,Leucocytes
+229,Leucocytes
+229,IV Liquid
+229,IV Antibiotics
+229,Admission NC
+229,Leucocytes
+229,CRP
+229,CRP
+229,CRP
+229,Admission IC
+229,Leucocytes
+229,Release A
+229,Release A
+229,Leucocytes
+229,Release A
+229,CRP
+230,START_TOKEN
+230,ER Registration
+230,ER Triage
+230,ER Sepsis Triage
+230,Leucocytes
+230,CRP
+230,Leucocytes
+230,IV Antibiotics
+230,IV Antibiotics
+230,Admission NC
+230,CRP
+230,Admission IC
+230,CRP
+230,CRP
+230,CRP
+230,Admission IC
+230,CRP
+230,Leucocytes
+230,Leucocytes
+230,CRP
+230,Leucocytes
+230,CRP
+230,Leucocytes
+230,Leucocytes
+230,Leucocytes
+230,CRP
+230,Release A
+231,START_TOKEN
+231,ER Registration
+231,ER Triage
+231,ER Sepsis Triage
+231,Leucocytes
+231,Leucocytes
+231,LacticAcid
+231,IV Liquid
+231,IV Antibiotics
+231,Admission NC
+231,Release A
+231,LacticAcid
+231,CRP
+231,CRP
+231,Admission IC
+231,Leucocytes
+232,START_TOKEN
+232,ER Registration
+232,ER Triage
+232,ER Sepsis Triage
+232,LacticAcid
+232,LacticAcid
+232,Leucocytes
+232,Leucocytes
+232,IV Liquid
+232,Admission NC
+232,CRP
+232,Admission IC
+232,CRP
+232,LacticAcid
+232,CRP
+233,START_TOKEN
+233,ER Registration
+233,ER Triage
+233,ER Sepsis Triage
+233,LacticAcid
+233,Leucocytes
+233,LacticAcid
+233,Leucocytes
+233,IV Antibiotics
+233,Admission NC
+233,Leucocytes
+233,CRP
+233,CRP
+233,CRP
+234,START_TOKEN
+234,ER Registration
+234,ER Triage
+234,ER Sepsis Triage
+234,Leucocytes
+234,Leucocytes
+234,LacticAcid
+234,Leucocytes
+234,IV Antibiotics
+234,Admission NC
+234,Admission IC
+234,CRP
+234,Leucocytes
+234,Leucocytes
+235,START_TOKEN
+235,ER Registration
+235,ER Triage
+235,IV Liquid
+235,CRP
+235,Leucocytes
+235,LacticAcid
+235,IV Antibiotics
+235,IV Antibiotics
+235,Admission NC
+235,Leucocytes
+235,CRP
+235,Leucocytes
+235,Leucocytes
+235,Release A
+235,CRP
+235,Release D
+235,Admission IC
+235,LacticAcid
+235,Leucocytes
+235,Leucocytes
+236,START_TOKEN
+236,ER Registration
+236,ER Triage
+236,ER Sepsis Triage
+236,CRP
+236,CRP
+236,LacticAcid
+236,IV Liquid
+236,IV Antibiotics
+236,Admission NC
+237,START_TOKEN
+237,ER Registration
+237,ER Triage
+237,ER Sepsis Triage
+237,CRP
+237,CRP
+237,Leucocytes
+237,IV Liquid
+237,Leucocytes
+237,Admission NC
+237,Leucocytes
+238,START_TOKEN
+238,ER Registration
+238,ER Triage
+238,ER Sepsis Triage
+238,LacticAcid
+238,Leucocytes
+238,LacticAcid
+238,IV Liquid
+238,IV Antibiotics
+238,Admission NC
+238,CRP
+239,START_TOKEN
+239,ER Registration
+239,ER Triage
+239,ER Sepsis Triage
+239,CRP
+239,CRP
+239,Leucocytes
+239,IV Antibiotics
+239,IV Antibiotics
+239,Admission NC
+239,Release A
+239,CRP
+239,CRP
+239,CRP
+239,CRP
+239,Leucocytes
+239,CRP
+239,CRP
+239,CRP
+239,CRP
+239,CRP
+239,CRP
+240,START_TOKEN
+240,ER Registration
+240,ER Triage
+240,ER Sepsis Triage
+240,CRP
+240,Leucocytes
+240,Leucocytes
+240,IV Antibiotics
+240,IV Antibiotics
+240,Admission NC
+240,Leucocytes
+240,Leucocytes
+240,Leucocytes
+240,CRP
+241,START_TOKEN
+241,ER Registration
+241,ER Triage
+241,ER Sepsis Triage
+241,Leucocytes
+241,Leucocytes
+241,LacticAcid
+241,IV Liquid
+241,IV Antibiotics
+241,Admission NC
+241,Leucocytes
+241,CRP
+241,CRP
+241,LacticAcid
+242,START_TOKEN
+242,ER Registration
+242,ER Triage
+242,ER Sepsis Triage
+242,Leucocytes
+242,Leucocytes
+242,LacticAcid
+242,IV Liquid
+242,IV Antibiotics
+242,Admission NC
+242,LacticAcid
+242,CRP
+243,START_TOKEN
+243,ER Registration
+243,ER Triage
+243,ER Sepsis Triage
+243,Leucocytes
+243,Leucocytes
+243,ER Sepsis Triage
+243,IV Liquid
+243,IV Antibiotics
+243,Admission NC
+243,Release A
+243,Leucocytes
+243,CRP
+243,LacticAcid
+243,Leucocytes
+243,Return ER
+243,Release A
+243,CRP
+243,CRP
+243,Leucocytes
+243,CRP
+243,CRP
+244,START_TOKEN
+244,ER Registration
+244,ER Triage
+244,ER Sepsis Triage
+244,Leucocytes
+244,Leucocytes
+244,LacticAcid
+244,IV Antibiotics
+244,IV Antibiotics
+244,Admission NC
+245,START_TOKEN
+245,ER Registration
+245,ER Triage
+245,ER Sepsis Triage
+245,LacticAcid
+245,Leucocytes
+245,LacticAcid
+245,IV Liquid
+245,IV Antibiotics
+245,Admission NC
+245,Leucocytes
+245,Leucocytes
+245,Leucocytes
+245,Release A
+245,Leucocytes
+245,Admission IC
+245,Leucocytes
+245,CRP
+245,LacticAcid
+245,Leucocytes
+246,START_TOKEN
+246,ER Registration
+246,ER Triage
+246,ER Sepsis Triage
+246,CRP
+246,LacticAcid
+246,Leucocytes
+246,IV Antibiotics
+246,IV Liquid
+246,Admission NC
+246,CRP
+246,CRP
+246,Admission IC
+246,CRP
+246,Leucocytes
+247,START_TOKEN
+247,ER Registration
+247,ER Triage
+247,ER Sepsis Triage
+247,Leucocytes
+247,LacticAcid
+247,LacticAcid
+247,IV Liquid
+247,Leucocytes
+247,Admission NC
+247,Leucocytes
+247,CRP
+247,Leucocytes
+248,START_TOKEN
+248,ER Registration
+248,ER Triage
+248,ER Sepsis Triage
+248,LacticAcid
+248,Leucocytes
+248,LacticAcid
+248,IV Antibiotics
+248,IV Liquid
+248,Admission NC
+248,Leucocytes
+248,CRP
+248,CRP
+248,Leucocytes
+249,START_TOKEN
+249,ER Registration
+249,ER Triage
+249,ER Sepsis Triage
+249,LacticAcid
+249,Leucocytes
+249,LacticAcid
+249,IV Liquid
+249,IV Liquid
+249,Admission NC
+249,LacticAcid
+249,Leucocytes
+249,CRP
+249,CRP
+249,Leucocytes
+249,Leucocytes
+249,CRP
+249,LacticAcid
+249,Release A
+250,START_TOKEN
+250,ER Registration
+250,ER Triage
+250,ER Sepsis Triage
+250,CRP
+250,Leucocytes
+250,LacticAcid
+250,IV Liquid
+250,IV Antibiotics
+250,Admission NC
+250,Release A
+250,Leucocytes
+250,Leucocytes
+250,LacticAcid
+250,Leucocytes
+250,Release A
+250,LacticAcid
+250,Release A
+250,CRP
+250,Release A
+251,START_TOKEN
+251,ER Registration
+251,ER Triage
+251,ER Sepsis Triage
+251,Leucocytes
+251,LacticAcid
+251,LacticAcid
+251,IV Liquid
+251,Leucocytes
+251,Admission NC
+252,START_TOKEN
+252,ER Registration
+252,ER Triage
+252,ER Sepsis Triage
+252,Leucocytes
+252,CRP
+252,Leucocytes
+252,LacticAcid
+252,IV Antibiotics
+252,Admission NC
+252,CRP
+252,Leucocytes
+252,LacticAcid
+252,CRP
+253,START_TOKEN
+253,ER Registration
+253,ER Triage
+253,ER Sepsis Triage
+253,Leucocytes
+253,Leucocytes
+253,LacticAcid
+253,LacticAcid
+253,Leucocytes
+253,Admission NC
+253,Release A
+253,Leucocytes
+253,Leucocytes
+253,CRP
+253,Release A
+253,Return ER
+253,CRP
+253,CRP
+253,CRP
+253,LacticAcid
+253,Release A
+253,Admission IC
+253,Leucocytes
+253,Admission IC
+254,START_TOKEN
+254,ER Registration
+254,ER Triage
+254,ER Sepsis Triage
+254,CRP
+254,Leucocytes
+254,Admission NC
+254,IV Liquid
+254,IV Antibiotics
+254,Admission NC
+254,CRP
+254,CRP
+254,Leucocytes
+254,LacticAcid
+254,Leucocytes
+254,CRP
+254,Release A
+254,Release A
+254,Return ER
+254,Leucocytes
+254,CRP
+254,CRP
+254,CRP
+254,CRP
+254,CRP
+254,Release A
+255,START_TOKEN
+255,ER Registration
+255,ER Triage
+255,ER Sepsis Triage
+255,Leucocytes
+255,CRP
+255,LacticAcid
+255,IV Liquid
+255,IV Antibiotics
+255,Admission NC
+255,LacticAcid
+255,CRP
+255,Leucocytes
+255,CRP
+255,Leucocytes
+255,Leucocytes
+255,CRP
+256,START_TOKEN
+256,ER Registration
+256,ER Triage
+256,ER Sepsis Triage
+256,LacticAcid
+256,Leucocytes
+256,LacticAcid
+256,LacticAcid
+256,IV Antibiotics
+256,Admission NC
+256,Leucocytes
+256,CRP
+256,Leucocytes
+256,Leucocytes
+256,CRP
+256,Admission NC
+257,START_TOKEN
+257,ER Registration
+257,ER Triage
+257,ER Sepsis Triage
+257,Leucocytes
+257,Leucocytes
+257,CRP
+257,IV Antibiotics
+257,IV Antibiotics
+257,Admission NC
+257,Leucocytes
+257,CRP
+257,LacticAcid
+257,Leucocytes
+257,CRP
+257,CRP
+257,CRP
+257,CRP
+257,Admission NC
+258,START_TOKEN
+258,ER Registration
+258,ER Triage
+258,ER Sepsis Triage
+258,CRP
+258,CRP
+258,LacticAcid
+258,IV Antibiotics
+258,Admission NC
+258,Admission NC
+258,CRP
+258,Leucocytes
+258,Leucocytes
+258,Leucocytes
+258,CRP
+258,Leucocytes
+258,CRP
+259,START_TOKEN
+259,ER Registration
+259,ER Triage
+259,ER Sepsis Triage
+259,Leucocytes
+259,LacticAcid
+259,Admission NC
+259,IV Liquid
+259,Leucocytes
+259,Admission NC
+259,LacticAcid
+259,CRP
+259,LacticAcid
+259,Leucocytes
+259,Release A
+259,CRP
+259,CRP
+259,CRP
+259,Leucocytes
+259,CRP
+260,START_TOKEN
+260,ER Registration
+260,ER Triage
+260,ER Sepsis Triage
+260,Leucocytes
+260,Leucocytes
+260,Leucocytes
+260,IV Antibiotics
+260,IV Liquid
+260,Admission NC
+260,CRP
+260,Admission IC
+260,Release A
+260,Leucocytes
+260,Leucocytes
+260,Release A
+260,CRP
+260,Admission IC
+260,CRP
+261,START_TOKEN
+261,ER Registration
+261,ER Triage
+261,ER Sepsis Triage
+261,Leucocytes
+261,CRP
+261,ER Sepsis Triage
+261,IV Liquid
+261,IV Antibiotics
+261,Admission NC
+261,CRP
+261,CRP
+261,Leucocytes
+261,Leucocytes
+261,Admission IC
+261,Leucocytes
+261,Release A
+261,Release A
+261,Leucocytes
+261,Leucocytes
+261,CRP
+261,CRP
+261,CRP
+261,Leucocytes
+261,CRP
+261,CRP
+261,CRP
+261,Leucocytes
+261,CRP
+261,Leucocytes
+261,CRP
+261,CRP
+261,Release A
+261,CRP
+262,START_TOKEN
+262,ER Registration
+262,ER Triage
+262,ER Sepsis Triage
+262,Leucocytes
+262,CRP
+262,LacticAcid
+262,IV Liquid
+262,IV Antibiotics
+262,Admission NC
+262,Leucocytes
+262,CRP
+263,START_TOKEN
+263,ER Registration
+263,ER Triage
+263,ER Sepsis Triage
+263,Leucocytes
+263,Leucocytes
+263,Leucocytes
+263,IV Liquid
+263,IV Antibiotics
+263,Admission NC
+263,Leucocytes
+263,Leucocytes
+263,Admission NC
+263,CRP
+263,Release A
+263,CRP
+264,START_TOKEN
+264,ER Registration
+264,ER Triage
+264,ER Sepsis Triage
+264,LacticAcid
+264,CRP
+264,LacticAcid
+264,IV Antibiotics
+264,IV Liquid
+264,Admission NC
+264,Leucocytes
+264,LacticAcid
+264,Leucocytes
+264,Leucocytes
+264,Admission IC
+264,Release A
+264,CRP
+265,START_TOKEN
+265,ER Registration
+265,ER Triage
+265,ER Sepsis Triage
+265,Leucocytes
+265,CRP
+265,LacticAcid
+265,IV Liquid
+265,IV Liquid
+265,Admission NC
+265,CRP
+265,CRP
+265,Leucocytes
+265,Leucocytes
+265,Leucocytes
+265,CRP
+265,Release A
+265,CRP
+265,Leucocytes
+265,CRP
+265,Leucocytes
+265,CRP
+265,Admission IC
+265,CRP
+265,CRP
+266,START_TOKEN
+266,ER Registration
+266,ER Triage
+266,ER Sepsis Triage
+266,LacticAcid
+266,Leucocytes
+266,LacticAcid
+266,IV Liquid
+266,IV Antibiotics
+266,Admission NC
+266,Leucocytes
+266,Leucocytes
+266,CRP
+266,Leucocytes
+266,Leucocytes
+267,START_TOKEN
+267,ER Registration
+267,ER Triage
+267,ER Sepsis Triage
+267,CRP
+267,LacticAcid
+267,LacticAcid
+267,IV Liquid
+267,Admission NC
+267,Admission NC
+267,Leucocytes
+267,CRP
+267,CRP
+267,CRP
+267,Leucocytes
+267,Release A
+267,CRP
+267,Leucocytes
+267,CRP
+267,CRP
+267,LacticAcid
+267,Leucocytes
+267,CRP
+267,CRP
+267,Leucocytes
+267,Release A
+268,START_TOKEN
+268,ER Registration
+268,ER Triage
+268,ER Sepsis Triage
+268,LacticAcid
+268,LacticAcid
+268,LacticAcid
+268,IV Antibiotics
+268,IV Antibiotics
+268,Admission NC
+268,CRP
+268,CRP
+268,Leucocytes
+268,Leucocytes
+268,Release A
+268,Leucocytes
+268,LacticAcid
+269,START_TOKEN
+269,ER Registration
+269,ER Triage
+269,ER Sepsis Triage
+269,Leucocytes
+269,LacticAcid
+269,LacticAcid
+269,IV Liquid
+269,IV Antibiotics
+269,Admission NC
+269,Leucocytes
+269,Leucocytes
+269,LacticAcid
+269,Leucocytes
+269,Release A
+269,Admission IC
+269,CRP
+269,CRP
+269,CRP
+270,START_TOKEN
+270,ER Registration
+270,ER Triage
+270,ER Sepsis Triage
+270,CRP
+270,CRP
+270,LacticAcid
+270,IV Liquid
+270,IV Antibiotics
+270,Admission NC
+270,CRP
+270,CRP
+270,Leucocytes
+270,Leucocytes
+270,Return ER
+270,Release A
+271,START_TOKEN
+271,ER Registration
+271,CRP
+271,ER Sepsis Triage
+271,LacticAcid
+271,Leucocytes
+271,LacticAcid
+271,IV Antibiotics
+271,IV Antibiotics
+271,Admission NC
+271,Leucocytes
+271,Leucocytes
+271,CRP
+271,Leucocytes
+271,Admission IC
+271,Leucocytes
+271,CRP
+271,Leucocytes
+271,Release A
+271,Admission IC
+271,Release A
+271,Release A
+271,CRP
+271,Leucocytes
+271,Release A
+271,CRP
+271,Release A
+271,CRP
+271,Release A
+272,START_TOKEN
+272,ER Registration
+272,ER Triage
+272,ER Sepsis Triage
+272,LacticAcid
+272,CRP
+272,LacticAcid
+272,IV Liquid
+272,IV Antibiotics
+272,Admission NC
+272,Leucocytes
+272,Admission IC
+272,CRP
+272,Release A
+273,START_TOKEN
+273,ER Registration
+273,ER Triage
+273,ER Sepsis Triage
+273,Leucocytes
+273,CRP
+273,ER Sepsis Triage
+273,IV Liquid
+273,Leucocytes
+273,Admission NC
+273,Admission NC
+273,CRP
+273,Leucocytes
+273,Leucocytes
+273,CRP
+273,Return ER
+273,Leucocytes
+274,START_TOKEN
+274,ER Registration
+274,ER Triage
+274,ER Sepsis Triage
+274,LacticAcid
+274,LacticAcid
+274,LacticAcid
+274,IV Liquid
+274,Leucocytes
+274,Admission NC
+274,CRP
+274,Leucocytes
+274,Leucocytes
+274,Release A
+274,Leucocytes
+274,LacticAcid
+275,START_TOKEN
+275,ER Registration
+275,ER Triage
+275,ER Sepsis Triage
+275,Leucocytes
+275,Leucocytes
+275,Leucocytes
+275,IV Antibiotics
+275,IV Antibiotics
+275,LacticAcid
+275,Leucocytes
+275,Release A
+275,CRP
+275,Leucocytes
+275,Leucocytes
+275,Leucocytes
+275,Leucocytes
+275,Leucocytes
+276,START_TOKEN
+276,ER Registration
+276,ER Triage
+276,ER Sepsis Triage
+276,CRP
+276,Leucocytes
+276,ER Sepsis Triage
+276,IV Liquid
+276,IV Liquid
+276,Admission NC
+276,Admission NC
+276,Leucocytes
+276,Leucocytes
+276,Release A
+277,START_TOKEN
+277,ER Registration
+277,ER Triage
+277,ER Sepsis Triage
+277,LacticAcid
+277,Leucocytes
+277,Leucocytes
+277,IV Antibiotics
+277,IV Antibiotics
+277,Admission NC
+277,CRP
+277,CRP
+277,CRP
+277,Admission NC
+277,LacticAcid
+277,CRP
+277,Return ER
+277,CRP
+277,CRP
+277,LacticAcid
+277,ER Registration
+277,CRP
+277,Release A
+277,CRP
+277,CRP
+277,CRP
+278,START_TOKEN
+278,ER Registration
+278,ER Triage
+278,ER Sepsis Triage
+278,CRP
+278,Leucocytes
+278,LacticAcid
+278,IV Antibiotics
+278,IV Antibiotics
+278,Admission NC
+278,Leucocytes
+278,CRP
+278,Leucocytes
+278,Leucocytes
+278,CRP
+279,START_TOKEN
+279,ER Registration
+279,ER Triage
+279,ER Sepsis Triage
+279,Leucocytes
+279,Leucocytes
+279,Leucocytes
+279,IV Liquid
+279,IV Antibiotics
+279,Admission NC
+279,CRP
+279,CRP
+279,CRP
+279,LacticAcid
+279,Release A
+279,CRP
+280,START_TOKEN
+280,ER Registration
+280,ER Triage
+280,ER Sepsis Triage
+280,START_TOKEN
+280,Leucocytes
+280,ER Sepsis Triage
+280,IV Liquid
+280,IV Antibiotics
+280,Admission NC
+281,START_TOKEN
+281,ER Registration
+281,Leucocytes
+281,IV Liquid
+281,LacticAcid
+281,LacticAcid
+281,Leucocytes
+281,IV Antibiotics
+281,IV Liquid
+281,Admission NC
+281,CRP
+281,CRP
+281,Leucocytes
+281,CRP
+281,Leucocytes
+281,Leucocytes
+281,Leucocytes
+281,Admission IC
+281,Release A
+281,CRP
+281,CRP
+282,START_TOKEN
+282,ER Registration
+282,ER Triage
+282,ER Sepsis Triage
+282,CRP
+282,Admission IC
+282,LacticAcid
+282,IV Antibiotics
+282,IV Liquid
+282,Admission NC
+282,CRP
+282,Leucocytes
+282,Leucocytes
+282,Leucocytes
+282,CRP
+282,Leucocytes
+282,Admission IC
+282,Leucocytes
+282,CRP
+283,START_TOKEN
+283,ER Registration
+283,ER Triage
+283,ER Sepsis Triage
+283,CRP
+283,CRP
+283,LacticAcid
+283,IV Antibiotics
+283,IV Antibiotics
+283,Admission NC
+283,Leucocytes
+283,Release A
+283,LacticAcid
+283,Leucocytes
+283,CRP
+283,CRP
+283,Admission IC
+283,Leucocytes
+283,CRP
+283,CRP
+284,START_TOKEN
+284,ER Registration
+284,ER Triage
+284,ER Sepsis Triage
+284,CRP
+284,LacticAcid
+284,Admission NC
+284,IV Liquid
+284,IV Antibiotics
+284,Admission NC
+284,Return ER
+284,Leucocytes
+284,CRP
+284,Leucocytes
+285,START_TOKEN
+285,ER Registration
+285,ER Triage
+285,ER Sepsis Triage
+285,Leucocytes
+285,LacticAcid
+285,LacticAcid
+285,IV Liquid
+285,IV Antibiotics
+285,Admission NC
+285,LacticAcid
+285,CRP
+285,Leucocytes
+285,CRP
+285,CRP
+286,START_TOKEN
+286,ER Registration
+286,ER Triage
+286,ER Sepsis Triage
+286,Leucocytes
+286,Leucocytes
+286,LacticAcid
+286,IV Liquid
+286,IV Antibiotics
+286,Admission NC
+286,Leucocytes
+286,Leucocytes
+286,CRP
+286,CRP
+286,Leucocytes
+286,Admission IC
+286,CRP
+286,Release A
+286,Admission IC
+286,Leucocytes
+286,CRP
+287,START_TOKEN
+287,ER Registration
+287,ER Triage
+287,ER Sepsis Triage
+287,Leucocytes
+287,LacticAcid
+287,LacticAcid
+287,IV Liquid
+287,IV Antibiotics
+287,Admission NC
+287,CRP
+287,CRP
+287,LacticAcid
+287,Leucocytes
+287,Leucocytes
+287,CRP
+287,CRP
+287,Leucocytes
+287,CRP
+287,Leucocytes
+288,START_TOKEN
+288,ER Registration
+288,ER Triage
+288,ER Sepsis Triage
+288,LacticAcid
+288,LacticAcid
+288,LacticAcid
+288,IV Liquid
+288,IV Antibiotics
+288,Admission NC
+288,CRP
+288,CRP
+288,CRP
+288,CRP
+289,START_TOKEN
+289,ER Registration
+289,ER Triage
+289,ER Sepsis Triage
+289,LacticAcid
+289,Leucocytes
+289,LacticAcid
+289,Leucocytes
+289,IV Antibiotics
+289,Admission NC
+289,Leucocytes
+289,Leucocytes
+289,Leucocytes
+289,LacticAcid
+289,LacticAcid
+290,START_TOKEN
+290,ER Registration
+290,ER Triage
+290,ER Sepsis Triage
+290,LacticAcid
+290,Leucocytes
+290,LacticAcid
+290,IV Antibiotics
+290,Leucocytes
+290,Admission NC
+290,Leucocytes
+290,CRP
+290,LacticAcid
+290,Leucocytes
+290,CRP
+290,CRP
+290,CRP
+291,START_TOKEN
+291,ER Registration
+291,ER Triage
+291,ER Sepsis Triage
+291,LacticAcid
+291,CRP
+291,LacticAcid
+291,IV Antibiotics
+291,IV Antibiotics
+291,Admission NC
+291,LacticAcid
+291,Leucocytes
+291,Admission NC
+291,CRP
+291,Admission IC
+291,Admission NC
+291,CRP
+291,CRP
+291,CRP
+291,CRP
+291,Leucocytes
+292,START_TOKEN
+292,ER Registration
+292,ER Triage
+292,ER Sepsis Triage
+292,LacticAcid
+292,Leucocytes
+292,LacticAcid
+292,IV Liquid
+292,IV Liquid
+292,Admission NC
+292,LacticAcid
+293,START_TOKEN
+293,ER Registration
+293,ER Triage
+293,ER Sepsis Triage
+293,CRP
+293,Leucocytes
+293,LacticAcid
+293,LacticAcid
+293,IV Antibiotics
+293,Admission NC
+293,CRP
+293,Release A
+293,LacticAcid
+294,START_TOKEN
+294,ER Registration
+294,ER Triage
+294,ER Triage
+294,Leucocytes
+294,CRP
+294,LacticAcid
+294,IV Antibiotics
+294,IV Antibiotics
+294,Admission NC
+294,Leucocytes
+294,Leucocytes
+294,CRP
+294,CRP
+294,Leucocytes
+294,Leucocytes
+294,Leucocytes
+294,CRP
+294,Leucocytes
+295,START_TOKEN
+295,ER Registration
+295,ER Triage
+295,ER Sepsis Triage
+295,Leucocytes
+295,LacticAcid
+295,LacticAcid
+295,IV Liquid
+295,Leucocytes
+295,Admission NC
+295,Leucocytes
+295,Leucocytes
+295,CRP
+295,Release A
+295,Admission NC
+295,Leucocytes
+295,Leucocytes
+295,CRP
+295,CRP
+295,Leucocytes
+295,Leucocytes
+296,START_TOKEN
+296,ER Registration
+296,ER Triage
+296,ER Sepsis Triage
+296,LacticAcid
+296,LacticAcid
+296,LacticAcid
+296,IV Antibiotics
+296,IV Antibiotics
+296,Admission NC
+296,Admission IC
+296,Leucocytes
+296,CRP
+296,Release A
+296,CRP
+296,Release A
+296,Leucocytes
+297,START_TOKEN
+297,ER Registration
+297,ER Triage
+297,ER Sepsis Triage
+297,CRP
+297,CRP
+297,LacticAcid
+297,IV Liquid
+297,IV Antibiotics
+297,Admission NC
+297,Leucocytes
+297,CRP
+298,START_TOKEN
+298,ER Registration
+298,ER Triage
+298,ER Sepsis Triage
+298,LacticAcid
+298,Leucocytes
+298,LacticAcid
+298,IV Liquid
+298,IV Antibiotics
+298,Admission NC
+298,Admission NC
+298,CRP
+298,Leucocytes
+298,Return ER
+298,CRP
+298,CRP
+298,LacticAcid
+298,CRP
+298,Return ER
+298,CRP
+299,START_TOKEN
+299,ER Registration
+299,ER Triage
+299,ER Sepsis Triage
+299,CRP
+299,Admission NC
+299,Leucocytes
+299,IV Antibiotics
+299,Leucocytes
+299,Admission NC
+299,CRP
+299,CRP
+299,Leucocytes
+299,Admission IC
+299,LacticAcid
+299,Admission NC
+299,CRP
+299,Admission IC
+299,Leucocytes
+299,CRP
+299,LacticAcid
+299,CRP
+300,START_TOKEN
+300,ER Registration
+300,ER Triage
+300,ER Sepsis Triage
+300,Leucocytes
+300,Leucocytes
+300,Leucocytes
+300,Leucocytes
+300,IV Antibiotics
+300,Admission NC
+300,Leucocytes
+300,Leucocytes
+300,Leucocytes
+300,CRP
+301,START_TOKEN
+301,ER Registration
+301,ER Triage
+301,ER Sepsis Triage
+301,CRP
+301,Leucocytes
+301,LacticAcid
+301,IV Antibiotics
+301,IV Liquid
+301,Admission NC
+301,Release A
+301,Leucocytes
+301,CRP
+301,Leucocytes
+301,Leucocytes
+301,CRP
+301,CRP
+301,LacticAcid
+301,Leucocytes
+301,Leucocytes
+301,Leucocytes
+301,CRP
+301,Leucocytes
+301,CRP
+302,START_TOKEN
+302,ER Registration
+302,ER Triage
+302,ER Sepsis Triage
+302,LacticAcid
+302,CRP
+302,LacticAcid
+302,IV Antibiotics
+302,IV Antibiotics
+302,Admission NC
+302,Leucocytes
+302,CRP
+302,Leucocytes
+302,CRP
+302,CRP
+302,Leucocytes
+302,CRP
+302,Leucocytes
+302,Release A
+302,CRP
+303,START_TOKEN
+303,ER Registration
+303,ER Triage
+303,ER Sepsis Triage
+303,Leucocytes
+303,LacticAcid
+303,LacticAcid
+303,IV Antibiotics
+303,IV Antibiotics
+303,Admission NC
+303,Return ER
+303,Leucocytes
+303,CRP
+304,START_TOKEN
+304,ER Registration
+304,ER Triage
+304,ER Sepsis Triage
+304,CRP
+304,Leucocytes
+304,LacticAcid
+304,Leucocytes
+304,Leucocytes
+304,Admission NC
+304,Leucocytes
+304,Release A
+304,Release A
+304,CRP
+304,Leucocytes
+304,Leucocytes
+305,START_TOKEN
+305,ER Registration
+305,ER Triage
+305,ER Sepsis Triage
+305,Leucocytes
+305,Leucocytes
+305,LacticAcid
+305,IV Liquid
+305,IV Antibiotics
+305,Admission NC
+305,LacticAcid
+305,CRP
+305,Admission IC
+305,CRP
+305,CRP
+306,START_TOKEN
+306,ER Registration
+306,ER Triage
+306,ER Sepsis Triage
+306,Leucocytes
+306,Leucocytes
+306,Leucocytes
+306,LacticAcid
+306,IV Liquid
+306,Admission NC
+306,LacticAcid
+306,Release A
+306,Release A
+306,CRP
+307,START_TOKEN
+307,ER Registration
+307,ER Triage
+307,ER Sepsis Triage
+307,Leucocytes
+307,LacticAcid
+307,LacticAcid
+307,IV Liquid
+307,IV Antibiotics
+307,Admission NC
+307,LacticAcid
+307,Leucocytes
+307,LacticAcid
+307,Leucocytes
+308,START_TOKEN
+308,ER Registration
+308,ER Triage
+308,ER Sepsis Triage
+308,CRP
+308,LacticAcid
+308,Admission NC
+308,IV Antibiotics
+308,IV Antibiotics
+308,Admission NC
+308,CRP
+308,CRP
+308,CRP
+308,CRP
+308,Release A
+308,CRP
+309,START_TOKEN
+309,ER Registration
+309,ER Triage
+309,ER Sepsis Triage
+309,CRP
+309,Leucocytes
+309,LacticAcid
+309,IV Antibiotics
+309,IV Antibiotics
+309,Admission NC
+310,START_TOKEN
+310,ER Registration
+310,ER Triage
+310,ER Sepsis Triage
+310,CRP
+310,LacticAcid
+310,LacticAcid
+310,IV Liquid
+310,IV Antibiotics
+310,Admission NC
+310,Leucocytes
+310,CRP
+311,START_TOKEN
+311,ER Registration
+311,ER Triage
+311,ER Sepsis Triage
+311,CRP
+311,Leucocytes
+311,Leucocytes
+311,IV Liquid
+311,IV Antibiotics
+311,Admission NC
+311,Leucocytes
+311,CRP
+311,Leucocytes
+311,Leucocytes
+311,Leucocytes
+312,START_TOKEN
+312,ER Registration
+312,ER Triage
+312,ER Sepsis Triage
+312,LacticAcid
+312,CRP
+312,Leucocytes
+312,IV Antibiotics
+312,CRP
+312,Admission NC
+312,CRP
+312,Leucocytes
+312,Admission IC
+312,CRP
+312,Leucocytes
+312,Leucocytes
+312,Leucocytes
+312,Leucocytes
+312,CRP
+312,LacticAcid
+312,CRP
+312,Release A
+312,CRP
+312,CRP
+312,Release A
+312,CRP
+312,CRP
+312,CRP
+312,Leucocytes
+312,Release A
+312,CRP
+312,CRP
+312,Release A
+312,Admission IC
+312,Admission IC
+312,Leucocytes
+312,CRP
+312,CRP
+312,ER Registration
+312,CRP
+312,ER Registration
+312,Leucocytes
+312,CRP
+312,START_TOKEN
+312,START_TOKEN
+312,START_TOKEN
+312,ER Registration
+312,ER Registration
+312,ER Registration
+312,CRP
+312,START_TOKEN
+312,ER Registration
+312,ER Registration
+312,ER Registration
+312,START_TOKEN
+312,START_TOKEN
+312,START_TOKEN
+312,START_TOKEN
+312,ER Registration
+312,ER Registration
+312,CRP
+312,Leucocytes
+312,LacticAcid
+312,START_TOKEN
+312,ER Registration
+312,CRP
+312,Admission NC
+312,CRP
+312,CRP
+312,Release A
+312,IV Antibiotics
+312,Leucocytes
+312,Admission IC
+312,ER Triage
+312,Leucocytes
+312,CRP
+312,LacticAcid
+312,Leucocytes
+312,Release A
+312,Leucocytes
+312,CRP
+312,CRP
+312,Leucocytes
+312,CRP
+313,START_TOKEN
+313,ER Registration
+313,ER Triage
+313,ER Sepsis Triage
+313,CRP
+313,LacticAcid
+313,LacticAcid
+313,IV Liquid
+313,IV Antibiotics
+313,Admission NC
+313,Admission IC
+313,CRP
+313,Leucocytes
+313,Leucocytes
+314,START_TOKEN
+314,ER Registration
+314,ER Triage
+314,ER Sepsis Triage
+314,LacticAcid
+314,Leucocytes
+314,LacticAcid
+314,IV Liquid
+314,Admission NC
+314,Admission NC
+314,CRP
+314,Leucocytes
+314,Leucocytes
+314,CRP
+314,Leucocytes
+314,CRP
+314,CRP
+314,LacticAcid
+314,CRP
+314,CRP
+314,Leucocytes
+314,CRP
+314,CRP
+314,Admission IC
+315,START_TOKEN
+315,ER Registration
+315,ER Triage
+315,ER Sepsis Triage
+315,CRP
+315,Leucocytes
+315,Leucocytes
+315,IV Liquid
+315,IV Antibiotics
+315,Admission NC
+315,Leucocytes
+315,Leucocytes
+315,Admission IC
+315,Leucocytes
+316,START_TOKEN
+316,ER Registration
+316,ER Triage
+316,ER Sepsis Triage
+316,Leucocytes
+316,Leucocytes
+316,LacticAcid
+316,IV Liquid
+316,IV Antibiotics
+316,Admission NC
+316,CRP
+316,LacticAcid
+316,Leucocytes
+316,CRP
+316,CRP
+316,CRP
+317,START_TOKEN
+317,ER Registration
+317,ER Triage
+317,ER Sepsis Triage
+317,Leucocytes
+317,Leucocytes
+317,LacticAcid
+317,IV Liquid
+317,IV Antibiotics
+317,Admission NC
+317,Leucocytes
+317,CRP
+317,Leucocytes
+317,CRP
+317,CRP
+317,CRP
+317,CRP
+317,CRP
+317,Leucocytes
+317,Release A
+317,Admission IC
+317,CRP
+317,CRP
+317,Release A
+317,Leucocytes
+317,Leucocytes
+317,Leucocytes
+317,CRP
+317,Release A
+317,CRP
+317,Leucocytes
+317,CRP
+317,CRP
+317,CRP
+317,Leucocytes
+317,Leucocytes
+317,CRP
+318,START_TOKEN
+318,ER Registration
+318,ER Triage
+318,ER Sepsis Triage
+318,Leucocytes
+318,Leucocytes
+318,Leucocytes
+318,IV Liquid
+318,IV Antibiotics
+318,Leucocytes
+318,CRP
+318,Leucocytes
+318,CRP
+318,LacticAcid
+318,CRP
+319,START_TOKEN
+319,ER Registration
+319,ER Triage
+319,ER Sepsis Triage
+319,Leucocytes
+319,LacticAcid
+319,Leucocytes
+319,IV Antibiotics
+319,IV Antibiotics
+319,Admission NC
+319,CRP
+319,Admission IC
+319,CRP
+319,Leucocytes
+319,Leucocytes
+320,START_TOKEN
+320,ER Registration
+320,ER Triage
+320,ER Sepsis Triage
+320,Leucocytes
+320,CRP
+320,Leucocytes
+320,IV Liquid
+320,IV Antibiotics
+320,Admission NC
+320,CRP
+320,CRP
+320,ER Triage
+320,CRP
+320,Release A
+321,START_TOKEN
+321,ER Registration
+321,ER Triage
+321,ER Sepsis Triage
+321,Leucocytes
+321,LacticAcid
+321,LacticAcid
+321,IV Liquid
+321,IV Liquid
+321,Admission NC
+322,START_TOKEN
+322,ER Registration
+322,ER Triage
+322,ER Sepsis Triage
+322,Leucocytes
+322,LacticAcid
+322,Leucocytes
+322,IV Antibiotics
+322,IV Antibiotics
+322,Admission NC
+322,Admission NC
+322,Leucocytes
+322,CRP
+322,Leucocytes
+322,CRP
+322,Admission IC
+322,CRP
+322,CRP
+322,CRP
+322,Leucocytes
+322,Release A
+322,Release A
+322,CRP
+322,CRP
+322,CRP
+322,CRP
+322,Leucocytes
+323,START_TOKEN
+323,ER Registration
+323,ER Triage
+323,ER Sepsis Triage
+323,Leucocytes
+323,CRP
+323,LacticAcid
+323,IV Liquid
+323,IV Antibiotics
+323,Admission NC
+323,Leucocytes
+323,CRP
+323,CRP
+323,Leucocytes
+323,Release A
+323,Leucocytes
+324,START_TOKEN
+324,ER Registration
+324,ER Triage
+324,ER Sepsis Triage
+324,CRP
+324,Leucocytes
+324,LacticAcid
+324,IV Liquid
+324,IV Liquid
+324,Admission NC
+324,Leucocytes
+324,Leucocytes
+324,CRP
+324,Leucocytes
+324,Leucocytes
+324,CRP
+324,Leucocytes
+324,CRP
+324,Leucocytes
+324,LacticAcid
+325,START_TOKEN
+325,ER Registration
+325,CRP
+325,ER Sepsis Triage
+325,Leucocytes
+325,LacticAcid
+325,LacticAcid
+325,IV Liquid
+326,START_TOKEN
+326,ER Registration
+326,ER Triage
+326,ER Sepsis Triage
+326,LacticAcid
+326,Leucocytes
+326,LacticAcid
+326,LacticAcid
+326,IV Antibiotics
+326,Admission NC
+326,Leucocytes
+326,CRP
+326,CRP
+326,Leucocytes
+326,Leucocytes
+326,Admission IC
+326,CRP
+326,Leucocytes
+327,START_TOKEN
+327,ER Registration
+327,ER Triage
+327,ER Sepsis Triage
+327,CRP
+327,LacticAcid
+327,LacticAcid
+327,Leucocytes
+327,IV Antibiotics
+327,Admission NC
+327,Leucocytes
+327,Leucocytes
+327,CRP
+327,Return ER
+327,CRP
+327,CRP
+327,CRP
+327,Admission IC
+327,Release A
+327,CRP
+327,CRP
+327,Release A
+327,CRP
+327,CRP
+327,Leucocytes
+327,Leucocytes
+327,Release A
+327,CRP
+327,CRP
+327,CRP
+327,CRP
+327,CRP
+327,Leucocytes
+327,LacticAcid
+328,START_TOKEN
+328,ER Registration
+328,ER Triage
+328,ER Sepsis Triage
+328,Leucocytes
+328,LacticAcid
+328,Leucocytes
+328,IV Antibiotics
+328,IV Antibiotics
+328,Admission NC
+328,CRP
+328,Leucocytes
+328,Admission NC
+329,START_TOKEN
+329,ER Registration
+329,ER Triage
+329,ER Sepsis Triage
+329,CRP
+329,CRP
+329,ER Sepsis Triage
+329,IV Liquid
+329,IV Liquid
+329,Admission NC
+329,CRP
+329,CRP
+329,Leucocytes
+329,CRP
+329,CRP
+329,Leucocytes
+329,CRP
+329,CRP
+329,CRP
+329,CRP
+329,LacticAcid
+329,Leucocytes
+329,CRP
+329,CRP
+329,Leucocytes
+329,Leucocytes
+329,Leucocytes
+329,CRP
+329,Admission IC
+329,LacticAcid
+329,CRP
+329,CRP
+329,CRP
+329,CRP
+330,START_TOKEN
+330,ER Registration
+330,ER Triage
+330,ER Sepsis Triage
+330,Leucocytes
+330,Leucocytes
+330,LacticAcid
+330,LacticAcid
+330,IV Liquid
+330,Admission NC
+330,Leucocytes
+330,CRP
+330,Leucocytes
+330,Leucocytes
+330,CRP
+330,Leucocytes
+330,Admission IC
+331,START_TOKEN
+331,ER Registration
+331,ER Triage
+331,ER Sepsis Triage
+331,CRP
+331,LacticAcid
+331,LacticAcid
+331,IV Antibiotics
+331,IV Antibiotics
+331,Admission NC
+331,CRP
+331,Leucocytes
+331,Leucocytes
+331,CRP
+331,Admission IC
+332,START_TOKEN
+332,ER Registration
+332,ER Triage
+332,ER Sepsis Triage
+332,Leucocytes
+332,CRP
+332,LacticAcid
+332,IV Liquid
+332,IV Antibiotics
+332,Admission NC
+332,CRP
+332,CRP
+332,CRP
+332,Leucocytes
+332,Leucocytes
+332,Leucocytes
+333,START_TOKEN
+333,ER Registration
+333,ER Triage
+333,ER Sepsis Triage
+333,CRP
+333,CRP
+333,LacticAcid
+333,IV Liquid
+333,Leucocytes
+333,Admission NC
+333,Return ER
+333,CRP
+333,CRP
+333,Leucocytes
+333,Release A
+334,START_TOKEN
+334,ER Registration
+334,ER Triage
+334,ER Sepsis Triage
+334,CRP
+334,CRP
+334,ER Sepsis Triage
+334,IV Antibiotics
+334,IV Antibiotics
+334,Admission NC
+334,LacticAcid
+334,CRP
+334,CRP
+334,Leucocytes
+334,CRP
+334,Release A
+334,CRP
+334,CRP
+334,CRP
+334,Leucocytes
+334,Leucocytes
+334,Return ER
+334,Leucocytes
+334,Leucocytes
+334,CRP
+334,CRP
+334,Leucocytes
+334,CRP
+334,Release A
+335,START_TOKEN
+335,ER Registration
+335,ER Triage
+335,ER Sepsis Triage
+335,CRP
+335,Leucocytes
+335,Leucocytes
+335,IV Liquid
+335,IV Antibiotics
+335,Admission NC
+335,Leucocytes
+335,ER Registration
+335,CRP
+335,Release A
+335,Leucocytes
+335,LacticAcid
+335,CRP
+335,Leucocytes
+335,CRP
+335,CRP
+335,Return ER
+335,LacticAcid
+335,Leucocytes
+335,CRP
+336,START_TOKEN
+336,ER Registration
+336,ER Triage
+336,ER Sepsis Triage
+336,CRP
+336,Leucocytes
+336,LacticAcid
+336,IV Liquid
+336,IV Antibiotics
+336,Admission NC
+336,Leucocytes
+336,Leucocytes
+336,Leucocytes
+336,Leucocytes
+337,START_TOKEN
+337,ER Registration
+337,ER Triage
+337,ER Sepsis Triage
+337,Leucocytes
+337,Leucocytes
+337,Leucocytes
+337,IV Antibiotics
+337,IV Antibiotics
+337,Admission NC
+337,Leucocytes
+337,LacticAcid
+337,CRP
+337,CRP
+337,Leucocytes
+337,Release A
+337,CRP
+337,Leucocytes
+338,START_TOKEN
+338,ER Registration
+338,ER Triage
+338,ER Sepsis Triage
+338,CRP
+338,Leucocytes
+338,Leucocytes
+338,IV Antibiotics
+338,IV Antibiotics
+338,Admission NC
+338,Release A
+338,CRP
+338,Leucocytes
+339,START_TOKEN
+339,ER Registration
+339,ER Triage
+339,ER Sepsis Triage
+339,Leucocytes
+339,Leucocytes
+339,Leucocytes
+339,Leucocytes
+339,IV Antibiotics
+339,Admission NC
+339,LacticAcid
+339,Leucocytes
+339,CRP
+339,CRP
+339,Leucocytes
+339,Admission NC
+339,Release A
+339,Leucocytes
+339,CRP
+339,Leucocytes
+339,CRP
+339,Release A
+339,Admission IC
+340,START_TOKEN
+340,ER Registration
+340,ER Triage
+340,ER Sepsis Triage
+340,Leucocytes
+340,Leucocytes
+340,ER Sepsis Triage
+340,Leucocytes
+340,IV Antibiotics
+340,Admission NC
+340,CRP
+340,CRP
+340,CRP
+340,CRP
+340,Admission IC
+341,START_TOKEN
+341,ER Registration
+341,ER Triage
+341,ER Sepsis Triage
+341,Leucocytes
+341,Leucocytes
+341,LacticAcid
+341,LacticAcid
+341,IV Liquid
+341,Leucocytes
+341,Leucocytes
+341,CRP
+341,Leucocytes
+341,Admission IC
+341,Leucocytes
+341,Release A
+341,CRP
+341,CRP
+341,Release A
+341,Leucocytes
+341,CRP
+341,CRP
+341,Admission IC
+341,CRP
+341,Leucocytes
+341,Release A
+342,START_TOKEN
+342,ER Registration
+342,ER Triage
+342,IV Liquid
+342,LacticAcid
+342,CRP
+342,LacticAcid
+342,IV Antibiotics
+342,IV Liquid
+342,Admission NC
+342,Release A
+342,Leucocytes
+343,START_TOKEN
+343,ER Registration
+343,ER Triage
+343,IV Liquid
+343,LacticAcid
+343,LacticAcid
+343,LacticAcid
+343,IV Liquid
+343,IV Antibiotics
+343,Admission NC
+343,LacticAcid
+343,ER Registration
+343,Leucocytes
+343,Leucocytes
+343,Leucocytes
+343,CRP
+343,Admission NC
+343,Return ER
+343,CRP
+343,CRP
+343,Leucocytes
+344,START_TOKEN
+344,ER Registration
+344,ER Triage
+344,ER Sepsis Triage
+344,Leucocytes
+344,CRP
+344,LacticAcid
+344,IV Liquid
+344,IV Antibiotics
+344,Admission NC
+344,Leucocytes
+344,CRP
+344,Leucocytes
+344,CRP
+344,Leucocytes
+344,Admission NC
+344,CRP
+344,Return ER
+344,Leucocytes
+344,Leucocytes
+344,CRP
+345,START_TOKEN
+345,ER Registration
+345,ER Triage
+345,ER Sepsis Triage
+345,LacticAcid
+345,CRP
+345,LacticAcid
+345,IV Antibiotics
+345,IV Antibiotics
+345,Admission NC
+345,Admission IC
+345,Leucocytes
+345,CRP
+345,Admission NC
+345,Leucocytes
+345,LacticAcid
+345,Leucocytes
+346,START_TOKEN
+346,ER Registration
+346,ER Triage
+346,ER Sepsis Triage
+346,Leucocytes
+346,Leucocytes
+346,LacticAcid
+346,IV Antibiotics
+346,IV Liquid
+346,Admission NC
+346,CRP
+346,Leucocytes
+346,Leucocytes
+346,Leucocytes
+346,CRP
+346,CRP
+346,Leucocytes
+346,ER Registration
+346,Leucocytes
+346,CRP
+346,CRP
+346,CRP
+346,Release A
+346,CRP
+346,CRP
+346,CRP
+346,Leucocytes
+346,Leucocytes
+346,Leucocytes
+346,Leucocytes
+346,CRP
+346,CRP
+346,CRP
+347,START_TOKEN
+347,ER Registration
+347,ER Triage
+347,ER Sepsis Triage
+347,Leucocytes
+347,Admission NC
+347,LacticAcid
+347,IV Liquid
+347,IV Antibiotics
+347,Admission NC
+347,CRP
+347,Leucocytes
+347,CRP
+347,Leucocytes
+347,Leucocytes
+347,Leucocytes
+347,Leucocytes
+348,START_TOKEN
+348,ER Registration
+348,ER Triage
+348,LacticAcid
+348,CRP
+348,LacticAcid
+348,LacticAcid
+348,IV Liquid
+348,IV Antibiotics
+348,Admission NC
+348,CRP
+348,CRP
+348,Leucocytes
+349,START_TOKEN
+349,ER Registration
+349,ER Triage
+349,ER Sepsis Triage
+349,CRP
+349,Leucocytes
+349,LacticAcid
+349,IV Antibiotics
+349,IV Antibiotics
+349,Admission NC
+349,LacticAcid
+349,CRP
+349,CRP
+349,CRP
+349,CRP
+349,Admission IC
+349,Release A
+349,Leucocytes
+349,CRP
+349,Release A
+349,CRP
+349,CRP
+349,CRP
+349,CRP
+349,CRP
+350,START_TOKEN
+350,ER Registration
+350,ER Triage
+350,ER Sepsis Triage
+350,Leucocytes
+350,Leucocytes
+350,Leucocytes
+350,IV Antibiotics
+350,IV Antibiotics
+350,Admission NC
+350,Leucocytes
+350,CRP
+350,CRP
+350,Release A
+350,Leucocytes
+350,Leucocytes
+350,Leucocytes
+350,CRP
+350,Leucocytes
+350,CRP
+350,CRP
+351,START_TOKEN
+351,ER Registration
+351,ER Triage
+351,ER Sepsis Triage
+351,CRP
+351,LacticAcid
+351,LacticAcid
+351,IV Liquid
+351,IV Antibiotics
+351,Leucocytes
+351,Leucocytes
+351,Leucocytes
+351,LacticAcid
+351,CRP
+351,Leucocytes
+351,CRP
+351,Leucocytes
+351,Leucocytes
+351,Leucocytes
+351,CRP
+351,Leucocytes
+351,CRP
+351,Leucocytes
+351,Admission NC
+351,Return ER
+352,START_TOKEN
+352,ER Registration
+352,ER Triage
+352,ER Sepsis Triage
+352,CRP
+352,LacticAcid
+352,LacticAcid
+352,IV Liquid
+352,Leucocytes
+352,Admission NC
+352,Leucocytes
+352,Leucocytes
+352,CRP
+352,Leucocytes
+352,Leucocytes
+352,Admission IC
+352,Admission IC
+352,CRP
+352,Leucocytes
+352,CRP
+352,CRP
+352,CRP
+352,CRP
+352,CRP
+352,CRP
+352,CRP
+352,CRP
+352,Leucocytes
+352,CRP
+352,CRP
+353,START_TOKEN
+353,ER Registration
+353,IV Antibiotics
+353,ER Sepsis Triage
+353,Leucocytes
+353,LacticAcid
+353,IV Liquid
+353,IV Liquid
+353,IV Liquid
+353,Admission NC
+353,CRP
+353,LacticAcid
+353,CRP
+353,Leucocytes
+353,Leucocytes
+353,Leucocytes
+353,LacticAcid
+353,CRP
+353,Leucocytes
+353,CRP
+353,CRP
+353,CRP
+353,Release A
+353,Admission IC
+353,Leucocytes
+353,CRP
+353,Admission IC
+353,CRP
+353,CRP
+353,CRP
+354,START_TOKEN
+354,ER Registration
+354,ER Triage
+354,ER Sepsis Triage
+354,Leucocytes
+354,Leucocytes
+354,LacticAcid
+354,IV Antibiotics
+354,IV Antibiotics
+354,CRP
+354,Leucocytes
+354,Release A
+354,Leucocytes
+354,Leucocytes
+354,Admission IC
+354,Leucocytes
+354,Leucocytes
+354,CRP
+354,CRP
+354,Leucocytes
+355,START_TOKEN
+355,ER Registration
+355,ER Triage
+355,ER Sepsis Triage
+355,Leucocytes
+355,LacticAcid
+355,LacticAcid
+355,IV Liquid
+355,IV Liquid
+355,Admission NC
+355,CRP
+356,START_TOKEN
+356,ER Registration
+356,ER Triage
+356,ER Sepsis Triage
+356,Leucocytes
+356,Leucocytes
+356,LacticAcid
+356,IV Liquid
+356,IV Antibiotics
+356,Admission NC
+356,CRP
+356,CRP
+356,LacticAcid
+356,CRP
+356,CRP
+356,Leucocytes
+356,CRP
+356,Return ER
+356,CRP
+356,CRP
+356,CRP
+356,CRP
+356,CRP
+356,CRP
+357,START_TOKEN
+357,ER Registration
+357,IV Liquid
+357,ER Sepsis Triage
+357,CRP
+357,LacticAcid
+357,LacticAcid
+357,Admission NC
+357,IV Antibiotics
+357,Admission NC
+357,CRP
+357,Release A
+357,Leucocytes
+357,Leucocytes
+357,Leucocytes
+357,LacticAcid
+357,Admission IC
+357,Release A
+357,Leucocytes
+357,CRP
+357,Leucocytes
+357,Return ER
+357,LacticAcid
+357,CRP
+357,Leucocytes
+357,CRP
+357,CRP
+357,CRP
+357,Leucocytes
+357,ER Registration
+358,START_TOKEN
+358,ER Registration
+358,ER Triage
+358,ER Sepsis Triage
+358,Leucocytes
+358,Leucocytes
+358,LacticAcid
+358,IV Liquid
+358,IV Liquid
+358,Admission NC
+358,CRP
+358,Admission IC
+358,Leucocytes
+359,START_TOKEN
+359,ER Registration
+359,ER Triage
+359,ER Sepsis Triage
+359,Leucocytes
+359,Leucocytes
+359,LacticAcid
+359,IV Antibiotics
+359,IV Antibiotics
+359,Admission NC
+359,CRP
+359,Leucocytes
+359,Admission IC
+359,Leucocytes
+359,CRP
+359,CRP
+359,Release A
+359,Leucocytes
+359,CRP
+360,START_TOKEN
+360,ER Registration
+360,ER Triage
+360,ER Sepsis Triage
+360,Leucocytes
+360,LacticAcid
+360,LacticAcid
+360,IV Antibiotics
+360,Leucocytes
+360,Admission NC
+361,START_TOKEN
+361,ER Registration
+361,ER Triage
+361,ER Sepsis Triage
+361,Leucocytes
+361,CRP
+361,LacticAcid
+361,IV Liquid
+361,Leucocytes
+361,Admission NC
+361,CRP
+362,START_TOKEN
+362,ER Registration
+362,ER Triage
+362,ER Sepsis Triage
+362,LacticAcid
+362,CRP
+362,LacticAcid
+362,IV Liquid
+362,IV Antibiotics
+362,Leucocytes
+362,CRP
+362,CRP
+362,CRP
+362,Leucocytes
+362,CRP
+362,CRP
+362,CRP
+362,Leucocytes
+362,Release A
+362,CRP
+363,START_TOKEN
+363,ER Registration
+363,ER Triage
+363,ER Sepsis Triage
+363,CRP
+363,CRP
+363,Leucocytes
+363,IV Liquid
+363,Leucocytes
+363,Admission NC
+363,CRP
+363,CRP
+363,CRP
+363,Leucocytes
+363,Leucocytes
+363,CRP
+363,Release A
+363,CRP
+363,Leucocytes
+363,CRP
+363,Leucocytes
+363,Leucocytes
+363,CRP
+363,Release A
+363,CRP
+363,Leucocytes
+363,Admission IC
+363,Leucocytes
+363,Admission IC
+364,START_TOKEN
+364,ER Registration
+364,ER Triage
+364,ER Sepsis Triage
+364,LacticAcid
+364,LacticAcid
+364,LacticAcid
+364,IV Antibiotics
+364,IV Antibiotics
+364,Admission NC
+364,Admission IC
+364,Leucocytes
+364,CRP
+364,CRP
+364,Release A
+364,Admission IC
+365,START_TOKEN
+365,ER Registration
+365,ER Triage
+365,ER Sepsis Triage
+365,LacticAcid
+365,Leucocytes
+365,LacticAcid
+365,IV Liquid
+365,Admission NC
+365,Admission NC
+365,Admission IC
+365,Leucocytes
+365,LacticAcid
+365,Release A
+365,Leucocytes
+365,CRP
+365,Leucocytes
+365,CRP
+365,CRP
+365,CRP
+365,CRP
+366,START_TOKEN
+366,ER Registration
+366,ER Triage
+366,ER Sepsis Triage
+366,Leucocytes
+366,Leucocytes
+366,LacticAcid
+366,IV Liquid
+366,IV Antibiotics
+366,Leucocytes
+366,CRP
+366,CRP
+366,Leucocytes
+367,START_TOKEN
+367,ER Registration
+367,ER Triage
+367,ER Sepsis Triage
+367,LacticAcid
+367,Leucocytes
+367,LacticAcid
+367,IV Antibiotics
+367,IV Antibiotics
+367,Admission NC
+367,Leucocytes
+367,CRP
+367,Leucocytes
+367,Leucocytes
+367,CRP
+367,Release A
+367,CRP
+367,CRP
+367,CRP
+368,START_TOKEN
+368,ER Registration
+368,ER Triage
+368,ER Sepsis Triage
+368,Leucocytes
+368,CRP
+368,Leucocytes
+368,IV Liquid
+368,IV Antibiotics
+368,Admission NC
+368,Leucocytes
+368,Release A
+368,CRP
+368,LacticAcid
+368,Leucocytes
+369,START_TOKEN
+369,ER Registration
+369,ER Triage
+369,ER Sepsis Triage
+369,Leucocytes
+369,Leucocytes
+369,LacticAcid
+369,IV Liquid
+369,IV Liquid
+369,Admission NC
+370,START_TOKEN
+370,ER Registration
+370,ER Triage
+370,ER Sepsis Triage
+370,LacticAcid
+370,Leucocytes
+370,ER Sepsis Triage
+370,LacticAcid
+370,IV Antibiotics
+370,Admission NC
+370,CRP
+370,LacticAcid
+370,Leucocytes
+370,Admission IC
+371,START_TOKEN
+371,ER Registration
+371,ER Triage
+371,ER Sepsis Triage
+371,LacticAcid
+371,LacticAcid
+371,LacticAcid
+371,IV Antibiotics
+371,IV Antibiotics
+371,Admission NC
+371,Leucocytes
+371,Admission IC
+371,LacticAcid
+371,CRP
+371,Return ER
+372,START_TOKEN
+372,ER Registration
+372,ER Triage
+372,ER Sepsis Triage
+372,Leucocytes
+372,Leucocytes
+372,LacticAcid
+372,IV Liquid
+372,IV Antibiotics
+372,Admission NC
+372,LacticAcid
+372,Leucocytes
+372,Leucocytes
+372,CRP
+372,Admission IC
+372,Leucocytes
+372,LacticAcid
+372,CRP
+372,Leucocytes
+372,CRP
+372,CRP
+372,LacticAcid
+372,Leucocytes
+372,Leucocytes
+372,LacticAcid
+372,Leucocytes
+372,CRP
+373,START_TOKEN
+373,ER Registration
+373,ER Triage
+373,ER Sepsis Triage
+373,LacticAcid
+373,CRP
+373,ER Sepsis Triage
+373,IV Liquid
+373,IV Antibiotics
+373,Admission NC
+373,CRP
+373,Leucocytes
+373,CRP
+373,Admission NC
+373,Leucocytes
+373,CRP
+373,Leucocytes
+374,START_TOKEN
+374,ER Registration
+374,ER Triage
+374,ER Sepsis Triage
+374,Leucocytes
+374,Leucocytes
+374,LacticAcid
+374,IV Antibiotics
+374,IV Antibiotics
+374,Admission NC
+375,START_TOKEN
+375,ER Registration
+375,ER Triage
+375,ER Sepsis Triage
+375,CRP
+375,Leucocytes
+375,Leucocytes
+375,IV Liquid
+375,IV Liquid
+375,Admission NC
+375,CRP
+375,CRP
+375,CRP
+375,Leucocytes
+375,CRP
+375,Leucocytes
+376,START_TOKEN
+376,ER Registration
+376,ER Triage
+376,ER Sepsis Triage
+376,Leucocytes
+376,Leucocytes
+376,LacticAcid
+376,IV Liquid
+376,IV Antibiotics
+376,Admission NC
+376,CRP
+376,Leucocytes
+376,CRP
+376,Leucocytes
+376,Leucocytes
+376,CRP
+376,Return ER
+376,Leucocytes
+376,CRP
+376,CRP
+376,CRP
+376,LacticAcid
+376,CRP
+376,Leucocytes
+376,Leucocytes
+376,Release A
+377,START_TOKEN
+377,ER Registration
+377,ER Triage
+377,ER Sepsis Triage
+377,LacticAcid
+377,CRP
+377,Leucocytes
+377,IV Antibiotics
+377,IV Liquid
+377,Admission NC
+378,START_TOKEN
+378,ER Registration
+378,ER Triage
+378,ER Sepsis Triage
+378,Leucocytes
+378,Leucocytes
+378,LacticAcid
+378,IV Liquid
+378,IV Antibiotics
+378,Admission NC
+378,CRP
+378,CRP
+378,Release A
+378,Leucocytes
+378,CRP
+378,CRP
+379,START_TOKEN
+379,ER Registration
+379,ER Triage
+379,ER Sepsis Triage
+379,CRP
+379,Leucocytes
+379,LacticAcid
+379,IV Liquid
+379,IV Antibiotics
+379,Admission NC
+379,CRP
+379,Release A
+379,LacticAcid
+379,Leucocytes
+379,CRP
+379,CRP
+380,START_TOKEN
+380,ER Registration
+380,ER Triage
+380,ER Sepsis Triage
+380,LacticAcid
+380,CRP
+380,Leucocytes
+380,Leucocytes
+380,IV Antibiotics
+380,Admission NC
+381,START_TOKEN
+381,ER Registration
+381,ER Triage
+381,ER Sepsis Triage
+381,CRP
+381,Leucocytes
+381,LacticAcid
+381,IV Liquid
+381,IV Antibiotics
+381,Admission NC
+381,CRP
+381,CRP
+381,Leucocytes
+381,CRP
+381,Leucocytes
+381,LacticAcid
+381,Release A
+382,START_TOKEN
+382,ER Registration
+382,ER Triage
+382,ER Sepsis Triage
+382,Leucocytes
+382,Leucocytes
+382,LacticAcid
+382,Admission NC
+382,IV Antibiotics
+382,LacticAcid
+382,CRP
+382,Leucocytes
+383,START_TOKEN
+383,ER Registration
+383,ER Triage
+383,ER Sepsis Triage
+383,Leucocytes
+383,Release A
+383,ER Sepsis Triage
+383,IV Antibiotics
+383,IV Antibiotics
+383,Admission NC
+383,Leucocytes
+383,CRP
+383,Leucocytes
+384,START_TOKEN
+384,ER Registration
+384,ER Triage
+384,ER Sepsis Triage
+384,CRP
+384,Leucocytes
+384,Leucocytes
+384,IV Liquid
+384,IV Antibiotics
+384,Admission NC
+384,Return ER
+384,LacticAcid
+384,Leucocytes
+384,Leucocytes
+384,Leucocytes
+384,CRP
+384,CRP
+384,Return ER
+384,CRP
+384,CRP
+384,CRP
+384,CRP
+384,Leucocytes
+384,Admission NC
+385,START_TOKEN
+385,ER Registration
+385,ER Triage
+385,ER Sepsis Triage
+385,Leucocytes
+385,Leucocytes
+385,LacticAcid
+385,IV Liquid
+385,IV Antibiotics
+385,Admission NC
+385,Admission NC
+385,Leucocytes
+385,CRP
+385,Leucocytes
+385,Leucocytes
+385,Admission IC
+385,CRP
+385,Release A
+385,CRP
+385,CRP
+385,Leucocytes
+385,ER Registration
+386,START_TOKEN
+386,ER Registration
+386,ER Triage
+386,ER Sepsis Triage
+386,CRP
+386,Leucocytes
+386,LacticAcid
+386,IV Antibiotics
+386,IV Antibiotics
+386,Admission NC
+386,Leucocytes
+386,CRP
+386,CRP
+386,Leucocytes
+387,START_TOKEN
+387,ER Registration
+387,ER Triage
+387,ER Sepsis Triage
+387,Leucocytes
+387,Leucocytes
+387,LacticAcid
+387,Leucocytes
+387,Leucocytes
+387,Admission NC
+387,CRP
+387,CRP
+387,Leucocytes
+387,CRP
+387,Leucocytes
+387,IV Antibiotics
+387,Leucocytes
+388,START_TOKEN
+388,ER Registration
+388,ER Triage
+388,ER Sepsis Triage
+388,CRP
+388,Leucocytes
+388,Leucocytes
+388,Admission NC
+388,Leucocytes
+388,Admission NC
+388,LacticAcid
+388,LacticAcid
+388,CRP
+388,CRP
+388,CRP
+388,Release A
+388,Leucocytes
+389,START_TOKEN
+389,ER Registration
+389,ER Triage
+389,ER Sepsis Triage
+389,Leucocytes
+389,CRP
+389,LacticAcid
+389,IV Antibiotics
+389,IV Antibiotics
+389,Admission NC
+389,CRP
+389,CRP
+389,CRP
+389,CRP
+390,START_TOKEN
+390,ER Registration
+390,ER Triage
+390,ER Sepsis Triage
+390,LacticAcid
+390,CRP
+390,Leucocytes
+390,IV Liquid
+390,IV Antibiotics
+390,Admission NC
+390,CRP
+390,CRP
+390,CRP
+390,Leucocytes
+390,Release A
+390,Admission IC
+391,START_TOKEN
+391,ER Registration
+391,ER Triage
+391,ER Sepsis Triage
+391,CRP
+391,LacticAcid
+391,LacticAcid
+391,ER Sepsis Triage
+391,IV Antibiotics
+391,Admission NC
+391,LacticAcid
+391,Leucocytes
+391,CRP
+391,CRP
+391,CRP
+391,IV Antibiotics
+391,Leucocytes
+392,START_TOKEN
+392,ER Registration
+392,ER Triage
+392,ER Sepsis Triage
+392,Leucocytes
+392,LacticAcid
+392,Leucocytes
+392,IV Liquid
+392,IV Antibiotics
+392,Admission NC
+392,LacticAcid
+392,Release A
+392,CRP
+392,Leucocytes
+392,Leucocytes
+392,Leucocytes
+392,CRP
+392,CRP
+392,Leucocytes
+392,CRP
+392,CRP
+392,CRP
+392,CRP
+392,Leucocytes
+392,Leucocytes
+392,CRP
+392,Leucocytes
+392,CRP
+393,START_TOKEN
+393,ER Registration
+393,ER Triage
+393,ER Sepsis Triage
+393,Leucocytes
+393,Leucocytes
+393,Leucocytes
+393,IV Antibiotics
+393,IV Liquid
+393,Admission NC
+393,Leucocytes
+393,CRP
+394,START_TOKEN
+394,ER Registration
+394,ER Triage
+394,ER Sepsis Triage
+394,CRP
+394,CRP
+394,Admission NC
+394,ER Sepsis Triage
+394,Leucocytes
+394,Admission NC
+394,LacticAcid
+394,Leucocytes
+394,Leucocytes
+394,CRP
+394,Leucocytes
+394,Admission IC
+394,CRP
+394,CRP
+394,CRP
+394,Release A
+394,Release A
+394,CRP
+394,Leucocytes
+394,CRP
+394,Leucocytes
+394,CRP
+394,CRP
+394,CRP
+394,CRP
+394,Release A
+394,Leucocytes
+394,CRP
+394,Leucocytes
+395,START_TOKEN
+395,ER Registration
+395,ER Triage
+395,ER Sepsis Triage
+395,Leucocytes
+395,CRP
+395,LacticAcid
+395,IV Liquid
+395,IV Antibiotics
+395,Admission NC
+395,Leucocytes
+395,CRP
+395,Leucocytes
+395,CRP
+395,ER Registration
+395,Leucocytes
+396,START_TOKEN
+396,ER Registration
+396,ER Triage
+396,ER Sepsis Triage
+396,Leucocytes
+396,Leucocytes
+396,Leucocytes
+396,IV Antibiotics
+396,IV Antibiotics
+396,Admission NC
+396,CRP
+396,Release A
+396,CRP
+396,Leucocytes
+396,Release A
+396,CRP
+396,CRP
+397,START_TOKEN
+397,ER Registration
+397,ER Triage
+397,ER Sepsis Triage
+397,Leucocytes
+397,CRP
+397,Leucocytes
+397,IV Antibiotics
+397,IV Antibiotics
+397,Admission NC
+397,Leucocytes
+397,CRP
+397,LacticAcid
+397,Leucocytes
+397,CRP
+397,Leucocytes
+397,LacticAcid
+397,CRP
+397,CRP
+397,CRP
+397,Admission IC
+397,Leucocytes
+397,Release A
+397,CRP
+397,LacticAcid
+397,Leucocytes
+397,Leucocytes
+397,CRP
+397,Leucocytes
+397,Admission IC
+397,ER Registration
+397,Leucocytes
+397,Release A
+397,CRP
+397,ER Registration
+397,Leucocytes
+397,Return ER
+397,CRP
+397,ER Registration
+397,Admission IC
+397,Return ER
+397,CRP
+397,CRP
+397,LacticAcid
+397,START_TOKEN
+397,CRP
+397,ER Registration
+397,ER Registration
+397,Leucocytes
+397,CRP
+397,START_TOKEN
+397,ER Registration
+397,ER Registration
+397,ER Registration
+397,ER Registration
+397,LacticAcid
+397,START_TOKEN
+397,START_TOKEN
+397,ER Registration
+397,ER Registration
+397,CRP
+397,Leucocytes
+397,LacticAcid
+397,ER Sepsis Triage
+397,ER Registration
+397,IV Antibiotics
+397,Admission NC
+397,CRP
+397,Release A
+397,Leucocytes
+397,CRP
+397,Admission IC
+397,CRP
+397,CRP
+397,CRP
+397,Leucocytes
+397,CRP
+397,Leucocytes
+397,LacticAcid
+398,START_TOKEN
+398,ER Registration
+398,ER Triage
+398,ER Sepsis Triage
+398,Leucocytes
+398,LacticAcid
+398,LacticAcid
+398,IV Liquid
+398,IV Antibiotics
+398,Admission NC
+398,Leucocytes
+399,START_TOKEN
+399,ER Registration
+399,ER Triage
+399,ER Sepsis Triage
+399,Leucocytes
+399,LacticAcid
+399,Leucocytes
+399,IV Antibiotics
+399,IV Antibiotics
+399,Admission NC
+399,CRP
+399,LacticAcid
+399,Admission IC
+399,Leucocytes
+399,CRP
+400,START_TOKEN
+400,ER Registration
+400,ER Triage
+400,ER Sepsis Triage
+400,Leucocytes
+400,Leucocytes
+400,LacticAcid
+400,IV Liquid
+400,IV Antibiotics
+400,Admission NC
+400,CRP
+400,Admission IC
+400,Leucocytes
+400,CRP
+400,Leucocytes
+400,CRP
+400,Leucocytes
+400,LacticAcid
+400,CRP
+400,Admission IC
+400,Leucocytes
+400,Release A
+400,CRP
+400,CRP
+400,Return ER
+400,CRP
+400,Leucocytes
+400,CRP
+400,CRP
+401,START_TOKEN
+401,ER Registration
+401,ER Triage
+401,ER Sepsis Triage
+401,Leucocytes
+401,Leucocytes
+401,Leucocytes
+401,IV Antibiotics
+401,IV Antibiotics
+401,Admission NC
+401,CRP
+401,CRP
+401,LacticAcid
+401,Leucocytes
+401,Leucocytes
+401,CRP
+401,Admission IC
+401,CRP
+401,Leucocytes
+401,Leucocytes
+401,Leucocytes
+401,Admission IC
+402,START_TOKEN
+402,ER Registration
+402,ER Triage
+402,ER Sepsis Triage
+402,Leucocytes
+402,LacticAcid
+402,LacticAcid
+402,IV Liquid
+402,IV Antibiotics
+402,Leucocytes
+402,Leucocytes
+402,CRP
+402,Leucocytes
+402,CRP
+402,Leucocytes
+402,CRP
+402,CRP
+402,CRP
+402,LacticAcid
+402,ER Triage
+402,CRP
+402,CRP
+402,CRP
+402,Leucocytes
+402,Leucocytes
+402,CRP
+402,Leucocytes
+402,CRP
+402,Release A
+402,Admission IC
+402,CRP
+402,CRP
+403,START_TOKEN
+403,ER Registration
+403,ER Triage
+403,ER Sepsis Triage
+403,LacticAcid
+403,LacticAcid
+403,LacticAcid
+403,IV Liquid
+403,IV Antibiotics
+403,Admission NC
+403,CRP
+403,Leucocytes
+403,CRP
+403,CRP
+403,CRP
+403,Admission IC
+403,Leucocytes
+404,START_TOKEN
+404,ER Registration
+404,CRP
+404,ER Sepsis Triage
+404,Leucocytes
+404,LacticAcid
+404,LacticAcid
+404,IV Liquid
+404,IV Antibiotics
+404,Admission NC
+404,CRP
+404,LacticAcid
+404,Leucocytes
+404,LacticAcid
+404,CRP
+404,CRP
+404,Release A
+404,CRP
+404,CRP
+404,CRP
+404,CRP
+404,Leucocytes
+404,CRP
+404,CRP
+405,START_TOKEN
+405,ER Registration
+405,ER Triage
+405,ER Sepsis Triage
+405,CRP
+405,Leucocytes
+405,ER Sepsis Triage
+405,IV Antibiotics
+405,IV Liquid
+405,Admission NC
+405,Leucocytes
+405,LacticAcid
+405,CRP
+405,Leucocytes
+405,Admission IC
+406,START_TOKEN
+406,ER Registration
+406,ER Triage
+406,ER Sepsis Triage
+406,LacticAcid
+406,LacticAcid
+406,Leucocytes
+406,IV Liquid
+406,Leucocytes
+406,Admission NC
+406,Release A
+406,CRP
+407,START_TOKEN
+407,ER Registration
+407,ER Triage
+407,ER Sepsis Triage
+407,Leucocytes
+407,CRP
+407,LacticAcid
+407,IV Liquid
+407,IV Antibiotics
+407,Admission NC
+407,Leucocytes
+407,CRP
+407,Leucocytes
+408,START_TOKEN
+408,ER Registration
+408,ER Triage
+408,ER Sepsis Triage
+408,CRP
+408,CRP
+408,Leucocytes
+408,IV Antibiotics
+408,IV Antibiotics
+408,Admission NC
+408,Leucocytes
+408,CRP
+408,CRP
+408,LacticAcid
+408,Leucocytes
+408,Leucocytes
+408,CRP
+408,CRP
+409,START_TOKEN
+409,ER Registration
+409,ER Triage
+409,ER Sepsis Triage
+409,CRP
+409,CRP
+409,Leucocytes
+409,IV Antibiotics
+409,IV Antibiotics
+409,Admission NC
+409,CRP
+409,CRP
+409,CRP
+409,CRP
+410,START_TOKEN
+410,ER Registration
+410,ER Triage
+410,ER Sepsis Triage
+410,CRP
+410,Release A
+410,LacticAcid
+410,LacticAcid
+410,IV Liquid
+410,Admission NC
+410,CRP
+410,Leucocytes
+410,CRP
+410,CRP
+410,CRP
+410,CRP
+410,Release A
+410,CRP
+410,CRP
+410,Leucocytes
+411,START_TOKEN
+411,ER Registration
+411,ER Triage
+411,ER Sepsis Triage
+411,CRP
+411,CRP
+411,LacticAcid
+411,IV Antibiotics
+411,Leucocytes
+411,Admission NC
+411,LacticAcid
+411,CRP
+411,LacticAcid
+411,CRP
+411,Leucocytes
+411,Leucocytes
+411,CRP
+411,CRP
+411,Leucocytes
+411,CRP
+411,LacticAcid
+411,CRP
+412,START_TOKEN
+412,ER Registration
+412,ER Triage
+412,ER Sepsis Triage
+412,Leucocytes
+412,CRP
+412,LacticAcid
+412,IV Antibiotics
+412,IV Antibiotics
+412,Admission NC
+412,CRP
+412,Leucocytes
+412,Leucocytes
+412,CRP
+412,CRP
+412,Release A
+412,Release A
+412,LacticAcid
+412,Leucocytes
+412,CRP
+412,Leucocytes
+412,CRP
+412,CRP
+412,Leucocytes
+412,CRP
+412,LacticAcid
+412,CRP
+413,START_TOKEN
+413,ER Registration
+413,ER Triage
+413,ER Sepsis Triage
+413,Leucocytes
+413,LacticAcid
+413,Leucocytes
+413,IV Liquid
+413,IV Antibiotics
+413,Admission NC
+413,Leucocytes
+413,CRP
+413,Leucocytes
+413,Leucocytes
+413,CRP
+413,CRP
+413,CRP
+413,Leucocytes
+413,CRP
+413,Leucocytes
+414,START_TOKEN
+414,ER Registration
+414,ER Triage
+414,ER Sepsis Triage
+414,LacticAcid
+414,Leucocytes
+414,Leucocytes
+414,IV Liquid
+414,IV Antibiotics
+414,Admission NC
+414,Admission NC
+414,CRP
+415,START_TOKEN
+415,ER Registration
+415,ER Triage
+415,ER Sepsis Triage
+415,CRP
+415,LacticAcid
+415,LacticAcid
+415,IV Antibiotics
+415,Leucocytes
+415,Admission NC
+415,CRP
+415,CRP
+415,Leucocytes
+415,Release A
+415,CRP
+415,Leucocytes
+415,CRP
+415,CRP
+415,Leucocytes
+415,CRP
+416,START_TOKEN
+416,ER Registration
+416,ER Triage
+416,IV Liquid
+416,Leucocytes
+416,LacticAcid
+416,LacticAcid
+416,IV Liquid
+416,IV Antibiotics
+416,Admission NC
+416,Leucocytes
+416,Leucocytes
+416,LacticAcid
+416,Leucocytes
+416,Admission IC
+416,Leucocytes
+416,CRP
+416,CRP
+416,CRP
+416,CRP
+416,CRP
+416,CRP
+416,CRP
+416,Leucocytes
+416,CRP
+416,Leucocytes
+416,CRP
+416,Release A
+417,START_TOKEN
+417,ER Registration
+417,ER Triage
+417,ER Sepsis Triage
+417,Leucocytes
+417,Leucocytes
+417,Leucocytes
+417,Leucocytes
+417,Leucocytes
+417,Admission NC
+417,Leucocytes
+417,CRP
+417,CRP
+417,CRP
+417,Leucocytes
+417,Admission NC
+417,Leucocytes
+418,START_TOKEN
+418,ER Registration
+418,ER Triage
+418,ER Sepsis Triage
+418,CRP
+418,Leucocytes
+418,LacticAcid
+418,IV Liquid
+418,Leucocytes
+418,Admission NC
+418,CRP
+418,Leucocytes
+418,Leucocytes
+418,Leucocytes
+418,Leucocytes
+418,Leucocytes
+418,Admission IC
+418,CRP
+418,Leucocytes
+419,START_TOKEN
+419,ER Registration
+419,ER Triage
+419,ER Sepsis Triage
+419,Leucocytes
+419,CRP
+419,ER Sepsis Triage
+419,IV Liquid
+419,Leucocytes
+419,LacticAcid
+419,LacticAcid
+419,CRP
+419,LacticAcid
+419,Leucocytes
+419,CRP
+419,LacticAcid
+420,START_TOKEN
+420,ER Registration
+420,ER Triage
+420,ER Sepsis Triage
+420,LacticAcid
+420,Leucocytes
+420,LacticAcid
+420,IV Liquid
+420,IV Antibiotics
+420,Admission NC
+420,Leucocytes
+420,Leucocytes
+420,Leucocytes
+420,CRP
+420,Release A
+421,START_TOKEN
+421,ER Registration
+421,ER Triage
+421,ER Sepsis Triage
+421,Leucocytes
+421,Leucocytes
+421,LacticAcid
+421,IV Antibiotics
+421,IV Antibiotics
+421,Admission NC
+421,CRP
+421,CRP
+421,Leucocytes
+421,Leucocytes
+421,Leucocytes
+421,Release A
+421,Admission IC
+421,Leucocytes
+421,CRP
+421,Release A
+422,START_TOKEN
+422,ER Registration
+422,ER Triage
+422,ER Sepsis Triage
+422,CRP
+422,Leucocytes
+422,CRP
+422,IV Liquid
+422,IV Antibiotics
+422,Admission NC
+422,CRP
+422,Leucocytes
+422,CRP
+422,Leucocytes
+422,CRP
+423,START_TOKEN
+423,ER Registration
+423,ER Triage
+423,ER Sepsis Triage
+423,Leucocytes
+423,Leucocytes
+423,LacticAcid
+423,IV Liquid
+423,IV Antibiotics
+423,Admission NC
+423,Leucocytes
+423,Leucocytes
+424,START_TOKEN
+424,ER Registration
+424,ER Triage
+424,ER Sepsis Triage
+424,CRP
+424,LacticAcid
+424,LacticAcid
+424,IV Liquid
+424,IV Antibiotics
+424,Admission NC
+424,LacticAcid
+424,Admission NC
+424,LacticAcid
+424,LacticAcid
+424,Leucocytes
+424,Admission NC
+424,CRP
+424,Release A
+424,CRP
+424,Leucocytes
+424,CRP
+424,CRP
+424,Leucocytes
+424,LacticAcid
+424,Return ER
+424,CRP
+424,CRP
+425,START_TOKEN
+425,ER Registration
+425,ER Triage
+425,ER Sepsis Triage
+425,CRP
+425,CRP
+425,LacticAcid
+425,IV Liquid
+425,IV Antibiotics
+425,Admission NC
+425,CRP
+426,START_TOKEN
+426,ER Registration
+426,ER Triage
+426,ER Sepsis Triage
+426,LacticAcid
+426,LacticAcid
+426,LacticAcid
+426,IV Liquid
+426,IV Antibiotics
+426,Admission NC
+426,CRP
+426,Leucocytes
+426,LacticAcid
+426,Admission NC
+426,CRP
+426,Leucocytes
+426,Release A
+426,Leucocytes
+426,CRP
+426,Release A
+426,CRP
+426,CRP
+427,START_TOKEN
+427,ER Registration
+427,ER Triage
+427,ER Sepsis Triage
+427,Leucocytes
+427,LacticAcid
+427,Leucocytes
+427,IV Antibiotics
+427,IV Antibiotics
+427,Admission NC
+427,Leucocytes
+427,Leucocytes
+427,Leucocytes
+427,Leucocytes
+427,CRP
+427,Release A
+427,LacticAcid
+427,CRP
+427,Leucocytes
+427,Leucocytes
+427,CRP
+427,Admission NC
+428,START_TOKEN
+428,ER Registration
+428,ER Triage
+428,ER Sepsis Triage
+428,Leucocytes
+428,CRP
+428,LacticAcid
+428,IV Liquid
+428,IV Liquid
+428,Admission NC
+428,Release A
+429,START_TOKEN
+429,ER Registration
+429,ER Triage
+429,ER Sepsis Triage
+429,LacticAcid
+429,CRP
+429,LacticAcid
+429,IV Liquid
+429,Leucocytes
+429,Admission NC
+429,CRP
+429,CRP
+429,CRP
+429,CRP
+429,Release A
+430,START_TOKEN
+430,ER Registration
+430,ER Triage
+430,ER Sepsis Triage
+430,LacticAcid
+430,Leucocytes
+430,LacticAcid
+430,IV Liquid
+430,IV Liquid
+430,Admission NC
+430,Leucocytes
+430,CRP
+430,Leucocytes
+430,CRP
+430,CRP
+430,Leucocytes
+431,START_TOKEN
+431,ER Registration
+431,ER Triage
+431,ER Sepsis Triage
+431,Leucocytes
+431,Leucocytes
+431,Leucocytes
+431,IV Liquid
+431,IV Antibiotics
+431,Admission NC
+431,CRP
+431,CRP
+431,Leucocytes
+431,Leucocytes
+431,Release A
+431,CRP
+432,START_TOKEN
+432,ER Registration
+432,ER Triage
+432,IV Liquid
+432,LacticAcid
+432,Leucocytes
+432,LacticAcid
+432,IV Liquid
+432,IV Antibiotics
+432,Admission NC
+432,Leucocytes
+432,Leucocytes
+433,START_TOKEN
+433,ER Registration
+433,ER Triage
+433,ER Sepsis Triage
+433,LacticAcid
+433,Leucocytes
+433,Leucocytes
+433,Leucocytes
+433,IV Antibiotics
+433,Admission NC
+433,LacticAcid
+433,CRP
+433,Leucocytes
+433,LacticAcid
+433,Admission IC
+433,Leucocytes
+433,CRP
+433,Leucocytes
+433,CRP
+433,Leucocytes
+433,Leucocytes
+433,CRP
+434,START_TOKEN
+434,ER Registration
+434,ER Triage
+434,ER Sepsis Triage
+434,Leucocytes
+434,Leucocytes
+434,LacticAcid
+434,IV Antibiotics
+434,IV Antibiotics
+434,Admission NC
+434,LacticAcid
+434,Leucocytes
+434,Leucocytes
+434,LacticAcid
+434,CRP
+434,CRP
+435,START_TOKEN
+435,ER Registration
+435,ER Triage
+435,ER Sepsis Triage
+435,LacticAcid
+435,CRP
+435,LacticAcid
+435,IV Antibiotics
+435,IV Antibiotics
+435,Admission NC
+435,Leucocytes
+435,Leucocytes
+435,Release A
+435,Leucocytes
+435,CRP
+435,CRP
+435,CRP
+435,CRP
+435,CRP
+435,CRP
+435,CRP
+435,CRP
+435,Leucocytes
+435,Leucocytes
+435,Leucocytes
+435,CRP
+435,CRP
+435,Leucocytes
+435,CRP
+435,Leucocytes
+436,START_TOKEN
+436,ER Registration
+436,ER Triage
+436,ER Sepsis Triage
+436,Leucocytes
+436,Leucocytes
+436,LacticAcid
+436,IV Antibiotics
+436,IV Antibiotics
+436,Admission NC
+436,Leucocytes
+436,CRP
+436,Leucocytes
+436,CRP
+436,ER Registration
+436,CRP
+436,Leucocytes
+436,CRP
+436,Leucocytes
+436,CRP
+436,CRP
+436,LacticAcid
+436,CRP
+436,Leucocytes
+436,CRP
+436,CRP
+436,CRP
+436,Admission IC
+436,Leucocytes
+436,Release A
+436,CRP
+436,CRP
+436,CRP
+436,CRP
+437,START_TOKEN
+437,ER Registration
+437,ER Triage
+437,ER Sepsis Triage
+437,Leucocytes
+437,Leucocytes
+437,LacticAcid
+437,IV Antibiotics
+437,Leucocytes
+437,LacticAcid
+437,CRP
+437,CRP
+437,Admission NC
+437,Leucocytes
+437,Leucocytes
+437,CRP
+438,START_TOKEN
+438,ER Registration
+438,ER Triage
+438,ER Sepsis Triage
+438,Leucocytes
+438,Leucocytes
+438,LacticAcid
+438,IV Liquid
+438,IV Antibiotics
+438,Admission NC
+438,CRP
+438,CRP
+438,CRP
+438,Leucocytes
+438,Leucocytes
+438,Admission IC
+439,START_TOKEN
+439,ER Registration
+439,ER Triage
+439,ER Sepsis Triage
+439,ER Sepsis Triage
+439,CRP
+439,LacticAcid
+439,IV Liquid
+439,Admission NC
+439,Admission NC
+439,Leucocytes
+439,LacticAcid
+439,Leucocytes
+439,Leucocytes
+439,Leucocytes
+439,CRP
+439,LacticAcid
+439,CRP
+439,Leucocytes
+439,CRP
+439,Admission IC
+440,START_TOKEN
+440,ER Registration
+440,ER Triage
+440,ER Sepsis Triage
+440,Leucocytes
+440,Leucocytes
+440,LacticAcid
+440,Leucocytes
+440,IV Liquid
+440,Admission NC
+440,Leucocytes
+440,CRP
+440,LacticAcid
+440,CRP
+440,CRP
+440,Leucocytes
+440,Admission IC
+440,Leucocytes
+440,CRP
+440,LacticAcid
+440,Leucocytes
+440,Leucocytes
+440,Leucocytes
+440,CRP
+440,Leucocytes
+440,Leucocytes
+440,CRP
+440,CRP
+440,CRP
+440,Release A
+440,CRP
+440,Release A
+440,LacticAcid
+440,Admission IC
+440,CRP
+440,CRP
+440,Release A
+440,Leucocytes
+440,CRP
+440,CRP
+441,START_TOKEN
+441,ER Registration
+441,ER Triage
+441,ER Sepsis Triage
+441,Leucocytes
+441,Leucocytes
+441,LacticAcid
+441,IV Antibiotics
+441,Leucocytes
+441,Admission NC
+441,Leucocytes
+441,CRP
+441,CRP
+441,CRP
+441,Leucocytes
+441,CRP
+441,Admission IC
+441,CRP
+442,START_TOKEN
+442,ER Registration
+442,ER Triage
+442,ER Sepsis Triage
+442,LacticAcid
+442,Leucocytes
+442,LacticAcid
+442,IV Antibiotics
+442,IV Antibiotics
+442,Admission NC
+442,CRP
+442,LacticAcid
+442,Admission IC
+442,Leucocytes
+442,CRP
+442,CRP
+442,LacticAcid
+442,Leucocytes
+442,Release A
+442,Leucocytes
+442,CRP
+442,Release A
+442,Leucocytes
+442,CRP
+442,CRP
+442,CRP
+442,CRP
+442,CRP
+442,CRP
+442,LacticAcid
+442,CRP
+442,CRP
+442,Leucocytes
+443,START_TOKEN
+443,ER Registration
+443,ER Triage
+443,ER Sepsis Triage
+443,LacticAcid
+443,CRP
+443,LacticAcid
+443,IV Liquid
+443,IV Antibiotics
+443,Admission NC
+443,Leucocytes
+443,Return ER
+443,Release A
+443,LacticAcid
+443,Leucocytes
+444,START_TOKEN
+444,ER Registration
+444,ER Triage
+444,ER Sepsis Triage
+444,LacticAcid
+444,CRP
+444,LacticAcid
+444,IV Liquid
+444,Leucocytes
+444,Admission NC
+444,CRP
+444,CRP
+444,Leucocytes
+444,CRP
+444,Leucocytes
+444,Leucocytes
+444,CRP
+444,Admission IC
+444,CRP
+444,Leucocytes
+444,Leucocytes
+444,ER Triage
+445,START_TOKEN
+445,ER Registration
+445,ER Triage
+445,ER Sepsis Triage
+445,Leucocytes
+445,LacticAcid
+445,Leucocytes
+445,IV Antibiotics
+445,Leucocytes
+445,Admission NC
+445,CRP
+445,CRP
+445,Leucocytes
+445,LacticAcid
+445,CRP
+445,CRP
+446,START_TOKEN
+446,ER Registration
+446,ER Triage
+446,ER Sepsis Triage
+446,LacticAcid
+446,LacticAcid
+446,Leucocytes
+446,IV Liquid
+446,IV Antibiotics
+446,Admission NC
+446,CRP
+446,Leucocytes
+447,START_TOKEN
+447,ER Registration
+447,ER Triage
+447,ER Sepsis Triage
+447,LacticAcid
+447,CRP
+447,Leucocytes
+447,IV Liquid
+447,IV Antibiotics
+447,Admission NC
+447,Leucocytes
+447,Leucocytes
+447,Leucocytes
+447,CRP
+447,Return ER
+447,Admission NC
+447,CRP
+448,START_TOKEN
+448,ER Registration
+448,ER Triage
+448,ER Sepsis Triage
+448,Leucocytes
+448,Leucocytes
+448,LacticAcid
+448,IV Liquid
+448,IV Antibiotics
+448,Admission NC
+448,Leucocytes
+448,CRP
+448,Leucocytes
+448,Leucocytes
+448,LacticAcid
+449,START_TOKEN
+449,ER Registration
+449,ER Triage
+449,ER Sepsis Triage
+449,Leucocytes
+449,Leucocytes
+449,LacticAcid
+449,IV Liquid
+449,IV Antibiotics
+449,Admission NC
+449,CRP
+449,LacticAcid
+449,Leucocytes
+449,Release A
+449,Leucocytes
+449,Leucocytes
+449,Release A
+449,CRP
+449,CRP
+449,Leucocytes
+449,CRP
+449,Leucocytes
+449,LacticAcid
+449,CRP
+449,Leucocytes
+449,Leucocytes
+449,Return ER
+449,Release A
+449,CRP
+449,CRP
+449,Release A
+449,CRP
+450,START_TOKEN
+450,ER Registration
+450,ER Triage
+450,ER Sepsis Triage
+450,CRP
+450,LacticAcid
+450,Leucocytes
+450,IV Liquid
+450,IV Antibiotics
+450,Leucocytes
+450,Leucocytes
+450,Release A
+450,Leucocytes
+450,Admission IC
+450,CRP
+450,Leucocytes
+450,Leucocytes
+450,CRP
+450,CRP
+450,CRP
+450,CRP
+450,Leucocytes
+450,CRP
+451,START_TOKEN
+451,ER Registration
+451,ER Triage
+451,LacticAcid
+451,Leucocytes
+451,LacticAcid
+451,LacticAcid
+451,IV Liquid
+451,IV Antibiotics
+451,Admission NC
+451,CRP
+452,START_TOKEN
+452,ER Registration
+452,ER Triage
+452,ER Sepsis Triage
+452,CRP
+452,Leucocytes
+452,LacticAcid
+452,IV Liquid
+452,Admission NC
+452,Admission NC
+452,Release A
+452,Leucocytes
+452,Leucocytes
+452,Leucocytes
+452,Leucocytes
+452,CRP
+452,LacticAcid
+452,LacticAcid
+452,CRP
+453,START_TOKEN
+453,ER Registration
+453,ER Triage
+453,ER Sepsis Triage
+453,Leucocytes
+453,Leucocytes
+453,LacticAcid
+453,IV Antibiotics
+453,IV Antibiotics
+453,Admission NC
+453,Release A
+454,START_TOKEN
+454,ER Registration
+454,ER Triage
+454,ER Sepsis Triage
+454,CRP
+454,CRP
+454,Leucocytes
+454,IV Liquid
+454,IV Antibiotics
+454,Admission NC
+454,Leucocytes
+454,Leucocytes
+454,Leucocytes
+454,Leucocytes
+454,LacticAcid
+454,CRP
+454,CRP
+455,START_TOKEN
+455,ER Registration
+455,ER Triage
+455,ER Sepsis Triage
+455,Leucocytes
+455,Leucocytes
+455,Leucocytes
+455,LacticAcid
+455,IV Antibiotics
+455,Admission NC
+455,Release A
+455,LacticAcid
+455,Leucocytes
+455,LacticAcid
+455,Release A
+455,CRP
+455,Leucocytes
+455,CRP
+455,CRP
+455,Leucocytes
+455,CRP
+456,START_TOKEN
+456,ER Registration
+456,ER Triage
+456,ER Sepsis Triage
+456,LacticAcid
+456,Leucocytes
+456,LacticAcid
+456,IV Liquid
+456,IV Antibiotics
+456,Admission NC
+456,Leucocytes
+456,Leucocytes
+456,CRP
+456,CRP
+456,Admission NC
+456,Leucocytes
+456,CRP
+456,Return ER
+457,START_TOKEN
+457,ER Registration
+457,ER Triage
+457,ER Sepsis Triage
+457,CRP
+457,Leucocytes
+457,Leucocytes
+457,IV Liquid
+457,IV Antibiotics
+457,Admission NC
+457,CRP
+457,CRP
+457,CRP
+457,CRP
+457,Leucocytes
+457,CRP
+457,Leucocytes
+457,Leucocytes
+457,Leucocytes
+458,START_TOKEN
+458,ER Registration
+458,ER Triage
+458,ER Sepsis Triage
+458,Leucocytes
+458,LacticAcid
+458,LacticAcid
+458,LacticAcid
+458,IV Antibiotics
+458,Admission NC
+458,CRP
+458,CRP
+458,LacticAcid
+458,Leucocytes
+459,START_TOKEN
+459,ER Registration
+459,ER Triage
+459,ER Sepsis Triage
+459,Leucocytes
+459,Leucocytes
+459,LacticAcid
+459,IV Liquid
+459,IV Antibiotics
+459,Admission NC
+459,Leucocytes
+459,CRP
+459,Leucocytes
+459,CRP
+459,Leucocytes
+459,Leucocytes
+460,START_TOKEN
+460,ER Registration
+460,ER Triage
+460,ER Sepsis Triage
+460,Leucocytes
+460,Leucocytes
+460,LacticAcid
+460,IV Antibiotics
+460,Leucocytes
+460,Admission NC
+460,Return ER
+460,CRP
+460,Leucocytes
+460,CRP
+461,START_TOKEN
+461,ER Registration
+461,ER Triage
+461,ER Sepsis Triage
+461,LacticAcid
+461,LacticAcid
+461,LacticAcid
+461,IV Antibiotics
+461,IV Antibiotics
+461,Admission NC
+461,CRP
+461,CRP
+461,Leucocytes
+461,Leucocytes
+461,CRP
+461,Leucocytes
+461,Leucocytes
+461,Leucocytes
+461,CRP
+461,Leucocytes
+461,CRP
+461,CRP
+461,Release A
+461,CRP
+461,CRP
+461,Leucocytes
+461,CRP
+461,CRP
+462,START_TOKEN
+462,ER Registration
+462,ER Triage
+462,ER Sepsis Triage
+462,CRP
+462,Leucocytes
+462,Admission NC
+462,IV Liquid
+462,IV Antibiotics
+462,Admission NC
+462,Release A
+462,Leucocytes
+463,START_TOKEN
+463,ER Registration
+463,ER Triage
+463,ER Sepsis Triage
+463,Leucocytes
+463,LacticAcid
+463,Leucocytes
+463,IV Liquid
+463,IV Antibiotics
+463,Admission NC
+463,LacticAcid
+463,Release A
+463,CRP
+463,Leucocytes
+463,CRP
+463,CRP
+464,START_TOKEN
+464,ER Registration
+464,ER Triage
+464,ER Sepsis Triage
+464,Leucocytes
+464,CRP
+464,IV Liquid
+464,IV Liquid
+464,IV Antibiotics
+464,Admission NC
+464,Leucocytes
+464,CRP
+464,LacticAcid
+464,Leucocytes
+464,Leucocytes
+464,Admission NC
+464,CRP
+464,Leucocytes
+464,CRP
+465,START_TOKEN
+465,ER Registration
+465,ER Triage
+465,ER Sepsis Triage
+465,Leucocytes
+465,CRP
+465,Leucocytes
+465,IV Liquid
+465,IV Antibiotics
+465,Admission NC
+465,Leucocytes
+465,ER Registration
+465,CRP
+465,LacticAcid
+465,Release A
+465,Leucocytes
+465,Leucocytes
+465,Admission IC
+466,START_TOKEN
+466,ER Registration
+466,ER Triage
+466,ER Sepsis Triage
+466,Leucocytes
+466,Leucocytes
+466,LacticAcid
+466,ER Sepsis Triage
+466,IV Antibiotics
+466,Admission NC
+466,CRP
+466,Return ER
+466,Leucocytes
+466,Leucocytes
+466,Leucocytes
+466,CRP
+466,CRP
+466,CRP
+466,CRP
+466,CRP
+466,CRP
+466,Leucocytes
+466,CRP
+466,CRP
+466,CRP
+466,LacticAcid
+467,START_TOKEN
+467,ER Registration
+467,ER Triage
+467,ER Sepsis Triage
+467,LacticAcid
+467,CRP
+467,LacticAcid
+467,IV Liquid
+467,IV Antibiotics
+467,Admission NC
+467,CRP
+467,CRP
+467,LacticAcid
+467,Leucocytes
+467,Admission IC
+467,Leucocytes
+467,LacticAcid
+467,Leucocytes
+467,Leucocytes
+467,Leucocytes
+467,Release A
+467,CRP
+467,Release A
+467,Leucocytes
+467,Leucocytes
+467,LacticAcid
+467,CRP
+467,Leucocytes
+467,CRP
+467,Return ER
+467,CRP
+467,CRP
+467,CRP
+467,Release A
+468,START_TOKEN
+468,ER Registration
+468,ER Triage
+468,ER Sepsis Triage
+468,LacticAcid
+468,Leucocytes
+468,LacticAcid
+468,IV Liquid
+468,IV Liquid
+468,Admission NC
+468,CRP
+468,CRP
+468,Leucocytes
+468,Admission NC
+468,Admission IC
+468,CRP
+468,CRP
+468,Leucocytes
+468,CRP
+468,CRP
+468,CRP
+468,Admission IC
+468,CRP
+469,START_TOKEN
+469,ER Registration
+469,ER Triage
+469,ER Sepsis Triage
+469,LacticAcid
+469,LacticAcid
+469,LacticAcid
+469,Leucocytes
+469,IV Antibiotics
+469,Admission NC
+469,Leucocytes
+470,START_TOKEN
+470,ER Registration
+470,ER Triage
+470,ER Sepsis Triage
+470,CRP
+470,LacticAcid
+470,Leucocytes
+470,IV Antibiotics
+470,IV Antibiotics
+470,Admission NC
+470,Admission NC
+470,CRP
+470,CRP
+470,Leucocytes
+470,Leucocytes
+470,CRP
+470,Leucocytes
+470,Leucocytes
+470,CRP
+470,Leucocytes
+470,CRP
+471,START_TOKEN
+471,ER Registration
+471,ER Triage
+471,ER Sepsis Triage
+471,CRP
+471,Leucocytes
+471,ER Sepsis Triage
+471,IV Liquid
+471,IV Liquid
+471,Admission NC
+471,CRP
+471,ER Triage
+471,Leucocytes
+471,Leucocytes
+471,CRP
+471,CRP
+471,CRP
+471,CRP
+471,CRP
+471,CRP
+471,Leucocytes
+471,LacticAcid
+471,CRP
+471,CRP
+471,Leucocytes
+471,CRP
+471,CRP
+472,START_TOKEN
+472,ER Registration
+472,ER Triage
+472,ER Sepsis Triage
+472,LacticAcid
+472,Leucocytes
+472,LacticAcid
+472,IV Liquid
+472,IV Antibiotics
+472,Admission NC
+472,CRP
+472,LacticAcid
+473,START_TOKEN
+473,ER Registration
+473,ER Triage
+473,ER Sepsis Triage
+473,Leucocytes
+473,LacticAcid
+473,LacticAcid
+473,IV Liquid
+473,IV Antibiotics
+473,Admission NC
+473,Leucocytes
+473,Leucocytes
+473,Release A
+473,Leucocytes
+473,CRP
+473,Leucocytes
+473,CRP
+473,CRP
+473,Leucocytes
+473,Admission NC
+474,START_TOKEN
+474,ER Registration
+474,ER Triage
+474,ER Sepsis Triage
+474,LacticAcid
+474,CRP
+474,LacticAcid
+474,IV Liquid
+474,IV Antibiotics
+474,Admission NC
+474,Leucocytes
+474,Leucocytes
+474,Leucocytes
+474,Leucocytes
+475,START_TOKEN
+475,ER Registration
+475,ER Triage
+475,ER Sepsis Triage
+475,LacticAcid
+475,CRP
+475,LacticAcid
+475,IV Liquid
+475,IV Antibiotics
+475,Admission NC
+475,CRP
+475,CRP
+475,Leucocytes
+475,CRP
+475,Leucocytes
+475,Leucocytes
+475,Leucocytes
+475,LacticAcid
+475,Leucocytes
+475,CRP
+476,START_TOKEN
+476,ER Registration
+476,ER Triage
+476,ER Sepsis Triage
+476,CRP
+476,Leucocytes
+476,LacticAcid
+476,IV Antibiotics
+476,IV Antibiotics
+476,Admission NC
+476,Leucocytes
+476,CRP
+477,START_TOKEN
+477,ER Registration
+477,ER Triage
+477,ER Sepsis Triage
+477,Leucocytes
+477,LacticAcid
+477,LacticAcid
+477,IV Liquid
+477,Leucocytes
+477,Admission NC
+477,Leucocytes
+478,START_TOKEN
+478,ER Registration
+478,ER Triage
+478,ER Sepsis Triage
+478,Leucocytes
+478,LacticAcid
+478,LacticAcid
+478,IV Antibiotics
+478,IV Antibiotics
+478,Leucocytes
+478,CRP
+478,CRP
+478,CRP
+479,START_TOKEN
+479,ER Registration
+479,ER Triage
+479,ER Sepsis Triage
+479,LacticAcid
+479,LacticAcid
+479,ER Sepsis Triage
+479,IV Liquid
+479,IV Antibiotics
+479,Admission NC
+479,Leucocytes
+479,Admission NC
+479,LacticAcid
+479,Leucocytes
+479,Leucocytes
+479,Admission NC
+480,START_TOKEN
+480,ER Registration
+480,ER Triage
+480,ER Sepsis Triage
+480,LacticAcid
+480,LacticAcid
+480,LacticAcid
+480,IV Antibiotics
+480,IV Antibiotics
+480,Admission NC
+480,Leucocytes
+480,CRP
+480,CRP
+480,Leucocytes
+481,START_TOKEN
+481,ER Registration
+481,ER Triage
+481,ER Sepsis Triage
+481,CRP
+481,CRP
+481,LacticAcid
+481,IV Liquid
+481,IV Antibiotics
+481,Admission NC
+481,CRP
+481,CRP
+482,ER Registration
+482,ER Registration
+482,ER Triage
+482,ER Sepsis Triage
+482,CRP
+482,CRP
+482,LacticAcid
+482,IV Antibiotics
+482,IV Antibiotics
+482,Admission NC
+482,CRP
+482,Admission IC
+482,Leucocytes
+482,CRP
+482,CRP
+482,Release A
+483,START_TOKEN
+483,ER Registration
+483,ER Triage
+483,ER Sepsis Triage
+483,Leucocytes
+483,LacticAcid
+483,Leucocytes
+483,IV Liquid
+483,IV Antibiotics
+483,Admission NC
+483,CRP
+483,ER Triage
+483,Leucocytes
+483,Return ER
+483,Leucocytes
+483,Leucocytes
+483,CRP
+484,START_TOKEN
+484,ER Registration
+484,ER Triage
+484,ER Sepsis Triage
+484,CRP
+484,Leucocytes
+484,Admission NC
+484,IV Antibiotics
+484,IV Antibiotics
+484,Admission NC
+484,CRP
+484,Release A
+484,Leucocytes
+484,Leucocytes
+484,Leucocytes
+484,Leucocytes
+484,CRP
+484,CRP
+484,CRP
+484,Leucocytes
+484,Leucocytes
+484,Admission IC
+484,CRP
+484,CRP
+484,Release A
+484,CRP
+484,Leucocytes
+484,Leucocytes
+484,CRP
+484,Leucocytes
+484,Admission IC
+484,Admission IC
+484,Leucocytes
+484,CRP
+484,CRP
+484,Release A
+484,Return ER
+484,Admission IC
+484,CRP
+484,CRP
+484,ER Registration
+484,CRP
+484,CRP
+484,ER Registration
+484,START_TOKEN
+484,ER Registration
+484,Leucocytes
+484,CRP
+484,CRP
+484,START_TOKEN
+484,START_TOKEN
+484,ER Registration
+484,ER Registration
+484,ER Registration
+484,CRP
+484,ER Registration
+484,START_TOKEN
+484,START_TOKEN
+484,ER Registration
+484,CRP
+484,CRP
+484,ER Registration
+484,LacticAcid
+484,START_TOKEN
+484,ER Registration
+484,IV Antibiotics
+484,Admission NC
+484,LacticAcid
+484,LacticAcid
+484,Leucocytes
+484,IV Antibiotics
+485,START_TOKEN
+485,ER Registration
+485,ER Triage
+485,ER Sepsis Triage
+485,Leucocytes
+485,CRP
+485,Leucocytes
+485,Leucocytes
+485,IV Antibiotics
+485,Admission NC
+485,Leucocytes
+485,CRP
+485,Leucocytes
+485,CRP
+485,Leucocytes
+485,Release A
+486,START_TOKEN
+486,ER Registration
+486,ER Triage
+486,ER Sepsis Triage
+486,Leucocytes
+486,LacticAcid
+486,LacticAcid
+486,IV Liquid
+486,IV Liquid
+486,Admission NC
+486,Release A
+486,CRP
+486,LacticAcid
+486,Admission IC
+487,START_TOKEN
+487,ER Registration
+487,ER Triage
+487,ER Sepsis Triage
+487,CRP
+487,CRP
+487,LacticAcid
+487,IV Liquid
+487,Leucocytes
+487,Admission NC
+487,CRP
+487,CRP
+487,LacticAcid
+487,Release A
+487,Leucocytes
+487,CRP
+488,START_TOKEN
+488,ER Registration
+488,ER Triage
+488,ER Sepsis Triage
+488,CRP
+488,Leucocytes
+488,Leucocytes
+488,IV Antibiotics
+488,Leucocytes
+488,Admission NC
+488,Leucocytes
+488,Leucocytes
+488,CRP
+488,LacticAcid
+488,Leucocytes
+488,Leucocytes
+489,START_TOKEN
+489,ER Registration
+489,ER Triage
+489,ER Sepsis Triage
+489,LacticAcid
+489,CRP
+489,LacticAcid
+489,IV Liquid
+489,IV Antibiotics
+489,Admission NC
+489,Admission NC
+489,Leucocytes
+489,LacticAcid
+489,CRP
+489,CRP
+489,Leucocytes
+489,Release A
+489,CRP
+489,CRP
+489,CRP
+489,Release A
+490,START_TOKEN
+490,ER Registration
+490,ER Triage
+490,ER Sepsis Triage
+490,CRP
+490,Leucocytes
+490,Leucocytes
+490,IV Liquid
+490,IV Antibiotics
+490,Admission NC
+491,START_TOKEN
+491,ER Registration
+491,ER Triage
+491,ER Sepsis Triage
+491,CRP
+491,Leucocytes
+491,Leucocytes
+491,IV Liquid
+491,IV Antibiotics
+491,Admission NC
+491,Leucocytes
+492,START_TOKEN
+492,ER Registration
+492,ER Triage
+492,ER Sepsis Triage
+492,Leucocytes
+492,Leucocytes
+492,LacticAcid
+492,IV Liquid
+492,IV Antibiotics
+492,Admission NC
+492,CRP
+492,LacticAcid
+492,Leucocytes
+492,CRP
+492,CRP
+492,Leucocytes
+492,Admission IC
+492,CRP
+492,Leucocytes
+492,Leucocytes
+492,Admission IC
+492,Return ER
+492,CRP
+493,START_TOKEN
+493,ER Registration
+493,ER Triage
+493,ER Sepsis Triage
+493,CRP
+493,LacticAcid
+493,Leucocytes
+493,IV Liquid
+493,IV Liquid
+493,Admission NC
+493,Leucocytes
+493,CRP
+493,Leucocytes
+493,CRP
+493,CRP
+493,CRP
+493,Return ER
+493,CRP
+493,CRP
+493,Leucocytes
+493,Admission IC
+493,CRP
+493,CRP
+493,CRP
+493,Release A
+493,Leucocytes
+493,Admission IC
+494,Release E
+494,ER Registration
+494,ER Triage
+494,ER Sepsis Triage
+494,Leucocytes
+494,LacticAcid
+494,Leucocytes
+494,IV Antibiotics
+494,IV Liquid
+494,Admission NC
+494,CRP
+494,Admission IC
+494,CRP
+494,CRP
+494,LacticAcid
+494,Leucocytes
+494,Return ER
+494,Release A
+494,CRP
+494,CRP
+494,Leucocytes
+494,CRP
+494,Leucocytes
+494,Leucocytes
+494,CRP
+494,CRP
+494,CRP
+494,CRP
+495,START_TOKEN
+495,ER Registration
+495,ER Triage
+495,ER Sepsis Triage
+495,Leucocytes
+495,LacticAcid
+495,LacticAcid
+495,IV Liquid
+495,IV Antibiotics
+495,Admission NC
+495,Leucocytes
+495,CRP
+495,Leucocytes
+495,Leucocytes
+495,CRP
+495,Leucocytes
+495,CRP
+495,CRP
+495,Admission NC
+495,LacticAcid
+495,Leucocytes
+495,CRP
+495,Release A
+495,CRP
+495,Release A
+495,Leucocytes
+495,Leucocytes
+495,CRP
+495,Leucocytes
+495,CRP
+495,Leucocytes
+495,CRP
+495,Admission IC
+495,Leucocytes
+495,LacticAcid
+495,Admission NC
+495,CRP
+495,Leucocytes
+495,ER Registration
+495,CRP
+495,Return ER
+495,CRP
+495,CRP
+495,Release A
+495,ER Registration
+495,ER Registration
+495,ER Registration
+495,ER Registration
+495,CRP
+495,START_TOKEN
+495,START_TOKEN
+495,ER Registration
+495,CRP
+495,ER Registration
+495,CRP
+495,START_TOKEN
+495,START_TOKEN
+495,Leucocytes
+495,ER Registration
+495,ER Registration
+495,CRP
+495,LacticAcid
+495,LacticAcid
+495,Leucocytes
+495,CRP
+495,IV Antibiotics
+495,Admission NC
+495,Leucocytes
+495,CRP
+495,LacticAcid
+495,IV Antibiotics
+495,LacticAcid
+495,Admission NC
+495,CRP
+495,Release A
+495,Leucocytes
+495,CRP
+496,START_TOKEN
+496,ER Registration
+496,ER Triage
+496,ER Sepsis Triage
+496,CRP
+496,CRP
+496,Admission NC
+496,IV Liquid
+496,IV Antibiotics
+496,Admission NC
+496,CRP
+496,Leucocytes
+496,ER Triage
+496,CRP
+496,Leucocytes
+496,ER Triage
+496,Leucocytes
+496,CRP
+496,LacticAcid
+496,Return ER
+496,CRP
+497,START_TOKEN
+497,ER Registration
+497,ER Triage
+497,ER Sepsis Triage
+497,Leucocytes
+497,Leucocytes
+497,LacticAcid
+497,IV Liquid
+497,IV Liquid
+497,Leucocytes
+497,Leucocytes
+497,Leucocytes
+497,Leucocytes
+497,Leucocytes
+497,Release A
+497,CRP
+497,LacticAcid
+497,Leucocytes
+497,CRP
+497,CRP
+497,CRP
+498,START_TOKEN
+498,ER Registration
+498,ER Triage
+498,ER Sepsis Triage
+498,Leucocytes
+498,Leucocytes
+498,Leucocytes
+498,IV Antibiotics
+498,IV Antibiotics
+498,Admission NC
+498,Leucocytes
+498,Leucocytes
+498,CRP
+498,Leucocytes
+498,Leucocytes
+499,START_TOKEN
+499,ER Registration
+499,ER Triage
+499,ER Sepsis Triage
+499,LacticAcid
+499,CRP
+499,LacticAcid
+499,IV Liquid
+499,Leucocytes
+499,Admission NC
+499,Admission IC
+499,CRP
+499,CRP
+499,Leucocytes

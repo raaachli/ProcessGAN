@@ -1,0 +1,9 @@
+result_gru.csv,18,11,21
+result_transformer_nar_5000.csv,25,5,25
+result_transformer_ar.csv,18,13,24
+pgan.csv,20,15,24
+m1.csv,18,18,24
+result_lstm.csv,22,6,22
+m2.csv,17,11,23
+k2.csv,20,17,25
+k1.csv,21,16,24

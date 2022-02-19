@@ -3,7 +3,7 @@
  
  An implementation of paper "Generating Privacy-Preserving Process Data with Deep Generative Models".
  
- Baseline models and ProcessGAN models are all implemented.
+ ProcessGAN models as well as baseline models are all implemented.
 
 # Prerequisites
  Python, Pytorch, Matplotlib

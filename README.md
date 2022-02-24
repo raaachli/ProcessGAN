@@ -1,4 +1,7 @@
-# ProcessGAN: Synthetic process data generator using GAN-based Transformer
+# ProcessGAN
+Synthetic process data generator using GAN-based Transformer.
+
+
 Implementation of the paper "Generating Privacy-Preserving Process Data with Deep Generative Models".
 
 # Requirements

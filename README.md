@@ -7,9 +7,7 @@ Implementation of the paper "Generating Privacy-Preserving Process Data with Dee
 # Requirements
 Python 3
 
-
 Pytorch
-
 
 Matplotlib
 

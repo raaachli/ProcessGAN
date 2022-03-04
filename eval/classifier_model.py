@@ -1,14 +1,13 @@
 import torch
 import torch.nn as nn
 import math
+from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from models.PositionalEncoding import PositionalEncoding
 
 
 class Classifier(nn.Module):
     def __init__(self, dim_out, ntoken, ninp, nhead, nhid, nlayers, padding_index, ndsize, dropout=0.5):
-        torch.set_printoptions(profile="full")
         super(Classifier, self).__init__()
-        from torch.nn import TransformerEncoder, TransformerEncoderLayer
         self.pos_encoder = PositionalEncoding(ninp, dropout)
         encoder_layers = TransformerEncoderLayer(ninp, nhead, nhid, dropout)
         self.transformer_encoder = TransformerEncoder(encoder_layers, nlayers)
@@ -18,7 +17,6 @@ class Classifier(nn.Module):
         self.linear_2 = nn.Linear(ndsize, ndsize)
         self.linear_out = nn.Linear(ninp, padding_index+1)
         self.batchnorm = nn.BatchNorm1d(ndsize)
-        self.batchnorm_2 = nn.BatchNorm1d(ndsize)
         self.decoder = nn.Linear(ndsize, dim_out)
         self.relu = nn.ReLU()
         self.sigmoid = nn.Sigmoid()
@@ -49,7 +47,7 @@ class Classifier(nn.Module):
         output = self.relu(self.linear_1(output))
         output = self.batchnorm(output)
         output = self.relu(self.linear_2(output))
-        output = self.batchnorm_2(output)
+        output = self.batchnorm(output)
         output = self.decoder(output)
         output = self.sigmoid(output)
 

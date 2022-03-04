@@ -12,4 +12,5 @@ Matplotlib
 
 # Training
 Please run the run.py to start training the models.
-You can also choose to train the baseline models or the ProcessGAN variants inside the run.py file.
+
+You can choose to train the baseline models or the ProcessGAN variants inside the run.py file.

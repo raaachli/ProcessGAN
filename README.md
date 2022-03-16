@@ -1,7 +1,7 @@
 # ProcessGAN
 Synthetic process data generator using GAN-based Transformer.
 
-Implementation of the paper "Generating Privacy-Preserving Process Data with Deep Generative Models".
+Implementation of the paper "[Generating Privacy-Preserving Process Data with Deep Generative Models](https://arxiv.org/abs/2203.07949)".
 
 # Requirements
 * Python 3

@@ -1,0 +1,16 @@
+ER Registration,1
+Leucocytes,2
+CRP,3
+LacticAcid,4
+ER Triage,5
+ER Sepsis Triage,6
+IV Liquid,7
+IV Antibiotics,8
+Admission NC,9
+Release A,10
+Return ER,11
+Admission IC,12
+Release B,13
+Release C,14
+Release D,15
+Release E,16

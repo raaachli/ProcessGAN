@@ -20,22 +20,21 @@ def write(item, save_path):
         filehandle.write('%s\n' % item)
 
 
-def get_act_stats(gen_seqs, aut_seqs):
+def get_act_stats(gen_seqs, aut_seqs, act_type):
     # build distribution dataframe
     gen_freq_dict = get_freq_dict(gen_seqs)
     aut_freq_dict = get_freq_dict(aut_seqs)
 
     all_freq_dict = {}
 
-    for activity in aut_freq_dict:
-        if activity not in all_freq_dict:
-            all_freq_dict[activity] = [aut_freq_dict[activity]]
+    for i in range(1, act_type + 1):
+        all_freq_dict[i] = [0, 0]
 
-    for activity in all_freq_dict:
-        if int(activity) in gen_freq_dict:
-            all_freq_dict[activity].append(gen_freq_dict[int(activity)])
-        else:
-            all_freq_dict[activity].append(0)
+    for activity in aut_freq_dict:
+        all_freq_dict[activity][0] = aut_freq_dict[activity]
+
+    for activity in gen_freq_dict:
+        all_freq_dict[activity][1] = gen_freq_dict[int(activity)]
 
     # build frequency dataframe
     frequency_dict = {}
@@ -85,11 +84,12 @@ def save_act_dif_figure(frequency_dict, save_path):
     plt.ylim(0, max_height)
     plt.legend()
     plt.savefig(save_path + 'act_distribution.png')
-    plt.show()
+    # plt.show()
+    plt.close()
 
 
-def save_act_difference(gen_seqs, aut_seqs, save_path):
-    act_type_distance, frequency_dict = get_act_stats(gen_seqs, aut_seqs)
+def save_act_difference(gen_seqs, aut_seqs, save_path, vocab_num):
+    act_type_distance, frequency_dict = get_act_stats(gen_seqs, aut_seqs, vocab_num)
     write('act difference: ' + str(act_type_distance), save_path)
     save_act_dif_figure(frequency_dict, save_path)
 
@@ -100,14 +100,3 @@ def get_seqs_from_path(path):
     return all_seq
 
 
-def get_act_dif(aut_path, gen_path, save_path):
-    aut_seqs = get_seqs_from_path(aut_path)
-    gen_seqs = get_seqs_from_path(gen_path)
-    save_act_difference(gen_seqs, aut_seqs, save_path)
-
-
-if __name__ == '__main__':
-    aut_path = 'data/data_all/data_seq/SEP.txt'
-    seq_path = 'results/result_final/SEP/PGAN/result_trans.txt'
-    save_path = 'results/'
-    get_act_dif(aut_path, seq_path, save_path)

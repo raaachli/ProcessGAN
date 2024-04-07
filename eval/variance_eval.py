@@ -49,9 +49,3 @@ def get_variance_dif(aut_path, gen_path, save_path):
     gen_seqs = get_seq_from_path(gen_path)
     save_variance_dif(gen_seqs, aut_seqs, save_path)
 
-
-if __name__ == '__main__':
-    aut_path = 'data/data_all/data_seq/SEP.txt'
-    seq_path = 'results/result_final/SEP/PGAN/result_trans.txt'
-    save_path = 'results/'
-    get_variance_dif(aut_path, seq_path, save_path)

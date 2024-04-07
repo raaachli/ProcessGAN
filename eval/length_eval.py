@@ -41,6 +41,8 @@ def save_len_difference(gen_seqs, aut_seqs, save_path):
     write('aut_std: ' + str(aut_std), save_path)
     write('syn_mean: ' + str(gen_mean), save_path)
     write('syn_std: ' + str(gen_std), save_path)
+    seq_dif = abs(aut_mean-gen_mean)+abs(aut_std-gen_std)
+    write('seq_dif: ' + str(seq_dif), save_path)
 
     print('syn_mean: ' +str(gen_mean))
     print('aut_mean: ' + str(aut_mean))
@@ -54,7 +56,9 @@ def save_len_diff_figure(gen_seqs, aut_seqs, save_path):
     gen_freq_dict = get_freq_dict(gen_seqs)
     aut_freq_dict = get_freq_dict(aut_seqs)
     all_freq_dict = {}
+    _, _, gen_max_len = get_length_stats(gen_seqs)
     _, _, aut_max_len = get_length_stats(aut_seqs)
+    max_len = max(gen_max_len, aut_max_len)
     for seq_len in aut_freq_dict:
         if seq_len not in gen_freq_dict:
             all_freq_dict[seq_len] = [aut_freq_dict[seq_len]/len(aut_seqs), 0]
@@ -99,12 +103,13 @@ def save_len_diff_figure(gen_seqs, aut_seqs, save_path):
     plt.title('Sequence Length Distribution')
     plt.xlabel('Sequence Length')
     plt.ylabel('Frequency')
-    plt.xticks(np.arange(0, aut_max_len + 1, step=5))
+    plt.xticks(np.arange(0, max_len + 1, step=5))
     plt.xticks(rotation=75)
     plt.ylim(0, max_height)
     plt.legend()
     plt.savefig(save_path + 'length_distribution.png')
-    plt.show()
+    # plt.show()
+    plt.close()
 
 
 def get_seqs_from_path(path):
@@ -118,9 +123,3 @@ def get_length_dif(aut_path, seq_path, save_path):
     gen_seqs = get_seqs_from_path(seq_path)
     save_len_difference(gen_seqs, aut_seqs, save_path)
 
-
-if __name__ == '__main__':
-    aut_path = 'data/data_all/data_seq/SEP.txt'
-    seq_path = 'results/result_final/SEP/PGAN/result_trans.txt'
-    save_path = 'results/'
-    get_length_dif(aut_path, seq_path, save_path)

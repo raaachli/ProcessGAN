@@ -2,24 +2,6 @@ import torch
 import numpy as np
 
 
-# prepare the dataset for autoregressive models (rnn, transformer-ar)
-def prepare_ar_data(path, seq_len, vocab, start_token):
-    f = open(path)
-    all_seq = []
-    for line in f:
-        line = line.split()
-        seq = []
-        for i in range(seq_len + 1):
-            seq.append(int(line[i]) if i < len(line) else (vocab + 1))
-        all_seq.append(seq)
-    target = np.array(all_seq)
-    data_size, seq_len = target.shape
-    input = np.zeros((data_size, seq_len))
-    input[:, 0] = start_token
-    input[:, 1:] = target[:, :seq_len-1]
-    return input, target
-
-
 # get authentic data for Transformer_Non-autoregressive model
 def prepare_nar_data(path, seq_len, token_num):
     f = open(path)
@@ -28,7 +10,7 @@ def prepare_nar_data(path, seq_len, token_num):
         line = line.split()
         n = len(line)
         seq = []
-        for i in range(seq_len+1):
+        for i in range(seq_len):
             if i < n:
                 ind = int(line[i])
                 seq.append(ind-1)
@@ -47,7 +29,7 @@ def prepare_onehot_aut_data(path, ntoken, seq_len):
     for line in f:
         line = line.split()
         seq = []
-        for i in range(seq_len+1):
+        for i in range(seq_len):
             onehot = [0 for id in range(end_token)]
             if i < len(line):
                 ind = int(line[i])
@@ -60,6 +42,22 @@ def prepare_onehot_aut_data(path, ntoken, seq_len):
     onehot_data = np.array(onehotdict)
     return onehot_data
 
+
+def prepare_cont_aut_data(path, seq_len):
+    f = open(path)
+    seq_all = []
+    for line in f:
+        line = line.split()
+        seq = []
+        for i in range(seq_len):
+            if i < len(line):
+                ind = float(line[i])
+                seq.append(ind)
+            else:
+                seq.append(0)
+        seq_all.append(seq)
+    seq_all = np.array(seq_all)
+    return seq_all
 
 # prepare discriminator labels
 def prepare_dis_label(size):
@@ -102,3 +100,54 @@ def prepare_cls_data(path, type, length, vocab):
     act_dist = np.array(act_dist)
 
     return all_seq, label, act_dist
+
+
+def prepare_cls_time_data(path_act, path_time, type, length, vocab):
+    f_act = open(path_act)
+    f_time = open(path_time)
+
+    all_seq_act = []
+    all_seq_time = []
+
+    label = []
+    act_dist = []
+
+    for line in f_act:
+        line = line.split()
+        n = len(line)
+        seq = []
+        act_dist_i = [0 for _ in range(vocab + 1)]
+        for i in range(length+1):
+            if i < n:
+                ind = int(line[i])
+                seq.append(ind-1)
+                act_dist_i[ind-1] += 1
+            else:
+                seq.append(vocab)
+        act_dist_i[vocab] = n
+        all_seq_act.append(seq)
+        act_dist.append(act_dist_i)
+        if type == 'neg':
+            label.append([0])
+        else:
+            label.append([1])
+
+    for line in f_time:
+        line = line.split()
+        n = len(line)
+        seq = []
+        for i in range(length+1):
+            if i < n:
+                ind = float(line[i])
+                seq.append(ind)
+            else:
+                seq.append(0.0)
+        all_seq_time.append(seq)
+
+    all_seq_act = np.array(all_seq_act)
+    all_seq_time = np.array(all_seq_time)
+
+    label = np.array(label)
+    act_dist = np.array(act_dist)
+
+    return all_seq_act, all_seq_time, label, act_dist

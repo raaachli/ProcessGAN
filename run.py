@@ -1,9 +1,11 @@
+import argparse
 import os
+from datetime import datetime
+
 import numpy as np
 import yaml
-import argparse
+
 from nets.process_gan_time import ProcessGAN_Time
-from datetime import datetime
 
 # set the random seed
 seed = 88

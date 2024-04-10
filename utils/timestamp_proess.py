@@ -1,5 +1,7 @@
-import pandas as pd
 from datetime import datetime
+
+import pandas as pd
+
 
 def process_timestamp(filename, savefile, savefile_2, caseID, start_time):
     df = pd.read_csv(filename, na_filter=False)

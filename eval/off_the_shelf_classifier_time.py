@@ -1,13 +1,15 @@
-import numpy as np
-import time
-import torch
 import os
+import time
+
+import numpy as np
+import torch
+import yaml
 from torch import nn
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader, Dataset
+
+from eval.classifier_model_time import Classifier
 from utils.data_loader import load_cls_time_data
 from utils.data_prepare import prepare_cls_time_data
-from eval.classifier_model_time import Classifier
-import yaml
 
 
 class Transformer_Classifier:

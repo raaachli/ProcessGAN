@@ -1,10 +1,13 @@
 import datetime
 import time
+
 from torch import nn
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader, Dataset
+
 from utils.data_loader import load_nar_time_data
 from utils.data_prepare import *
 from utils.helper import *
+
 torch.set_printoptions(profile='full')
 
 """

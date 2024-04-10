@@ -1,13 +1,15 @@
 import random
+
 import numpy as np
+import pandas as pd
 import torch
 import torch.nn.functional as F
 from matplotlib import pyplot as plt
+
 from eval.act_dist_eval import save_act_difference
 from eval.length_eval import save_len_difference
-from eval.variance_eval import save_variance_dif
 from eval.time_eval import save_time_difference
-import pandas as pd
+from eval.variance_eval import save_variance_dif
 
 
 def normalize_gen_timestamp(gen_list_time):

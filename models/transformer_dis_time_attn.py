@@ -1,8 +1,12 @@
-# The implementation of the time_interval based attention is based on https://github.com/JiachengLi1995/TiSASRec
+"""The implementation of the time interval attention.
+
+The time interval attention refers https://github.com/JiachengLi1995/TiSASRec.
+"""
 
 import torch
 import torch.nn as nn
 from torch.nn import TransformerEncoder, TransformerEncoderLayer
+
 from models.PositionalEncoding import PositionalEncoding
 
 

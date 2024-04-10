@@ -1,5 +1,5 @@
-from torch.utils.data import Dataset
 import torch
+from torch.utils.data import Dataset
 
 
 class load_nar_time_data(Dataset):

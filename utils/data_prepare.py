@@ -1,5 +1,5 @@
-import torch
 import numpy as np
+import torch
 
 
 # get authentic data for Transformer_Non-autoregressive model

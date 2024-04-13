@@ -12,10 +12,6 @@ def is_prime(x):
     return True
 
 
-def down_sampling(s, n):
-    s = random.sample(s, n)
-    return s
-
 def csv2log_id_sep(filename, caseids_col, acts_col, num, starttime, isplg=False):
     df = pd.read_csv(filename,na_filter = False)
     if isplg:
@@ -24,8 +20,6 @@ def csv2log_id_sep(filename, caseids_col, acts_col, num, starttime, isplg=False)
 
     caseids = df[caseids_col].values
     ucaseids = pd.unique(caseids)
-
-    # ucaseids = np.random.choice(ucaseids, size=num, replace=False)
 
     case_dict = dict(zip(range(0, ucaseids.size), ucaseids))
     acts = df[acts_col].values
@@ -37,40 +31,20 @@ def csv2log_id_sep(filename, caseids_col, acts_col, num, starttime, isplg=False)
             act2id[act] = i
             i += 1
 
-    PRIME_FLAG = 0
-    # if is_prime(len(act2id)+1):
-    #     PRIME_FLAG = 1
-    #     act2id = {}
-    #     act2id['START_TOKEN'] = 1
-    #     i = 2
-    #     for act in acts:
-    #         if act not in act2id:
-    #             act2id[act] = i
-    #             i += 1
-
     act_dict = dict((v, k) for k, v in act2id.items())
     traces = []
     trace_list = []
-    # cases = np.random.choice(ucaseids, len(ucaseids), replace=False)
 
     for case in ucaseids:
         df_case = df.loc[df[caseids_col] == case]
         df_case = df_case.reset_index(drop=True)
-        # if len(df_case) > 50:
         acts_case = df_case[acts_col]
         case_acts = acts_case
         case_acts_list = case_acts.tolist()
-        # if case_acts_list not in trace_list:
-        # if case_acts_list not in trace_list and len(case_acts_list) > 50:
-
         trace_list.append(case_acts_list)
-        # if PRIME_FLAG:
-        #     case_acts = np.insert(case_acts, 0, 'START_TOKEN')
         case_acts = np.asarray([act2id[act] for act in case_acts],
                                  dtype='int64')
         traces.append(case_acts)
-        # if len(traces) == num:
-        #     break
 
     length_dist = {}
     for trace in traces:
@@ -86,8 +60,8 @@ def csv2log_id_sep(filename, caseids_col, acts_col, num, starttime, isplg=False)
                 act_freq_dist[act] = 1
             else:
                 act_freq_dist[act] += 1
-    # return
     return traces, case_dict, act_dict, length_dist, act_freq_dist
+
 
 def csv2log_id(filename, caseids_col, acts_col, num, starttime, isplg=False):
     df = pd.read_csv(filename,na_filter = False)
@@ -97,9 +71,6 @@ def csv2log_id(filename, caseids_col, acts_col, num, starttime, isplg=False):
 
     caseids = df[caseids_col].values
     ucaseids = pd.unique(caseids)
-
-    # ucaseids = np.random.choice(ucaseids, size=num, replace=False)
-
     case_dict = dict(zip(range(0, ucaseids.size), ucaseids))
     acts = df[acts_col].values
 
@@ -124,7 +95,6 @@ def csv2log_id(filename, caseids_col, acts_col, num, starttime, isplg=False):
     act_dict = dict((v, k) for k, v in act2id.items())
     traces = []
     trace_list = []
-    # cases = np.random.choice(ucaseids, len(ucaseids), replace=False)
 
     for case in ucaseids:
         df_case = df.loc[df[caseids_col] == case]
@@ -140,8 +110,6 @@ def csv2log_id(filename, caseids_col, acts_col, num, starttime, isplg=False):
         acts_case = df_case[acts_col]
         case_acts = acts_case
         case_acts_list = case_acts.tolist()
-        # if case_acts_list not in trace_list:
-        # if case_acts_list not in trace_list and len(case_acts_list) > 50:
 
         trace_list.append(case_acts_list)
         if PRIME_FLAG:
@@ -171,15 +139,12 @@ def csv2log_id(filename, caseids_col, acts_col, num, starttime, isplg=False):
 
 
 def time_to_seconds2(t):
-    # print(t)
     minutes, seconds = map(int, t.split(':'))
     return minutes * 60 + seconds
 
 def compute_datetime_dif(time_str1,time_str2):
     dt1 = datetime.strptime(time_str1, "%Y-%m-%d %H:%M:%S.%f")
     dt2 = datetime.strptime(time_str2, "%Y-%m-%d %H:%M:%S.%f")
-
-    # Calculate time difference in hours
     delta = dt2 - dt1
     hours_difference = delta.days * 24 + delta.seconds / 3600
     return hours_difference

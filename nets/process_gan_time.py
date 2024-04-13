@@ -1,10 +1,11 @@
-import datetime
 import time
 from torch import nn
 from torch.utils.data import Dataset, DataLoader
-from utils.data_loader import load_nar_time_data
+from utils.data_loader import LoadNarTimeData
 from utils.data_prepare import *
 from utils.helper import *
+import datetime
+
 torch.set_printoptions(profile='full')
 
 """
@@ -13,18 +14,16 @@ ProcessGAN Model and the variants
 
 
 class ProcessGAN_Time:
-    def __init__(self, res_path_time, res_path_act, res_path_duration, save_path,
-                 config, gen_num, mode, model, model_mode):
-
-        self.res_path_time = res_path_time
-        self.res_path_act = res_path_act
-        self.res_path_duration = res_path_duration
-        self.model_name = model
-        self.model_mode = model_mode
-
-        self.save_path = save_path
+    def __init__(self, config):
         self.config = config
-        self.gen_num = gen_num
+        self.res_path_time = config['res_path_time']
+        self.res_path_act = config['res_path']
+        self.res_path_duration = config['res_path_duration']
+        self.model_name = config['model_name']
+        self.model_mode = config['model_mode']
+
+        self.save_path = config['save_path']
+        self.gen_num = config['seq_num']
         self.seq_len = config['seq_len']
 
         self.vocab_num_act = config['vocab_num_act']
@@ -52,7 +51,6 @@ class ProcessGAN_Time:
 
         self.seed = config['seed']
         self.device = config['device']
-        self.mode = mode
         self.gd_ratio = config['gd_ratio']
         self.data = config['data']
 
@@ -91,7 +89,7 @@ class ProcessGAN_Time:
             'num_parameters_g {:3d} |  num_parameters_d {:3d} '
             .format(num_parameters_g, num_parameters_d))
 
-        # record the parameters
+        # Record the parameters.
         para_list = [self.vocab_num_act,
                      self.emb_size_act,
                      self.n_head_act,
@@ -114,13 +112,13 @@ class ProcessGAN_Time:
                      ]
         write_log(self.save_path, para_list, 'parameter_log.txt')
 
-        # load the one-hot format of training data
-        dataset = load_nar_time_data(target, aut_data_time, aut_data_duration)
+        # Load the one-hot format of training data.
+        dataset = LoadNarTimeData(target, aut_data_time, aut_data_duration)
         train_data, _, _ = torch.utils.data.random_split(dataset, (self.train_size, self.valid_size, self.test_size), generator=torch.Generator().manual_seed(self.seed))
         train_dataloader = DataLoader(train_data, batch_size=self.batch_size, drop_last=False, shuffle=False, num_workers=1)
 
-        # load the original format of test data for activity loss calculation
-        dataset_2 = load_nar_time_data(aut_data, aut_data_time, aut_data_duration)
+        # Load the original format of test data for activity loss calculation.
+        dataset_2 = LoadNarTimeData(aut_data, aut_data_time, aut_data_duration)
         test_data, _, _ = torch.utils.data.random_split(dataset_2, (self.train_size, self.valid_size, self.test_size), generator=torch.Generator().manual_seed(self.seed))
         test_dataloader = DataLoader(test_data, batch_size=self.train_size, drop_last=False, shuffle=False, num_workers=1)
         test_seqs, test_time, test_duration = next(iter(test_dataloader))
@@ -138,12 +136,12 @@ class ProcessGAN_Time:
         #     filehandle.write('%s\n' % 0)
         # eval_result(self.save_path + 'stats/', gen_list, gen_list_time, test_list, test_list_time, self.vocab_num_act)
 
-        # run pre epochs if add activity loss
+        # Run pre epochs if add activity loss.
         pre_epoch = 50
-        if self.mode != 'Vanilla':
+        if self.model_mode != 'vanilla':
             mean_act_loss, mean_gen_loss, mean_time_loss, mean_act_time_loss = self.get_pre_exp_loss(pre_epoch, g_model, d_model, train_dataloader)
 
-        # log the discriminator's accuracies
+        # Log the discriminator's accuracies.
         d_acc = []
 
         for big_epoch in range(1,  self.epochs + 1):
@@ -154,14 +152,14 @@ class ProcessGAN_Time:
             dis_total_loss = 0
             gen_total_loss = 0
 
-            # generate random sequences for generator input
+            # Generate random sequences for generator input.
             rand_set = generate_random_data(self.train_size, self.vocab_num_act, self.seq_len)
             rand_set = torch.tensor(rand_set, dtype=torch.int64).to(self.device)
 
             acc_i = 0
             iter_time = []
             for i, item in enumerate(train_dataloader):
-                # update generator
+                # Update generator.
                 iter_start_time = time.time()
                 dis_data_pos, dis_data_time, dis_data_duration = item
                 dis_data_pos = dis_data_pos.to(self.device)
@@ -176,7 +174,7 @@ class ProcessGAN_Time:
                 random_data = rand_set[i:i + batch]
                 random_data = torch.transpose(random_data, 0, 1)
 
-                # generate sequences from random_data
+                # Generate sequences from random_data.
                 gd_optimizer.zero_grad()
                 gen_loss, g_output_act, g_output_time = self.generator(random_data, g_model, d_model, batch, d_criterion, real_labels, dis_data_duration, dis_data_time)
 
@@ -185,35 +183,32 @@ class ProcessGAN_Time:
                 act_time_loss = self.get_act_time_loss(dis_data_pos, dis_data_time, g_output_act, g_output_time, batch)
                 time_loss = self.get_time_loss(dis_data_time, g_output_time, batch)
 
-                if self.mode != 'Vanilla':
+                if self.model_mode != 'vanilla':
                     act_loss = act_loss / (mean_act_loss)
                     gen_loss = gen_loss / (mean_gen_loss)
                     time_loss = time_loss / (mean_time_loss)
                     act_time_loss = act_time_loss / (mean_act_time_loss)
 
-                # back-propagate the generator
-                if self.model_mode == 1:
+                if self.model_mode == 'vanilla':
                     g_loss = gen_loss
-                if self.model_mode == 2:
+                if self.model_mode == 'act_loss':
                     g_loss = act_loss + gen_loss
-                if self.model_mode == 3:
+                if self.model_mode == 'time_loss':
                     g_loss = gen_loss + time_loss + act_time_loss
-                if self.model_mode == 4:
+                if self.model_mode == 'act_time_loss':
                     g_loss = act_loss + gen_loss + time_loss + act_time_loss
 
                 g_loss.backward()
                 gd_optimizer.step()
                 gen_total_loss += g_loss
 
-                # update discriminator
+                # Update discriminator.
                 if big_epoch % self.gd_ratio == 0:
                     d_optimizer.zero_grad()
                     g_output_time = g_output_time.permute(1, 0)
                     g_output_time = g_output_time.unsqueeze(dim=2)
                     dis_loss, gd_acc_neg, gd_acc_pos = self.discrminator(dis_data_pos, dis_data_time, g_output_act, g_output_time, g_model, d_model, d_criterion, batch)
                     dis_total_loss += dis_loss
-
-                    # back-propagate the discriminator
                     dis_loss.backward()
                     d_optimizer.step()
                     acc_i += (gd_acc_neg + gd_acc_pos)/2
@@ -239,7 +234,7 @@ class ProcessGAN_Time:
                       'remain_time {}'
                       .format(big_epoch, gen_total_loss, dis_total_loss, gd_acc_pos, gd_acc_neg, acc, per_epoch_time, es_remain_time))
 
-            # generate and evaluate samples every 100 epochs
+            # Generate and evaluate samples every 100 epochs.
             if big_epoch % 100 == 0:
                 state_dict_g = {"net": g_model.state_dict(),
                                 'optimizer': gd_optimizer.state_dict(),
@@ -250,38 +245,35 @@ class ProcessGAN_Time:
                                 'optimizer': d_optimizer.state_dict(),
                                 'epoch': big_epoch}
                 torch.save(state_dict_d, self.save_path + str(big_epoch) + '_d_model.pth')
-
-                # torch.save(g_model, self.save_path + str(big_epoch)+'g_model.pt')
-                # torch.save(d_model, self.save_path + str(big_epoch)+'d_model.pt')
                 plot_loss(self.save_path, d_acc, str(big_epoch)+'d_acc.png', 'd_acc')
                 g_model.eval()
 
-                # generate synthetic sequences using the generator and save the sequences
+                # Generate synthetic sequences using the generator and save the sequences.
                 with torch.no_grad():
                     gen_list, gen_list_time = gen_data_from_rand(self.gen_num, g_model, self.vocab_num_act, self.device, str(big_epoch) + '_result_trans', self.save_path, self.seq_len, aut_data_duration)
-                # evaluate and record the results
+                # Evaluate and record the results.
                 with open(self.save_path +'stats/' + 'dif_log.txt', 'a') as filehandle:
                     filehandle.write('%s\n' % big_epoch)
                 eval_result(self.save_path +'stats/'+str(big_epoch)+'_', gen_list, gen_list_time, test_list, test_list_time, self.vocab_num_act, self.data)
 
     def get_act_loss(self, g_output_t_act, g_authentic_act, batch_size):
         """get the additional activity distribution loss between generated sequences and real sequences"""
-        if self.mode == "MSE":
+        if self.model_mode != "vanilla":
             act_loss_criterion = nn.MSELoss()
             act_loss = act_loss_criterion(g_output_t_act.float(), g_authentic_act.float()) / (batch_size)
-        elif self.mode == "KL":
-            act_loss_criterion = nn.KLDivLoss(size_average=False)
-            g_output_t_act = g_output_t_act + 1
-            total_out_act = g_output_t_act.sum(0)
-            g_output_t_act = g_output_t_act / (total_out_act + self.vocab_num_act + 1)
-            g_authentic_act = g_authentic_act + 1
-            total_aut_act = g_authentic_act.sum(0)
-            g_authentic_act = g_authentic_act / (total_aut_act + self.vocab_num_act + 1)
-            act_loss = act_loss_criterion(g_output_t_act.log(), g_authentic_act) / (batch_size)
+        # elif self.mode == "KL":
+        #     act_loss_criterion = nn.KLDivLoss(size_average=False)
+        #     g_output_t_act = g_output_t_act + 1
+        #     total_out_act = g_output_t_act.sum(0)
+        #     g_output_t_act = g_output_t_act / (total_out_act + self.vocab_num_act + 1)
+        #     g_authentic_act = g_authentic_act + 1
+        #     total_aut_act = g_authentic_act.sum(0)
+        #     g_authentic_act = g_authentic_act / (total_aut_act + self.vocab_num_act + 1)
+        #     act_loss = act_loss_criterion(g_output_t_act.log(), g_authentic_act) / (batch_size)
         else:
             act_loss = 0
 
-        # return the activity distribution loss
+        # Return the activity distribution loss.
         return act_loss
 
     def get_time_loss(self, dis_data_time, g_output_time, batch_size):
@@ -317,7 +309,7 @@ class ProcessGAN_Time:
         d = A_onehot.shape[2]
         index_tensor = torch.arange(d).float().to(A_onehot.device).unsqueeze(0).unsqueeze(0)
         A = (A_onehot * index_tensor).sum(dim=-1).long()
-        # Flatten the first two dimensions
+        # Flatten the first two dimensions.
         A_flat = A.view(-1)
         B_flat = B.view(-1)
         q = torch.tensor([0.25, 0.5, 0.9]).to(A_onehot.device)
@@ -346,7 +338,7 @@ class ProcessGAN_Time:
                 q_3.append(-1.0)
                 q_2.append(-1.0)
                 q_1.append(-1.0)
-        # Convert lists to tensors
+        # Convert lists to tensors.
         means = torch.tensor(means)
         stds = torch.tensor(stds)
         q_1 = torch.tensor(q_1)
@@ -359,7 +351,7 @@ class ProcessGAN_Time:
         d = A_onehot.shape[2]
         index_tensor = torch.arange(d).float().to(A_onehot.device).unsqueeze(0).unsqueeze(0)
         A = (A_onehot * index_tensor).sum(dim=-1).long()
-        # Flatten the first two dimensions
+        # Flatten the first two dimensions.
         A_flat = A.view(-1)
         B_flat = B.view(-1)
         q = torch.tensor([0.25, 0.5, 0.75]).to(A_onehot.device)
@@ -381,13 +373,13 @@ class ProcessGAN_Time:
                 q_1.append(quant[0])
 
             else:
-                # If a label doesn't exist in the batch, append a placeholder (e.g., -1)
+                # If a label doesn't exist in the batch, append a placeholder (e.g., -1).
                 means.append(-1.0)
                 stds.append(-1.0)
                 q_3.append(-1.0)
                 q_2.append(-1.0)
                 q_1.append(-1.0)
-        # Convert lists to tensors
+        # Convert lists to tensors.
         means = torch.tensor(means)
         stds = torch.tensor(stds)
         q_1 = torch.tensor(q_1)
@@ -403,19 +395,19 @@ class ProcessGAN_Time:
         g_output, g_output_time = g_model(data, src_mask, duration)
         g_output_st = g_output.permute(1, 0, 2)
 
-        # use straight-through Gumbel-softmax to obtain gradient from discriminator
+        # Use straight-through Gumbel-softmax to obtain gradient from discriminator.
         g_output_act = F.gumbel_softmax(g_output_st, tau=1, hard=True)
-        # the tokens generated after the end token will be padded
+        # The tokens generated after the end token will be padded.
         pad_mask_mul, pad_mask_add = get_pad_mask(g_output_act, batch, self.seq_len, self.vocab_num_act + 1, self.pad_ind_act, self.device)
         g_output_act = pad_after_end_token(g_output_act, pad_mask_mul, pad_mask_add)
-        # generator loss is given by discriminator's prediction
+        # Generator loss is given by discriminator's prediction.
         src_mask = d_model.generate_square_subsequent_mask(mask_len).to(self.device)
 
         d_predict = d_model(g_output_act, g_output_time, src_mask)
         gen_loss = d_criterion(d_predict, real_labels)
         g_output_time = g_output_time.squeeze()
         g_output_time = g_output_time.permute(1, 0)
-        # return the generator loss, and the generated sequences
+        # Return the generator loss, and the generated sequences.
         return gen_loss, g_output_act, g_output_time
 
     def discrminator(self, dis_data_pos, dis_data_time, g_output_act, g_output_time, g_model, d_model, d_criterion, batch):
@@ -485,7 +477,7 @@ class ProcessGAN_Time:
         mean_time = total_time_loss / pre_epoch
         mean_act_time = total_act_time_loss / pre_epoch
 
-        # return the mean value of the activity distribution loss, and the generator loss
+        # Return the mean value of the activity distribution loss, and the generator loss.
         return mean_act, mean_gen, mean_time, mean_act_time
 
     def run(self):

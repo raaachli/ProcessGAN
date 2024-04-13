@@ -2,7 +2,7 @@ from torch.utils.data import Dataset
 import torch
 
 
-class load_nar_time_data(Dataset):
+class LoadNarTimeData(Dataset):
     """Dataloader for autoregressive models: RNNs, Transformer-ar"""
 
     def __init__(self, Target, Time, Duration):
@@ -21,7 +21,7 @@ class load_nar_time_data(Dataset):
         return tar.long(), time, duration
 
 
-class load_cls_time_data(Dataset):
+class LoadClsTimeData(Dataset):
     """Dataloader for off-the-shelf classifier"""
 
     def __init__(self, Seqs_Act, Seqs_Time, Label, Context):

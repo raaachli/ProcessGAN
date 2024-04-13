@@ -4,7 +4,7 @@ import torch
 import os
 from torch import nn
 from torch.utils.data import Dataset, DataLoader
-from utils.data_loader import load_cls_time_data
+from utils.data_loader import LoadClsTimeData
 from utils.data_prepare import prepare_cls_time_data
 from eval.classifier_model_time import Classifier
 import yaml
@@ -60,7 +60,7 @@ class Transformer_Classifier:
         test_num = self.test_pos_num + self.test_neg_num
         val_num = self.val_pos_num + self.val_neg_num
 
-        dataset = load_cls_time_data(seqs_act, seqs_time, label, context)
+        dataset = LoadClsTimeData(seqs_act, seqs_time, label, context)
         train_data, val_data, test_data = torch.utils.data.random_split(dataset, (train_num, val_num, test_num), generator=torch.Generator().manual_seed(self.seed))
 
         train_dataloader = DataLoader(train_data, batch_size=self.batch_size, drop_last=False, shuffle=False, num_workers=1)
@@ -190,7 +190,7 @@ class Transformer_Classifier:
         model.load_state_dict(ckpt['net'])
         model.eval()
         val_data_act, val_data_time, val_label, val_act_dist = prepare_cls_time_data(synthetic_paths_act, synthetic_paths_time, 'neg', self.seq_len, self.vocab_num)
-        dataset = load_cls_time_data(val_data_act, val_data_time, val_label, val_act_dist)
+        dataset = LoadClsTimeData(val_data_act, val_data_time, val_label, val_act_dist)
         dataloader = DataLoader(dataset, batch_size=len(val_data_act), drop_last=False, shuffle=False, num_workers=1)
         for i, item in enumerate(dataloader):
             seqs_act, seqs_time, label, context = item
@@ -228,14 +228,16 @@ def get_config(data):
 
 
 if __name__ == '__main__':
-
     data = 'SEP'
-    pos_path_act = 'data/data_time/'+data+'/data_seq/'+data+'.txt'
-    pos_path_time = 'data/data_time/'+data+'/data_seq/'+data+'_time_dif_norm.txt'
-    neg_path_act = 'data/data_hq_time/' + data + '.txt'
-    neg_path_time = 'data/data_hq_time/' + data + '_time.txt'
+    base_data_path = os.path.join('data', 'data_time', data, 'data_seq')
+    pos_path_act = os.path.join(base_data_path, f'{data}.txt')
+    pos_path_time = os.path.join(base_data_path, f'{data}_time_dif_norm.txt')
 
-    save_path = 'classifier_result/'+data+'/'
+    base_neg_path = os.path.join('data', 'data_hq_time')
+    neg_path_act = os.path.join(base_neg_path, f'{data}.txt')
+    neg_path_time = os.path.join(base_neg_path, f'{data}_time.txt')
+
+    save_path = os.path.join('classifier_result', data)
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     config = get_config(data)
 

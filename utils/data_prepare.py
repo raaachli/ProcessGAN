@@ -1,8 +1,9 @@
+# Pre-process the data into the input form.
 import torch
 import numpy as np
 
 
-# get authentic data for Transformer_Non-autoregressive model
+# Gets authentic data for Transformer_Non-autoregressive model.
 def prepare_nar_data(path, seq_len, token_num):
     f = open(path)
     seq_list = []
@@ -21,7 +22,7 @@ def prepare_nar_data(path, seq_len, token_num):
     return seqs
 
 
-# prepare the one-hot format authentic data for discriminator of GAN models
+# Prepare the one-hot format authentic data for discriminator of GAN models.
 def prepare_onehot_aut_data(path, ntoken, seq_len):
     end_token = ntoken + 1
     f = open(path)
@@ -59,7 +60,7 @@ def prepare_cont_aut_data(path, seq_len):
     seq_all = np.array(seq_all)
     return seq_all
 
-# prepare discriminator labels
+# Prepare discriminator labels.
 def prepare_dis_label(size):
     pos_label = np.ones(size)
     neg_label = np.zeros(size)
@@ -68,7 +69,7 @@ def prepare_dis_label(size):
     return pos_label, neg_label
 
 
-# prepare the data for "off-the-shelf" classifier
+# Prepare the data for "off-the-shelf" classifier.
 def prepare_cls_data(path, type, length, vocab):
     f = open(path)
     all_seq = []
@@ -82,9 +83,9 @@ def prepare_cls_data(path, type, length, vocab):
         act_dist_i = [0 for _ in range(vocab + 1)]
         for i in range(length+1):
             if i < n:
-                ind = int(line[i])
-                seq.append(ind-1)
-                act_dist_i[ind-1] += 1
+                act_i = int(line[i])
+                seq.append(act_i-1)
+                act_dist_i[act_i-1] += 1
             else:
                 seq.append(vocab)
         act_dist_i[vocab] = n

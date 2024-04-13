@@ -8,6 +8,7 @@ from eval.length_eval import save_len_difference
 from eval.variance_eval import save_variance_dif
 from eval.time_eval import save_time_difference
 import pandas as pd
+from datetime import datetime
 
 
 def normalize_gen_timestamp(gen_list_time):
@@ -41,9 +42,6 @@ def gen_data_from_rand_baseline(size, g_model, ntokens, device, result_file, sav
     gen_list_time = []
 
     for gen in range(size):
-        # random_duration = random.random()
-        # random_duration = aut_duration[gen][0]
-        # random_duration = 0.95
         random_duration = aut_duration[gen][0]
         random_duration = adjust_value(random_duration)
         random_duration_i = torch.tensor([[random_duration]]).to(device)
@@ -105,7 +103,6 @@ def gen_data_from_rand(size, g_model, ntokens, device, result_file, save_path, s
     gen_list_time = []
 
     for gen in range(size):
-        # random_duration = random.random()
         random_duration = aut_duration[gen][0]
         random_duration = adjust_value(random_duration)
         random_duration_i = torch.tensor([[random_duration]]).to(device)
@@ -118,8 +115,6 @@ def gen_data_from_rand(size, g_model, ntokens, device, result_file, save_path, s
         g_output_time = g_output_time.squeeze()
         g_output_time = F.relu(g_output_time)
         g_output_time = g_output_time.tolist()
-        # g_output = g_output.cpu()
-        # g_output_time = g_output_time.cpu()
         g_output = g_output.permute(1, 0, 2)
         out = F.gumbel_softmax(g_output, tau=1, hard=True)
         out_list = out.tolist()
@@ -287,5 +282,14 @@ def write_generated_seqs(save_path, model, gen_seqs):
     with open(save_path + 'result_' + model + '.txt', 'a') as f:
         f.writelines(' '.join(str(token) for token in list) + '\n' for list in gen_seqs)
 
+def get_timestamp():
+    dateTimeObjlocal = datetime.now()
+    currDateTime = (
+                "Received Timestamp: = " + str(dateTimeObjlocal.year) + str(dateTimeObjlocal.month) +str(
+            dateTimeObjlocal.day) + str(dateTimeObjlocal.hour) + str(dateTimeObjlocal.minute) + str(
+            dateTimeObjlocal.second) + "\n")
+    print("System Timestamp: ", dateTimeObjlocal)
+    save_time = str(dateTimeObjlocal.month) + str(dateTimeObjlocal.day) + str(dateTimeObjlocal.hour) + str(dateTimeObjlocal.minute)
 
+    return save_time
 

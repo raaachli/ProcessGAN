@@ -1,6 +1,6 @@
 # Pre-process the data into the input form.
-import torch
 import numpy as np
+import torch
 
 
 # Gets authentic data for Transformer_Non-autoregressive model.

@@ -1,7 +1,7 @@
+import argparse
 import os
 import numpy as np
 import yaml
-import argparse
 from nets.process_gan_time import ProcessGAN_Time
 import utils.helper as helper
 

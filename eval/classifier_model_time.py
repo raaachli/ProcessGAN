@@ -1,7 +1,9 @@
+import math
+
 import torch
 import torch.nn as nn
-import math
 from torch.nn import TransformerEncoder, TransformerEncoderLayer
+
 from models.PositionalEncoding import PositionalEncoding
 
 

@@ -49,7 +49,7 @@ Replace [MODEL] between "trans_attn" and "trans".
 
 _**--data [DATASET]**_: Select a dataset to train.
 
-Replace [DATASET] with "SEP", which is the [public sepsis process dataset](https://data.4tu.nl/articles/dataset/Sepsis_Cases_-_Event_Log/12707639).
+Replace [DATASET] with "SEP" or "BPI", which is the [public sepsis process dataset](https://data.4tu.nl/articles/dataset/Sepsis_Cases_-_Event_Log/12707639), or [public BPI dataset](https://data.4tu.nl/articles/dataset/BPI_Challenge_2012/12689204).
 
 #### Evaluation
 

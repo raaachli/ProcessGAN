@@ -1,0 +1,15 @@
+Patient Arrival,1
+NRB,2
+Pre-Oxygenation Chest Auscultation,3
+Pre-Oxygenation Breathing Verbalized,4
+Airway Assessment,5
+BVM,6
+Critical Window,7
+RSI Sedative Meds,8
+RSI Paralytic Meds,9
+Laryngoscopy,10
+Decision to Intubate,11
+Intubation Safety Timeout,12
+Airway Verbalized,13
+Post-Oxygenation Chest Auscultation,14
+Post-Oxygenation Breathing Verbalized,15

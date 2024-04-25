@@ -1,4 +1,4 @@
-# ProcessGAN: Generating Privacy-Preserving Time-Aware Process Data with Conditional GANs
+# ProcessGAN: Generating Privacy-Preserving Time-Aware Process Data with Conditional GANs 
 This repository is the implementation of the ProcessGAN model, a synthetic process data generator using GAN-based network. 
 
 Process data constructed from event logs provides valuable insights into how processes unfold over time. 
@@ -9,20 +9,20 @@ We introduced a generative adversarial network, called ProcessGAN,
 to generate process data with activity sequences and corresponding timestamps. 
 Our ProcessGAN model can generate process data from random noise, which can preserve the privacy and augment the datasaet.
 
-## Model Description
+## 🗒 Model Description
 - **Model type:** A transformer encoder as generator, and a time-based self-attention model as discriminator.
 - **Training data:** Process data (event logs) that contains sequence of activities, and the corresponding timestamps.
 - **Evaluation approach:** We trained an off-the-shelf model to score the synthetic sequences. We also used different statistical metrics to evaluate the performance.
 
-## Getting Started
+## ✊ Getting Started
 
-### Requirements
+### 🖋 Requirements
 * Python 3.10
 * Pytorch 1.13.1
 * Matplotlib 
 
-### Usage
-#### Training
+### ⭐ Usage
+#### 🏃‍♀️Training 
 To train our model and test the performance:
 ```bash
 python run.py --mode [MODE] --model [MODEL] --data [DATASET]
@@ -51,7 +51,7 @@ _**--data [DATASET]**_: Select a dataset to train.
 
 Replace [DATASET] with "SEP" or "BPI", which is the [public sepsis process dataset](https://data.4tu.nl/articles/dataset/Sepsis_Cases_-_Event_Log/12707639), or [public BPI dataset](https://data.4tu.nl/articles/dataset/BPI_Challenge_2012/12689204).
 
-#### Evaluation
+#### 🔍 Evaluation
 
 The evaluation solutions are implemented in 'eval/'. We used four statistical metrics to evaluate the synthetic process:
 - Sequence length
@@ -63,8 +63,8 @@ The statistical evaluation will be automatically generated at every 100 epoch.
 
 To train the off-the-shelf classifier, run _off_the_shelf_classifier_time.py_ under 'eval/' folder.
 
-## Contact
+## 📩 Contact
 If you have any questions, feel free to contact the author at kl734@scarletmail.rutgers.edu.
 
-## Acknowledgments
+## 📝 Acknowledgments
 The implementation of the discriminator is modified from [SASRec](https://github.com/JiachengLi1995/TiSASRec). Thanks the authors for the great work.
